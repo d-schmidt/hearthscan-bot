@@ -159,7 +159,7 @@ def loadJsonCards():
             'class': camelCase(card.get('playerClass', 'Neutral')),
             'set': cc.setdata[jsonToCCSet[card['set']]]['name'],
             'type': camelCase(card['type']),
-            'subtype': subtypeFix.get(subtype, subtype),
+            'subType': subtypeFix.get(subtype, subtype),
             'cost': card.get('cost', 0),
             'desc': text,
             'atk': card.get('attack'),

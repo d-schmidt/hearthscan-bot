@@ -27,7 +27,7 @@ card_template = ("* **[{name}]({cdn})** {type} {class} {rarity} {set} {std}| "
                     "[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
                 "{cost} Mana{atk_dur}{subtype}{desc}  \n")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={})"
-            " ^( me with up to 7 [[cardname]])").format(credentials.username)
+            " ^( me with up to 7 [[cardname]] PM [[info]])").format(credentials.username)
 
 # files
 TEMP_FILE_NAME = 'tempinfo.json'
