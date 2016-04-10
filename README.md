@@ -42,7 +42,7 @@ Create a `cards.json` and a `tokens.json` and add a card in the format:
     "name": "Abomination",
     "rarity": "Rare",
     "set": "Classic",
-    "subtype": null,
+    "subType": null,
     "type": "Minion"
   },
   ...
