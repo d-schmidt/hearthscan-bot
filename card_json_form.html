@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+<meta charset="utf-8">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>.control-label {margin-bottom: 15px;}</style>
+</head>
+<!-- I use this to quickly create valid json cards for tempinfo.json in spoiler season -->
+<body>
+<script>
+    var app = angular.module("app", []);
+    app.controller("ctrl", function ($scope) {
+
+        $scope.nameI = 'Target Dummy';
+        $scope.nameChanged = function () {
+            $scope.nameI = $scope.name ? $scope.name.replace(':', '') : 'Target Dummy';
+        };
+        $scope.manaI = 0;
+        $scope.manaChanged = function () {
+            $scope.manaI = $scope.mana === null ? 0 : $scope.mana;
+        };
+        $scope.atkI = 'null';
+        $scope.atkChanged = function () {
+            $scope.atkI = $scope.atk === null ? 'null' : $scope.atk;
+        };
+        $scope.hpI = 'null';
+        $scope.hpChanged = function () {
+            $scope.hpI = $scope.hp === null ? 'null' : $scope.hp;
+        };
+        $scope.descI = 'null';
+        $scope.descChanged = function () {
+            $scope.descI = ! $scope.desc ? 'null' : '"' + $scope.desc.replace('"', '\\"') + '"';
+        };
+        $scope.cdnI = 'http://media-hearth.cursecdn.com/avatars/149/57/12288.png';
+        $scope.cdnChanged = function () {
+            $scope.cdnI = ! $scope.cdn ? 'http://media-hearth.cursecdn.com/avatars/149/57/12288.png' : $scope.cdn;
+        };
+        $scope.hpwnI = 12288;
+        $scope.hpwnChanged = function () {
+            $scope.hpwnI = ! $scope.hpwn === null ? 12288 : $scope.hpwn;
+        };
+        $scope.headI = 2061;
+        $scope.headChanged = function () {
+            $scope.headI = $scope.head === null ? 2061 : $scope.head;
+        };
+        $scope.subtypeI = 'null';
+        $scope.subtypeChanged = function () {
+            $scope.subtypeI = ! $scope.subtype ? 'null' : '"' + $scope.subtype + '"';
+        };
+    });
+</script>
+
+<div class="container" ng-controller="ctrl">
+<div class="row">
+    <form class="form-horizontal">
+        <div class="form-group">
+
+            <label class="col-sm-2 control-label">name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" ng-model="name" placeholder="name" ng-change="nameChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">Class</label>
+            <div class="col-sm-10">
+                <select ng-model="class" class="form-control" name="class" ng-init="class = 'Neutral'">
+                    <option value="Neutral">Neutral</option>
+                    <option value="Druid">Druid</option>
+                    <option value="Hunter">Hunter</option>
+                    <option value="Mage">Mage</option>
+                    <option value="Paladin">Paladin</option>
+                    <option value="Priest">Priest</option>
+                    <option value="Rogue">Rogue</option>
+                    <option value="Shaman">Shaman</option>
+                    <option value="Warlock">Warlock</option>
+                    <option value="Warrior">Warrior</option>
+                    <option value="Dream">Dream</option>
+                </select>
+            </div>
+
+            <label class="col-sm-2 control-label">Mana</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" ng-model="mana" placeholder="mana" ng-change="manaChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">atk</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" ng-model="atk" placeholder="atk" ng-change="atkChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">hp</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" ng-model="hp" placeholder="hp" ng-change="hpChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">desc</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" ng-model="desc" placeholder="desc" ng-change="descChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">cdn</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" ng-model="cdn" placeholder="cdn" ng-change="cdnChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">hpwn</label>
+            <div class="col-sm-1">
+                <a class="btn btn-default" href="http://www.hearthpwn.com/search?search={{name}}#t1:cards" role="button" ng-disabled="! name" target="_blank">Hearthpwn</a>
+            </div>
+            <div class="col-sm-9">
+                <input type="number" class="form-control" ng-model="hpwn" placeholder="hpwn" ng-change="hpwnChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">head</label>
+            <div class="col-sm-1">
+                <a class="btn btn-default" href="http://www.hearthhead.com/search?q={{name}}#hearthstonecards" role="button" ng-disabled="! name" target="_blank">Hearthhead</a>
+            </div>
+            <div class="col-sm-9">
+                <input type="number" class="form-control" ng-model="head" placeholder="head" ng-change="headChanged()">
+            </div>
+
+            <label class="col-sm-2 control-label">Rarity</label>
+            <div class="col-sm-10">
+                <select ng-model="rarity" class="form-control" name="rarity" ng-init="rarity = 'Token'">
+                    <option value="Token">Token</option>
+                    <option value="Common">Common</option>
+                    <option value="Basic">Basic</option>
+                    <option value="Rare">Rare</option>
+                    <option value="Epic">Epic</option>
+                    <option value="Legendary">Legendary</option>
+                </select>
+            </div>
+
+            <label class="col-sm-2 control-label">set</label>
+            <div class="col-sm-10">
+                <select ng-model="set" class="form-control" name="set" ng-init="set = 'Classic'">
+                    <option value="Basic">Basic</option>
+                    <option value="Classic">Classic</option>
+                    <option value="Reward">Reward</option>
+                    <option value="Promo">Promo</option>
+                    <option value="Curse of Naxxramas">Curse of Naxxramas</option>
+                    <option value="Goblin vs Gnomes">Goblin vs Gnomes</option>
+                    <option value="Blackrock Mountain">Blackrock Mountain</option>
+                    <option value="The Grand Tournament">The Grand Tournament</option>
+                    <option value="The League of Explorers">The League of Explorers</option>
+                    <option value="Whispers of the Old Gods">Whispers of the Old Gods</option>
+                </select>
+            </div>
+
+            <label class="col-sm-2 control-label">type</label>
+            <div class="col-sm-10">
+                <select ng-model="type" class="form-control" name="type" ng-init="type = 'Minion'">
+                    <option value="Minion">Minion</option>
+                    <option value="Spell">Spell</option>
+                    <option value="Weapon">Weapon</option>
+                </select>
+            </div>
+
+            <label class="col-sm-2 control-label">subtype</label>
+            <div class="col-sm-10">
+                <select ng-model="subtype" class="form-control" name="subtype" ng-init="subtype = ''" ng-change="subtypeChanged()">
+                    <option value="">Nothing</option>
+                    <option value="Beast">Beast</option>
+                    <option value="Demon">Demon</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Mech">Mech</option>
+                    <option value="Murloc">Murloc</option>
+                    <option value="Pirate">Pirate</option>
+                    <option value="Totem">Totem</option>
+                </select>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+<div class="row"><pre>
+,
+    "{{nameI}}": {
+        "atk": {{atkI}},
+        "cdn": "{{cdnI}}",
+        "class": "{{class}}",
+        "cost": {{manaI}},
+        "desc": {{descI}},
+        "head": {{headI}},
+        "hp": {{hpI}},
+        "hpwn": {{hpwnI}},
+        "name": "{{name}}",
+        "rarity": "{{rarity}}",
+        "set": "{{set}}",
+        "subType": {{subtypeI}},
+        "type": "{{type}}"
+    },
+
+</pre>
+</div>
+</div>
+</body>

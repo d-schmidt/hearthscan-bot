@@ -1,0 +1,12 @@
+{
+    "Ambush!": {
+        "id" : "AT_035t",
+        "head": 2847,
+        "hpwn": 22435
+    },
+    "Lantern of Power": {
+        "id" : "LOEA16_3",
+        "head": 19614,
+        "hpwn": 27259
+    }
+}

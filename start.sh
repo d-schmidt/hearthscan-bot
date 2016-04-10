@@ -1,0 +1,1 @@
+nohup python3 hearthscan-bot.py >std.txt 2>err.txt &
