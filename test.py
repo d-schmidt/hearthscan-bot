@@ -349,7 +349,7 @@ class TestHelper(unittest.TestCase):
         with open(helper.INFO_MSG_TMPL, "w", newline="\n") as f:
             f.write('{user} {alts} {tokens} {special}')
 
-        loadedTempl = helper.loadInfoTempl(['sa', 'sb'], ['aa', 'ab'], ['ta', 'tb'])
+        loadedTempl = helper.loadInfoTempl(['sb', 'sa'], ['aa', 'ab'], ['ta', 'tb'])
         removeFile(helper.INFO_MSG_TMPL)
         self.assertEqual(loadedTempl, '{user} aa, ab ta, tb sa, sb')
 

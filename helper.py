@@ -261,8 +261,15 @@ def loadInfoTempl(specials=[], alts=[], tokens=[]):
     with open(INFO_MSG_TMPL, 'r', encoding="utf8") as infofile:
         rawTemplate = infofile.read()
 
+    # key sets to list and sort them all
+    alts = alts if alts else list(ac.translations.keys())
+    alts.sort()
+    tokens.sort()
+    specials = list(specials)
+    specials.sort()
+    # join lists together
     joinString = ', '
-    altsText = joinString.join(alts if alts else ac.translations.keys())
+    altsText = joinString.join(alts)
     tokensText = joinString.join(tokens)
     specialText = joinString.join(specials)
 
