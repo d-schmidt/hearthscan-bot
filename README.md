@@ -48,7 +48,8 @@ Create a `cards.json` and a `tokens.json` and add a card in the format:
   ...
 }
 ```
-Cards are not required in the files, but bot files have to exists and contain valid json: `{}`.
+Cards are not required in the files, but bot files have to exists and contain valid json: `{}`.  
+While the bot is running, you can teach it new cards without stopping by creating a `tempinfo.json` following the same format.
 
 ## Learning from this bot
 A good starting point is `hearthscan-bot.py/main()`. I've tried to comment the code and use self explaining names, but it might be complicated to get what is going on. I know the naming format is inconsistent, but this is a hobby project. Who wants to refactor this?  
