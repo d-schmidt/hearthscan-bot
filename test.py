@@ -23,7 +23,7 @@ import spelling
 
 
 # start with 'test.py online' to start slow tests requiring internet and working credentials
-SKIP_INTERNET_TESTS = len(sys.argv) < 2 or sys.argv[1] == "online"
+SKIP_INTERNET_TESTS = len(sys.argv) < 2 or sys.argv[1] != "online"
 
 
 def removeFile(path):

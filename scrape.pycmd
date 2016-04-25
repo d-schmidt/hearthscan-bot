@@ -34,7 +34,7 @@ jsonToCCSet = {
     'BRM' : '07',
     'TGT' : '08',
     'LOE' : '09',
-    'TOG' : '10'
+    'OG' : '10'
 }
 # card_constant set ids to hs internal set ids
 setids = {

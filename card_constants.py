@@ -9,7 +9,7 @@ setdata = {
     '07' : {'name' : 'Blackrock Mountain', 'code' : 'BRM',  'n' : False, 'g' : True, 'std' : True},
     '08' : {'name' : 'The Grand Tournament', 'code' : 'TGT', 'n' : True, 'g' : True, 'booster' : True, 'std' : True},
     '09' : {'name' : 'The League of Explorers', 'code' : 'LoE', 'n' : True, 'g' : True, 'std' : True},
-    '10' : {'name' : 'Whispers of the Old Gods', 'code' : 'TOG', 'n' : True, 'g' : True, 'std' : True}
+    '10' : {'name' : 'Whispers of the Old Gods', 'code' : 'OG', 'n' : True, 'g' : True, 'std' : True}
 }
 
 setids = {}

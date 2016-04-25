@@ -7,8 +7,8 @@ replacements = {
     "beastcompanions" : ["huffer", "leokk", "misha"],
     "powerfulartifacts" : ["lanternofpower", "mirrorofdoom", "timepieceofhorror"],
     "powerchords" : ["iammurloc", "powerofthehorde", "roguesdoit"],
-    "spareparts" : ["armorplating", "emergencycoolant", "finickycloakfield", "reversingswitch", "rustyhorn", "timerewinder", "whirlingblades"]
-    # toxins
+    "spareparts" : ["armorplating", "emergencycoolant", "finickycloakfield", "reversingswitch", "rustyhorn", "timerewinder", "whirlingblades"],
+    "toxins" : ["bloodthistletoxin", "briarthorntoxin", "fadeleaftoxin", "firebloomtoxin", "kingsbloodtoxin"]
 }
 
 CMDS = replacements.keys()
