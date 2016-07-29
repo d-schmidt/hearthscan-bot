@@ -34,7 +34,8 @@ jsonToCCSet = {
     'BRM' : '07',
     'TGT' : '08',
     'LOE' : '09',
-    'OG' : '10'
+    'OG' : '10',
+    'KARA' : '11'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -47,7 +48,8 @@ setids = {
     '07' : 102,
     '08' : 103,
     '09' : 104,
-    '10' : 105
+    '10' : 105,
+    '11' : 106
 }
 # set names to hs internal set ids
 setNameIds = dict((cc.setdata[ccid]['name'], hsid) for ccid, hsid in setids.items())
@@ -146,6 +148,7 @@ def loadJsonCards():
             text = text.replace('\n', ' ') \
                         .replace('\u2019', "'") \
                         .replace('$', '') \
+                        .replace('[x]', '') \
                         .replace('#', '')
             text = spaceRegex.sub(' ', text)
 

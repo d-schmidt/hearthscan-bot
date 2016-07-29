@@ -40,7 +40,7 @@
         };
         $scope.hpwnI = 12288;
         $scope.hpwnChanged = function () {
-            $scope.hpwnI = ! $scope.hpwn === null ? 12288 : $scope.hpwn;
+            $scope.hpwnI = $scope.hpwn === null ? 12288 : $scope.hpwn;
         };
         $scope.headI = 2061;
         $scope.headChanged = function () {
@@ -135,7 +135,7 @@
 
             <label class="col-sm-2 control-label">set</label>
             <div class="col-sm-10">
-                <select ng-model="set" class="form-control" name="set" ng-init="set = 'Classic'">
+                <select ng-model="set" class="form-control" name="set" ng-init="set = 'One Night in Karazhan'">
                     <option value="Basic">Basic</option>
                     <option value="Classic">Classic</option>
                     <option value="Reward">Reward</option>
@@ -146,6 +146,7 @@
                     <option value="The Grand Tournament">The Grand Tournament</option>
                     <option value="The League of Explorers">The League of Explorers</option>
                     <option value="Whispers of the Old Gods">Whispers of the Old Gods</option>
+                    <option value="One Night in Karazhan">One Night in Karazhan</option>
                 </select>
             </div>
 
