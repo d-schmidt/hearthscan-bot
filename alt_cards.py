@@ -81,7 +81,11 @@ alternative_names = {
     'xarilpoisonedmind' : 'xaril',
     'muklatyrantofthevale' : 'muklatyrant',
     'yshaarjrageunbound' : 'yshaarj',
-    'yoggsaronhopesend' : ['yogg', 'yoggsaron', 'rngesus']
+    'yoggsaronhopesend' : ['yogg', 'yoggsaron', 'rngesus'],
+
+    'medivhtheguardian' : 'medivh',
+    'princemalchezaar' : 'malchezaar',
+    'thecurator': 'curator'
 }
 
 # reverse dict
