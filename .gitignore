@@ -1,5 +1,6 @@
 # ignore generated files
 *.json
+!tokenlist.json
 *.db
 credentials.py
 

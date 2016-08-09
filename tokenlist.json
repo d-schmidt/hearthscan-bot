@@ -1,0 +1,230 @@
+{
+    "Ambush!": {
+        "id" : "AT_035t",
+        "head": 2847,
+        "hpwn": 22435
+    },
+    "Lantern of Power": {
+        "id" : "LOEA16_3",
+        "head": 19614,
+        "hpwn": 27259
+    },
+    "Mirror of Doom": {
+        "id" : "LOEA16_5",
+        "head": 19616,
+        "hpwn": 27257
+    },
+    "Timepiece of Horror": {
+        "id" : "LOEA16_4",
+        "head": 19615,
+        "hpwn": 27258
+    },
+    "Roaring Torch": {
+        "id" : "LOE_002t",
+        "head": 2997,
+        "hpwn": 27481
+    },
+    "Cursed!": {
+        "id" : "LOE_007t",
+        "head": 2998,
+        "hpwn": 27482
+    },
+    "Map to the Golden Monkey": {
+        "id" : "LOE_019t",
+        "head": 2992,
+        "hpwn": 27213
+    },
+    "V-07-TR-0N": {
+        "id" : "GVG_111t",
+        "head": 2232,
+        "hpwn": 12362
+    },
+    "Boom Bot": {
+        "id" : "GVG_110t",
+        "head": 1798,
+        "hpwn": 12361
+    },
+    "Thaddius": {
+        "id" : "FP1_014t",
+        "head": 2847,
+        "hpwn": 7759
+    },
+    "Golden Monkey": {
+        "id" : "LOE_019t2",
+        "head": 2993,
+        "hpwn": 27212
+    },
+    "Ashbringer": {
+        "id" : "EX1_383t",
+        "head": 1730,
+        "hpwn": 53
+    },
+    "Dream": {
+        "id" : "DREAM_04",
+        "head": 808,
+        "hpwn": 561
+    },
+    "Emerald Drake": {
+        "id" : "DREAM_03",
+        "head": 489,
+        "hpwn": 534
+    },
+    "Laughing Sister": {
+        "id" : "DREAM_01",
+        "head": 340,
+        "hpwn": 116
+    },
+    "Ysera Awakens": {
+        "id" : "DREAM_02",
+        "head": 301,
+        "hpwn": 235
+    },
+    "Nightmare": {
+        "id" : "DREAM_05",
+        "head": 217,
+        "hpwn": 334
+    },
+    "Huffer": {
+        "id" : "NEW1_034",
+        "head": 100,
+        "hpwn": 369
+    },
+    "Leokk": {
+        "id" : "NEW1_033",
+        "head": 226,
+        "hpwn": 32
+    },
+    "Misha": {
+        "id" : "NEW1_032",
+        "head": 959,
+        "hpwn": 593
+    },
+    "Mr. Bigglesworth": {
+        "id" : "NAX15_05",
+        "head": 2157,
+        "hpwn": 7818
+    },
+    "I Am Murloc": {
+        "id" : "PRO_001a",
+        "head": 1843,
+        "hpwn": 714
+    },
+    "Power of the Horde": {
+        "id" : "PRO_001c",
+        "head": 1846,
+        "hpwn": 717
+    },
+    "Rogues Do It...": {
+        "id" : "PRO_001b",
+        "head": 1845,
+        "hpwn": 716
+    },
+    "Armor Plating": {
+        "id" : "PART_001",
+        "head": 2151,
+        "hpwn": 12366
+    },
+    "Emergency Coolant": {
+        "id" : "PART_005",
+        "head": 2155,
+        "hpwn": 12372
+    },
+    "Finicky Cloakfield": {
+        "id" : "PART_004",
+        "head": 2154,
+        "hpwn": 12370
+    },
+    "Reversing Switch": {
+        "id" : "PART_006",
+        "head": 2156,
+        "hpwn": 12373
+    },
+    "Rusty Horn": {
+        "id" : "PART_003",
+        "head": 2153,
+        "hpwn": 12369
+    },
+    "Time Rewinder": {
+        "id" : "PART_002",
+        "head": 2152,
+        "hpwn": 12368
+    },
+    "Whirling Blades": {
+        "id" : "PART_007",
+        "head": 2150,
+        "hpwn": 12375
+    },
+
+    "Bloodthistle Toxin": {
+        "id" : "OG_080c",
+        "head": 38938,
+        "hpwn": 35290
+    },
+    "Briarthorn Toxin": {
+        "id" : "OG_080d",
+        "head": 38940,
+        "hpwn": 35291
+    },
+    "Fadeleaf Toxin": {
+        "id" : "OG_080e",
+        "head": 38942,
+        "hpwn": 35293
+    },
+    "Firebloom Toxin": {
+        "id" : "OG_080f",
+        "head": 38935,
+        "hpwn": 35295
+    },
+    "Kingsblood Toxin": {
+        "id" : "OG_080b",
+        "head": 38934,
+        "hpwn": 35289
+    },
+    "The Ancient One": {
+        "id" : "OG_173a",
+        "head": 38566,
+        "hpwn": 35310
+    },
+    "Silver Hand Murloc": {
+        "id" : "OG_006a",
+        "head": 38822,
+        "hpwn": 35275
+    },
+    "Rusty Hook": {
+        "id" : "OG_058",
+        "head": 38773,
+        "hpwn": 35285
+    },
+
+    "Shadow of Nothing": {
+        "id" : "EX1_345t",
+        "head": 1720,
+        "hpwn": 582
+    },
+    "Worthless Imp": {
+        "id" : "EX1_317t",
+        "head": 1723,
+        "hpwn": 230
+    },
+
+    "Atiesh": {
+        "id" : "KARA_13_26",
+        "head": 1000380,
+        "hpwn": 42209
+    },
+    "Sharp Fork": {
+        "id" : "KAR_094a",
+        "head": 39821,
+        "hpwn": 42207
+    },
+    "Big Bad Wolf": {
+        "id" : "KAR_005a",
+        "head": 39161,
+        "hpwn": 42196
+    },
+    "Steward": {
+        "id" : "KAR_044a",
+        "head": 39232,
+        "hpwn": 42205
+    }
+}
