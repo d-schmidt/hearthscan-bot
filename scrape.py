@@ -149,6 +149,7 @@ def loadJsonCards():
                         .replace('\u2019', "'") \
                         .replace('$', '') \
                         .replace('[x]', '') \
+                        .replace('\u00A0', ' ') \
                         .replace('#', '')
             text = spaceRegex.sub(' ', text)
 
