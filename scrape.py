@@ -70,7 +70,7 @@ def getHearthHeadId(name, type, session):
     # the name search of hearthhead is weird
     hhname_hacked = name.replace('-', ' ').replace('000', '0')
 
-    r = session.get('http://www.hearthhead.com/search?q={}&opensearch'.format(hhname_hacked))
+    r = session.get('http://old.hearthhead.com/search?q={}&opensearch'.format(hhname_hacked))
     r.raise_for_status()
     hhsearch = r.json()
 

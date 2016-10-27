@@ -63,6 +63,7 @@ alternative_names = {
     'justicartrueheart' : ['justicar', 'trueheart'],
     'sneedsoldshredder' : 'sneeds',
     'alakirthewindlord' : 'alakir',
+    'bolvarfordragon' : 'bolvar',
 
     'archthiefrafaam' : 'rafaam',
     'renojackson' : ['reno', 'jackson'],
