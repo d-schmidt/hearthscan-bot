@@ -17,6 +17,8 @@
         $scope.nameI = 'Target Dummy';
         $scope.nameChanged = function () {
             $scope.nameI = $scope.name ? $scope.name.replace(':', '') : 'Target Dummy';
+            $scope.head = $scope.nameI.toLowerCase().replace(/ /g, '-').replace(/'/g , '');
+            $scope.headI = $scope.head;
         };
         $scope.manaI = 0;
         $scope.manaChanged = function () {
@@ -42,9 +44,9 @@
         $scope.hpwnChanged = function () {
             $scope.hpwnI = $scope.hpwn === null ? 12288 : $scope.hpwn;
         };
-        $scope.headI = 2061;
+        $scope.headI = 'target-dummy';
         $scope.headChanged = function () {
-            $scope.headI = $scope.head === null ? 2061 : $scope.head;
+            $scope.headI = ! $scope.head ? 'target-dummy' : $scope.head;
         };
         $scope.subtypeI = 'null';
         $scope.subtypeChanged = function () {
@@ -77,6 +79,9 @@
                     <option value="Warlock">Warlock</option>
                     <option value="Warrior">Warrior</option>
                     <option value="Dream">Dream</option>
+                    <option value="Kabal (MPW)">Kabal (MPW)</option>
+                    <option value="Lotus (RSD)">Lotus (RSD)</option>
+                    <option value="Goons (HPW)">Goons (HPW)</option>
                 </select>
             </div>
 
@@ -115,10 +120,10 @@
 
             <label class="col-sm-2 control-label">head</label>
             <div class="col-sm-1">
-                <a class="btn btn-default" href="http://www.hearthhead.com/search?q={{name}}#hearthstonecards" role="button" ng-disabled="! name" target="_blank">Hearthhead</a>
+                <a class="btn btn-default" href="http://hearthstone.services.zam.com/v1/card/autocomplete/{{name}}" role="button" ng-disabled="! name" target="_blank">Hearthhead</a>
             </div>
             <div class="col-sm-9">
-                <input type="number" class="form-control" ng-model="head" placeholder="head" ng-change="headChanged()">
+                <input type="text" class="form-control" ng-model="head" placeholder="head" ng-change="headChanged()">
             </div>
 
             <label class="col-sm-2 control-label">Rarity</label>
@@ -186,7 +191,7 @@
         "class": "{{class}}",
         "cost": {{manaI}},
         "desc": {{descI}},
-        "head": {{headI}},
+        "head": "{{headI}}",
         "hp": {{hpI}},
         "hpwn": {{hpwnI}},
         "name": "{{name}}",

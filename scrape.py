@@ -36,7 +36,7 @@ jsonToCCSet = {
     'LOE' : '09',
     'OG' : '10',
     'KARA' : '11',
-    'MSG' : '12'
+    'MSOG' : '12'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -67,26 +67,12 @@ subtypeFix = {
 }
 
 
+hearthHeadClean = re.compile(r"[^\-a-z0-9 ]")
+
 def getHearthHeadId(name, type, session):
     log.debug("getHearthHeadId() getting %s from hearthhead", name)
-    # the name search of hearthhead is weird
-    hhname_hacked = name.replace('-', ' ').replace('000', '0')
-
-    r = session.get('http://old.hearthhead.com/search?q={}&opensearch'.format(hhname_hacked))
-    r.raise_for_status()
-    hhsearch = r.json()
-
-    if hhsearch[1]:
-        for i in range(len(hhsearch[1])):
-            name_card = name + " (Card)"
-            if (hhsearch[1][i] == name_card
-                    and len(hhsearch[7][i][2]) > 0
-                    and hhsearch[7][i][3] == hsTypeId[type]):
-                id = hhsearch[7][i][1]
-                return int(id)
-
-    log.debug("getHearthHeadId() card not found at hearthhead %s", name)
-    raise Exception("getHearthHeadId() card " + name + " not found at hearthhead")
+    # HearthHead does now work without id
+    return hearthHeadClean.sub('', name.lower()).replace(' ', '-')
 
 
 hpIdRegex = re.compile(r"/cards/(\d+)-.*")
@@ -117,7 +103,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
             return int(hpid), image
 
     log.debug("getHearthpwnIdAndUrl() card not found at herathpwn %s", name)
-    raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at herathpwn")
+    raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
 
 
 def loadJsonCards():

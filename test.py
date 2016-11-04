@@ -34,12 +34,14 @@ def removeFile(path):
 
 class TestScrape(unittest.TestCase):
 
-    @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
+    # @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_hearthhead(self):
         with requests.Session() as s:
-            self.assertEqual(scrape.getHearthHeadId('Quick Shot', 'Spell', s), 2260)
-            self.assertEqual(scrape.getHearthHeadId('Undercity Valiant', 'Minion', s), 2767)
-            self.assertEqual(scrape.getHearthHeadId('Gorehowl', 'Weapon', s), 810)
+            self.assertEqual(scrape.getHearthHeadId('Quick Shot', 'Spell', s), 'quick-shot')
+            self.assertEqual(scrape.getHearthHeadId('Undercity Valiant', 'Minion', s), 'undercity-valiant')
+            self.assertEqual(scrape.getHearthHeadId('Gorehowl', 'Weapon', s), 'gorehowl')
+            self.assertEqual(scrape.getHearthHeadId('V-07-TR-0N', 'Minion', s), 'v-07-tr-0n')
+            self.assertEqual(scrape.getHearthHeadId("Al'Akir the Windlord", 'Minion', s), 'alakir-the-windlord')
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_Hearthpwn(self):
@@ -63,7 +65,7 @@ class TestScrape(unittest.TestCase):
                 'set': 'Blackrock Mountain',
                 'rarity': 'Common',
                 'atk': None,
-                'head': 2260,
+                'head': 'quick-shot',
                 'name': 'Quick Shot',
                 'cost': 2
             }
@@ -104,7 +106,7 @@ class TestScrape(unittest.TestCase):
                 'set': 'Blackrock Mountain',
                 'rarity': 'Common',
                 'atk': None,
-                'head': 2260,
+                'head': 'quick-shot',
                 'name': 'Quick Shot',
                 'cost': 2
             }
@@ -113,7 +115,7 @@ class TestScrape(unittest.TestCase):
         wantedtokens = {
             "Quick Shot": {
                 "id" : "BRM_013",
-                "head": 2260,
+                "head": 'quick-shot',
                 "hpwn": 14459
             }
         }
@@ -250,7 +252,7 @@ class TestHelper(unittest.TestCase):
                         'set': 'Blackrock Mountain',
                         'rarity': 'Common',
                         'atk': 3,
-                        'head': 2260,
+                        'head': 'quick-shot',
                         'name': 'Quick Shot',
                         'cost': 2
                         }
@@ -278,7 +280,7 @@ class TestHelper(unittest.TestCase):
                     'set': 'Blackrock Mountain',
                     'rarity': 'Common',
                     'atk': 3,
-                    'head': 2260,
+                    'head': 'quick-shot',
                     'name': 'Quick Shot',
                     'cost': 2
                     }
@@ -288,7 +290,7 @@ class TestHelper(unittest.TestCase):
         expected = ('* **[Quick Shot](http://media-Hearth.cursecdn.com/14459.png)**'
                         ' Spell Hunter Common BRM \U0001f419'
                         ' | [HP](http://www.hearthpwn.com/cards/14459),'
-                        ' [HH](http://www.hearthhead.com/card=2260),'
+                        ' [HH](http://www.hearthhead.com/cards/quick-shot),'
                         ' [Wiki](http://hearthstone.gamepedia.com/Quick_Shot)  \n'
                     '2 Mana 3/1 Mech - Deal 3 damage. Draw a card.  \n')
         self.assertEqual(helper._createCardDB(info.items())[cleanName], expected)
@@ -443,5 +445,6 @@ if __name__ == '__main__':
             format='%(asctime)s %(levelname)s %(message)s',
             level=logging.DEBUG)
 
+    print("run 'test.py online' to test online scraping functionality")
     # lazy argv fix
     unittest.main(warnings='ignore', argv=[sys.argv[0]])

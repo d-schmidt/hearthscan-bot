@@ -11,7 +11,7 @@ setdata = {
     '09' : {'name' : 'The League of Explorers', 'code' : 'LoE', 'n' : True, 'g' : True, 'std' : True},
     '10' : {'name' : 'Whispers of the Old Gods', 'code' : 'OG', 'n' : True, 'g' : True, 'booster' : True, 'std' : True},
     '11' : {'name' : 'One Night in Karazhan', 'code' : 'Kara', 'n' : True, 'g' : True, 'std' : True},
-    '12' : {'name' : 'Mean Streets of Gadgetzan', 'code' : 'MSG', 'n' : True, 'g' : True, 'booster' : True, 'std' : True}
+    '12' : {'name' : 'Mean Streets of Gadgetzan', 'code' : 'MSOG', 'n' : True, 'g' : True, 'booster' : True, 'std' : True}
 }
 
 setids = {}
