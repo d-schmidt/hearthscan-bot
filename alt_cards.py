@@ -88,10 +88,11 @@ alternative_names = {
     'princemalchezaar' : 'malchezaar',
     'thecurator': 'curator',
     
-    'patchesthepirate': 'patches',
-    'finjatheflyingstar': 'finja',
-    'wickerflameburnbristle': ['wickerflame', 'burnbristle'],
-    'kuntheforgottenking': 'kun'
+    'patchesthepirate' : 'patches',
+    'finjatheflyingstar' : 'finja',
+    'wickerflameburnbristle' : ['wickerflame', 'burnbristle'],
+    'kuntheforgottenking' : 'kun',
+    'mistressofmixtures' : 'mom'
 }
 
 # reverse dict
