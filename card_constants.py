@@ -9,14 +9,15 @@ setdata = {
     '07' : {'name' : 'Blackrock Mountain', 'code' : 'BRM',  'n' : False, 'g' : True, 'std' : True},
     '08' : {'name' : 'The Grand Tournament', 'code' : 'TGT', 'n' : True, 'g' : True, 'booster' : True, 'std' : True},
     '09' : {'name' : 'The League of Explorers', 'code' : 'LoE', 'n' : True, 'g' : True, 'std' : True},
-    '10' : {'name' : 'Whispers of the Old Gods', 'code' : 'OG', 'n' : True, 'g' : True, 'std' : True},
-    '11' : {'name' : 'One Night in Karazhan', 'code' : 'Kara', 'n' : True, 'g' : True, 'std' : True}
+    '10' : {'name' : 'Whispers of the Old Gods', 'code' : 'OG', 'n' : True, 'g' : True, 'booster' : True, 'std' : True},
+    '11' : {'name' : 'One Night in Karazhan', 'code' : 'Kara', 'n' : True, 'g' : True, 'std' : True},
+    '12' : {'name' : 'Mean Streets of Gadgetzan', 'code' : 'MSG', 'n' : True, 'g' : True, 'booster' : True, 'std' : True}
 }
 
 setids = {}
 for id, set in setdata.items(): setids[set['name']] = id
 
-setorder = ['02','06','08','01','03','04','05','07','09','10','11']
+setorder = ['02','06','08','01','03','04','05','07','09','10','11','12']
 
 devalue = {
     'Basic' : {'n' : 0, 'g' : 0},

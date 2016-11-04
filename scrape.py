@@ -35,7 +35,8 @@ jsonToCCSet = {
     'TGT' : '08',
     'LOE' : '09',
     'OG' : '10',
-    'KARA' : '11'
+    'KARA' : '11',
+    'MSG' : '12'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -49,7 +50,8 @@ setids = {
     '08' : 103,
     '09' : 104,
     '10' : 105,
-    '11' : 106
+    '11' : 106,
+    '12' : 107
 }
 # set names to hs internal set ids
 setNameIds = dict((cc.setdata[ccid]['name'], hsid) for ccid, hsid in setids.items())
