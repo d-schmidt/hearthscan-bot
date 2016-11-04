@@ -36,7 +36,7 @@ Create a `cards.json` and a `tokens.json` and add a card in the format:
     "class": "Neutral",
     "cost": 5,
     "desc": "Taunt. Deathrattle: Deal 2 damage to ALL characters.",
-    "head": 440,
+    "head": "abomination",
     "hp": 4,
     "hpwn": 597,
     "name": "Abomination",
