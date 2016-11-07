@@ -21,10 +21,10 @@ reauth_sec = 60*20 # 20 min
 atk_dur_template = " {atk}/{dur}"
 subtype_template = " {subType}"
 desc_template = " - {desc}"
-card_template = ("* **[{name}]({cdn})** {type} {class} {rarity} {set} {std}| "
-                    "[HP](http://www.hearthpwn.com/cards/{hpwn}), "
-                    "[HH](http://www.hearthhead.com/cards/{head}), "
-                    "[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
+card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}| "
+                    "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
+                    "^[HH](http://www.hearthhead.com/cards/{head}), "
+                    "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
                 "{cost} Mana{atk_dur}{subtype}{desc}  \n")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={})"
             " ^( me with up to 7 [[cardname]]. For more PM [[info]])").format(credentials.username)
