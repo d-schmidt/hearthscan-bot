@@ -64,6 +64,7 @@ alternative_names = {
     'sneedsoldshredder' : 'sneeds',
     'alakirthewindlord' : 'alakir',
     'bolvarfordragon' : 'bolvar',
+    'troggzortheearthinator' : 'troggzor',
 
     'archthiefrafaam' : 'rafaam',
     'renojackson' : ['reno', 'jackson'],
