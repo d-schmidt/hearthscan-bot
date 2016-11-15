@@ -41,7 +41,6 @@ alternative_names = {
     'theblackknight' : ['tbk', 'blackknight'],
     'elitetaurenchieftain' : 'etc',
     'harrisonjones' : ['harrison', 'jones'],
-    'flamewaker' : 'flamewalker',
     'kelthuzad' : 'kel',
     'eydisdarkbane' : ['darkbane', 'eydis'],
     'fjolalightbane' : ['lightbane', 'fjola'],
@@ -95,7 +94,11 @@ alternative_names = {
     'kuntheforgottenking' : 'kun',
     'mistressofmixtures' : 'mom',
     'auctionmasterbeardo' : 'beardo',
-    'shakruthecollector' : 'shakru'
+    'shakruthecollector' : 'shakru',
+    'patchesthepirate' : 'patches',
+    'auctionmasterbeardo' : 'beardo',
+    'donhancho' : 'don',
+    'inkmastersolia' : ['inkmaster', 'solia']
 }
 
 # reverse dict

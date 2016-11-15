@@ -288,10 +288,10 @@ class TestHelper(unittest.TestCase):
 
         cleanName = helper.cleanName("Quick Shot")
         expected = ('* **[Quick Shot](http://media-Hearth.cursecdn.com/14459.png)**'
-                        ' Spell Hunter Common BRM \U0001f419'
-                        ' | [HP](http://www.hearthpwn.com/cards/14459),'
-                        ' [HH](http://www.hearthhead.com/cards/quick-shot),'
-                        ' [Wiki](http://hearthstone.gamepedia.com/Quick_Shot)  \n'
+                        ' Hunter Spell Common BRM \U0001f419'
+                        ' ^[HP](http://www.hearthpwn.com/cards/14459),'
+                        ' ^[HH](http://www.hearthhead.com/cards/quick-shot),'
+                        ' ^[Wiki](http://hearthstone.gamepedia.com/Quick_Shot)  \n'
                     '2 Mana 3/1 Mech - Deal 3 damage. Draw a card.  \n')
         self.assertEqual(helper._createCardDB(info.items())[cleanName], expected)
 

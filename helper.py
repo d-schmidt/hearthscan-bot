@@ -21,7 +21,7 @@ reauth_sec = 60*20 # 20 min
 atk_dur_template = " {atk}/{dur}"
 subtype_template = " {subType}"
 desc_template = " - {desc}"
-card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std} "
+card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
                     "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
                     "^[HH](http://www.hearthhead.com/cards/{head}), "
                     "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
@@ -219,7 +219,7 @@ def _createTextForCard(card):
         'cdn' : card['cdn'],
         'atk_dur' : atk_dur,
         'subtype' : subtype_template.format(subType=card['subType']) if card['subType'] else '',
-        'std' : '\U0001F419 ' if cardSetData.get('std') else '|'
+        'std' : '\U0001F419 ' if cardSetData.get('std') else '| '
     }
 
     return card_template.format(**local_card)
