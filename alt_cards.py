@@ -94,7 +94,7 @@ alternative_names = {
     'kuntheforgottenking' : 'kun',
     'mistressofmixtures' : 'mom',
     'auctionmasterbeardo' : 'beardo',
-    'shakruthecollector' : 'shakru',
+    'shakuthecollector' : 'shaku',
     'patchesthepirate' : 'patches',
     'auctionmasterbeardo' : 'beardo',
     'donhancho' : 'don',
