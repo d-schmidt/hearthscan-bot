@@ -157,8 +157,9 @@ def sleep(round_start, rate_sleep):
         if rate_sleep > 0:
             time.sleep(rate_sleep)
         else:
-            # get comments has a 30 sec cache
-            time.sleep(32 - min(32, int(time.time()) - round_start))
+            # praw GET has a 20 sec cache, sleep some more seconds
+            SLEEP_SECS = 32
+            time.sleep(SLEEP_SECS - min(SLEEP_SECS, int(time.time()) - round_start))
     except:
         # this is strange but not horrible, page is cached so nothing really happens
         log.exception('sleep interrupted')
@@ -197,8 +198,9 @@ def main():
             answerComments(r, db, card_db, spell_check)
             answerSubmissions(r, db, card_db, spell_check)
             answerPMs(r, pm_user_cache, card_db, spell_check)
+
         except praw.errors.RateLimitExceeded as rle:
-            # happens a lot for accounts without email, <10 days old and some points
+            # happens a lot for accounts without email, <10 days old and few points
             log.warn("rate exceeded, going to sleep for a long time %s", rle.sleep_time)
             rate_sleep = rle.sleep_time
         except:

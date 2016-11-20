@@ -98,7 +98,8 @@ alternative_names = {
     'patchesthepirate' : 'patches',
     'auctionmasterbeardo' : 'beardo',
     'donhancho' : 'don',
-    'inkmastersolia' : ['inkmaster', 'solia']
+    'inkmastersolia' : ['inkmaster', 'solia'],
+    'razathechained' : 'raza'
 }
 
 # reverse dict

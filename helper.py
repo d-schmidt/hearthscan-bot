@@ -43,7 +43,10 @@ def initReddit(refresh_token = credentials.refresh_token):
     """ get the reddit api token, see credentials.py for more info """
 
     log.debug("initReddit() creating reddit adapter")
-    r = praw.Reddit(user_agent=credentials.user_agent)
+    r = praw.Reddit(user_agent=credentials.user_agent,
+                    check_for_updates=False,
+                    # pm GET is sometimes skipped when cache == sleep
+                    cache_timeout=20)
 
     log.debug("initReddit() preparing reddit adapter")
     r.set_oauth_app_info(client_id=credentials.client_id,

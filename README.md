@@ -17,7 +17,7 @@ pip install lxml
 copy credentials.py.example credentials.py
 python3 test.py
 ```
-To run the full tests, prepare out your `credentials.py` and start tests with `python3 test.py online`.  
+To run the full tests, prepare your own `credentials.py` and start tests with `python3 test.py online`.  
 The test creates a `test.log`.
 
 ## Running the bot
