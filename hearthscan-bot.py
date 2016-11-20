@@ -7,6 +7,8 @@ import os
 import os.path
 import time
 
+import praw
+
 import alt_cards as ac
 import commentDB
 import credentials
@@ -18,7 +20,7 @@ info_body_templ = None
 duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "with cards I already explained there. "
                             "Here are the cards just for you:\n\n")
-forward_subject_templ = '#{} /u/{}: "{}"'
+forward_subject_templ = '#{}{}: "{}"'
 
 # start all actions once every x seconds
 # praw GET has a 20 sec cache, always sleep more seconds
@@ -103,7 +105,7 @@ def forwardAnswer(r, answer_msg):
     first_space = answer_msg.subject.find(' ', 6)
     slice_to = first_space if first_space > 1 else len(answer_msg.subject)
 
-    if slice_to > 1:
+    if slice_to > 5:
         old_message = r.get_message(answer_msg.subject[5:slice_to])
 
         if old_message:
@@ -123,10 +125,22 @@ def answerPMs(r, pm_user_cache, card_db, spell_check):
             # ignore replies to our own comments
             continue
 
-        author = msg.author.name
+        subject_author = ""
+
+        if msg.subreddit:
+            author = msg.subreddit.display_name
+            subject_author += " /r/" + author
+
+        if msg.author:
+            author = msg.author.name
+            subject_author += " /u/" + author
+
+        if msg.distinguished:
+            subject_author += " [" + msg.distinguished + "]"
+
         log.debug("found message with id: %s from %s", msg.id, author)
 
-        if author in pm_user_cache:
+        if msg.author and author in pm_user_cache:
             log.debug("user %s is in recent msg list", author)
             continue
 
@@ -155,8 +169,9 @@ def answerPMs(r, pm_user_cache, card_db, spell_check):
         else:
             log.debug("forwarded message with id: %s", msg.id)
             # forward messages without cards to admin
+            subject = forward_subject_templ.format(msg.id, subject_author, msg.subject)
             r.send_message(credentials.admin_username,
-                           forward_subject_templ.format(msg.id, author, msg.subject),
+                           subject,
                            msg.body)
 
 

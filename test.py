@@ -362,7 +362,9 @@ class TestBot(unittest.TestCase):
     def test_AnswerMail_UserOnSpam(self):
         r = praw.Reddit(user_agent="python/unittest/dummy")
 
-        raw2 = '{ "author": "Mr_X", "replies": "", "id": "abc", "was_comment": false }'
+        raw2 = ('{ "author": "Mr_X", "replies": "", '
+               '"distinguished": null, "subreddit": null, '
+               '"id": "abc", "subject": "test", "was_comment": false }')
         msg = praw.objects.Message.from_api_response(r, json.loads(raw2))
         msg.mark_as_read = MagicMock()
         msg.reply = MagicMock()
@@ -376,13 +378,15 @@ class TestBot(unittest.TestCase):
     def test_AnswerMail_WasCommentNotMsg(self):
         r = praw.Reddit(user_agent="python/unittest/dummy")
 
-        raw2 = '{ "replies": "", "id": "abc", "was_comment": true }'
+        raw2 = ('{ "replies": "", '
+               '"distinguished": null, "subreddit": null, '
+               '"id": "abc", "was_comment": true }')
         msg = praw.objects.Message.from_api_response(r, json.loads(raw2))
         msg.mark_as_read = MagicMock()
         msg.reply = MagicMock()
         r.get_unread = MagicMock(return_value = [msg])
 
-        # fails on msg.author is accessed if skip for user on spam is broken
+        # fails on msg.subreddit is accessed if skip for user on spam is broken
         hearthscan_bot.answerPMs(r, {}, {}, spelling.Checker([]))
         msg.mark_as_read.assert_any_call()
         assert msg.reply.call_count == 0
@@ -390,7 +394,9 @@ class TestBot(unittest.TestCase):
     def test_AnswerMail_Success(self):
         r = praw.Reddit(user_agent="python/unittest/dummy")
 
-        raw = '{ "body": "[[quick shot]]", "author": "Mr_X", "replies": "", "id": "abc", "subject": "test", "was_comment": false }'
+        raw = ('{ "body": "[[quick shot]]", "author": "Mr_X", "replies": "", '
+               '"distinguished": null, "subreddit": null, '
+               '"id": "abc", "subject": "test", "was_comment": false }')
         msg = praw.objects.Message.from_api_response(r, json.loads(raw))
         msg.mark_as_read = MagicMock()
         msg.reply = MagicMock()
@@ -406,7 +412,9 @@ class TestBot(unittest.TestCase):
     def test_Forward_PM(self):
         r = praw.Reddit(user_agent="python/unittest/dummy")
 
-        raw = '{ "body": "no card here", "author": "Mr_X", "replies": "", "id": "abc", "subject": "test", "was_comment": false }'
+        raw = ('{ "body": "no card here", "author": "Mr_X", "replies": "", '
+               '"distinguished": null, "subreddit": null, '
+               '"id": "abc", "subject": "test", "was_comment": false }')
         msg = praw.objects.Message.from_api_response(r, json.loads(raw))
         msg.mark_as_read = MagicMock()
         msg.reply = MagicMock()
@@ -423,16 +431,20 @@ class TestBot(unittest.TestCase):
     def test_Forward_PM_Answer(self):
         r = praw.Reddit(user_agent="python/unittest/dummy")
 
-        raw = '{ "body": "answer text", "author": "' \
+        raw = ('{ "body": "answer text", "author": "' \
                 + credentials.admin_username \
-                + '", "replies": "", "id": "def", "subject": "re: #abc /u/Mr_X...", "was_comment": false }'
+                + '", "replies": "", '
+               '"distinguished": null, "subreddit": null, '
+               '"id": "def", "subject": "re: #abc /u/Mr_X...", "was_comment": false }')
         msg = praw.objects.Message.from_api_response(r, json.loads(raw))
         msg.mark_as_read = MagicMock()
         msg.reply = MagicMock()
         # getting all new
         r.get_unread = MagicMock(return_value = [msg])
 
-        raw_original = '{ "body": "no card here", "author": "Mr_X", "replies": "", "id": "abc", "subject": "test", "was_comment": false }'
+        raw_original = ('{ "body": "no card here", "author": "Mr_X", "replies": "", '
+                        '"distinguished": null, "subreddit": null, '
+                        '"id": "abc", "subject": "test", "was_comment": false }')
         msg_original = praw.objects.Message.from_api_response(r, json.loads(raw_original))
         msg_original.reply = MagicMock()
         # get old to send answer to
