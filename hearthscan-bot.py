@@ -140,7 +140,7 @@ def answerPMs(r, pm_user_cache, card_db, spell_check):
 
         log.debug("found message with id: %s from %s", msg.id, author)
 
-        if msg.author and author in pm_user_cache:
+        if msg.author and not msg.distinguished and author in pm_user_cache:
             log.debug("user %s is in recent msg list", author)
             continue
 
