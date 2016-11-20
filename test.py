@@ -20,6 +20,7 @@ hearthscan_bot = __import__("hearthscan-bot")
 import helper
 import special_cards as specials
 import spelling
+import credentials
 
 
 # start with 'test.py online' to start slow tests requiring internet and working credentials
@@ -384,7 +385,7 @@ class TestBot(unittest.TestCase):
         # fails on msg.author is accessed if skip for user on spam is broken
         hearthscan_bot.answerPMs(r, {}, {}, spelling.Checker([]))
         msg.mark_as_read.assert_any_call()
-        msg.reply.assert_not_called()
+        assert msg.reply.call_count == 0
 
     def test_AnswerMail_Success(self):
         r = praw.Reddit(user_agent="python/unittest/dummy")
@@ -400,7 +401,51 @@ class TestBot(unittest.TestCase):
 
         hearthscan_bot.answerPMs(r, {}, db, spelling.Checker([]))
         msg.mark_as_read.assert_any_call()
-        msg.reply.assert_called_with(expected)
+        msg.reply.assert_called_once_with(expected)
+
+    def test_Forward_PM(self):
+        r = praw.Reddit(user_agent="python/unittest/dummy")
+
+        raw = '{ "body": "no card here", "author": "Mr_X", "replies": "", "id": "abc", "subject": "test", "was_comment": false }'
+        msg = praw.objects.Message.from_api_response(r, json.loads(raw))
+        msg.mark_as_read = MagicMock()
+        msg.reply = MagicMock()
+        r.get_unread = MagicMock(return_value = [msg])
+        r.send_message = MagicMock()
+
+        hearthscan_bot.answerPMs(r, {}, {}, spelling.Checker([]))
+        msg.mark_as_read.assert_any_call()
+        assert msg.reply.call_count == 0
+        r.send_message.assert_called_once_with(credentials.admin_username,
+                           '#abc /u/Mr_X: "test"',
+                           "no card here")
+
+    def test_Forward_PM_Answer(self):
+        r = praw.Reddit(user_agent="python/unittest/dummy")
+
+        raw = '{ "body": "answer text", "author": "' \
+                + credentials.admin_username \
+                + '", "replies": "", "id": "def", "subject": "re: #abc /u/Mr_X...", "was_comment": false }'
+        msg = praw.objects.Message.from_api_response(r, json.loads(raw))
+        msg.mark_as_read = MagicMock()
+        msg.reply = MagicMock()
+        # getting all new
+        r.get_unread = MagicMock(return_value = [msg])
+
+        raw_original = '{ "body": "no card here", "author": "Mr_X", "replies": "", "id": "abc", "subject": "test", "was_comment": false }'
+        msg_original = praw.objects.Message.from_api_response(r, json.loads(raw_original))
+        msg_original.reply = MagicMock()
+        # get old to send answer to
+        r.get_message = MagicMock(return_value = msg_original)
+
+        r.send_message = MagicMock()
+
+        hearthscan_bot.answerPMs(r, {}, {}, spelling.Checker([]))
+        msg.mark_as_read.assert_any_call()
+        msg.reply.assert_called_once_with("answer forwarded")
+        assert r.send_message.call_count == 0
+        r.get_message.assert_called_once_with("abc")
+        msg_original.reply.assert_called_once_with("answer text")
 
     def test_CleamPMUserCache(self):
         future = int(time.time()) + 60

@@ -45,6 +45,8 @@ def initReddit(refresh_token = credentials.refresh_token):
     log.debug("initReddit() creating reddit adapter")
     r = praw.Reddit(user_agent=credentials.user_agent,
                     check_for_updates=False,
+                    # default is 2 sec but we are allowed 60rpm
+                    api_request_delay=1.0,
                     # pm GET is sometimes skipped when cache == sleep
                     cache_timeout=20)
 

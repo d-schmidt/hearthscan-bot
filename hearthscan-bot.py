@@ -7,8 +7,6 @@ import os
 import os.path
 import time
 
-import praw
-
 import alt_cards as ac
 import commentDB
 import credentials
@@ -20,9 +18,16 @@ info_body_templ = None
 duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "with cards I already explained there. "
                             "Here are the cards just for you:\n\n")
-forward_subject_templ = '/u/{}: "{}"'
+forward_subject_templ = '#{} /u/{}: "{}"'
+
+# start all actions once every x seconds
+# praw GET has a 20 sec cache, always sleep more seconds
+SLEEP_SECS = 30
 # answer pms of the same user only every x seconds
-pm_time_limit = 90
+# r.get_unread response might be cached, you might get the same message twice
+# this is why pm_rate_limit has to be > 1 cycle (30 sec)
+pm_rate_limit = 60
+
 SUBS_STRING = '+'.join(credentials.subreddits)
 
 
@@ -33,7 +38,6 @@ def answerComments(r, db, card_db, spell_check):
     # testing
     #comments = r.get_subreddit('sandboxtest').get_comments(limit=10)
     #comments = r.get_submission(submission_id='12345').comments
-    #comments = praw.helpers.flatten_tree(comments)
     #comments = r.get_submission('https://www.reddit.com/r/hearthstone/comments/12345/_/1234').comments
 
     for comment in comments:
@@ -94,12 +98,25 @@ def answerSubmissions(r, db, card_db, spell_check):
                 submission.add_comment(comment_text)
 
 
+def forwardAnswer(r, answer_msg):
+    """ handle messages from admin which are answers to forwarded messages """
+    first_space = answer_msg.subject.find(' ', 6)
+    slice_to = first_space if first_space > 1 else len(answer_msg.subject)
+
+    if slice_to > 1:
+        old_message = r.get_message(answer_msg.subject[5:slice_to])
+
+        if old_message:
+            log.debug("forwarded answer to id: %s", old_message.id)
+            old_message.reply(answer_msg.body)
+            answer_msg.reply("answer forwarded")
+
+
 def answerPMs(r, pm_user_cache, card_db, spell_check):
     """ read and answer pms """
 
     for msg in r.get_unread(unset_has_mail=True, update_user=True):
-        # mark as read is slow, you might get the same message twice
-        # this is why pm_time_limit has to be > 1 cycle (32 sec)
+
         msg.mark_as_read()
 
         if msg.was_comment:
@@ -111,6 +128,12 @@ def answerPMs(r, pm_user_cache, card_db, spell_check):
 
         if author in pm_user_cache:
             log.debug("user %s is in recent msg list", author)
+            continue
+
+        pm_user_cache[author] = int(time.time()) + pm_rate_limit
+
+        if author == credentials.admin_username and msg.subject[:5] == 're: #':
+            forwardAnswer(r, msg)
             continue
 
         cards = helper.getCardsFromComment(msg.body, spell_check)
@@ -128,12 +151,12 @@ def answerPMs(r, pm_user_cache, card_db, spell_check):
 
             if msg_text:
                 log.info("sending msg: %s with %s", author, cards)
-                pm_user_cache[author] = int(time.time()) + pm_time_limit
                 msg.reply(msg_text)
         else:
+            log.debug("forwarded message with id: %s", msg.id)
             # forward messages without cards to admin
             r.send_message(credentials.admin_username,
-                           forward_subject_templ.format(author, msg.subject),
+                           forward_subject_templ.format(msg.id, author, msg.subject),
                            msg.body)
 
 
@@ -157,8 +180,6 @@ def sleep(round_start, rate_sleep):
         if rate_sleep > 0:
             time.sleep(rate_sleep)
         else:
-            # praw GET has a 20 sec cache, sleep some more seconds
-            SLEEP_SECS = 32
             time.sleep(SLEEP_SECS - min(SLEEP_SECS, int(time.time()) - round_start))
     except:
         # this is strange but not horrible, page is cached so nothing really happens
