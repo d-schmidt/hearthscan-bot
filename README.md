@@ -55,7 +55,7 @@ Delete the `lockfile.lock` to stop the bot gracefully.
 
 ## Learning from this bot
 A good starting point is `hearthscan-bot.py/main()`. I've tried to comment the code and use self explaining names. I know the naming format is inconsistent, sorry about that.  
-There are nice people out there answering questions ([/r/learnpython](https://www.reddit.com/r/learnpython), [/r/redditdev](https://www.reddit.com/r/redditdev)) and the [PRAW documentation](https://praw.readthedocs.org/en/stable/pages/writing_a_bot.html) is decent.
+There are nice people out there answering questions ([/r/learnpython](https://www.reddit.com/r/learnpython), [/r/redditdev](https://www.reddit.com/r/redditdev)) and the [PRAW documentation](https://praw.readthedocs.io/en/latest/tutorials/comments.html) is decent.
 
 ## License
 All code contained here is licensed by [MIT](https://github.com/d-schmidt/hearthscan-bot/blob/master/LICENSE).
