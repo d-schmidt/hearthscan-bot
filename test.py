@@ -116,7 +116,6 @@ class TestScrape(unittest.TestCase):
         wantedtokens = {
             "Quick Shot": {
                 "id" : "BRM_013",
-                "head": 'quick-shot',
                 "hpwn": 14459
             }
         }
@@ -355,6 +354,18 @@ class TestHelper(unittest.TestCase):
         loadedTempl = helper.loadInfoTempl(['sb', 'sa'], ['aa', 'ab'], ['ta', 'tb'])
         removeFile(helper.INFO_MSG_TMPL)
         self.assertEqual(loadedTempl, '{user} aa, ab ta, tb sa, sb')
+
+
+    def test_JsonFiles(self):
+        if os.path.isfile('tempinfo.json'):
+            with open('tempinfo.json', 'r') as infofile:
+                json.load(infofile)
+        if os.path.isfile("tokens.json"):
+            with open('tokens.json', 'r') as infofile:
+                json.load(infofile)
+        if os.path.isfile("cards.json"):
+            with open('cards.json', 'r') as infofile:
+                json.load(infofile)
 
 
 class TestBot(unittest.TestCase):

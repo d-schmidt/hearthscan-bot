@@ -229,7 +229,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
             card = tokens[ids['id']]
             card['cdn'] = image
             card['hpwn'] = ids['hpwn']
-            card['head'] = ids['head']
+            card['head'] = getHearthHeadId(card['name'], "ignored", "ignored")
             resultCards[card['name'].replace(":", "")] = card
 
     return resultCards
