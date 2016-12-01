@@ -102,7 +102,8 @@ alternative_names = {
     'razathechained' : 'raza',
     'hobartgrapplehammer': 'hobart',
     'genzotheshark' : 'genzo',
-    'krultheunshackled':'krul'
+    'krultheunshackled':'krul',
+    'ayablackpaw' : 'aya'
 }
 
 # reverse dict

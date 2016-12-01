@@ -36,7 +36,7 @@ jsonToCCSet = {
     'LOE' : '09',
     'OG' : '10',
     'KARA' : '11',
-    'MSOG' : '12'
+    'GANGS' : '12'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -120,10 +120,10 @@ def loadJsonCards():
     cards = {}
     tokens = {}
     for card in cardtextjson:
-        if card['set'] not in jsonToCCSet:
+        if card.get('set') not in jsonToCCSet:
             # helper can't handle this yet
             continue
-        if card['type'] not in ['MINION', 'SPELL', 'WEAPON']:
+        if card.get('type') not in ['MINION', 'SPELL', 'WEAPON']:
             # hero power, hero and buffs are irrelevant for us
             continue
 
@@ -133,6 +133,7 @@ def loadJsonCards():
             # copy bold/italic to reddit?
             # text = re.sub(r"</?b+>", '**', text)
             # text = re.sub(r"</?i+>", '*', text)
+            # remove unwanted symbols and chars from card text
             text = text.replace('\n', ' ') \
                         .replace('\u2019', "'") \
                         .replace('$', '') \
@@ -140,6 +141,10 @@ def loadJsonCards():
                         .replace('\u00A0', ' ') \
                         .replace('#', '')
             text = spaceRegex.sub(' ', text)
+            # jade golem cards have text twice
+            if '@' in text:
+                text = text.split("@",1)[1]
+            text = text.strip()
 
         rarity = card.get('rarity', 'Token')
         rarity = 'Basic' if rarity == 'FREE' else camelCase(rarity)
@@ -177,6 +182,7 @@ def saveCardsAsJson(filename, cards):
 def loadSets(allcards = {}, sets = cc.setdata.keys()):
     # grp by set
     setcarddata = {}
+
     for id, card in allcards.items():
         if card['set'] not in setcarddata:
             setcarddata[card['set']] = []
@@ -189,12 +195,14 @@ def loadSets(allcards = {}, sets = cc.setdata.keys()):
             for setid in sets:
                 setname = cc.setdata[setid]['name']
                 filename = "{} {}.json".format(setid, setname)
+
                 if os.path.isfile(filename):
                     log.debug("loadSets() using found '%s' file instead of internet", filename)
                     with open(filename, "r") as f:
                         resultCards.update(json.load(f))
                 else:
                     currentSet = {}
+
                     for card in setcarddata.get(setname, []):
                         hpid, image = getHearthpwnIdAndUrl(card['name'],
                                                             setname,
@@ -207,7 +215,8 @@ def loadSets(allcards = {}, sets = cc.setdata.keys()):
                         card['cdn'] = image
                         card['hpwn'] = hpid
                         card['head'] = hhid
-                        currentSet[card['name'].replace(":", "")] = card
+                        currentSet[card['name']] = card
+
                     saveCardsAsJson(filename, currentSet)
                     resultCards.update(currentSet)
 
@@ -220,6 +229,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
         for name, ids in wantedTokens.items():
             if name != tokens[ids['id']]['name']:
                 log.warning('loadTokens() names do not match: %s - %s', name, tokens[ids['id']]['name'])
+
             r = session.get('http://www.hearthpwn.com/cards/{}'.format(ids['hpwn']))
             r.raise_for_status()
             image = fromstring(r.text).xpath('//img[@class="hscard-static"]')[0].get('src')
@@ -230,7 +240,13 @@ def loadTokens(tokens = {}, wantedTokens = {}):
             card['cdn'] = image
             card['hpwn'] = ids['hpwn']
             card['head'] = getHearthHeadId(card['name'], "ignored", "ignored")
-            resultCards[card['name'].replace(":", "")] = card
+
+            # since jade golem: overwrite scraped stats with prepared ones
+            card['atk'] = ids.get('atk', card['atk'])
+            card['cost'] = ids.get('cost', card['cost'])
+            card['hp'] = ids.get('hp', card['hp'])
+
+            resultCards[card['name']] = card
 
     return resultCards
 

@@ -35,6 +35,10 @@ TOKENS_JSON = 'tokens.json'
 CARDS_JSON = 'cards.json'
 INFO_MSG_TMPL = 'info_msg.templ'
 
+# Standard legal icon
+# 2016 octopus because tentacles
+STD_ICON = '\U0001F419 '
+
 # global used to detect temp file changes
 start_filetime = 0
 
@@ -224,7 +228,7 @@ def _createTextForCard(card):
         'cdn' : card['cdn'],
         'atk_dur' : atk_dur,
         'subtype' : subtype_template.format(subType=card['subType']) if card['subType'] else '',
-        'std' : '\U0001F419 ' if cardSetData.get('std') else '| '
+        'std' : STD_ICON if cardSetData.get('std') else '| '
     }
 
     return card_template.format(**local_card)
@@ -248,6 +252,7 @@ def updateCardDB(card_db):
                         card_db[cleanName(name)] = _createTextForCard(card)
             except Exception as e:
                 log.debug("updateCardDB() couldn't parse file: %s", e)
+
     return card_db
 
 

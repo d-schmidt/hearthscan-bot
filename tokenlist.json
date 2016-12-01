@@ -226,5 +226,18 @@
         "id" : "KAR_044a",
         "head": 39232,
         "hpwn": 42205
+    },
+    "Jade Golem": {
+        "id" : "CFM_712_t30",
+        "atk": "1-30",
+        "cost": "1-10",
+        "hp": "1-30",
+        "head": 39232,
+        "hpwn": 49879
+    },
+    "The Storm Guardian": {
+        "id" : "CFM_324t",
+        "head": 39232,
+        "hpwn": 49774
     }
 }

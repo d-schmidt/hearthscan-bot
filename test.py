@@ -48,7 +48,7 @@ class TestScrape(unittest.TestCase):
     def test_Hearthpwn(self):
         with requests.Session() as s:
             self.assertEqual(scrape.getHearthpwnIdAndUrl('Quick Shot', 'Blackrock Mountain', 'Spell', False, s),
-                    (14459, 'http://media-Hearth.cursecdn.com/avatars/197/981/14459.png'))
+                    (14459, 'http://media-Hearth.cursecdn.com/avatars/310/105/14459.png'))
             self.assertEqual(scrape.getHearthpwnIdAndUrl('Upgrade!', 'Classic', 'Spell', False, s),
                     (638, 'http://media-Hearth.cursecdn.com/avatars/285/274/635951439216665743.png'))
 
@@ -58,7 +58,7 @@ class TestScrape(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/avatars/197/981/14459.png',
+                'cdn': 'http://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
                 'desc': 'Deal 3 damage. If your hand is empty, draw a card.',
                 'hp': None,
                 'class': 'Hunter',
@@ -99,7 +99,7 @@ class TestScrape(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/avatars/197/981/14459.png',
+                'cdn': 'http://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
                 'desc': 'Deal 3 damage. If your hand is empty, draw a card.',
                 'hp': None,
                 'class': 'Hunter',
