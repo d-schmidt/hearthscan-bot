@@ -137,8 +137,9 @@ class TestScrape(unittest.TestCase):
         self.assertEqual(scrape.loadTokens(tokens, wantedtokens), expected)
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
-    def test_JsonCards_textFormatFixer(self):
+    def test_JsonCards_loadFixer(self):
         cards, tokens = scrape.loadJsonCards()
+        # description
         self.assertEqual(cards['LOE_079']['desc'],
                 "Battlecry: Shuffle the 'Map to the Golden Monkey' into your deck.")
         self.assertEqual(cards['GVG_085']['desc'], "Taunt Divine Shield")
@@ -147,6 +148,10 @@ class TestScrape(unittest.TestCase):
         self.assertEqual(cards['BRM_013']['desc'],
                 "Deal 3 damage. If your hand is empty, draw a card.")
         self.assertEqual(cards['EX1_298']['desc'][:13], "Can't attack.")
+        self.assertEqual(cards['CFM_902']['desc'],
+                "Battlecry and Deathrattle: Summon a Jade Golem.")
+        # multi class
+        self.assertEqual(cards['CFM_902']['class'], "Lotus (DRS)")
 
 
 class TestConst(unittest.TestCase):

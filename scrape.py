@@ -65,6 +65,12 @@ hsTypeId = {
 subtypeFix = {
     'Mechanical' : 'Mech'
 }
+# multi class card group names
+multiClassGroups = {
+    'GRIMY_GOONS' : 'Goons',
+    'KABAL' : 'Kabal',
+    'JADE_LOTUS' : 'Lotus'
+}
 
 
 hearthHeadClean = re.compile(r"[^\-a-z0-9 ]")
@@ -127,7 +133,11 @@ def loadJsonCards():
             # hero power, hero and buffs are irrelevant for us
             continue
 
+
         text = card.get('text')
+        # jade golem cards have two texts
+        text = card.get('collectionText', text)
+
         if text:
             text = tagRegex.sub('', text)
             # copy bold/italic to reddit?
@@ -141,19 +151,23 @@ def loadJsonCards():
                         .replace('\u00A0', ' ') \
                         .replace('#', '')
             text = spaceRegex.sub(' ', text)
-            # jade golem cards have text twice
-            if '@' in text:
-                text = text.split("@",1)[1]
             text = text.strip()
 
         rarity = card.get('rarity', 'Token')
         rarity = 'Basic' if rarity == 'FREE' else camelCase(rarity)
         subtype = camelCase(card.get('race'))
+        clazz = camelCase(card.get('playerClass', 'Neutral'))
+
+        if 'multiClassGroup' in card and 'classes' in card:
+            multiClass = multiClassGroups[card['multiClassGroup']]
+            classes = ''.join(c[:1] for c in card['classes'])
+            clazz = '{} ({})'.format(multiClass, classes)
 
         cardData = {
+            'id': card['id'],
             'name': card['name'],
             'rarity': rarity,
-            'class': camelCase(card.get('playerClass', 'Neutral')),
+            'class': clazz,
             'set': cc.setdata[jsonToCCSet[card['set']]]['name'],
             'type': camelCase(card['type']),
             'subType': subtypeFix.get(subtype, subtype),
