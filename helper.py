@@ -23,7 +23,7 @@ subtype_template = " {subType}"
 desc_template = " - {desc}"
 card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
                     "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
-                    "^[HH](http://www.hearthhead.com/cards/{head}), "
+                    "^[HSTD](http://www.hearthstonetopdecks.com/cards/{hstd}/), "
                     "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
                 "{cost} Mana{atk_dur}{subtype}{desc}  \n")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={})"

@@ -73,12 +73,12 @@ multiClassGroups = {
 }
 
 
-hearthHeadClean = re.compile(r"[^\-a-z0-9 ]")
+hstdClean = re.compile(r"[^\-a-z0-9 ]")
 
-def getHearthHeadId(name, type, session):
-    log.debug("getHearthHeadId() getting %s from hearthhead", name)
-    # HearthHead does now work without id
-    return hearthHeadClean.sub('', name.lower()).replace(' ', '-')
+def getHstdId(name, type, session):
+    log.debug("getHstdId() getting %s from hearthstonetopdecks", name)
+    # Hearthstone Top Decks does now work without id
+    return hstdClean.sub('', name.lower()).replace(' ', '-')
 
 
 hpIdRegex = re.compile(r"/cards/(\d+)-.*")
@@ -205,7 +205,7 @@ def loadSets(allcards = {}, sets = cc.setdata.keys()):
     resultCards = {}
 
     with requests.Session() as session:
-        with requests.Session() as hhSession:
+        with requests.Session() as hstdSession:
             for setid in sets:
                 setname = cc.setdata[setid]['name']
                 filename = "{} {}.json".format(setid, setname)
@@ -224,11 +224,11 @@ def loadSets(allcards = {}, sets = cc.setdata.keys()):
                                                             False,
                                                             session)
 
-                        hhid = getHearthHeadId(card['name'], card['type'], hhSession)
+                        hstdid = getHstdId(card['name'], card['type'], hstdSession)
 
                         card['cdn'] = image
                         card['hpwn'] = hpid
-                        card['head'] = hhid
+                        card['hstd'] = hstdid
                         currentSet[card['name']] = card
 
                     saveCardsAsJson(filename, currentSet)
@@ -253,7 +253,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
             card = tokens[ids['id']]
             card['cdn'] = image
             card['hpwn'] = ids['hpwn']
-            card['head'] = getHearthHeadId(card['name'], "ignored", "ignored")
+            card['hstd'] = getHstdId(card['name'], "ignored", "ignored")
 
             # since jade golem: overwrite scraped stats with prepared ones
             card['atk'] = ids.get('atk', card['atk'])
