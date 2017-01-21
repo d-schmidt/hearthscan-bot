@@ -11,7 +11,7 @@ To see the bot in action send a PM containing `[[Ragnaros]]` to [/u/hearthscan-b
 To run the offline unit tests; clone this repo and:
 ```
 pip install requests
-pip install praw
+pip install praw==3.6.0
 pip install lxml
 
 copy credentials.py.example credentials.py
