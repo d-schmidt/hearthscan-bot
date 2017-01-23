@@ -17,8 +17,8 @@
         $scope.nameI = 'Target Dummy';
         $scope.nameChanged = function () {
             $scope.nameI = $scope.name ? $scope.name.replace(':', '') : 'Target Dummy';
-            $scope.head = $scope.nameI.toLowerCase().replace(/ /g, '-').replace(/'/g , '');
-            $scope.headI = $scope.head;
+            $scope.hstd = $scope.nameI.toLowerCase().replace(/ /g, '-').replace(/'/g , '');
+            $scope.hstdI = $scope.hstd;
         };
         $scope.manaI = 0;
         $scope.manaChanged = function () {
@@ -44,9 +44,9 @@
         $scope.hpwnChanged = function () {
             $scope.hpwnI = $scope.hpwn === null ? 12288 : $scope.hpwn;
         };
-        $scope.headI = 'target-dummy';
-        $scope.headChanged = function () {
-            $scope.headI = ! $scope.head ? 'target-dummy' : $scope.head;
+        $scope.hstdI = 'target-dummy';
+        $scope.hstdChanged = function () {
+            $scope.hstdI = ! $scope.hstd ? 'target-dummy' : $scope.hstd;
         };
         $scope.subtypeI = 'null';
         $scope.subtypeChanged = function () {
@@ -118,12 +118,12 @@
                 <input type="number" class="form-control" ng-model="hpwn" placeholder="hpwn" ng-change="hpwnChanged()">
             </div>
 
-            <label class="col-sm-2 control-label">head</label>
+            <label class="col-sm-2 control-label">hstd</label>
             <div class="col-sm-1">
-                <a class="btn btn-default" href="http://hearthstone.services.zam.com/v1/card/autocomplete/{{name}}" role="button" ng-disabled="! name" target="_blank">Hearthhead</a>
+                <a class="btn btn-default" href="http://hearthstone.services.zam.com/v1/card/autocomplete/{{name}}" role="button" ng-disabled="! name" target="_blank">HSTD</a>
             </div>
             <div class="col-sm-9">
-                <input type="text" class="form-control" ng-model="head" placeholder="head" ng-change="headChanged()">
+                <input type="text" class="form-control" ng-model="hstd" placeholder="hstd" ng-change="hstdChanged()">
             </div>
 
             <label class="col-sm-2 control-label">Rarity</label>
@@ -191,7 +191,7 @@
         "class": "{{class}}",
         "cost": {{manaI}},
         "desc": {{descI}},
-        "head": "{{headI}}",
+        "hstd": "{{hstdI}}",
         "hp": {{hpI}},
         "hpwn": {{hpwnI}},
         "name": "{{name}}",
