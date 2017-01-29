@@ -28,7 +28,7 @@ The script pipes startup errors to `std.txt` and `err.txt`. The bot logs to `bot
 
 You will require json-data for the bot to work. Start the `scrape.py` and wait or create the two data files yourself.
 Create a `cards.json` and a `tokens.json` and add a card in the format:
-```
+``` JSON
 {
   "Abomination": {
     "atk": 4,
@@ -55,7 +55,7 @@ Delete the `lockfile.lock` to stop the bot gracefully.
 
 ## Learning from this bot
 A good starting point is `hearthscan-bot.py/main()`. I've tried to comment the code and use self explaining names. I know the naming format is inconsistent, sorry about that.  
-There are nice people out there answering questions ([/r/learnpython](https://www.reddit.com/r/learnpython), [/r/redditdev](https://www.reddit.com/r/redditdev)) and the [PRAW documentation](https://praw.readthedocs.io/en/latest/tutorials/comments.html) is decent.
+There are nice people out there answering questions ([/r/learnpython](https://www.reddit.com/r/learnpython), [/r/redditdev](https://www.reddit.com/r/redditdev)) and the [PRAW documentation](http://praw.readthedocs.io/en/v3.6.1/pages/comment_parsing.html) is decent.
 
 ## License
 All code contained here is licensed by [MIT](https://github.com/d-schmidt/hearthscan-bot/blob/master/LICENSE).
