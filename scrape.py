@@ -133,7 +133,6 @@ def loadJsonCards():
             # hero power, hero and buffs are irrelevant for us
             continue
 
-
         text = card.get('text')
         # jade golem cards have two texts
         text = card.get('collectionText', text)
@@ -193,7 +192,7 @@ def saveCardsAsJson(filename, cards):
 
 
 # default loop all ['02','06','08', ...]
-def loadSets(allcards = {}, sets = cc.setdata.keys()):
+def loadSets(allcards = {}, sets = setids.keys()):
     # grp by set
     setcarddata = {}
 

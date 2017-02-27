@@ -16,7 +16,7 @@
 
         $scope.nameI = 'Target Dummy';
         $scope.nameChanged = function () {
-            $scope.nameI = $scope.name ? $scope.name.replace(':', '') : 'Target Dummy';
+            $scope.nameI = $scope.name ? $scope.name.replace(/:/g, '') : 'Target Dummy';
             $scope.head = $scope.nameI.toLowerCase().replace(/ /g, '-').replace(/'/g , '');
             $scope.headI = $scope.head;
         };
@@ -34,7 +34,7 @@
         };
         $scope.descI = 'null';
         $scope.descChanged = function () {
-            $scope.descI = ! $scope.desc ? 'null' : '"' + $scope.desc.replace('"', '\\"') + '"';
+            $scope.descI = ! $scope.desc ? 'null' : '"' + $scope.desc.replace(/"/g, '\\"') + '"';
         };
         $scope.cdnI = 'http://media-hearth.cursecdn.com/avatars/149/57/12288.png';
         $scope.cdnChanged = function () {
@@ -140,7 +140,7 @@
 
             <label class="col-sm-2 control-label">set</label>
             <div class="col-sm-10">
-                <select ng-model="set" class="form-control" name="set" ng-init="set = 'Mean Streets of Gadgetzan'">
+                <select ng-model="set" class="form-control" name="set" ng-init="set = 'Journey to Un'Goro'">
                     <option value="Basic">Basic</option>
                     <option value="Classic">Classic</option>
                     <option value="Reward">Reward</option>
@@ -153,6 +153,7 @@
                     <option value="Whispers of the Old Gods">Whispers of the Old Gods</option>
                     <option value="One Night in Karazhan">One Night in Karazhan</option>
                     <option value="Mean Streets of Gadgetzan">Mean Streets of Gadgetzan</option>
+                    <option value="Journey to Un'Goro">Journey to Un'Goro</option>
                 </select>
             </div>
 
@@ -172,6 +173,7 @@
                     <option value="Beast">Beast</option>
                     <option value="Demon">Demon</option>
                     <option value="Dragon">Dragon</option>
+                    <option value="Elemental">Elemental</option>
                     <option value="Mech">Mech</option>
                     <option value="Murloc">Murloc</option>
                     <option value="Pirate">Pirate</option>

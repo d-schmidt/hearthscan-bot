@@ -38,6 +38,8 @@ INFO_MSG_TMPL = 'info_msg.templ'
 # Standard legal icon
 # 2016 octopus because tentacles
 STD_ICON = '\U0001F419 '
+# 2017 elephant because mammoth
+NEXT_STD_ICON = '\U0001F418 '
 
 # global used to detect temp file changes
 start_filetime = 0
@@ -228,7 +230,7 @@ def _createTextForCard(card):
         'cdn' : card['cdn'],
         'atk_dur' : atk_dur,
         'subtype' : subtype_template.format(subType=card['subType']) if card['subType'] else '',
-        'std' : STD_ICON if cardSetData.get('std') else '| '
+        'std' : STD_ICON if cardSetData.get('std') else NEXT_STD_ICON if cardSetData.get('unreleased') else '| '
     }
 
     return card_template.format(**local_card)
