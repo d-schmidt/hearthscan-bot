@@ -1,0 +1,6 @@
+[bot]
+client_id=yourClientId
+client_secret=YourClientSecret
+refresh_token=YourRefreshToken
+
+user_agent=praw:hearthscan-example:1.0 (by /u/replace_me)

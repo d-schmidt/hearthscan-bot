@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import json
 import logging as log
@@ -9,7 +9,7 @@ import re
 from lxml.html import fromstring
 import requests
 
-import card_constants as cc
+from constants import Constants
 
 """
 Please note:
@@ -54,7 +54,8 @@ setids = {
     '12' : 107
 }
 # set names to hs internal set ids
-setNameIds = dict((cc.setdata[ccid]['name'], hsid) for ccid, hsid in setids.items())
+cc = Constants()
+setNameIds = dict((cc.sets[ccid]['name'], hsid) for ccid, hsid in setids.items())
 # hs internal cardtype ids
 hsTypeId = {
     'Minion' : '4',
@@ -167,7 +168,7 @@ def loadJsonCards():
             'name': card['name'],
             'rarity': rarity,
             'class': clazz,
-            'set': cc.setdata[jsonToCCSet[card['set']]]['name'],
+            'set': cc.sets[jsonToCCSet[card['set']]]['name'],
             'type': camelCase(card['type']),
             'subType': subtypeFix.get(subtype, subtype),
             'cost': card.get('cost', 0),
@@ -206,7 +207,7 @@ def loadSets(allcards = {}, sets = setids.keys()):
     with requests.Session() as session:
         with requests.Session() as hhSession:
             for setid in sets:
-                setname = cc.setdata[setid]['name']
+                setname = cc.sets[setid]['name']
                 filename = "{} {}.json".format(setid, setname)
 
                 if os.path.isfile(filename):

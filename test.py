@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import json
 import logging
@@ -8,19 +8,27 @@ import sys
 import time
 import unittest
 from unittest.mock import MagicMock
+from unittest.mock import call
+import uuid
 
 import praw
+from praw.config import Config
+import prawcore
 import requests
 
 import scrape
-import card_constants as cc
-import commentDB
 # I didn't know this before creating the test
-hearthscan_bot = __import__("hearthscan-bot")
-import helper
-import special_cards as specials
-import spelling
+hsbot = __import__("hearthscan-bot")
+
+import commentDB
 import credentials
+import formatter
+from cardDB import CardDB
+from constants import Constants
+from helper import HSHelper
+from helper import SpellChecker
+from praww import RedditBot
+from praww import _SeenDB
 
 
 # start with 'test.py online' to start slow tests requiring internet and working credentials
@@ -28,28 +36,62 @@ SKIP_INTERNET_TESTS = len(sys.argv) < 2 or sys.argv[1] != "online"
 
 
 def removeFile(path):
-    """ error free file delete """
+    """error free file delete"""
     if os.path.isfile(path):
         os.remove(path)
 
 
+class TempJson():
+    """context aware, self deleting json file creator"""
+    def __init__(self, obj):
+        self.obj = obj
+        self.file = str(uuid.uuid4()) + '.json'
+
+    def __enter__(self):
+        with open(self.file, "w", newline="\n") as f:
+            json.dump(self.obj, f, sort_keys=True, indent=2, separators=(',', ':'))
+        return self.file
+
+    def __exit__(self, type, value, traceback):
+        removeFile(self.file)
+
+class TempFile():
+    """context aware, self deleting file creator"""
+    def __init__(self, suffix):
+        self.file = str(uuid.uuid4()) + '.' + suffix
+
+    def __enter__(self):
+        return self.file
+
+    def __exit__(self, type, value, traceback):
+        removeFile(self.file)
+
+
 class TestScrape(unittest.TestCase):
+    """scrape.py"""
 
     # @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_hearthhead(self):
         with requests.Session() as s:
-            self.assertEqual(scrape.getHearthHeadId('Quick Shot', 'Spell', s), 'quick-shot')
-            self.assertEqual(scrape.getHearthHeadId('Undercity Valiant', 'Minion', s), 'undercity-valiant')
-            self.assertEqual(scrape.getHearthHeadId('Gorehowl', 'Weapon', s), 'gorehowl')
-            self.assertEqual(scrape.getHearthHeadId('V-07-TR-0N', 'Minion', s), 'v-07-tr-0n')
-            self.assertEqual(scrape.getHearthHeadId("Al'Akir the Windlord", 'Minion', s), 'alakir-the-windlord')
+            self.assertEqual(scrape.getHearthHeadId('Quick Shot', 'Spell', s),
+                'quick-shot')
+            self.assertEqual(scrape.getHearthHeadId('Undercity Valiant',
+                'Minion', s), 'undercity-valiant')
+            self.assertEqual(scrape.getHearthHeadId('Gorehowl', 'Weapon', s),
+                'gorehowl')
+            self.assertEqual(scrape.getHearthHeadId('V-07-TR-0N',
+                'Minion', s), 'v-07-tr-0n')
+            self.assertEqual(scrape.getHearthHeadId("Al'Akir the Windlord",
+                'Minion', s), 'alakir-the-windlord')
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_Hearthpwn(self):
         with requests.Session() as s:
-            self.assertEqual(scrape.getHearthpwnIdAndUrl('Quick Shot', 'Blackrock Mountain', 'Spell', False, s),
+            self.assertEqual(scrape.getHearthpwnIdAndUrl('Quick Shot',
+                    'Blackrock Mountain', 'Spell', False, s),
                     (14459, 'http://media-Hearth.cursecdn.com/avatars/310/105/14459.png'))
-            self.assertEqual(scrape.getHearthpwnIdAndUrl('Upgrade!', 'Classic', 'Spell', False, s),
+            self.assertEqual(scrape.getHearthpwnIdAndUrl('Upgrade!',
+                    'Classic', 'Spell', False, s),
                     (638, 'http://media-Hearth.cursecdn.com/avatars/285/274/635951439216665743.png'))
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
@@ -155,16 +197,60 @@ class TestScrape(unittest.TestCase):
 
 
 class TestConst(unittest.TestCase):
+    """constants.py constants.json"""
 
     def test_ScrapeConstSetLength(self):
         # easy to miss one when a new set is added
-        self.assertEqual(len(scrape.jsonToCCSet), len(cc.setdata))
-        self.assertEqual(len(scrape.setids), len(cc.setdata))
-        self.assertEqual(len(scrape.setNameIds), len(cc.setdata))
-        self.assertEqual(len(cc.setorder), len(cc.setdata))
+        c = Constants()
+        self.assertEqual(len(scrape.jsonToCCSet), len(c.sets),
+                'okay to fail during spoiler season')
+        self.assertEqual(len(scrape.setids), len(c.sets))
+        self.assertEqual(len(scrape.setNameIds), len(c.sets))
+
+    def test_SpecialReplacements(self):
+
+        constantJson = {
+            'sets' : { },
+            'specials' : {
+                "dreamcards" : ["dream", "emeralddrake", "laughingsister",
+                        "nightmare", "yseraawakens"]
+            },
+            'alternative_names' : { }
+        }
+
+        with TempJson(constantJson) as json:
+            c = Constants(json)
+            # tests replace and maxlength
+            replaced = c.replaceSpecial(["111", "dreamcards", "333", "444"])
+
+            self.assertEqual(replaced, ["111",
+                                         "dream",
+                                         "emeralddrake",
+                                         "laughingsister",
+                                         "nightmare",
+                                         "yseraawakens",
+                                         "333"])
+
+    def test_AlternativeReplacements(self):
+
+        constantJson = {
+            'sets' : { },
+            'specials' : { },
+            'alternative_names' : {
+                'carda' : 'ca',
+                'cardb' : ['cb', 'cbb']
+            }
+        }
+
+        with TempJson(constantJson) as json:
+            c = Constants(json)
+            self.assertEqual(c.translateAlt("ca"), "carda")
+            self.assertEqual(c.translateAlt("cb"), "cardb")
+            self.assertEqual(c.translateAlt("cc"), "cc")
 
 
 class TestCommentDB(unittest.TestCase):
+    """commentDB.py"""
 
     testDBName = "test.db"
 
@@ -172,193 +258,305 @@ class TestCommentDB(unittest.TestCase):
         removeFile(self.testDBName)
 
         db = commentDB.DB(self.testDBName)
-        db.insert("abc", "a card")
 
+        self.assertFalse(db.exists("abc", ["a card"]))
+        # inserted on exists
         self.assertTrue(db.exists("abc", ["a card"]))
+
         self.assertFalse(db.exists("abc", ["b card"]))
+        self.assertTrue(db.exists("abc", ["a card", "b card"]))
+
+        self.assertFalse(db.exists("abc", ["a card", "b card", "c card"]))
         self.assertFalse(db.exists("123", ["a card"]))
-        self.assertFalse(db.exists("abc", ["a card", "b card"]))
 
         db.close()
         removeFile(self.testDBName)
 
-    def test_CreateFindFailSeenComment(self):
-        removeFile(self.testDBName)
 
-        db = commentDB.DB(self.testDBName)
-        db.addSeenComment("aaa")
+class TestPRAWW(unittest.TestCase):
+    """praww.py"""
 
-        self.assertTrue(db.isSeenComment("aaa"))
-        self.assertFalse(db.isSeenComment("bbb"))
-        db.cleanupSeenComment(0)
-        self.assertFalse(db.isSeenComment("aaa"))
+    @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
+    def test_RedditAuth(self):
+        # will fail for missing/bad praw.ini
+        RedditBot([], newLimit=1, sleep=0, connectAttempts=1) \
+                .run(lambda: removeFile('lockfile.lock'))
 
-        db.close()
-        removeFile(self.testDBName)
+    @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
+    def test_RedditAuthFail(self):
 
-    def test_CreateFindFailSeenSubmission(self):
-        removeFile(self.testDBName)
+        def raiseError():
+            raise Exception('unexpected')
 
-        db = commentDB.DB(self.testDBName)
-        db.addSeenSubmission("aaa")
+        try:
+            if os.path.isfile('praw.ini'):
+                os.rename('praw.ini', '_praw.ini')
+            with open('praw.ini', 'w', newline="\n") as f:
+                f.write('[testbot]\n')
+                f.write('client_id=badid\n')
+                f.write('client_secret=badsecret\n')
+                f.write('refresh_token=badtoken\n')
+                f.write('user_agent=praw:hearthscan-test:1.0 (by /u/b0ne123)')
 
-        self.assertTrue(db.isSeenSubmission("aaa"))
-        self.assertFalse(db.isSeenSubmission("bbb"))
-        db.cleanupSeenSubmission(0)
-        self.assertFalse(db.isSeenSubmission("aaa"))
+            Config.CONFIG = None
 
-        db.close()
-        removeFile(self.testDBName)
+            with self.assertRaises(prawcore.exceptions.ResponseException):
+                RedditBot([], newLimit=1, sleep=0, connectAttempts=1,
+                            iniSite='testbot') \
+                        .run(raiseError)
+        finally:
+            removeFile('praw.ini')
+            if os.path.isfile('_praw.ini'):
+                os.rename('_praw.ini', 'praw.ini')
+
+
+    def test_seenDB(self):
+        with TempFile('db') as dbfile:
+            db = _SeenDB(dbfile)
+
+            class Thing():
+                fullname = "t1_thingid"
+
+            thing = Thing()
+            self.assertFalse(db.isSeen(thing))
+            self.assertTrue(db.isSeen(thing))
+            db.cleanup(secondsOld = 0)
+            self.assertFalse(db.isSeen(thing))
+            self.assertTrue(db.isSeen(thing))
+            db.close()
+
+
+class TestCardDB(unittest.TestCase):
+    """cardDB.py"""
+
+    def test_CleanName(self):
+        self.assertEqual(CardDB.cleanName('Ab: 1c'), 'abc')
+
+    def test_CardDB(self):
+        cardDict = {
+            'Quick Shot': {
+                'type': 'Spell',
+                'hpwn': 14459,
+                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'desc': 'Deal 3 damage. Draw a card.',
+                'hp': 1,
+                'class': 'Hunter',
+                'subType': 'Mech',
+                'set': 'Basic',
+                'rarity': 'Common',
+                'atk': 3,
+                'head': 'quick-shot',
+                'name': 'Quick Shot',
+                'cost': 2
+            }
+        }
+
+        constantDict = {
+            'sets' : { '01' : {'name' : 'Basic'} },
+            'specials' : { },
+            'alternative_names' : { }
+        }
+
+        with TempJson(constantDict) as constJson, \
+                TempJson(cardDict) as cardJson, \
+                TempJson({}) as emptyJson:
+
+            c = Constants(constJson)
+            db = CardDB(c, cardJson, emptyJson, emptyJson)
+
+            self.assertEqual(db.cardNames(), ['quickshot'])
+            self.assertEqual(db.tokens, [])
+            self.assertTrue('quickshot' in db)
+            self.assertFalse('slowshot' in db)
+            self.assertTrue('Quick Shot' in db['quickshot'])
+
+    def test_CardDBTokens(self):
+        cardDict = {
+            'Quick Shot': {
+                'type': 'Spell',
+                'hpwn': 14459,
+                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'desc': 'Deal 3 damage. Draw a card.',
+                'hp': 1,
+                'class': 'Hunter',
+                'subType': 'Mech',
+                'set': 'Basic',
+                'rarity': 'Token',
+                'atk': 3,
+                'head': 'quick-shot',
+                'name': 'Quick Shot',
+                'cost': 2
+            }
+        }
+
+        constantDict = {
+            'sets' : { '01' : {'name' : 'Basic'} },
+            'specials' : { },
+            'alternative_names' : { }
+        }
+
+        with TempJson(constantDict) as constJson, \
+                TempJson(cardDict) as cardJson, \
+                TempJson({}) as emptyJson:
+
+            c = Constants(constJson)
+            db = CardDB(c, emptyJson, cardJson, emptyJson)
+
+            self.assertEqual(db.cardNames(), ['quickshot'])
+            self.assertEqual(db.tokens, ['quickshot'])
+            self.assertTrue('quickshot' in db)
+            self.assertTrue('Quick Shot' in db['quickshot'])
+
+    def test_RefreshCardDB(self):
+        cardDict = {
+            'Quick Shot': {
+                'type': 'Spell',
+                'hpwn': 14459,
+                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'desc': 'Deal 3 damage. Draw a card.',
+                'hp': 1,
+                'class': 'Hunter',
+                'subType': "Mech",
+                'set': 'Basic',
+                'rarity': 'Common',
+                'atk': 3,
+                'head': 'quick-shot',
+                'name': 'Quick Shot',
+                'cost': 2
+            }
+        }
+
+        constantDict = {
+            'sets' : { '01' : {'name' : 'Basic'} },
+            'specials' : { },
+            'alternative_names' : { }
+        }
+
+        with TempJson(constantDict) as constJson, \
+                TempJson(cardDict) as cardJson, \
+                TempJson({}) as emptyJson:
+
+            c = Constants(constJson)
+            db = CardDB(c, emptyJson, emptyJson, 'notexisting.json')
+
+            self.assertEqual(db.cardNames(), [])
+            self.assertFalse('quickshot' in db)
+
+            db.tempJSON = cardJson
+            db.refreshTemp()
+
+            self.assertTrue('quickshot' in db)
+            self.assertTrue('Quick Shot' in db['quickshot'])
 
 
 class TestHelper(unittest.TestCase):
-
-    @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
-    def test_Reddit(self):
-        # will fail for missing/bad reddit auth
-        r, next = helper.initReddit()
-        helper.refreshReddit(r)
-
-    @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
-    def test_RedditFail(self):
-        self.assertRaises(praw.errors.HTTPException, helper.initReddit,
-                            "41234563-GFkHJ2bujhdVB265wST56bCCYTH")
-
-
-    def test_RefreshFail(self):
-        newReddit = praw.Reddit(user_agent="python/unittest/new_dummy")
-        newReddit.send_message = MagicMock()
-        helper.initReddit = MagicMock(return_value=(newReddit, 10))
-
-        refresh = praw.Reddit(user_agent="python/unittest/old_dummy")
-        refresh.refresh_access_information = MagicMock(side_effect=praw.errors.Forbidden(None))
-
-        result, next = helper.refreshReddit(refresh)
-        self.assertEqual(next, 10)
-        self.assertIs(result, newReddit)
-
-
-    def test_Cleaner(self):
-        self.assertEqual(helper.cleanName("Ab: 1c"), "abc")
+    """helper.py HSHelper"""
 
     def test_QuoteCleaner(self):
-        self.assertEqual(helper.removeQuotes("> b\na\n> b\nc"), "a c")
-        self.assertEqual(helper.removeQuotes("> abc"), "")
+        self.assertEqual(HSHelper.removeQuotes("> b\na\n> b\nc"), "a c")
+        self.assertEqual(HSHelper.removeQuotes("> abc"), "")
 
-    def test_UpdateCardDB(self):
-        info = {'Quick Shot': {
-                        'type': 'Spell',
-                        'hpwn': 14459,
-                        'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
-                        'desc': 'Deal 3 damage. Draw a card.',
-                        'hp': 1,
-                        'class': 'Hunter',
-                        'subType': "Mech",
-                        'set': 'Blackrock Mountain',
-                        'rarity': 'Common',
-                        'atk': 3,
-                        'head': 'quick-shot',
-                        'name': 'Quick Shot',
-                        'cost': 2
-                        }
-                    }
+    def test_getCardsFromComment(self):
 
-        helper.TEMP_FILE_NAME = 'dummytmp.json'
-        with open(helper.TEMP_FILE_NAME, "w", newline="\n") as f:
-            json.dump(info, f, sort_keys=True, indent=2, separators=(',', ':'))
-        # this is tested
-        db = helper.updateCardDB({})
+        cardDict = {
+            'Quick Shot': {
+                'type': 'Spell',
+                'hpwn': 14459,
+                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'desc': 'Deal 3 damage. Draw a card.',
+                'hp': 1,
+                'class': 'Hunter',
+                'subType': "Mech",
+                'set': 'Basic',
+                'rarity': 'Common',
+                'atk': 3,
+                'head': 'quick-shot',
+                'name': 'Quick Shot',
+                'cost': 2
+            }
+        }
 
-        removeFile(helper.TEMP_FILE_NAME)
-        self.assertEqual(len(db), 1)
+        constantDict = {
+            'sets' : { '01' : {'name' : 'Basic'} },
+            'specials' : { },
+            'alternative_names' : { "quickshot" : "qs" }
+        }
 
+        with TempJson(constantDict) as constJson, \
+                TempJson(cardDict) as cardJson, \
+                TempJson({}) as emptyJson:
 
-    def test_createCardDB(self):
-        info = {'Quick Shot': {
-                    'type': 'Spell',
-                    'hpwn': 14459,
-                    'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
-                    'desc': 'Deal 3 damage. Draw a card.',
-                    'hp': 1,
-                    'class': 'Hunter',
-                    'subType': "Mech",
-                    'set': 'Blackrock Mountain',
-                    'rarity': 'Common',
-                    'atk': 3,
-                    'head': 'quick-shot',
-                    'name': 'Quick Shot',
-                    'cost': 2
-                    }
-                }
+            c = Constants(constJson)
+            db = CardDB(c, cardJson, emptyJson, emptyJson)
+            helper = HSHelper(db, c)
 
-        cleanName = helper.cleanName("Quick Shot")
-        expected = ('* **[Quick Shot](http://media-Hearth.cursecdn.com/14459.png)**'
-                        ' Hunter Spell Common BRM \U0001f419'
-                        ' ^[HP](http://www.hearthpwn.com/cards/14459),'
-                        ' ^[HH](http://www.hearthhead.com/cards/quick-shot),'
-                        ' ^[Wiki](http://hearthstone.gamepedia.com/Quick_Shot)  \n'
-                    '2 Mana 3/1 Mech - Deal 3 damage. Draw a card.  \n')
-        self.assertEqual(helper._createCardDB(info.items())[cleanName], expected)
+            # simple find
+            text = '[[test]]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(cards, ['test'], 'simple card')
+            self.assertEqual(len(text), 0, 'unknown card')
+            # two cards, cleanName
+            text = ' [[hello]] world [[Ab 123c]] '
+            cards, text = helper.parseText(text)
+            self.assertEqual(cards, ['hello', 'abc'], 'multi cards, clean')
+            self.assertEqual(len(text), 0, 'unknown cards')
+            # spell check
+            text = '[[Quic Shot]]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(cards, ['quickshot'], 'simple card')
+            self.assertTrue('Quick Shot' in text)
+            # alternative name
+            text = '[[QS]]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(cards, ['quickshot'], 'alternative name')
+            self.assertTrue('Quick Shot' in text)
+            # test card limit
+            cardsNames = [chr(97 + i) * 2 for i in range(c.CARD_LIMIT + 1)]
+            text = '[[' + ']][['.join(cardsNames) +']]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(cards, cardsNames[:-1],
+                    'card limit')
+            self.assertEqual(len(text), 0, 'unknown cards')
+            # test short text
+            text = '[[a]]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(len(cards), 0, 'no cards')
+            self.assertEqual(len(text), 0, 'no cards')
+            # test no valid text
+            text = '[[123]] [abc]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(len(cards), 0, 'no valid text')
+            self.assertEqual(len(text), 0, 'no valid text')
+            # card too long
+            text = '[[123456789012345678901234567890abc]]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(len(cards), 0, 'card too long')
+            self.assertEqual(len(text), 0, 'card too long')
 
-    def test_getCardsFromComment_success(self):
-        text = "[[test]] [[Ab 123c]]"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, ["test", "abc"])
-        text = "[[ABC]]"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, ["abc"])
-        text = "[[rag]]"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, ["ragnarosthefirelord"])
-
-    def test_getCardsFromComment_success_spellcheck(self):
-        checker = spelling.Checker(["ragnaros"])
-        text = "[[ragnaro]]"
-        result = helper.getCardsFromComment(text, checker)
-        self.assertEqual(result, ["ragnarosthefirelord"])
-        text = "[[raknaros]]"
-        result = helper.getCardsFromComment(text, checker)
-        self.assertEqual(result, ["ragnarosthefirelord"])
-        text = "[[rangaros]]"
-        result = helper.getCardsFromComment(text, checker)
-        self.assertEqual(result, ["ragnarosthefirelord"])
-        text = "[[ragnar]]"
-        result = helper.getCardsFromComment(text, checker)
-        self.assertEqual(result, ["ragnar"])
-
-    def test_getCardsFromComment_textTooShort(self):
-        text = "[[a]]"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, [])
-
-    def test_getCardsFromComment_nameUseless(self):
-        text = "[[123 456]]"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, [])
-
-    def test_getCardsFromComment_notDoubleBracket(self):
-        text = "[abc] test text"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, [])
-
-    def test_getCardsFromComment_nameTooLong(self):
-        text = "[[123456789012345678901234567890abc]] test text"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, [])
-
-    def test_getCardsFromComment_limitIsSeven(self):
-        text = "[[aaa]] [[bbb]] [[ccc]] [[ddd]] [[eee]] [[fff]] [[ggg]] [[hhh]]"
-        result = helper.getCardsFromComment(text, spelling.Checker([]))
-        self.assertEqual(result, ["aaa", "bbb", "ccc", "ddd", "eee", "fff", "ggg"])
 
     def test_loadInfoTempl_simple(self):
-        helper.INFO_MSG_TMPL = 'dummytmpl.json'
-        with open(helper.INFO_MSG_TMPL, "w", newline="\n") as f:
-            f.write('{user} {alts} {tokens} {special}')
 
-        loadedTempl = helper.loadInfoTempl(['sb', 'sa'], ['aa', 'ab'], ['ta', 'tb'])
-        removeFile(helper.INFO_MSG_TMPL)
-        self.assertEqual(loadedTempl, '{user} aa, ab ta, tb sa, sb')
+        constantDict = {
+            'sets' : { },
+            'specials' : { 'dream' : ['no'] },
+            'alternative_names' : { 'quickshot' : 'qs' }
+        }
+
+        with TempJson(constantDict) as constJson, \
+                TempJson({}) as emptyJson, \
+                TempFile('template') as templateFile:
+
+            with open(templateFile, 'w', newline="\n") as f:
+                f.write('{user}-{alts}-{tokens}-{special}')
+
+            formatter.INFO_MSG_TMPL = templateFile
+
+            c = Constants(constJson)
+            db = CardDB(c, emptyJson, emptyJson, emptyJson)
+            helper = HSHelper(db, c)
+
+            info = helper.getInfoText('user')
+            self.assertEqual(info, 'user-qs--dream')
 
 
     def test_JsonFiles(self):
@@ -373,120 +571,11 @@ class TestHelper(unittest.TestCase):
                 json.load(infofile)
 
 
-class TestBot(unittest.TestCase):
-
-    def test_AnswerMail_UserOnSpam(self):
-        r = praw.Reddit(user_agent="python/unittest/dummy")
-
-        raw2 = ('{ "author": "Mr_X", "replies": "", '
-               '"distinguished": null, "subreddit": null, '
-               '"id": "abc", "subject": "test", "was_comment": false }')
-        msg = praw.objects.Message.from_api_response(r, json.loads(raw2))
-        msg.mark_as_read = MagicMock()
-        msg.reply = MagicMock()
-        r.get_unread = MagicMock(return_value = [msg])
-
-        # fails on msg.body if skip for user on spam is broken
-        hearthscan_bot.answerPMs(r, {"Mr_X" : 1234}, {}, spelling.Checker([]))
-        msg.mark_as_read.assert_any_call()
-        msg.reply.assert_not_called()
-
-    def test_AnswerMail_WasCommentNotMsg(self):
-        r = praw.Reddit(user_agent="python/unittest/dummy")
-
-        raw2 = ('{ "replies": "", '
-               '"distinguished": null, "subreddit": null, '
-               '"id": "abc", "was_comment": true }')
-        msg = praw.objects.Message.from_api_response(r, json.loads(raw2))
-        msg.mark_as_read = MagicMock()
-        msg.reply = MagicMock()
-        r.get_unread = MagicMock(return_value = [msg])
-
-        # fails on msg.subreddit is accessed if skip for user on spam is broken
-        hearthscan_bot.answerPMs(r, {}, {}, spelling.Checker([]))
-        msg.mark_as_read.assert_any_call()
-        assert msg.reply.call_count == 0
-
-    def test_AnswerMail_Success(self):
-        r = praw.Reddit(user_agent="python/unittest/dummy")
-
-        raw = ('{ "body": "[[quick shot]]", "author": "Mr_X", "replies": "", '
-               '"distinguished": null, "subreddit": null, '
-               '"id": "abc", "subject": "test", "was_comment": false }')
-        msg = praw.objects.Message.from_api_response(r, json.loads(raw))
-        msg.mark_as_read = MagicMock()
-        msg.reply = MagicMock()
-        r.get_unread = MagicMock(return_value = [msg])
-
-        db = {"quickshot": "dummy"}
-        expected = "dummy" + helper.signature
-
-        hearthscan_bot.answerPMs(r, {}, db, spelling.Checker([]))
-        msg.mark_as_read.assert_any_call()
-        msg.reply.assert_called_once_with(expected)
-
-    def test_Forward_PM(self):
-        r = praw.Reddit(user_agent="python/unittest/dummy")
-
-        raw = ('{ "body": "no card here", "author": "Mr_X", "replies": "", '
-               '"distinguished": null, "subreddit": null, '
-               '"id": "abc", "subject": "test", "was_comment": false }')
-        msg = praw.objects.Message.from_api_response(r, json.loads(raw))
-        msg.mark_as_read = MagicMock()
-        msg.reply = MagicMock()
-        r.get_unread = MagicMock(return_value = [msg])
-        r.send_message = MagicMock()
-
-        hearthscan_bot.answerPMs(r, {}, {}, spelling.Checker([]))
-        msg.mark_as_read.assert_any_call()
-        assert msg.reply.call_count == 0
-        r.send_message.assert_called_once_with(credentials.admin_username,
-                           '#abc /u/Mr_X: "test"',
-                           "no card here")
-
-    def test_Forward_PM_Answer(self):
-        r = praw.Reddit(user_agent="python/unittest/dummy")
-
-        raw = ('{ "body": "answer text", "author": "' \
-                + credentials.admin_username \
-                + '", "replies": "", '
-               '"distinguished": null, "subreddit": null, '
-               '"id": "def", "subject": "re: #abc /u/Mr_X...", "was_comment": false }')
-        msg = praw.objects.Message.from_api_response(r, json.loads(raw))
-        msg.mark_as_read = MagicMock()
-        msg.reply = MagicMock()
-        # getting all new
-        r.get_unread = MagicMock(return_value = [msg])
-
-        raw_original = ('{ "body": "no card here", "author": "Mr_X", "replies": "", '
-                        '"distinguished": null, "subreddit": null, '
-                        '"id": "abc", "subject": "test", "was_comment": false }')
-        msg_original = praw.objects.Message.from_api_response(r, json.loads(raw_original))
-        msg_original.reply = MagicMock()
-        # get old to send answer to
-        r.get_message = MagicMock(return_value = msg_original)
-
-        r.send_message = MagicMock()
-
-        hearthscan_bot.answerPMs(r, {}, {}, spelling.Checker([]))
-        msg.mark_as_read.assert_any_call()
-        msg.reply.assert_called_once_with("answer forwarded")
-        assert r.send_message.call_count == 0
-        r.get_message.assert_called_once_with("abc")
-        msg_original.reply.assert_called_once_with("answer text")
-
-    def test_CleamPMUserCache(self):
-        future = int(time.time()) + 60
-        cache = {"aaa": 123, "bbb": future}
-        hearthscan_bot.cleanPMUserCache(cache)
-        self.assertIsNone(cache.get("aaa"))
-        self.assertEqual(cache["bbb"], future)
-
-
 class TestSpelling(unittest.TestCase):
+    """helper.py SpellChecker"""
 
     def test_Spellchecker(self):
-        checker = spelling.Checker(["abcdef"])
+        checker = SpellChecker(["abcdef"])
         self.assertEqual(checker.correct("abcdef"), "abcdef")
         self.assertEqual(checker.correct("abcde"), "abcdef")
         self.assertEqual(checker.correct("bcdef"), "abcdef")
@@ -498,18 +587,126 @@ class TestSpelling(unittest.TestCase):
         self.assertEqual(checker.correct("abcd"), "abcd")
 
 
-class TestSpecials(unittest.TestCase):
+class TestBot(unittest.TestCase):
+    """hearthscan-bot.py"""
 
-    def test_Replacements(self):
-        replaced = specials.replace(["abc", "dreamcards", "def", "ghi"])
-        # tests replace and maxlength
-        self.assertEqual(replaced, ["abc",
-                                     "dream",
-                                     "emeralddrake",
-                                     "laughingsister",
-                                     "nightmare",
-                                     "yseraawakens",
-                                     "def"])
+    def test_AnswerMail_UserOnSpam(self):
+        r = MagicMock()
+        msg = MagicMock()
+        msg.subreddit = None
+        msg.author.name = 'user'
+        msg.id = 'msgid'
+        msg.distinguished = None
+        pmUserCache = {'user' : 1234}
+
+        helper = MagicMock()
+
+        # test
+        hsbot.answerPM(r, msg, pmUserCache, helper)
+
+        self.assertEqual(r.method_calls, [], 'no reddit calls')
+        self.assertEqual(helper.method_calls, [], 'no helper calls')
+
+    def test_AnswerMail_Success(self):
+        r = MagicMock()
+
+        msg = MagicMock()
+        msg.subreddit = None
+        msg.author.name = 'user'
+        msg.id = 'msgid'
+        msg.distinguished = None
+        msg.subject = 'sub'
+        msg.body = 'body'
+        pmUserCache = { }
+
+        helper = MagicMock()
+        helper.parseText = MagicMock(return_value=(['card'], 'text'))
+
+        # test
+        hsbot.answerPM(r, msg, pmUserCache, helper)
+
+        self.assertTrue('user' in pmUserCache, 'user added to cache')
+
+        self.assertEqual(r.method_calls, [], 'no reddit calls')
+        expected = [call.parseText('sub body')]
+        self.assertEqual(helper.method_calls, expected, 'parseText')
+        expected = [call.reply('text')]
+        self.assertEqual(msg.method_calls, expected, 'reply')
+
+    def test_Forward_PM(self):
+        r = MagicMock()
+        msg = MagicMock()
+        msg.subreddit = None
+        msg.author.name = 'user'
+        msg.id = 'msgid'
+        msg.distinguished = None
+        msg.subject = 'sub'
+        msg.body = 'body'
+        pmUserCache = { }
+
+        helper = MagicMock()
+        helper.parseText = MagicMock(return_value=([], 'text'))
+
+        redMsg = MagicMock()
+        r.redditor = MagicMock(return_value=redMsg)
+
+        # test
+        hsbot.answerPM(r, msg, pmUserCache, helper)
+
+        self.assertTrue('user' in pmUserCache, 'user added to cache')
+
+        expected = [call.redditor(credentials.admin_username)]
+        self.assertEqual(r.method_calls, expected, 'get reditor')
+
+        expected = [call.message('#msgid /u/user: "sub"', msg.body)]
+        self.assertEqual(redMsg.method_calls, expected, 'set message')
+
+        expected = [call.parseText('sub body')]
+        self.assertEqual(helper.method_calls, expected, 'parseText')
+        self.assertEqual(msg.method_calls, [], 'no reply')
+
+    def test_Forward_PM_Answer(self):
+        r = MagicMock()
+        msg = MagicMock()
+        msg.subreddit = None
+        msg.author.name = credentials.admin_username
+        msg.id = 'msgid2'
+        msg.distinguished = None
+        msg.subject = 're: #msgid1 /u/user: "sub"'
+        msg.body = 'body'
+        pmUserCache = { }
+
+        helper = MagicMock()
+        helper.parseText = MagicMock(return_value=([], 'text'))
+
+        oldMsg = MagicMock()
+        r.inbox.message = MagicMock(return_value=oldMsg)
+
+        # test
+        hsbot.answerPM(r, msg, pmUserCache, helper)
+
+        self.assertTrue(msg.author.name not in pmUserCache, "don't admin")
+
+        expected = [call.inbox.message('msgid1')]
+        self.assertEqual(r.method_calls, expected, 'reddit call')
+
+        expected = [call.message('msgid1')]
+        self.assertEqual(r.inbox.method_calls, expected, 'get old msg')
+
+        expected = [call.reply('body')]
+        self.assertEqual(oldMsg.method_calls, expected, 'reply old')
+
+        expected = [call.reply('answer forwarded')]
+        self.assertEqual(msg.method_calls, expected, 'reply new')
+
+        self.assertEqual(helper.method_calls, [], 'no helper calls')
+
+    def test_CleamPMUserCache(self):
+        future = int(time.time()) + 60
+        cache = {"aaa": 123, "bbb": future}
+        hsbot.cleanPMUserCache(cache)
+        self.assertIsNone(cache.get("aaa"))
+        self.assertEqual(cache["bbb"], future)
 
 
 if __name__ == '__main__':

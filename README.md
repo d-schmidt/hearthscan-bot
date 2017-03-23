@@ -3,21 +3,21 @@ Explaining cards in [reddit.com/r/hearthstone](https://www.reddit.com/r/hearthst
 To see the bot in action send a PM containing `[[Ragnaros]]` to [/u/hearthscan-bot](https://www.reddit.com/message/compose/?to=hearthscan-bot)
 
 ## Requirements
-- tested with Python 3.4+
-- libraries used: `requests`, `praw`, `lxml`
+- tested on Python 3.4+
+- Python libraries: `requests`, `praw`, `lxml`
 - [Reddit API](https://www.reddit.com/prefs/apps/) id, secret and refresh token
 
 ## Tests
 To run the offline unit tests; clone this repo and:
 ```
 pip install requests
-pip install praw==3.6.0
+pip install praw
 pip install lxml
 
 copy credentials.py.example credentials.py
 python3 test.py
 ```
-To run the full tests, prepare your own `credentials.py` and start tests with `python3 test.py online`.  
+To run the full tests, prepare your own `credentials.py` and `praw.ini` and start tests using `python3 test.py online`.  
 The test creates a `test.log`.
 
 ## Running the bot
@@ -54,8 +54,8 @@ While the bot is running, you can teach it new cards without stopping. Create or
 Delete the `lockfile.lock` to stop the bot gracefully.
 
 ## Learning from this bot
-A good starting point is `hearthscan-bot.py/main()`. I've tried to comment the code and use self explaining names. I know the naming format is inconsistent, sorry about that.  
-There are nice people out there answering questions ([/r/learnpython](https://www.reddit.com/r/learnpython), [/r/redditdev](https://www.reddit.com/r/redditdev)) and the [PRAW documentation](http://praw.readthedocs.io/en/v3.6.1/pages/comment_parsing.html) is decent.
+A good starting point is `hearthscan-bot.py/main()`. I've tried to comment the code and use consistent, self explaining names.  
+There are nice people out there answering questions ([/r/learnpython](https://www.reddit.com/r/learnpython), [/r/redditdev](https://www.reddit.com/r/redditdev)) and the [PRAW documentation](http://praw.readthedocs.io/en/latest/getting_started/quick_start.html) is decent.
 
 ## License
 All code contained here is licensed by [MIT](https://github.com/d-schmidt/hearthscan-bot/blob/master/LICENSE).
