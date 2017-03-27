@@ -1,19 +1,19 @@
 {
 
     "sets" : {
-        "01" : {"name" : "Basic", "n" : false, "g" : false, "std" : true},
-        "02" : {"name" : "Classic", "n" : true, "g" : true, "booster" : true, "std" : true},
-        "03" : {"name" : "Reward", "n" : true, "g" : true, "std" : false},
-        "04" : {"name" : "Promo", "n" : true, "g" : false, "std" : false},
-        "05" : {"name" : "Curse of Naxxramas", "code" : "Naxx",  "n" : true, "g" : true, "std" : false},
-        "06" : {"name" : "Goblin vs Gnomes", "code" : "GvG",  "n" : true, "g" : true, "booster" : true, "std" : false},
-        "07" : {"name" : "Blackrock Mountain", "code" : "BRM",  "n" : false, "g" : true, "std" : true},
-        "08" : {"name" : "The Grand Tournament", "code" : "TGT", "n" : true, "g" : true, "booster" : true, "std" : true},
-        "09" : {"name" : "The League of Explorers", "code" : "LoE", "n" : true, "g" : true, "std" : true},
-        "10" : {"name" : "Whispers of the Old Gods", "code" : "OG", "n" : true, "g" : true, "booster" : true, "std" : true},
-        "11" : {"name" : "One Night in Karazhan", "code" : "Kara", "n" : true, "g" : true, "std" : true},
-        "12" : {"name" : "Mean Streets of Gadgetzan", "code" : "MSoG", "n" : true, "g" : true, "booster" : true, "std" : true},
-        "13" : {"name" : "Journey to Un'Goro", "code" : "JUG", "n" : true, "g" : true, "booster" : true, "std" : false, "unreleased" : true}
+        "01" : {"name" : "Basic", "std" : true},
+        "02" : {"name" : "Classic", "std" : true},
+        "03" : {"name" : "Reward", "std" : false},
+        "04" : {"name" : "Promo", "std" : false},
+        "05" : {"name" : "Curse of Naxxramas", "code" : "Naxx",  "std" : false},
+        "06" : {"name" : "Goblin vs Gnomes", "code" : "GvG",  "std" : false},
+        "07" : {"name" : "Blackrock Mountain", "code" : "BRM",  "std" : false},
+        "08" : {"name" : "The Grand Tournament", "code" : "TGT", "std" : false},
+        "09" : {"name" : "The League of Explorers", "code" : "LoE", "std" : false},
+        "10" : {"name" : "Whispers of the Old Gods", "code" : "OG", "std" : true},
+        "11" : {"name" : "One Night in Karazhan", "code" : "Kara", "std" : true},
+        "12" : {"name" : "Mean Streets of Gadgetzan", "code" : "MSoG", "std" : true},
+        "13" : {"name" : "Journey to Un'Goro", "code" : "UNG", "std" : true}
     },
 
     "specials" : {

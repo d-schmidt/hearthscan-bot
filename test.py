@@ -279,8 +279,10 @@ class TestPRAWW(unittest.TestCase):
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_RedditAuth(self):
         # will fail for missing/bad praw.ini
-        RedditBot([], newLimit=1, sleep=0, connectAttempts=1) \
-                .run(lambda: removeFile('lockfile.lock'))
+        with TempFile('db') as seenDB:
+            RedditBot([], newLimit=1, sleep=0, connectAttempts=1,
+                        dbName=seenDB) \
+                    .run(lambda: removeFile('lockfile.lock'))
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_RedditAuthFail(self):
@@ -289,6 +291,7 @@ class TestPRAWW(unittest.TestCase):
             raise Exception('unexpected')
 
         try:
+            # backup existing praw ini, create our own
             if os.path.isfile('praw.ini'):
                 os.rename('praw.ini', '_praw.ini')
             with open('praw.ini', 'w', newline="\n") as f:
@@ -300,9 +303,10 @@ class TestPRAWW(unittest.TestCase):
 
             Config.CONFIG = None
 
-            with self.assertRaises(prawcore.exceptions.ResponseException):
+            with self.assertRaises(prawcore.exceptions.ResponseException), \
+                    TempFile('db') as seenDB:
                 RedditBot([], newLimit=1, sleep=0, connectAttempts=1,
-                            iniSite='testbot') \
+                            iniSite='testbot', dbName=seenDB) \
                         .run(raiseError)
         finally:
             removeFile('praw.ini')

@@ -36,7 +36,8 @@ jsonToCCSet = {
     'LOE' : '09',
     'OG' : '10',
     'KARA' : '11',
-    'GANGS' : '12'
+    'GANGS' : '12',
+    'UNGORO' : '13'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -51,7 +52,8 @@ setids = {
     '09' : 104,
     '10' : 105,
     '11' : 106,
-    '12' : 107
+    '12' : 107,
+    '13' : 108
 }
 # set names to hs internal set ids
 cc = Constants()

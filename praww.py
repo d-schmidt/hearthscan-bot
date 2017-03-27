@@ -1,7 +1,9 @@
 
 import logging as log
 import os
+import signal
 import sqlite3
+import sys
 import time
 
 import praw
@@ -16,7 +18,7 @@ def _now():
 class _SeenDB():
     """Bot caches seen things to not supply them twice to listeners."""
 
-    def __init__(self, dbName = 'redditbot.db'):
+    def __init__(self, dbName = 'praww.db'):
         self.conn = sqlite3.connect(dbName)
 
         self.conn.execute("CREATE TABLE IF NOT EXISTS seen"
@@ -53,6 +55,17 @@ class _SeenDB():
         self.conn.close()
 
 
+class _KillHandler:
+    """Catch unix kill and convert it to bool"""
+    def __init__(self):
+        self.killed = False
+        signal.signal(signal.SIGTERM, self.__catchKill)
+
+    def __catchKill(self, signum, frame):
+        log.debug("catchKill() triggered")
+        self.killed = True
+
+
 class RedditBot:
     """Wrapper around a PRAW reddit instance.
 
@@ -74,7 +87,8 @@ class RedditBot:
 
     def __init__(self, subreddits, iniSite='bot',
             newLimit=25, sleep=30, connectAttempts=1,
-            scopes=('submit', 'privatemessages', 'read', 'identity')):
+            scopes=('submit', 'privatemessages', 'read', 'identity'),
+            dbName='praww.db'):
         """Create an instance of Reddit. Does not yet connect.
 
         :param subreddits: list of subreddits to read
@@ -84,6 +98,7 @@ class RedditBot:
         :param connectAttempts: attempt initial connection n times and
             sleep 2^n sec between attempts (default: 1)
         :param scopes: required scopes
+        :param dbName: name of file of seen-things db
         """
         self.__subreddits = '+'.join(subreddits)
         self.iniSite = iniSite
@@ -91,6 +106,7 @@ class RedditBot:
         self.sleep = sleep
         self.connectAttempts = connectAttempts
         self.scopes = scopes
+        self.dbName = dbName
 
         self.rateSleep = 0
         self.roundStart = 0
@@ -100,6 +116,10 @@ class RedditBot:
         self.__submissionListener = None
         self.__mentionListener = None
         self.__pmListener = None
+
+        # handle kill signal
+        self.__signal = _KillHandler()
+
 
     def withCommentListener(self, commentListener):
         """Set a commentListener function. Comments will not be repeated.
@@ -142,24 +162,24 @@ class RedditBot:
         return self
 
     def __sleep(self):
-        try:
-            if self.rateSleep > 0:
-                time.sleep(self.rateSleep)
-                self.rateSleep = 0
-            else:
-                secToSleep = _now() - self.roundStart
-                time.sleep(self.sleep - min(self.sleep, secToSleep))
-        except:
-            # this is strange but not horrible
-            log.exception('sleep() interrupted')
+        if self.rateSleep > 0:
+            seconds = self.rateSleep
+            self.rateSleep = 0
+        else:
+            roundSecs = _now() - self.roundStart
+            seconds = self.sleep - min(self.sleep, roundSecs)
+
+        for i in range(int(seconds)):
+            if self.__signal.killed:
+                return
+            time.sleep(1)
 
 
     def __connect(self):
 
-        success = False
         connectTry = 1
 
-        while not success:
+        while True:
             try:
                 log.debug("connect() creating reddit adapter")
                 self.r = praw.Reddit(self.iniSite)
@@ -182,7 +202,11 @@ class RedditBot:
 
             log.warn('connect() connection attempt %s failed', connectTry)
             # sleep up to 2^try sec before failing (3 trys = 6s)
-            time.sleep(2 ** connectTry)
+            for s in range(2 ** connectTry):
+                if self.__signal.killed:
+                    raise Exception('killed')
+                time.sleep(1)
+
             connectTry += 1
 
 
@@ -199,7 +223,7 @@ class RedditBot:
         self.__connect()
 
         # connecting to seen db
-        self.__seenDB = _SeenDB()
+        self.__seenDB = _SeenDB(self.dbName)
 
         # wrap around doing stuff
         def do(things, listener):
@@ -209,11 +233,11 @@ class RedditBot:
                 if thing.author != self.me:
                     listener(self.r, thing)
 
-        # create lockfile for simple, clean shutdown, delete the file to stop bot
+        # create lockfile for clean shutdown, delete the file to stop bot
         with open('lockfile.lock', 'w'): pass
 
         # main loop
-        while os.path.isfile('lockfile.lock'):
+        while os.path.isfile('lockfile.lock') and not self.__signal.killed:
             self.roundStart = _now()
 
             try:
@@ -238,6 +262,11 @@ class RedditBot:
                     do((item for item in items if isinstance(item, Message)),
                             self.__commentListener)
 
+                # post round actions and sleep
+                postRoundAction()
+                self.__seenDB.cleanup()
+                self.__sleep()
+
             except praw.exceptions.APIException as e:
                 # https://github.com/reddit/reddit/blob/master/r2/r2/lib/errors.py
                 if 'RATELIMIT' in e.error_type:
@@ -254,11 +283,10 @@ class RedditBot:
                 # connection errors if bot or reddit is offline
                 log.exception('run() error in core while redditing')
 
-            # post round actions and sleep
-            postRoundAction()
-            self.__seenDB.cleanup()
-            self.__sleep()
+            except KeyboardInterrupt:
+                log.warn('run() interrupt, leaving')
+                break
 
-        # lock file is gone
+        # lock file is gone or stop
         log.warning('run() leaving reddit-bot')
         self.__seenDB.close()
