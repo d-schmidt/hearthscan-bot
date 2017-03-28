@@ -14,13 +14,15 @@ card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
                     "^[HH](http://www.hearthhead.com/cards/{head}), "
                     "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
                 "{cost} Mana{atk_dur}{subtype}{desc}  \n")
-signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={})"
-            " ^( me with up to 7 [[cardname]]. For more PM [[info]])") \
-            .format(credentials.username)
+signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
+            " ^( me with up to 7 [[cardname]]. )"
+            "^[About.](https://www.reddit.com/message/compose/"
+            "?to={bot}&message=Tell%20me%20more%20[[info]]s&subject=hi)") \
+            .format(bot=credentials.username)
 
 duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "containing cards I already explained. "
-                            "To reduce duplicated comments, :\n\n")
+                            "To reduce duplicates, your cards are here:\n\n")
 
 
 INFO_MSG_TMPL = 'info_msg.templ'

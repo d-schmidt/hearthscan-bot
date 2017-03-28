@@ -55,17 +55,6 @@ class _SeenDB():
         self.conn.close()
 
 
-class _KillHandler:
-    """Catch unix kill and convert it to bool"""
-    def __init__(self):
-        self.killed = False
-        signal.signal(signal.SIGTERM, self.__catchKill)
-
-    def __catchKill(self, signum, frame):
-        log.debug("catchKill() triggered")
-        self.killed = True
-
-
 class RedditBot:
     """Wrapper around a PRAW reddit instance.
 
@@ -84,6 +73,8 @@ class RedditBot:
     refresh_token=generatedrefreshtoken
     user_agent=praw:hearthscanexample:1.0 (by /u/b0ne123)
     """
+    LOCK_FILE = 'lockfile.lock'
+
 
     def __init__(self, subreddits, iniSite='bot',
             newLimit=25, sleep=30, connectAttempts=1,
@@ -100,6 +91,9 @@ class RedditBot:
         :param scopes: required scopes
         :param dbName: name of file of seen-things db
         """
+        self.killed = False
+        signal.signal(signal.SIGTERM, self.__catchKill)
+
         self.__subreddits = '+'.join(subreddits)
         self.iniSite = iniSite
         self.newLimit = newLimit
@@ -116,9 +110,6 @@ class RedditBot:
         self.__submissionListener = None
         self.__mentionListener = None
         self.__pmListener = None
-
-        # handle kill signal
-        self.__signal = _KillHandler()
 
 
     def withCommentListener(self, commentListener):
@@ -161,6 +152,12 @@ class RedditBot:
         self.__pmListener = pmListener
         return self
 
+
+    def __catchKill(self, signum, frame):
+        log.debug("catchKill() triggered")
+        self.killed = True
+
+
     def __sleep(self):
         if self.rateSleep > 0:
             seconds = self.rateSleep
@@ -170,7 +167,7 @@ class RedditBot:
             seconds = self.sleep - min(self.sleep, roundSecs)
 
         for i in range(int(seconds)):
-            if self.__signal.killed:
+            if self.killed:
                 return
             time.sleep(1)
 
@@ -203,7 +200,7 @@ class RedditBot:
             log.warn('connect() connection attempt %s failed', connectTry)
             # sleep up to 2^try sec before failing (3 trys = 6s)
             for s in range(2 ** connectTry):
-                if self.__signal.killed:
+                if self.killed:
                     raise Exception('killed')
                 time.sleep(1)
 
@@ -228,16 +225,16 @@ class RedditBot:
         # wrap around doing stuff
         def do(things, listener):
             for thing in things:
-                if self.__seenDB.isSeen(thing):
+                if self.killed or self.__seenDB.isSeen(thing):
                     return
                 if thing.author != self.me:
                     listener(self.r, thing)
 
         # create lockfile for clean shutdown, delete the file to stop bot
-        with open('lockfile.lock', 'w'): pass
+        with open(self.LOCK_FILE, 'w'): pass
 
         # main loop
-        while os.path.isfile('lockfile.lock') and not self.__signal.killed:
+        while os.path.isfile(self.LOCK_FILE) and not self.killed:
             self.roundStart = _now()
 
             try:
@@ -246,26 +243,27 @@ class RedditBot:
                     do(subreddit.new(limit=self.newLimit),
                             self.__submissionListener)
 
-                if self.__commentListener:
+                if self.__commentListener and not self.killed:
                     subreddit = self.r.subreddit(self.__subreddits)
                     do(subreddit.comments(limit=self.newLimit),
                             self.__commentListener)
 
-                if self.__mentionListener:
+                if self.__mentionListener and not self.killed:
                     do(self.r.inbox.mentions(limit=self.newLimit),
                             self.__mentionListener)
 
-                if self.__pmListener:
+                if self.__pmListener and not self.killed:
                     items = self.r.inbox.unread(mark_read=True,
                             limit=self.newLimit)
 
                     do((item for item in items if isinstance(item, Message)),
-                            self.__commentListener)
+                            self.__pmListener)
 
                 # post round actions and sleep
-                postRoundAction()
-                self.__seenDB.cleanup()
-                self.__sleep()
+                if not self.killed:
+                    postRoundAction()
+                    self.__seenDB.cleanup()
+                    self.__sleep()
 
             except praw.exceptions.APIException as e:
                 # https://github.com/reddit/reddit/blob/master/r2/r2/lib/errors.py

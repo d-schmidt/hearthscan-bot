@@ -99,7 +99,8 @@ def answerPM(r, msg, pmUserCache, helper):
 
     pmUserCache[author] = int(time.time()) + PM_RATE_LIMIT
 
-    cards, answer = helper.parseText(msg.subject + ' ' + msg.body)
+    text = msg.subject + ' ' + msg.body
+    cards, answer = helper.parseText(text)
 
     if cards:
         if 'info' in cards:
@@ -157,19 +158,24 @@ def main():
         cleanPMUserCache(pmUserCache)
         cardDB.refreshTemp()
 
-    RedditBot(credentials.subreddits, newLimit=250, connectAttempts=5) \
-        .withSubmissionListener(submissionListener) \
-        .withCommentListener(commentListener) \
-        .withMentionListener(commentListener) \
-        .withPMListener(pmListener) \
-        .run(postAction)
-
-    log.warning('main() leaving hearthscan-bot')
-    db.close()
+    try:
+        RedditBot(credentials.subreddits, newLimit=250, connectAttempts=5) \
+                .withSubmissionListener(submissionListener) \
+                .withCommentListener(commentListener) \
+                .withMentionListener(commentListener) \
+                .withPMListener(pmListener) \
+                .run(postAction)
+    finally:
+        log.warning('main() leaving hearthscan-bot')
+        db.close()
 
 
 if __name__ == "__main__":
     log.basicConfig(filename="bot.log",
                     format='%(asctime)s %(levelname)s %(name)s %(message)s',
                     level=log.DEBUG)
+
+    log.getLogger('prawcore').setLevel(log.INFO)
+
+    # start
     main()

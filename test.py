@@ -282,7 +282,7 @@ class TestPRAWW(unittest.TestCase):
         with TempFile('db') as seenDB:
             RedditBot([], newLimit=1, sleep=0, connectAttempts=1,
                         dbName=seenDB) \
-                    .run(lambda: removeFile('lockfile.lock'))
+                    .run(lambda: removeFile(RedditBot.LOCK_FILE))
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_RedditAuthFail(self):
@@ -716,7 +716,7 @@ class TestBot(unittest.TestCase):
 if __name__ == '__main__':
     removeFile("test.log")
     logging.basicConfig(filename="test.log",
-            format='%(asctime)s %(levelname)s %(message)s',
+            format='%(asctime)s %(levelname)s %(name)s %(message)s',
             level=logging.DEBUG)
 
     print("run 'test.py online' to test online scraping functionality")
