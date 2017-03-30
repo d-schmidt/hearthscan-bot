@@ -253,8 +253,11 @@ class RedditBot:
                             self.__mentionListener)
 
                 if self.__pmListener and not self.killed:
-                    items = self.r.inbox.unread(mark_read=True,
-                            limit=self.newLimit)
+                    items = list(self.r.inbox.unread(mark_read=True,
+                            limit=self.newLimit))
+
+                    for someitems in _partition(items, 100):
+                        self.r.inbox.mark_read(someitems)
 
                     do((item for item in items if isinstance(item, Message)),
                             self.__pmListener)
@@ -288,3 +291,24 @@ class RedditBot:
         # lock file is gone or stop
         log.warning('run() leaving reddit-bot')
         self.__seenDB.close()
+
+
+def _partition(sequence, chunksize):
+    """break a long iterable down into smaller lists"""
+    result = []
+    another = None
+    second = False
+
+    for item in sequence:
+        if second:
+            result.append(another)
+            if len(result) >= chunksize:
+                yield result
+                result = []
+        another = item
+        second = True
+
+    if second:
+        result.append(another)
+
+    yield result

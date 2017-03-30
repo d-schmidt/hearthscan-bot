@@ -165,6 +165,8 @@ def main():
                 .withMentionListener(commentListener) \
                 .withPMListener(pmListener) \
                 .run(postAction)
+    except:
+        log.exception('main() bot failed unexpectedly')
     finally:
         log.warning('main() leaving hearthscan-bot')
         db.close()
