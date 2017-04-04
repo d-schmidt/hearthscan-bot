@@ -3,8 +3,6 @@
     "sets" : {
         "01" : {"name" : "Basic", "std" : true},
         "02" : {"name" : "Classic", "std" : true},
-        "03" : {"name" : "Reward", "std" : false},
-        "04" : {"name" : "Promo", "std" : false},
         "05" : {"name" : "Curse of Naxxramas", "code" : "Naxx",  "std" : false},
         "06" : {"name" : "Goblin vs Gnomes", "code" : "GvG",  "std" : false},
         "07" : {"name" : "Blackrock Mountain", "code" : "BRM",  "std" : false},
@@ -13,7 +11,8 @@
         "10" : {"name" : "Whispers of the Old Gods", "code" : "OG", "std" : true},
         "11" : {"name" : "One Night in Karazhan", "code" : "Kara", "std" : true},
         "12" : {"name" : "Mean Streets of Gadgetzan", "code" : "MSoG", "std" : true},
-        "13" : {"name" : "Journey to Un'Goro", "code" : "UNG", "std" : true}
+        "13" : {"name" : "Journey to Un'Goro", "code" : "UNG", "std" : true},
+        "14" : {"name" : "Hall of Fame", "code" : "HOF", "std" : false}
     },
 
     "specials" : {
@@ -22,7 +21,8 @@
         "powerfulartifacts" : ["lanternofpower", "mirrorofdoom", "timepieceofhorror"],
         "powerchords" : ["iammurloc", "powerofthehorde", "roguesdoit"],
         "spareparts" : ["armorplating", "emergencycoolant", "finickycloakfield", "reversingswitch", "rustyhorn", "timerewinder", "whirlingblades"],
-        "toxins" : ["bloodthistletoxin", "briarthorntoxin", "fadeleaftoxin", "firebloomtoxin", "kingsbloodtoxin"]
+        "toxins" : ["bloodthistletoxin", "briarthorntoxin", "fadeleaftoxin", "firebloomtoxin", "kingsbloodtoxin"],
+        "Elemental Invocations" : ["Invocation of Earth", "Invocation of Water", "Invocation of Fire", "Invocation of Air"]
     },
 
     "alternative_names" : {
@@ -59,7 +59,6 @@
         "northshirecleric" : "northshire",
         "defenderofargus" : "argus",
         "pilotedshredder" : "shredder",
-        "hemetnesingwary" : "hemet",
         "ironbeakowl" : "owl",
         "sunfuryprotector" : "sunfury",
         "senjinshieldmasta" : "tazdingo",
@@ -94,7 +93,6 @@
         "archthiefrafaam" : "rafaam",
         "renojackson" : ["reno", "jackson"],
         "djinniofzephyrs" : ["genie", "djinni"],
-        "elisestarseeker" : ["elise", "starseeker"],
         "brannbronzebeard" : "brann",
         "forgottentorch" : "torch",
         "explorershat" : "hat",
@@ -129,6 +127,13 @@
         "hobartgrapplehammer": "hobart",
         "genzotheshark" : "genzo",
         "krultheunshackled":"krul",
-        "ayablackpaw" : "aya"
+        "ayablackpaw" : "aya",
+
+        "Hemet, Jungle Hunter" : "hemet",
+        "Elise the Trailblazer" : "elise",
+        "Kalimos, Primal Lord" : "Kalimos",
+        "Lyra the Sunshard" : "Lyra",
+        "The Voraxx" : "Voraxx",
+        "Clutchmother Zavas" : "Zavas"
     }
 }

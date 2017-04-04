@@ -1,6 +1,8 @@
 
 import json
 
+from cardDB import CardDB
+
 
 class Constants():
     """wraps all constant data"""
@@ -17,19 +19,26 @@ class Constants():
             self.setIds[setDetails['name']] = id
 
         # special keywords to replace
-        self.__specials = constants['specials']
+        self.__specials = {}
+        for key, values in constants['specials'].items():
+            cards = [CardDB.cleanName(card) for card in values]
+            self.__specials[CardDB.cleanName(key)] = cards
+
         self.specialNames = self.__specials.keys()
 
         # alternative card names
         self.__translations = {}
-        for org, alts in constants['alternative_names'].items():
+        for key, alts in constants['alternative_names'].items():
+            org = CardDB.cleanName(key)
+
             if isinstance(alts, list):
                 for alt in alts:
-                    self.__translations[alt] = org
+                    self.__translations[CardDB.cleanName(alt)] = org
             else:
-                self.__translations[alts] = org
+                self.__translations[CardDB.cleanName(alts)] = org
 
         self.alternativeNames = self.__translations.keys()
+
 
     def replaceSpecial(self, cards):
         """replace all special keyword cards in list"""
@@ -41,6 +50,7 @@ class Constants():
                 result.append(card)
 
         return result[:self.CARD_LIMIT]
+
 
     def translateAlt(self, card):
         """translate alternative card name or return card"""

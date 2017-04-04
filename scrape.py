@@ -27,8 +27,6 @@ setUrlTempl = ('http://www.hearthpwn.com/cards?'
 jsonToCCSet = {
     'CORE'    : '01',
     'EXPERT1' : '02',
-    'REWARD' : '03',
-    'PROMO' : '04',
     'NAXX' : '05',
     'GVG' : '06',
     'BRM' : '07',
@@ -37,14 +35,13 @@ jsonToCCSet = {
     'OG' : '10',
     'KARA' : '11',
     'GANGS' : '12',
-    'UNGORO' : '13'
+    'UNGORO' : '13',
+    'HOF' : '14'
 }
 # card_constant set ids to hs internal set ids
 setids = {
     '01' : 2  ,
     '02' : 3  ,
-    '03' : 4  ,
-    '04' : 11 ,
     '05' : 100,
     '06' : 101,
     '07' : 102,
@@ -53,7 +50,8 @@ setids = {
     '10' : 105,
     '11' : 106,
     '12' : 107,
-    '13' : 108
+    '13' : 108,
+    '14' : 4
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -79,7 +77,7 @@ multiClassGroups = {
 hearthHeadClean = re.compile(r"[^\-a-z0-9 ]")
 
 def getHearthHeadId(name, type, session):
-    log.debug("getHearthHeadId() getting %s from hearthhead", name)
+    log.debug("getHearthHeadId() getting %s id for hearthhead", name)
     # HearthHead does now work without id
     return hearthHeadClean.sub('', name.lower()).replace(' ', '-')
 
@@ -111,7 +109,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
             return int(hpid), image
 
-    log.debug("getHearthpwnIdAndUrl() card not found at herathpwn %s", name)
+    log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn %s %s", set, name)
     raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
 
 
@@ -178,6 +176,10 @@ def loadJsonCards():
             'atk': card.get('attack'),
             'hp': card.get('health', card.get('durability'))
         }
+
+        # hall of fame hack
+        if card["name"] in ["Ragnaros the Firelord", "Sylvanas Windrunner", "Azure Drake", "Ice Lance", "Power Overwhelming", "Conceal"]:
+            cardData["set"] = "Hall of Fame"
 
         if card.get('collectible'):
             cards[card['id']] = cardData

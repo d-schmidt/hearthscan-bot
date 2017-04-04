@@ -212,8 +212,8 @@ class TestConst(unittest.TestCase):
         constantJson = {
             'sets' : { },
             'specials' : {
-                "dreamcards" : ["dream", "emeralddrake", "laughingsister",
-                        "nightmare", "yseraawakens"]
+                "dream cards" : ["dream", "emeralddrake", "laughingsister",
+                        "nightmare", "ysera awakens"]
             },
             'alternative_names' : { }
         }
@@ -238,7 +238,7 @@ class TestConst(unittest.TestCase):
             'specials' : { },
             'alternative_names' : {
                 'carda' : 'ca',
-                'cardb' : ['cb', 'cbb']
+                'card b' : ['cb', 'cb b']
             }
         }
 

@@ -62,7 +62,7 @@ def createCardText(card, constants):
                 if card['subType'] else '',
 
         'std' : STD_ICON if cardSetData.get('std') else \
-                NEXT_STD_ICON if cardSetData.get('unreleased') else '| '
+                NEXT_STD_ICON if cardSetData.get('unreleased') else '~ '
     }
 
     return card_template.format(**local_card)
