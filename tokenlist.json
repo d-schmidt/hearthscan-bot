@@ -197,68 +197,68 @@
 
     "Crystal Core": {
         "id" : "UNG_067t1",
-        "hpwn": 55667
+        "hpwn": 55482
     },
     "Nether Portal": {
         "id" : "UNG_829t2",
-        "hpwn": 55693
+        "hpwn": 55448
     },
     "Time Warp": {
         "id" : "UNG_028t",
-        "hpwn": 55662
+        "hpwn": 55554
     },
     "Amara, Warden of Hope": {
         "id" : "UNG_940t8",
-        "hpwn": 55713
+        "hpwn": 52584
     },
     "Barnabus the Stomper": {
         "id" : "UNG_116t",
-        "hpwn": 55682
+        "hpwn": 55539
     },
     "Galvadon": {
         "id" : "UNG_954t1",
-        "hpwn": 55718
+        "hpwn": 55444
     },
     "Megafin": {
         "id" : "UNG_942t",
-        "hpwn": 55715
+        "hpwn": 55472
     },
     "Queen Carnassa": {
         "id" : "UNG_920t1",
-        "hpwn": 55706
+        "hpwn": 55498
     },
     "Sulfuras": {
         "id" : "UNG_934t1",
-        "hpwn": 55710
+        "hpwn": 55531
     },
 
     "Un'Goro Pack": {
         "id" : "UNG_851t1",
-        "hpwn": 55700
+        "hpwn": 55452
     },
     "Razorpetal": {
         "id" : "UNG_057t1",
-        "hpwn": 55664
+        "hpwn": 55600
     },
     "Carnassa's Brood": {
         "id" : "UNG_920t2",
-        "hpwn": 55707
+        "hpwn": 55499
     },
 
     "Invocation of Air": {
         "id" : "UNG_211d",
-        "hpwn": 55690
+        "hpwn": 55477
     },
     "Invocation of Earth": {
         "id" : "UNG_211a",
-        "hpwn": 55686
+        "hpwn": 55476
     },
     "Invocation of Fire": {
         "id" : "UNG_211c",
-        "hpwn": 55689
+        "hpwn": 55475
     },
     "Invocation of Water": {
         "id" : "UNG_211b",
-        "hpwn": 55688
+        "hpwn": 55474
     }
 }

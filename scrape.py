@@ -255,7 +255,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                 image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
 
             card = tokens[ids['id']]
-            card['cdn'] = image
+            card['cdn'] = image.replace('http://', 'https://')
             card['hpwn'] = ids['hpwn']
             card['head'] = getHearthHeadId(card['name'], "ignored", "ignored")
 
