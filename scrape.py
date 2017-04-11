@@ -107,7 +107,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
                 image = 'http://media-hearth.cursecdn.com/avatars/148/738/687.png'
             # /cards/31128-annoy-o-tron-fanclub
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
-            return int(hpid), image
+            return int(hpid), image.replace('http://', 'https://')
 
     log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn %s %s", set, name)
     raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
@@ -252,7 +252,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
             r.raise_for_status()
             image = fromstring(r.text).xpath('//img[@class="hscard-static"]')[0].get('src')
             if not image:
-                image = 'http://media-hearth.cursecdn.com/avatars/148/738/687.png'
+                image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
 
             card = tokens[ids['id']]
             card['cdn'] = image
