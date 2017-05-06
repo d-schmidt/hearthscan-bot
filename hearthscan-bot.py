@@ -24,7 +24,12 @@ def answerComment(r, comment, answeredDB, helper):
     if cards and answer:
         if answeredDB.exists(comment.parent_id, cards):
             # send pm instead of comment reply
-            sub = comment.submission
+            try:
+                sub = comment.submission
+            except AttributeError:
+                # mention: praw-dev/praw#684
+                sub = r.comment(comment.id).submission
+
             log.info("sending duplicate msg: %s with %s",
                     comment.author, cards)
             header = formatter.createDuplicateMsg(sub.title, sub.permalink)
@@ -174,7 +179,7 @@ def main():
 
 if __name__ == "__main__":
     log.basicConfig(filename="bot.log",
-                    format='%(asctime)s %(levelname)s %(name)s %(message)s',
+                    format='%(asctime)s %(levelname)s %(module)s:%(name)s %(message)s',
                     level=log.DEBUG)
 
     log.getLogger('prawcore').setLevel(log.INFO)

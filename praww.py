@@ -292,13 +292,13 @@ class RedditBot:
                 log.exception('run() error in core while redditing')
                 failCount += 1
 
+                if failCount >= self.__failLimit:
+                    # some error/python version/praw version combinations never recover
+                    log.error('run() consecutive fails reached limit, leaving to restart')
+                    self.killed = True
+
             except KeyboardInterrupt:
                 log.warn('run() interrupt, leaving')
-                self.killed = True
-
-            if failCount >= self.__failLimit:
-                # some error/python version/praw version combinations never recover
-                log.error('run() consecutive fails reached limit, leaving to restart')
                 self.killed = True
 
             # sleep before next round/attempt
