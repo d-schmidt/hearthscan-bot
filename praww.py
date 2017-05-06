@@ -105,6 +105,8 @@ class RedditBot:
         self.rateSleep = 0
         self.roundStart = 0
 
+        # restart after 15 min of consecutive fails
+        self.__failLimit = 15*60 // sleep
         # use with() setter
         self.__commentListener = None
         self.__submissionListener = None
@@ -233,6 +235,9 @@ class RedditBot:
         # create lockfile for clean shutdown, delete the file to stop bot
         with open(self.LOCK_FILE, 'w'): pass
 
+        # count consecutive fails
+        failCount = 0
+
         # main loop
         while os.path.isfile(self.LOCK_FILE) and not self.killed:
             self.roundStart = _now()
@@ -262,11 +267,13 @@ class RedditBot:
                     do((item for item in items if isinstance(item, Message)),
                             self.__pmListener)
 
-                # post round actions and sleep
+                # post round actions
                 if not self.killed:
                     postRoundAction()
                     self.__seenDB.cleanup()
-                    self.__sleep()
+
+                # success, reset fails
+                failCount = 0
 
             except praw.exceptions.APIException as e:
                 # https://github.com/reddit/reddit/blob/master/r2/r2/lib/errors.py
@@ -283,12 +290,23 @@ class RedditBot:
             except prawcore.exceptions.PrawcoreException:
                 # connection errors if bot or reddit is offline
                 log.exception('run() error in core while redditing')
+                failCount += 1
 
             except KeyboardInterrupt:
                 log.warn('run() interrupt, leaving')
-                break
+                self.killed = True
 
-        # lock file is gone or stop
+            if failCount >= self.__failLimit:
+                # some error/python version/praw version combinations never recover
+                log.error('run() consecutive fails reached limit, leaving to restart')
+                self.killed = True
+
+            # sleep before next round/attempt
+            if not self.killed:
+                self.__sleep()
+            # while end
+
+        # lock file is gone or killed
         log.warning('run() leaving reddit-bot')
         self.__seenDB.close()
 
