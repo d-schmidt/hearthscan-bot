@@ -174,7 +174,7 @@ def main():
         log.exception('main() bot failed unexpectedly')
     finally:
         log.warning('main() leaving hearthscan-bot')
-        db.close()
+        answeredDB.close()
 
 
 if __name__ == "__main__":
