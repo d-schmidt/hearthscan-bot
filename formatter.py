@@ -17,7 +17,7 @@ card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
             " ^( me with up to 7 [[cardname]]. )"
             "^[About.](https://www.reddit.com/message/compose/"
-            "?to={bot}&message=Tell%20me%20more%20[[info]]s&subject=hi)") \
+            "?to={bot}&message=Tell%20me%20more%20[[info]]&subject=hi)") \
             .format(bot=credentials.username)
 
 duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
