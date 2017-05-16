@@ -15,6 +15,7 @@ pip install praw
 pip install lxml
 
 copy credentials.py.example credentials.py
+copy praw.ini.example praw.ini
 python3 test.py
 ```
 To run the full tests, prepare your own `credentials.py` and `praw.ini` and start tests using `python3 test.py online`.  
@@ -51,7 +52,7 @@ Create a `cards.json` and a `tokens.json` and add a card in the format:
 Cards are not required in the files, but both files have to exists and contain valid json: `{}`.  
 While the bot is running, you can teach it new cards without stopping. Create or edit `tempinfo.json` following the same format.
 
-Delete the `lockfile.lock` to stop the bot gracefully.
+Delete the `lockfile.lock` or kill it to stop the bot gracefully.
 
 ## Learning from this bot
 A good starting point is `hearthscan-bot.py/main()`. I've tried to comment the code and use consistent, self explaining names.  
