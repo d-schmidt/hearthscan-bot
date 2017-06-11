@@ -47,8 +47,10 @@ def answerComment(r, comment, answeredDB, helper):
 def answerSubmission(submission, helper):
     """read and answer a submission"""
 
-    if not submission.is_self:
-        return
+    text = submission.title
+
+    if submission.is_self:
+        text += ' ' + submission.selftext
 
     cards, answer = helper.parseText(submission.selftext)
 
