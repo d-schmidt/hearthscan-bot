@@ -1,0 +1,9 @@
+# Set the default behavior
+* text=auto
+
+# Explicitly declare text files
+*.templ text eol=lf
+*.example text
+*.md text
+*.json text
+LICENSE text

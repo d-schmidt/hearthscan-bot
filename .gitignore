@@ -2,8 +2,11 @@
 *.json
 !tokenlist.json
 !constants.json
+!tokens.json
+!cards.json
 *.db
 credentials.py
+praw.ini
 
 
 # Byte-compiled / optimized / DLL files
