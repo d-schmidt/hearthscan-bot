@@ -12,7 +12,8 @@
         "11" : {"name" : "One Night in Karazhan", "code" : "Kara", "std" : true},
         "12" : {"name" : "Mean Streets of Gadgetzan", "code" : "MSoG", "std" : true},
         "13" : {"name" : "Journey to Un'Goro", "code" : "UNG", "std" : true},
-        "14" : {"name" : "Hall of Fame", "code" : "HOF", "std" : false}
+        "14" : {"name" : "Hall of Fame", "code" : "HOF", "std" : false},
+        "15" : {"name" : "Knights of the Frozen Throne", "code" : "FT", "std" : true}
     },
 
     "specials" : {

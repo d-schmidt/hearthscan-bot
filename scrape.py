@@ -36,7 +36,8 @@ jsonToCCSet = {
     'KARA' : '11',
     'GANGS' : '12',
     'UNGORO' : '13',
-    'HOF' : '14'
+    'HOF' : '14',
+    'FT' : '15'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -51,7 +52,8 @@ setids = {
     '11' : 106,
     '12' : 107,
     '13' : 108,
-    '14' : 4
+    '14' : 4,
+    '15' : 109
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -281,13 +283,13 @@ def main():
         log.debug("main() full scrape will take 5-10 minutes")
         cards, tokens = loadJsonCards()
 
-        saveCardsAsJson("cards.json", loadSets(cards))
+        saveCardsAsJson("data/cards.json", loadSets(cards))
 
         # a lot of token names are not unique
         # a static, handmade list of ids is more reliable
-        if os.path.isfile('tokenlist.json'):
-            with open('tokenlist.json', 'r') as f:
-                saveCardsAsJson("tokens.json", loadTokens(tokens, json.load(f)))
+        if os.path.isfile('data/tokenlist.json'):
+            with open('data/tokenlist.json', 'r') as f:
+                saveCardsAsJson("data/tokens.json", loadTokens(tokens, json.load(f)))
     except Exception as e:
         log.exception("main() error %s", e)
 
