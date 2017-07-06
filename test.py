@@ -89,10 +89,10 @@ class TestScrape(unittest.TestCase):
         with requests.Session() as s:
             self.assertEqual(scrape.getHearthpwnIdAndUrl('Quick Shot',
                     'Blackrock Mountain', 'Spell', False, s),
-                    (14459, 'http://media-Hearth.cursecdn.com/avatars/310/105/14459.png'))
+                    (14459, 'https://media-Hearth.cursecdn.com/avatars/310/105/14459.png'))
             self.assertEqual(scrape.getHearthpwnIdAndUrl('Upgrade!',
                     'Classic', 'Spell', False, s),
-                    (638, 'http://media-Hearth.cursecdn.com/avatars/285/274/635951439216665743.png'))
+                    (638, 'https://media-Hearth.cursecdn.com/avatars/285/274/635951439216665743.png'))
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_full(self):
@@ -100,7 +100,7 @@ class TestScrape(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
+                'cdn': 'https://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
                 'desc': 'Deal 3 damage. If your hand is empty, draw a card.',
                 'hp': None,
                 'class': 'Hunter',
@@ -141,7 +141,7 @@ class TestScrape(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
+                'cdn': 'https://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
                 'desc': 'Deal 3 damage. If your hand is empty, draw a card.',
                 'hp': None,
                 'class': 'Hunter',
@@ -296,6 +296,7 @@ class TestPRAWW(unittest.TestCase):
                 os.rename('praw.ini', '_praw.ini')
             with open('praw.ini', 'w', newline="\n") as f:
                 f.write('[testbot]\n')
+                f.write('check_for_updates=false\n')
                 f.write('client_id=badid\n')
                 f.write('client_secret=badsecret\n')
                 f.write('refresh_token=badtoken\n')
@@ -341,7 +342,7 @@ class TestCardDB(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'cdn': 'https://media-Hearth.cursecdn.com/14459.png',
                 'desc': 'Deal 3 damage. Draw a card.',
                 'hp': 1,
                 'class': 'Hunter',
@@ -379,7 +380,7 @@ class TestCardDB(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'cdn': 'https://media-Hearth.cursecdn.com/14459.png',
                 'desc': 'Deal 3 damage. Draw a card.',
                 'hp': 1,
                 'class': 'Hunter',
@@ -416,7 +417,7 @@ class TestCardDB(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'cdn': 'https://media-Hearth.cursecdn.com/14459.png',
                 'desc': 'Deal 3 damage. Draw a card.',
                 'hp': 1,
                 'class': 'Hunter',
@@ -466,7 +467,7 @@ class TestHelper(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'http://media-Hearth.cursecdn.com/14459.png',
+                'cdn': 'https://media-Hearth.cursecdn.com/14459.png',
                 'desc': 'Deal 3 damage. Draw a card.',
                 'hp': 1,
                 'class': 'Hunter',

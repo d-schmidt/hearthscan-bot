@@ -106,7 +106,7 @@ class RedditBot:
         self.roundStart = 0
 
         # restart after 15 min of consecutive fails
-        self.__failLimit = 15*60 // sleep
+        self.__failLimit = 15*60 // max(sleep, 1)
         # use with() setter
         self.__commentListener = None
         self.__submissionListener = None
