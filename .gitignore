@@ -4,6 +4,7 @@
 !constants.json
 !tokens.json
 !cards.json
+!tempinfo.json
 *.db
 credentials.py
 praw.ini
