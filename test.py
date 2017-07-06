@@ -548,22 +548,27 @@ class TestHelper(unittest.TestCase):
             'alternative_names' : { 'quickshot' : 'qs' }
         }
 
-        with TempJson(constantDict) as constJson, \
-                TempJson({}) as emptyJson, \
-                TempFile('template') as templateFile:
+        try:
+            if os.path.isfile('data/info_msg.templ'):
+                os.rename('data/info_msg.templ', 'data/_info_msg.templ')
 
-            with open(templateFile, 'w', newline="\n") as f:
-                f.write('{user}-{alts}-{tokens}-{special}')
+            with TempJson(constantDict) as constJson, \
+                    TempJson({}) as emptyJson:
 
-            formatter.INFO_MSG_TMPL = templateFile
+                with open('data/info_msg.templ', 'w', newline="\n") as f:
+                    f.write('{user}-{alts}-{tokens}-{special}')
 
-            c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
-            helper = HSHelper(db, c)
+                c = Constants(constJson)
+                db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+                helper = HSHelper(db, c)
 
-            info = helper.getInfoText('user')
-            self.assertEqual(info, 'user-qs--dream')
+                info = helper.getInfoText('user')
+                self.assertEqual(info, 'user-qs--dream')
 
+        finally:
+            removeFile('data/info_msg.templ')
+            if os.path.isfile('data/_info_msg.templ'):
+                os.rename('data/_info_msg.templ', 'data/info_msg.templ')
 
     def test_JsonFiles(self):
         if os.path.isfile('tempinfo.json'):

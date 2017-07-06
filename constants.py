@@ -8,7 +8,7 @@ class Constants():
     """wraps all constant data"""
     CARD_LIMIT = 7
 
-    def __init__(self, constantJSON='constants.json'):
+    def __init__(self, constantJSON='data/constants.json'):
         with open(constantJSON, 'r') as file:
             constants = json.load(file)
 

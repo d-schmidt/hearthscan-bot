@@ -146,7 +146,8 @@ def main():
     # init answered comments sqlite DB
     answeredDB = commentDB.DB()
     # load card DB
-    cardDB = CardDB(constants=constants)
+    url = 'https://raw.githubusercontent.com/d-schmidt/hearthscan-bot/master/data/tempinfo.json'
+    cardDB = CardDB(constants=constants, tempJSONUrl=url)
     # init hs helper for hearthstone stuff
     helper = HSHelper(cardDB, constants)
     # pm spam filter cache
@@ -173,7 +174,7 @@ def main():
                 .withPMListener(pmListener) \
                 .run(postAction)
     except:
-        log.exception('main() bot failed unexpectedly')
+        log.exception('main() RedditBot failed unexpectedly')
     finally:
         log.warning('main() leaving hearthscan-bot')
         answeredDB.close()
@@ -187,4 +188,8 @@ if __name__ == "__main__":
     log.getLogger('prawcore').setLevel(log.INFO)
 
     # start
-    main()
+    try:
+        main()
+    except:
+        log.exception('main() failed unexpectedly')
+        exit(1)

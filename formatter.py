@@ -24,9 +24,6 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "containing cards I already explained. "
                             "To reduce duplicates, your cards are here:\n\n")
 
-
-INFO_MSG_TMPL = 'info_msg.templ'
-
 # Standard legal icon
 # 2017 elephant because mammoth
 STD_ICON = '\U0001F418 '
@@ -87,16 +84,16 @@ def createDuplicateMsg(title, url):
     return duplicate_header_templ.format(title=title, url=url)
 
 
-def loadInfoTempl(specials=[], alts=[], tokens=[]):
+def loadInfoTempl(specials=[], alts=[], tokens=[], *, infoMsgTmpl='data/info_msg.templ'):
     """ reads and prepares [[info]] template,
     {user} will remain for later formatting
     """
 
-    if not os.path.isfile(INFO_MSG_TMPL):
+    if not os.path.isfile(infoMsgTmpl):
         return ''
 
     rawTemplate = ''
-    with open(INFO_MSG_TMPL, 'r', encoding="utf8") as file:
+    with open(infoMsgTmpl, 'r', encoding="utf8") as file:
         rawTemplate = file.read()
 
     # sets to list and sort them all
