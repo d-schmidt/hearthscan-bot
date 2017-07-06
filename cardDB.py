@@ -10,11 +10,11 @@ import formatter
 class CardDB:
     """Wrapper around a PRAW reddit instance."""
 
-    def __init__(self,
+    def __init__(self, *,
             constants,
-            cardJSON = 'cards.json',
-            tokenJSON = 'tokens.json',
-            tempJSON = 'tempinfo.json'):
+            cardJSON='cards.json',
+            tokenJSON='tokens.json',
+            tempJSON='tempinfo.json'):
         """Initialize an instance of CardDB.
 
         :param cardJSON: file containing cards

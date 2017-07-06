@@ -76,7 +76,7 @@ class RedditBot:
     LOCK_FILE = 'lockfile.lock'
 
 
-    def __init__(self, subreddits, iniSite='bot',
+    def __init__(self, *, subreddits, iniSite='bot',
             newLimit=25, sleep=30, connectAttempts=1,
             scopes=('submit', 'privatemessages', 'read', 'identity'),
             dbName='praww.db'):

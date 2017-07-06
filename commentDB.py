@@ -9,7 +9,7 @@ class DB():
     the same request for the bot to explain the cards.
     """
 
-    def __init__(self, dbName = 'hscbot.db'):
+    def __init__(self, dbName='hscbot.db'):
         self.conn = sqlite3.connect(dbName)
 
         self.conn.execute("CREATE TABLE IF NOT EXISTS topcomment"

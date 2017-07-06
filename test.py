@@ -280,7 +280,7 @@ class TestPRAWW(unittest.TestCase):
     def test_RedditAuth(self):
         # will fail for missing/bad praw.ini
         with TempFile('db') as seenDB:
-            RedditBot([], newLimit=1, sleep=0, connectAttempts=1,
+            RedditBot(subreddits=[], newLimit=1, sleep=0, connectAttempts=1,
                         dbName=seenDB) \
                     .run(lambda: removeFile(RedditBot.LOCK_FILE))
 
@@ -306,7 +306,7 @@ class TestPRAWW(unittest.TestCase):
 
             with self.assertRaises(prawcore.exceptions.ResponseException), \
                     TempFile('db') as seenDB:
-                RedditBot([], newLimit=1, sleep=0, connectAttempts=1,
+                RedditBot(subreddits=[], newLimit=1, sleep=0, connectAttempts=1,
                             iniSite='testbot', dbName=seenDB) \
                         .run(raiseError)
         finally:
@@ -367,7 +367,8 @@ class TestCardDB(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(c, cardJson, emptyJson, emptyJson)
+
+            db = CardDB(constants=c, cardJSON=cardJson, tokenJSON=emptyJson, tempJSON=emptyJson)
 
             self.assertEqual(db.cardNames(), ['quickshot'])
             self.assertEqual(db.tokens, [])
@@ -405,7 +406,7 @@ class TestCardDB(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(c, emptyJson, cardJson, emptyJson)
+            db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=cardJson, tempJSON=emptyJson)
 
             self.assertEqual(db.cardNames(), ['quickshot'])
             self.assertEqual(db.tokens, ['quickshot'])
@@ -442,7 +443,7 @@ class TestCardDB(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(c, emptyJson, emptyJson, 'notexisting.json')
+            db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=emptyJson, tempJSON='notexisting.json')
 
             self.assertEqual(db.cardNames(), [])
             self.assertFalse('quickshot' in db)
@@ -492,7 +493,7 @@ class TestHelper(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(c, cardJson, emptyJson, emptyJson)
+            db = CardDB(constants=c, cardJSON=cardJson, tokenJSON=emptyJson, tempJSON=emptyJson)
             helper = HSHelper(db, c)
 
             # simple find
@@ -557,7 +558,7 @@ class TestHelper(unittest.TestCase):
             formatter.INFO_MSG_TMPL = templateFile
 
             c = Constants(constJson)
-            db = CardDB(c, emptyJson, emptyJson, emptyJson)
+            db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
             helper = HSHelper(db, c)
 
             info = helper.getInfoText('user')

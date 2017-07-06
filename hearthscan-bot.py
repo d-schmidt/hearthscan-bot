@@ -146,7 +146,7 @@ def main():
     # init answered comments sqlite DB
     answeredDB = commentDB.DB()
     # load card DB
-    cardDB = CardDB(constants)
+    cardDB = CardDB(constants=constants)
     # init hs helper for hearthstone stuff
     helper = HSHelper(cardDB, constants)
     # pm spam filter cache
@@ -166,7 +166,7 @@ def main():
         cardDB.refreshTemp()
 
     try:
-        RedditBot(credentials.subreddits, newLimit=250, connectAttempts=5) \
+        RedditBot(subreddits=credentials.subreddits, newLimit=250, connectAttempts=5) \
                 .withSubmissionListener(submissionListener) \
                 .withCommentListener(commentListener) \
                 .withMentionListener(commentListener) \
