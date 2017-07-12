@@ -103,7 +103,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
     for i in range(len(images)):
         title = descs[i].text
 
-        if title == name:
+        if title.lower() == name.lower():
             image = images[i].get('src')
             if not image:
                 image = 'http://media-hearth.cursecdn.com/avatars/148/738/687.png'
@@ -111,7 +111,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
             return int(hpid), image.replace('http://', 'https://')
 
-    log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn %s %s", set, name)
+    log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn '%s' '%s'", set, name)
     raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
 
 
