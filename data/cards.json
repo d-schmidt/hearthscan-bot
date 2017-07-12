@@ -4524,7 +4524,7 @@
     "name": "Djinni of Zephyrs",
     "rarity": "Epic",
     "set": "The League of Explorers",
-    "subType": null,
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Don Han'Cho": {
@@ -7948,7 +7948,7 @@
     "name": "Hallazeal the Ascended",
     "rarity": "Legendary",
     "set": "Whispers of the Old Gods",
-    "subType": null,
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Hallucination": {
@@ -9180,7 +9180,7 @@
     "name": "Jade Spirit",
     "rarity": "Common",
     "set": "Mean Streets of Gadgetzan",
-    "subType": null,
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Jade Swarmer": {
@@ -10796,7 +10796,7 @@
     "name": "Mana Geode",
     "rarity": "Epic",
     "set": "Mean Streets of Gadgetzan",
-    "subType": null,
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Mana Tide Totem": {
@@ -16820,7 +16820,7 @@
     "cdn": "https://media-Hearth.cursecdn.com/avatars/319/934/55481.png",
     "class": "Rogue",
     "cost": 1,
-    "desc": "Quest: Play four minions with the same name. Reward: Crystal Core.",
+    "desc": "Quest: Play five minions with the same name. Reward: Crystal Core.",
     "head": "the-caverns-below",
     "hp": null,
     "hpwn": 55481,
