@@ -658,5 +658,35 @@
         "set": "Knights of the Frozen Throne",
         "subType": null,
         "type": "Hero"
+    },
+    "Ice Walker": {
+        "atk": 1,
+        "cdn": "http://media-hearth.cursecdn.com/avatars/336/533/636369123699179977.png",
+        "class": "Mage",
+        "cost": 2,
+        "desc": "Your Hero Power also Freezes the target.",
+        "head": "ice-walker",
+        "hp": 3,
+        "hpwn": 62848,
+        "name": "Ice Walker",
+        "rarity": "Rare",
+        "set": "Knights of the Frozen Throne",
+        "subType": "Elemental",
+        "type": "Minion"
+    },
+    "Meat Wagon": {
+        "atk": 1,
+        "cdn": "http://media-hearth.cursecdn.com/avatars/336/555/636369265480087728.png",
+        "class": "Neutral",
+        "cost": 4,
+        "desc": "Deathrattle: Summon a minion from your deck with less Attack than this minion.",
+        "head": "meat-wagon",
+        "hp": 4,
+        "hpwn": 62849,
+        "name": "Meat Wagon",
+        "rarity": "Epic",
+        "set": "Knights of the Frozen Throne",
+        "subType": "Mech",
+        "type": "Minion"
     }
 }
