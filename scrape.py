@@ -157,7 +157,11 @@ def loadJsonCards():
 
         rarity = card.get('rarity', 'Token')
         rarity = 'Basic' if rarity == 'FREE' else camelCase(rarity)
+        
         subtype = camelCase(card.get('race'))
+        if not subtype and "QUEST" in card.get("mechanics", []):
+            subtype = 'Quest'
+            
         clazz = camelCase(card.get('playerClass', 'Neutral'))
 
         if 'multiClassGroup' in card and 'classes' in card:
