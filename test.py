@@ -70,6 +70,12 @@ class TempFile():
 class TestScrape(unittest.TestCase):
     """scrape.py"""
 
+    def test_camelCase(self):
+        self.assertEqual(scrape.camelCase("SPELL"), "Spell")
+        self.assertEqual(scrape.camelCase("HERO_POWER"), "Hero Power")
+        self.assertEqual(scrape.camelCase(""), None)
+        self.assertEqual(scrape.camelCase(None), None)
+
     # @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_hearthhead(self):
         with requests.Session() as s:

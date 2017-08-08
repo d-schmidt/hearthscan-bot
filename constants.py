@@ -9,7 +9,7 @@ class Constants():
     CARD_LIMIT = 7
 
     def __init__(self, constantJSON='data/constants.json'):
-        with open(constantJSON, 'r') as file:
+        with open(constantJSON, 'r', encoding='utf8') as file:
             constants = json.load(file)
 
         # set informations

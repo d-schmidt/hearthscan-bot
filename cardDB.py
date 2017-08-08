@@ -44,9 +44,9 @@ class CardDB:
     def __load(self):
 
         # load cards
-        with open(self.cardJSON, 'r') as file:
+        with open(self.cardJSON, 'r', encoding='utf8') as file:
             cards = json.load(file)
-        with open(self.tokenJSON, 'r') as file:
+        with open(self.tokenJSON, 'r', encoding='utf8') as file:
             tokens = json.load(file)
 
         # json to db full of text
@@ -107,7 +107,7 @@ class CardDB:
         self.__tempDate = currentDate
 
         try:
-            with open(self.tempJSON, 'r') as file:
+            with open(self.tempJSON, 'r', encoding='utf8') as file:
                 for name, card in json.load(file).items():
                     clean = CardDB.cleanName(name)
                     self.__db[clean] = formatter.createCardText(card,

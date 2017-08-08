@@ -37,7 +37,7 @@ jsonToCCSet = {
     'GANGS' : '12',
     'UNGORO' : '13',
     'HOF' : '14',
-    'FT' : '15'
+    'ICECROWN' : '15'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -60,19 +60,21 @@ cc = Constants()
 setNameIds = dict((cc.sets[ccid]['name'], hsid) for ccid, hsid in setids.items())
 # hs internal cardtype ids
 hsTypeId = {
-    'Minion' : '4',
-    'Spell' : '5',
-    'Weapon' : '7'
+    'Hero': '11',
+    'Minion': '4',
+    'Spell': '5',
+    'Weapon': '7',
+    'Hero Power': '10'
 }
 # fix bad subtype names
 subtypeFix = {
-    'Mechanical' : 'Mech'
+    'Mechanical': 'Mech'
 }
 # multi class card group names
 multiClassGroups = {
-    'GRIMY_GOONS' : 'Goons',
-    'KABAL' : 'Kabal',
-    'JADE_LOTUS' : 'Lotus'
+    'GRIMY_GOONS': 'Goons',
+    'KABAL': 'Kabal',
+    'JADE_LOTUS': 'Lotus'
 }
 
 
@@ -115,6 +117,32 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
     raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
 
 
+def camelCase(s):
+    parts = re.split(r"[^a-zA-Z]+", s) if s else None
+    return " ".join(part[:1].upper() + part[1:].lower() for part in parts) if parts else None
+
+
+def fixText(text):
+    if text:
+        # replace xml tags
+        text = re.sub(r"</?\w+>", '', text)
+        # copy bold/italic to reddit?
+        # text = re.sub(r"</?b+>", '**', text)
+        # text = re.sub(r"</?i+>", '*', text)
+        # remove unwanted symbols and chars from card text
+        text = text.replace('\n', ' ') \
+                    .replace('\u2019', "'") \
+                    .replace('$', '') \
+                    .replace('[x]', '') \
+                    .replace('\u00A0', ' ') \
+                    .replace('#', '')
+        # replace multiple spaces
+        text = re.sub(r"[ ]{2,}", ' ', text)
+        text = text.strip()
+
+    return text
+
+
 def loadJsonCards():
     log.debug("loadJsonCards() loading latest card texts from hearthstonejson.com")
     # https://github.com/HearthSim/hearthstonejson
@@ -122,46 +150,31 @@ def loadJsonCards():
     r.raise_for_status()
     cardtextjson = r.json()
 
-    spaceRegex = re.compile(r"[ ]{2,}")
-    tagRegex = re.compile(r"</?\w+>")
-    camelCase = lambda s: s[:1] + s[1:].lower() if s else None
-
     cards = {}
     tokens = {}
+
     for card in cardtextjson:
         if card.get('set') not in jsonToCCSet:
             # helper can't handle this yet
             continue
-        if card.get('type') not in ['MINION', 'SPELL', 'WEAPON']:
-            # hero power, hero and buffs are irrelevant for us
+        if card.get('type') not in ['MINION', 'SPELL', 'WEAPON', 'HERO', 'HERO_POWER']:
+            # buffs are irrelevant for us
+            continue
+        if  card.get('set') == 'CORE' and card.get('type') in ['HERO', 'HERO_POWER']:
+            # skip default heroes
             continue
 
         text = card.get('text')
         # jade golem cards have two texts
-        text = card.get('collectionText', text)
-
-        if text:
-            text = tagRegex.sub('', text)
-            # copy bold/italic to reddit?
-            # text = re.sub(r"</?b+>", '**', text)
-            # text = re.sub(r"</?i+>", '*', text)
-            # remove unwanted symbols and chars from card text
-            text = text.replace('\n', ' ') \
-                        .replace('\u2019', "'") \
-                        .replace('$', '') \
-                        .replace('[x]', '') \
-                        .replace('\u00A0', ' ') \
-                        .replace('#', '')
-            text = spaceRegex.sub(' ', text)
-            text = text.strip()
+        text = fixText(card.get('collectionText', text))
 
         rarity = card.get('rarity', 'Token')
         rarity = 'Basic' if rarity == 'FREE' else camelCase(rarity)
-        
+
         subtype = camelCase(card.get('race'))
         if not subtype and "QUEST" in card.get("mechanics", []):
             subtype = 'Quest'
-            
+
         clazz = camelCase(card.get('playerClass', 'Neutral'))
 
         if 'multiClassGroup' in card and 'classes' in card:
@@ -183,27 +196,36 @@ def loadJsonCards():
             'hp': card.get('health', card.get('durability'))
         }
 
-        # hall of fame hack
-        if card["name"] in ["Ragnaros the Firelord", "Sylvanas Windrunner", "Azure Drake", "Ice Lance", "Power Overwhelming", "Conceal"]:
-            cardData["set"] = "Hall of Fame"
-
         if card.get('collectible'):
             cards[card['id']] = cardData
         else:
             cardData['rarity'] = 'Token'
             tokens[card['id']] = cardData
 
+
+    with open("data/extend_desc.json", "r", encoding='utf8') as f:
+        for id, extends in json.load(f).items():
+            card = cards.get(id, tokens.get(id))
+            if card:
+                for ext in extends:
+                    extendCard = cards.get(ext, tokens.get(ext))
+                    if extendCard:
+                        card['extDesc'] = card.get('extDesc', [])
+                        card['extDesc'].append("{} ({}): {}".format(extendCard['name'],
+                                extendCard.get('cost', 0),
+                                extendCard['desc']))
+
     return cards, tokens
 
 
 def saveCardsAsJson(filename, cards):
     log.debug("saveCardsAsJson() saving %s cards to %s", len(cards), filename)
-    with open(filename, "w", newline="\n") as f:
+    with open(filename, "w", newline="\n", encoding='utf8') as f:
         json.dump(cards, f, sort_keys=True, indent=2, separators=(',', ': '))
 
 
 # default loop all ['02','06','08', ...]
-def loadSets(allcards = {}, sets = setids.keys()):
+def loadSets(allcards={}, sets=setids.keys()):
     # grp by set
     setcarddata = {}
 
@@ -222,7 +244,7 @@ def loadSets(allcards = {}, sets = setids.keys()):
 
                 if os.path.isfile(filename):
                     log.debug("loadSets() using found '%s' file instead of internet", filename)
-                    with open(filename, "r") as f:
+                    with open(filename, 'r', encoding='utf8') as f:
                         resultCards.update(json.load(f))
                 else:
                     currentSet = {}
@@ -287,12 +309,12 @@ def main():
         log.debug("main() full scrape will take 5-10 minutes")
         cards, tokens = loadJsonCards()
 
-        saveCardsAsJson("data/cards.json", loadSets(cards))
+        saveCardsAsJson("data/cards.json", loadSets(allcards=cards))
 
         # a lot of token names are not unique
         # a static, handmade list of ids is more reliable
         if os.path.isfile('data/tokenlist.json'):
-            with open('data/tokenlist.json', 'r') as f:
+            with open('data/tokenlist.json', 'r', encoding='utf8') as f:
                 saveCardsAsJson("data/tokens.json", loadTokens(tokens, json.load(f)))
     except Exception as e:
         log.exception("main() error %s", e)

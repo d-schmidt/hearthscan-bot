@@ -9,11 +9,12 @@ import credentials
 atk_dur_template = " {atk}/{dur}"
 subtype_template = " {subType}"
 desc_template = " - {desc}"
+extDesc_template = "[{text}]  \n"
 card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
                     "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
                     "^[HH](http://www.hearthhead.com/cards/{head}), "
                     "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
-                "{cost} Mana{atk_dur}{subtype}{desc}  \n")
+                "{cost} Mana{atk_dur}{subtype}{desc}  \n{extDesc}")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
             " ^( me with up to 7 [[cardname]]. )"
             "^[About.](https://www.reddit.com/message/compose/"
@@ -40,6 +41,9 @@ def createCardText(card, constants):
         atk_dur = atk_dur_template.format(atk=card['atk'], dur=card['hp'])
 
     cardDesc = card['desc']
+    extDesc = card.get('extDesc', '')
+    if extDesc:
+        extDesc = ''.join(extDesc_template.format(text=desc) for desc in extDesc)
 
     local_card = {
         'name' : card['name'],
@@ -49,6 +53,7 @@ def createCardText(card, constants):
         'set' : cardSetCode if cardSetCode else cardSet,
         'cost' : card['cost'],
         'desc' : desc_template.format(desc=cardDesc) if cardDesc else '',
+        'extDesc': extDesc,
         'hpwn' : card['hpwn'],
         'head' : card['head'],
         'wiki' : urllib.parse.quote(card['name'].replace(' ', '_')),

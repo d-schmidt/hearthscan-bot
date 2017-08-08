@@ -2,6 +2,7 @@
 *.json
 !tokenlist.json
 !constants.json
+!extend_desc.json
 !tokens.json
 !cards.json
 !tempinfo.json
