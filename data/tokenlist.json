@@ -260,5 +260,42 @@
     "Invocation of Water": {
         "id" : "UNG_211b",
         "hpwn": 55474
+    },
+
+    "Frozen Champion": {
+        "id" : "ICC_838t",
+        "hpwn": 61823
+    },
+    "Army of the Dead": {
+        "id" : "ICC_314t2",
+        "hpwn": 63049
+    },
+    "Doom Pact": {
+        "id" : "ICC_314t3",
+        "hpwn": 63050
+    },
+    "Anti-Magic Shell": {
+        "id" : "ICC_314t7",
+        "hpwn": 63054
+    },
+    "Death and Decay": {
+        "id" : "ICC_314t8",
+        "hpwn": 63056
+    },
+    "Death Coil": {
+        "id" : "ICC_314t5",
+        "hpwn": 63052
+    },
+    "Death Grip": {
+        "id" : "ICC_314t4",
+        "hpwn": 63051
+    },
+    "Obliterate": {
+        "id" : "ICC_314t6",
+        "hpwn": 63053
+    },
+    "Frostmourne": {
+        "id" : "ICC_314t1",
+        "hpwn": 63047
     }
 }

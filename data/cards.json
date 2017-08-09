@@ -33,7 +33,7 @@
   },
   "Abominable Bowman": {
     "atk": 6,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/131/636373010380185609.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/657/61829.png",
     "class": "Hunter",
     "cost": 7,
     "desc": "Deathrattle: Summon a random friendly Beast that died this game.",
@@ -97,7 +97,7 @@
   },
   "Acherus Veteran": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/943/636377314375447652.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/452/62948.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Battlecry: Give a friendly minion +1 Attack.",
@@ -145,7 +145,7 @@
   },
   "Acolyte of Agony": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/333/636373949829744010.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/491/62886.png",
     "class": "Priest",
     "cost": 3,
     "desc": "Lifesteal",
@@ -641,7 +641,7 @@
   },
   "Animated Berserker": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/173/636373063194206753.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/521/62834.png",
     "class": "Warrior",
     "cost": 1,
     "desc": "After you play a minion, deal 1 damage to it.",
@@ -1009,7 +1009,7 @@
   },
   "Archbishop Benedictus": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/138/636373022589357934.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/500/62856.png",
     "class": "Priest",
     "cost": 7,
     "desc": "Battlecry: Shuffle a copy of your opponent's deck into your deck.",
@@ -1057,7 +1057,7 @@
   },
   "Arfus": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/962/636377318572500952.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/776/62923.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Deathrattle: Add a random Death Knight card to your hand.",
@@ -1201,7 +1201,7 @@
   },
   "Arrogant Crusader": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/975/636377324559986639.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/325/62930.png",
     "class": "Paladin",
     "cost": 4,
     "desc": "Deathrattle: If it's your opponent's turn, summon a 2/2 Ghoul.",
@@ -1297,7 +1297,7 @@
   },
   "Avalanche": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/969/636377321521134391.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/415/62921.png",
     "class": "Shaman",
     "cost": 4,
     "desc": "Freeze a minion and deal 3 damage to adjacent ones.",
@@ -1425,7 +1425,7 @@
   },
   "Azure Drake": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/330/719/280.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/178/280.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Spell Damage +1. Battlecry: Draw a card.",
@@ -1633,7 +1633,7 @@
   },
   "Bearshark": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/486/636368688457394277.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/587/61827.png",
     "class": "Hunter",
     "cost": 3,
     "desc": "Can't be targeted by spells or Hero Powers.",
@@ -1777,7 +1777,7 @@
   },
   "Bite": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/331/10/266.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/187/266.png",
     "class": "Druid",
     "cost": 4,
     "desc": "Give your hero +4 Attack this turn. Gain 4 Armor.",
@@ -1825,7 +1825,7 @@
   },
   "Blackguard": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/787/636376623021199738.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/533/62907.png",
     "class": "Paladin",
     "cost": 6,
     "desc": "Whenever your hero is healed, deal that much damage to a random enemy minion.",
@@ -2097,7 +2097,7 @@
   },
   "Blood Razor": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/481/636368686167811251.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/394/61815.png",
     "class": "Warrior",
     "cost": 4,
     "desc": "Battlecry and Deathrattle: Deal 1 damage to all minions.",
@@ -2161,7 +2161,7 @@
   },
   "Blood-Queen Lana'thel": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/834/636371268829516884.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/758/61814.png",
     "class": "Warlock",
     "cost": 5,
     "desc": "Lifesteal Has +1 Attack for each card you've discarded this game.",
@@ -2273,7 +2273,7 @@
   },
   "Bloodreaver Gul'dan": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/968/636377321353219107.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/703/62934.png",
     "class": "Warlock",
     "cost": 10,
     "desc": "Battlecry: Summon all friendly Demons that died this game.",
@@ -2340,7 +2340,7 @@
   },
   "Bloodworm": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/953/636377316703394738.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/806/62933.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Lifesteal",
@@ -2468,7 +2468,7 @@
   },
   "Bolvar, Fireblood": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/846/636371274012942797.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/785/61831.png",
     "class": "Paladin",
     "cost": 5,
     "desc": "Divine Shield After a friendly minion loses Divine Shield, gain +2 Attack.",
@@ -2516,7 +2516,7 @@
   },
   "Bone Baron": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/970/636377321718637401.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/397/62939.png",
     "class": "Rogue",
     "cost": 5,
     "desc": "Deathrattle: Add two 1/1 Skeletons to your hand.",
@@ -2532,7 +2532,7 @@
   },
   "Bone Drake": {
     "atk": 6,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/632/636375838348248301.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/310/62899.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Deathrattle: Add a random Dragon to your hand.",
@@ -2564,7 +2564,7 @@
   },
   "Bonemare": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/820/636371262527637471.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/618/61834.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Battlecry: Give a friendly minion +4/+4 and Taunt.",
@@ -2708,7 +2708,7 @@
   },
   "Breath of Sindragosa": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/629/636375832488753437.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/746/62897.png",
     "class": "Mage",
     "cost": 1,
     "desc": "Deal 2 damage to a random enemy minion and Freeze it.",
@@ -2740,7 +2740,7 @@
   },
   "Bring It On!": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/169/636373061619943215.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/749/61824.png",
     "class": "Warrior",
     "cost": 2,
     "desc": "Gain 10 Armor. Reduce the Cost of minions in your opponent's hand by (2).",
@@ -2756,7 +2756,7 @@
   },
   "Brrrloc": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/326/636373933006155761.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/388/62874.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Battlecry: Freeze an enemy.",
@@ -3124,7 +3124,7 @@
   },
   "Chillblade Champion": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/158/636373046077753539.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/651/58721.png",
     "class": "Paladin",
     "cost": 4,
     "desc": "Charge Lifesteal",
@@ -3364,7 +3364,7 @@
   },
   "Cobalt Scalebane": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/819/636371262088416363.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/316/62851.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "At the end of your turn, give another random friendly minion +3 Attack.",
@@ -3508,7 +3508,7 @@
   },
   "Coldwraith": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/488/636368689011688025.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/536/61825.png",
     "class": "Mage",
     "cost": 3,
     "desc": "Battlecry: If an enemy is Frozen, draw a card.",
@@ -3572,7 +3572,7 @@
   },
   "Conceal": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/330/528/284.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/166/284.png",
     "class": "Rogue",
     "cost": 1,
     "desc": "Give your minions Stealth until your next turn.",
@@ -3716,7 +3716,7 @@
   },
   "Corpse Raiser": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/314/636373861512495531.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/539/62866.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Give a friendly minion \"Deathrattle: Resummon this minion.\"",
@@ -3732,7 +3732,7 @@
   },
   "Corpse Widow": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/298/636373833700297608.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/527/62867.png",
     "class": "Hunter",
     "cost": 5,
     "desc": "Your Deathrattle cards cost (2) less.",
@@ -3748,7 +3748,7 @@
   },
   "Corpsetaker": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/182/636373072240966727.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/815/61832.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Gain Taunt if your deck has a Taunt minion. Repeat for Divine Shield, Lifesteal, Windfury.",
@@ -3988,7 +3988,7 @@
   },
   "Cryomancer": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/329/364/49739.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/149/49739.png",
     "class": "Mage",
     "cost": 5,
     "desc": "Battlecry: If an enemy is Frozen, gain +2/+2.",
@@ -4004,7 +4004,7 @@
   },
   "Cryostasis": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/148/636373031086916365.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/385/62846.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Give a minion +3/+3 and Freeze it.",
@@ -4020,7 +4020,7 @@
   },
   "Crypt Lord": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/267/636373579025518522.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/636/62860.png",
     "class": "Druid",
     "cost": 3,
     "desc": "Taunt After you summon a minion, gain +1 Health.",
@@ -4308,7 +4308,7 @@
   },
   "Dark Conviction": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/981/636377338227250257.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/331/62932.png",
     "class": "Paladin",
     "cost": 2,
     "desc": "Set a minion's Attack and Health to 3.",
@@ -4452,7 +4452,7 @@
   },
   "Darkshire Councilman": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/333/696/35224.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/340/6/35224.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "After you summon a minion, gain +1 Attack.",
@@ -4532,7 +4532,7 @@
   },
   "Dead Man's Hand": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/170/636373061742494812.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/449/62842.png",
     "class": "Warrior",
     "cost": 2,
     "desc": "Shuffle a copy of your hand into your deck.",
@@ -4596,7 +4596,7 @@
   },
   "Deadscale Knight": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/941/636377314049115399.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/506/62931.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Lifesteal",
@@ -4612,7 +4612,7 @@
   },
   "Death Revenant": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/963/636377319081446554.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/590/62926.png",
     "class": "Warrior",
     "cost": 5,
     "desc": "Battlecry: Gain +1/+1 for each damaged minion.",
@@ -4644,7 +4644,7 @@
   },
   "Deathaxe Punisher": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/959/636377318066526019.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/642/62949.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Give a random Lifesteal minion in your hand +2/+2.",
@@ -4676,7 +4676,7 @@
   },
   "Deathspeaker": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/442/636374682579233400.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/596/62892.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Give a friendly minion Immune this turn.",
@@ -4692,7 +4692,7 @@
   },
   "Deathstalker Rexxar": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/155/636373041893767889.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/667/58724.png",
     "class": "Hunter",
     "cost": 6,
     "desc": "Battlecry: Deal 2 damage to all enemy minions.",
@@ -4791,7 +4791,7 @@
   },
   "Defile": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/151/636373034591859617.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/334/62840.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Deal 1 damage to all minions. If any die, cast this again.",
@@ -4919,7 +4919,7 @@
   },
   "Desperate Stand": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/214/636373263646101915.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/530/62880.png",
     "class": "Paladin",
     "cost": 2,
     "desc": "Give a minion \"Deathrattle: Return this to life with 1 Health.\"",
@@ -4935,7 +4935,7 @@
   },
   "Despicable Dreadlord": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/967/636377321236929760.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/412/62903.png",
     "class": "Warlock",
     "cost": 5,
     "desc": "At the end of your turn, deal 1 damage to all enemy minions.",
@@ -4983,7 +4983,7 @@
   },
   "Devour Mind": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/304/636373844576717251.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/485/62868.png",
     "class": "Priest",
     "cost": 5,
     "desc": "Copy 3 cards in your opponent's deck and add them to your hand.",
@@ -5207,7 +5207,7 @@
   },
   "Doomed Apprentice": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/133/636373016058575756.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/428/62847.png",
     "class": "Mage",
     "cost": 3,
     "desc": "Your opponent's spells cost (1) more.",
@@ -5223,7 +5223,7 @@
   },
   "Doomerang": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/971/636377321851330362.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/512/62940.png",
     "class": "Rogue",
     "cost": 1,
     "desc": "Throw your weapon at a minion. It deals its damage, then returns to your hand.",
@@ -5463,7 +5463,7 @@
   },
   "Drain Soul": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/966/636377321108409054.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/382/62928.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Lifesteal Deal 2 damage to a minion.",
@@ -5479,7 +5479,7 @@
   },
   "Drakkari Defender": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/450/636374720767395471.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/421/62887.png",
     "class": "Shaman",
     "cost": 3,
     "desc": "Taunt Overload: (3)",
@@ -5495,7 +5495,7 @@
   },
   "Drakkari Enchanter": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/957/636377317707865929.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/794/62929.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Your end of turn effects trigger twice.",
@@ -5591,7 +5591,7 @@
   },
   "Dreadsteed": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/327/824/22337.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/134/22337.png",
     "class": "Warlock",
     "cost": 4,
     "desc": "Deathrattle: At the end of the turn, summon a Dreadsteed.",
@@ -5671,7 +5671,7 @@
   },
   "Druid of the Swarm": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/793/636376630873047369.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/358/62905.png",
     "class": "Druid",
     "cost": 2,
     "desc": "Choose One - Transform into a 1/2 with Poisonous; or a 1/5 with Taunt.",
@@ -5783,7 +5783,7 @@
   },
   "Earth Elemental": {
     "atk": 7,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/330/689/124.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/175/124.png",
     "class": "Shaman",
     "cost": 5,
     "desc": "Taunt Overload: (3)",
@@ -6071,7 +6071,7 @@
   },
   "Embrace Darkness": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/207/636373203811944490.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/761/62857.png",
     "class": "Priest",
     "cost": 6,
     "desc": "Choose an enemy minion. At the start of your turn, gain control of it.",
@@ -6279,7 +6279,7 @@
   },
   "Eternal Servitude": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/140/636373023729707616.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/494/61835.png",
     "class": "Priest",
     "cost": 4,
     "desc": "Discover a friendly minion that died this game. Summon it.",
@@ -6471,7 +6471,7 @@
   },
   "Exploding Bloatbat": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/977/636377324908149622.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/292/62942.png",
     "class": "Hunter",
     "cost": 4,
     "desc": "Deathrattle: Deal 2 damage to all enemy minions.",
@@ -6695,7 +6695,7 @@
   },
   "Fallen Sun Cleric": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/484/636374950910246252.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/458/62888.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Give a friendly minion +1/+1.",
@@ -6727,7 +6727,7 @@
   },
   "Fandral Staghelm": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/333/588/35208.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/997/35208.png",
     "class": "Druid",
     "cost": 4,
     "desc": "Your Choose One cards and powers have both effects combined.",
@@ -6759,7 +6759,7 @@
   },
   "Fatespinner": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/128/636373005520008258.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/337/61830.png",
     "class": "Druid",
     "cost": 5,
     "desc": "Choose a Deathrattle (Secretly) - Deal 3 damage to all minions; or Give them +2/+2.",
@@ -7623,7 +7623,7 @@
   },
   "Forge of Souls": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/785/636376619586069464.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/542/62917.png",
     "class": "Warrior",
     "cost": 2,
     "desc": "Draw 2 weapons from your deck.",
@@ -7815,7 +7815,7 @@
   },
   "Frost Lich Jaina": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/157/636373045712013435.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/729/61810.png",
     "class": "Mage",
     "cost": 9,
     "desc": "Battlecry: Summon a 3/6 Water Elemental. Your Elementals have Lifesteal this game.",
@@ -7930,7 +7930,7 @@
   },
   "Frozen Clone": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/540/636375311491657609.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/424/62895.png",
     "class": "Mage",
     "cost": 3,
     "desc": "Secret: After your opponent plays a minion, add two copies of it to your hand.",
@@ -7962,7 +7962,7 @@
   },
   "Furnacefire Colossus": {
     "atk": 6,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/960/636377318247956780.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/461/62924.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: Discard all weapons from your hand and gain their stats.",
@@ -8170,7 +8170,7 @@
   },
   "Ghastly Conjurer": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/141/636366283264333741.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/406/61820.png",
     "class": "Mage",
     "cost": 4,
     "desc": "Battlecry: Add a 'Mirror Image' spell to your hand.",
@@ -8266,7 +8266,7 @@
   },
   "Glacial Mysteries": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/299/636373835928739511.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/437/62869.png",
     "class": "Mage",
     "cost": 8,
     "desc": "Put one of each Secret from your deck into the battlefield.",
@@ -8346,7 +8346,7 @@
   },
   "Gnash": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/978/636377325067455811.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/418/62955.png",
     "class": "Druid",
     "cost": 3,
     "desc": "Give your hero +3 Attack this turn. Gain 3 Armor.",
@@ -8362,7 +8362,7 @@
   },
   "Gnomeferatu": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/262/636373558167403582.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/578/62852.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Battlecry: Remove the top card of your opponent's deck.",
@@ -8570,7 +8570,7 @@
   },
   "Grave Shambler": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/950/636377316152413619.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/464/62950.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Whenever your weapon is destroyed, gain +1/+1.",
@@ -8634,7 +8634,7 @@
   },
   "Grim Necromancer": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/951/636377316337506254.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/304/62947.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Summon two 1/1 Skeletons.",
@@ -8922,7 +8922,7 @@
   },
   "Hadronox": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/154/636373041772515567.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/743/61828.png",
     "class": "Druid",
     "cost": 9,
     "desc": "Deathrattle: Summon your Taunt minions that died this game.",
@@ -9018,7 +9018,7 @@
   },
   "Happy Ghoul": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/790/636376628022148609.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/609/62902.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Costs (0) if your hero was healed this turn.",
@@ -9466,7 +9466,7 @@
   },
   "Howlfiend": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/630/636375834186512495.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/503/62894.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "Whenever this minion takes damage, discard a random card.",
@@ -9482,7 +9482,7 @@
   },
   "Howling Commander": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/137/636373021201674359.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/627/62836.png",
     "class": "Paladin",
     "cost": 3,
     "desc": "Battlecry: Draw a Divine Shield minion from your deck.",
@@ -9626,7 +9626,7 @@
   },
   "Hyldnir Frostrider": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/947/636377315237193583.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/779/62920.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Freeze your other minions.",
@@ -9690,7 +9690,7 @@
   },
   "Ice Breaker": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/149/636373032301641157.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/518/61813.png",
     "class": "Shaman",
     "cost": 3,
     "desc": "Destroy any Frozen minion damaged by this.",
@@ -9706,7 +9706,7 @@
   },
   "Ice Fishing": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/451/636374721050679716.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/443/62884.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Draw 2 Murlocs from your deck.",
@@ -9722,7 +9722,7 @@
   },
   "Ice Lance": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/329/937/188.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/156/188.png",
     "class": "Mage",
     "cost": 1,
     "desc": "Freeze a character. If it was already Frozen, deal 4 damage instead.",
@@ -9754,7 +9754,7 @@
   },
   "Ice Walker": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/134/636373017673459139.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/403/62848.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Your Hero Power also Freezes the target.",
@@ -10634,7 +10634,7 @@
   },
   "Keening Banshee": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/956/636377317351873249.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/812/62954.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Whenever you play a card, remove the top 3 cards of your deck.",
@@ -11162,7 +11162,7 @@
   },
   "Leeching Poison": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/487/636368688643865995.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/509/61821.png",
     "class": "Rogue",
     "cost": 2,
     "desc": "Give your weapon Lifesteal.",
@@ -11258,7 +11258,7 @@
   },
   "Light's Sorrow": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/136/636373019959768970.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/409/61833.png",
     "class": "Paladin",
     "cost": 4,
     "desc": "After a friendly minion loses Divine Shield, gain +1 Attack.",
@@ -11402,7 +11402,7 @@
   },
   "Lilian Voss": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/308/636373851789055605.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/645/62872.png",
     "class": "Rogue",
     "cost": 4,
     "desc": "Battlecry: Replace spells in your hand with random spells (from your opponent's class).",
@@ -11882,7 +11882,7 @@
   },
   "Malfurion the Pestilent": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/928/636377278918582971.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/707/62904.png",
     "class": "Druid",
     "cost": 7,
     "desc": "Choose One - Summon 2 Poisonous Spiders; or 2 Scarabs with Taunt.",
@@ -12253,7 +12253,7 @@
   },
   "Meat Wagon": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/183/636373072423708348.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/648/62849.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Deathrattle: Summon a minion from your deck with less Attack than this minion.",
@@ -12573,7 +12573,7 @@
   },
   "Mindbreaker": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/187/636373073103910522.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/797/62859.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Hero Powers are disabled.",
@@ -12717,7 +12717,7 @@
   },
   "Mistress of Pain": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/331/349/12283.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/278/12283.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Lifesteal",
@@ -12877,7 +12877,7 @@
   },
   "Moorabi": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/836/636371270087171387.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/545/62845.png",
     "class": "Shaman",
     "cost": 6,
     "desc": "Whenever another minion is Frozen, add a copy of it to your hand.",
@@ -12957,7 +12957,7 @@
   },
   "Mountainfire Armor": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/171/636373062240279945.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/391/61818.png",
     "class": "Warrior",
     "cost": 3,
     "desc": "Deathrattle: If it's your opponent's turn, gain 6 Armor.",
@@ -13309,7 +13309,7 @@
   },
   "Necrotic Geist": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/818/636371261826695981.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/788/62850.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Whenever one of your other minions dies, summon a 2/2 Ghoul.",
@@ -13405,7 +13405,7 @@
   },
   "Nerubian Unraveler": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/485/636368687841385512.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/621/61817.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Spells cost (2) more.",
@@ -13469,7 +13469,7 @@
   },
   "Night Howler": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/952/636377316541313523.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/319/62919.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Whenever this minion takes damage, gain +2 Attack.",
@@ -13661,7 +13661,7 @@
   },
   "Obsidian Statue": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/303/636373844224214351.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/497/62870.png",
     "class": "Priest",
     "cost": 9,
     "desc": "Taunt. Lifesteal. Deathrattle: Destroy a random enemy minion.",
@@ -13949,7 +13949,7 @@
   },
   "Phantom Freebooter": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/185/636373072780980900.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/283/62858.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Gain stats equal to your weapon's.",
@@ -14109,7 +14109,7 @@
   },
   "Plague Scientist": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/265/636373566250309625.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/639/61812.png",
     "class": "Rogue",
     "cost": 3,
     "desc": "Combo: Give a friendly minion Poisonous.",
@@ -14125,7 +14125,7 @@
   },
   "Play Dead": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/976/636377324800483759.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/376/62891.png",
     "class": "Hunter",
     "cost": 1,
     "desc": "Trigger a friendly minion's Deathrattle.",
@@ -14285,7 +14285,7 @@
   },
   "Power Overwhelming": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/330/770/170.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/184/170.png",
     "class": "Warlock",
     "cost": 1,
     "desc": "Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.",
@@ -14541,7 +14541,7 @@
   },
   "Prince Keleseth": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/824/636371265069202986.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/767/58723.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: If your deck has no 2-Cost cards, give all minions in your deck +1/+1.",
@@ -14573,7 +14573,7 @@
   },
   "Prince Taldaram": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/75/636365772011619677.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/770/61816.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: If your deck has no 3-Cost cards, transform into a 3/3 copy of a minion.",
@@ -14589,7 +14589,7 @@
   },
   "Prince Valanar": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/825/636371265306701743.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/773/62844.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: If your deck has no 4-Cost cards, gain Lifesteal and Taunt.",
@@ -14605,7 +14605,7 @@
   },
   "Princess Huhuran": {
     "atk": 6,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/333/966/35188.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/340/21/35188.png",
     "class": "Hunter",
     "cost": 5,
     "desc": "Battlecry: Trigger a friendly minion's Deathrattle.",
@@ -14621,7 +14621,7 @@
   },
   "Professor Putricide": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/492/636368693371001210.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/479/61819.png",
     "class": "Hunter",
     "cost": 4,
     "desc": "After you play a Secret, put a random Hunter Secret into the battlefield.",
@@ -14861,7 +14861,7 @@
   },
   "Ragnaros the Firelord": {
     "atk": 8,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/330/734/503.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/181/503.png",
     "class": "Neutral",
     "cost": 8,
     "desc": "Can't attack. At the end of your turn, deal 8 damage to a random enemy.",
@@ -14989,7 +14989,7 @@
   },
   "Rattling Rascal": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/958/636377317912342760.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/298/62893.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Summon a 5/5 Skeleton. Deathrattle: Summon one for your opponent.",
@@ -15405,7 +15405,7 @@
   },
   "Righteous Protector": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/993/636372086017920867.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/328/62864.png",
     "class": "Paladin",
     "cost": 1,
     "desc": "Taunt Divine Shield",
@@ -15469,7 +15469,7 @@
   },
   "Roll the Bones": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/449/636374720313795470.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/476/62885.png",
     "class": "Rogue",
     "cost": 2,
     "desc": "Draw a card. If it has Deathrattle, cast this again.",
@@ -15485,7 +15485,7 @@
   },
   "Rotface": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/628/636375830317204893.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/575/62898.png",
     "class": "Warrior",
     "cost": 8,
     "desc": "Whenever this minion survives damage, summon a random Legendary minion.",
@@ -15517,7 +15517,7 @@
   },
   "Runeforge Haunter": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/147/636373029581885940.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/524/62865.png",
     "class": "Rogue",
     "cost": 4,
     "desc": "During your turn, your weapon doesn't lose Durability.",
@@ -15661,7 +15661,7 @@
   },
   "Sanguine Reveler": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/266/636373569346474401.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/800/62835.png",
     "class": "Warlock",
     "cost": 1,
     "desc": "Battlecry: Destroy a friendly minion and gain +2/+2.",
@@ -15693,7 +15693,7 @@
   },
   "Saronite Chain Gang": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/786/636376621415659147.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/593/62901.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Taunt Battlecry: Summon a copy of this minion.",
@@ -15853,7 +15853,7 @@
   },
   "Scourgelord Garrosh": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/965/636377320806509638.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/736/62927.png",
     "class": "Warrior",
     "cost": 8,
     "desc": "Battlecry: Equip a 4/3 Shadowmourne that also damages adjacent minions.",
@@ -16128,7 +16128,7 @@
   },
   "Shadow Ascendant": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/305/636373846638122491.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/488/62882.png",
     "class": "Priest",
     "cost": 2,
     "desc": "At the end of your turn, give another random friendly minion +1/+1.",
@@ -16160,7 +16160,7 @@
   },
   "Shadow Essence": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/631/636375836139136090.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/515/62896.png",
     "class": "Priest",
     "cost": 6,
     "desc": "Summon a 5/5 copy of a random minion in your deck.",
@@ -16304,7 +16304,7 @@
   },
   "Shadowblade": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/146/636373029475788128.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/764/62838.png",
     "class": "Rogue",
     "cost": 3,
     "desc": "Battlecry: Your hero is Immune this turn.",
@@ -16416,7 +16416,7 @@
   },
   "Shadowreaper Anduin": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/973/636377322216673729.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/699/62889.png",
     "class": "Priest",
     "cost": 8,
     "desc": "Battlecry: Destroy all minions with 5 or more Attack.",
@@ -16499,7 +16499,7 @@
   },
   "Shallow Gravedigger": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/186/636373072980971965.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/615/58720.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Deathrattle: Add a random Deathrattle minion to your hand.",
@@ -16947,7 +16947,7 @@
   },
   "Simulacrum": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/301/636373836072176976.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/654/62871.png",
     "class": "Mage",
     "cost": 3,
     "desc": "Copy the lowest Cost minion in your hand.",
@@ -16963,7 +16963,7 @@
   },
   "Sindragosa": {
     "atk": 8,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/490/636368692637503103.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/752/61822.png",
     "class": "Mage",
     "cost": 8,
     "desc": "Battlecry: Summon two 0/1 Frozen Champions.",
@@ -17027,7 +17027,7 @@
   },
   "Skelemancer": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/886/636377173383485757.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/286/62943.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Deathrattle: If it's your opponent's turn, summon an 8/8 Skeleton.",
@@ -17059,7 +17059,7 @@
   },
   "Skulking Geist": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/313/636373859552179626.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/612/62883.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: Destroy all 1-Cost spells in both hands and decks.",
@@ -17267,7 +17267,7 @@
   },
   "Snowflipper Penguin": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/814/636371258062804731.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/295/62839.png",
     "class": "Neutral",
     "cost": 0,
     "desc": null,
@@ -17283,7 +17283,7 @@
   },
   "Snowfury Giant": {
     "atk": 8,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/784/636376617369090534.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/446/62918.png",
     "class": "Shaman",
     "cost": 11,
     "desc": "Costs (1) less for each Mana Crystal you've Overloaded this game.",
@@ -17507,7 +17507,7 @@
   },
   "Spectral Pillager": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/972/636377322013375872.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/809/62945.png",
     "class": "Rogue",
     "cost": 6,
     "desc": "Combo: Deal damage equal to the number of other cards you've played this turn.",
@@ -17571,7 +17571,7 @@
   },
   "Spellweaver": {
     "atk": 4,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/955/636377317068981979.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/782/62938.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Spell Damage +2",
@@ -17667,7 +17667,7 @@
   },
   "Spirit Lash": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/141/636373024685355856.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/630/58722.png",
     "class": "Priest",
     "cost": 2,
     "desc": "Lifesteal Deal 1 damage to all minions.",
@@ -17731,7 +17731,7 @@
   },
   "Spreading Plague": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/129/636373006884381676.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/379/62841.png",
     "class": "Druid",
     "cost": 5,
     "desc": "Summon a 1/5 Scarab with Taunt. If your opponent has more minions, cast this again.",
@@ -17971,7 +17971,7 @@
   },
   "Stitched Tracker": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/156/636373042020647486.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/584/62854.png",
     "class": "Hunter",
     "cost": 3,
     "desc": "Battlecry: Discover a copy of a minion in your deck.",
@@ -18227,7 +18227,7 @@
   },
   "Strongshell Scavenger": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/929/636377279138766619.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/633/62936.png",
     "class": "Druid",
     "cost": 4,
     "desc": "Battlecry: Give your Taunt minions +2/+2.",
@@ -18323,7 +18323,7 @@
   },
   "Sunborne Val'kyr": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/815/636371258305913508.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/313/62855.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Give adjacent minions +2 Health.",
@@ -18451,7 +18451,7 @@
   },
   "Sylvanas Windrunner": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/330/381/33.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/163/33.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Deathrattle: Take control of a random enemy minion.",
@@ -18467,7 +18467,7 @@
   },
   "Tainted Zealot": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/944/636377314544408509.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/818/62951.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Divine Shield Spell Damage +1",
@@ -18739,7 +18739,7 @@
   },
   "The Lich King": {
     "atk": 8,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/961/636377318406093128.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/548/62922.png",
     "class": "Neutral",
     "cost": 8,
     "desc": "Taunt At the end of your turn, add a random Death Knight card to your hand.",
@@ -18867,7 +18867,7 @@
   },
   "Thrall, Deathseer": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/989/636372084783602471.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/605/62861.png",
     "class": "Shaman",
     "cost": 5,
     "desc": "Battlecry: Transform your minions into random ones that cost (2) more.",
@@ -18934,7 +18934,7 @@
   },
   "Ticking Abomination": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/184/636373072546922531.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/470/61811.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Deathrattle: Deal 5 damage to your minions.",
@@ -19094,7 +19094,7 @@
   },
   "Tomb Lurker": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/181/636373072065452617.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/467/62863.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Add a random Deathrattle minion that died this game to your hand.",
@@ -19270,7 +19270,7 @@
   },
   "Toxic Arrow": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/896/636377179436313363.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/352/62952.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Deal 2 damage to a minion. If it survives, give it Poisonous.",
@@ -19334,7 +19334,7 @@
   },
   "Treachery": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/311/636373856418273201.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/482/62875.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "Choose a friendly minion and give it to your opponent.",
@@ -19446,7 +19446,7 @@
   },
   "Tuskarr Fisherman": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/945/636377314704228802.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/455/62937.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Give a friendly minion Spell Damage +1.",
@@ -19686,7 +19686,7 @@
   },
   "Ultimate Infestation": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/97/636372820191589539.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/431/62879.png",
     "class": "Druid",
     "cost": 10,
     "desc": "Deal 5 damage. Draw 5 cards. Gain 5 Armor. Summon a 5/5 Ghoul.",
@@ -19878,7 +19878,7 @@
   },
   "Unwilling Sacrifice": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/312/636373857759989012.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/602/62873.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "Choose a friendly minion. Destroy it and a random enemy minion.",
@@ -19942,7 +19942,7 @@
   },
   "Uther of the Ebon Blade": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/974/636377323471542679.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/680/62906.png",
     "class": "Paladin",
     "cost": 9,
     "desc": "Battlecry: Equip a 5/3 Lifesteal weapon.",
@@ -19961,7 +19961,7 @@
   },
   "Val'kyr Soulclaimer": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/172/636373062463000076.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/581/62853.png",
     "class": "Warrior",
     "cost": 3,
     "desc": "Whenever this minion survives damage, summon a 2/2 Ghoul.",
@@ -19977,7 +19977,7 @@
   },
   "Valeera the Hollow": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/306/636373848424207995.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/660/62876.png",
     "class": "Rogue",
     "cost": 9,
     "desc": "Battlecry: Gain Stealth until your next turn.",
@@ -20077,7 +20077,7 @@
   },
   "Venomancer": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/954/636377316910684874.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/322/62953.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Poisonous",
@@ -20093,7 +20093,7 @@
   },
   "Venomstrike Trap": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/132/636373011614426198.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/473/62837.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Secret: When one of your minions is attacked, summon a 2/3 Poisonous Cobra.",
@@ -20461,7 +20461,7 @@
   },
   "Voodoo Hexxer": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/336/489/636368689126002822.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/440/61826.png",
     "class": "Shaman",
     "cost": 5,
     "desc": "Taunt Freeze any character damaged by this minion.",
@@ -20477,7 +20477,7 @@
   },
   "Vryghoul": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/948/636377315688132577.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/400/62941.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Deathrattle: If it's your opponent's turn, summon a 2/2 Ghoul.",
@@ -20621,7 +20621,7 @@
   },
   "Webweave": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/652/636375966020588402.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/355/62900.png",
     "class": "Druid",
     "cost": 5,
     "desc": "Summon two 1/2 Poisonous Spiders.",
@@ -20701,7 +20701,7 @@
   },
   "Wicked Skeleton": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/949/636377315927203279.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/803/62944.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Gain +1/+1 for each minion that died this turn.",
@@ -20733,7 +20733,7 @@
   },
   "Wickerflame Burnbristle": {
     "atk": 2,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/329/559/49633.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/153/49633.png",
     "class": "Paladin",
     "cost": 3,
     "desc": "Divine Shield, Taunt, Lifesteal",
@@ -21021,7 +21021,7 @@
   },
   "Wretched Tiller": {
     "atk": 1,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/338/942/636377314208698180.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/339/599/62946.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Whenever this minion attacks, deal 2 damage to the enemy hero.",

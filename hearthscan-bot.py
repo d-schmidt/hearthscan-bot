@@ -147,7 +147,7 @@ def main():
     answeredDB = commentDB.DB()
     # load card DB
     url = 'https://raw.githubusercontent.com/d-schmidt/hearthscan-bot/master/data/tempinfo.json'
-    cardDB = CardDB(constants=constants)#, tempJSONUrl=url)
+    cardDB = CardDB(constants=constants, tempJSONUrl=url)
     # init hs helper for hearthstone stuff
     helper = HSHelper(cardDB, constants)
     # pm spam filter cache
