@@ -10826,7 +10826,7 @@
   },
   "King's Defender": {
     "atk": 3,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/327/995/22286.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/348/672/22286.png",
     "class": "Warrior",
     "cost": 3,
     "desc": "Battlecry: If you have a minion with Taunt, gain +1 Durability.",
@@ -17859,7 +17859,7 @@
   },
   "Starfall": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/333/441/464.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/349/598/636444885532834189.png",
     "class": "Druid",
     "cost": 5,
     "desc": "Choose One - Deal 5 damage to a minion; or 2 damage to all enemy minions.",
@@ -19830,10 +19830,10 @@
   },
   "Unlicensed Apothecary": {
     "atk": 5,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/329/580/49747.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/348/675/49747.png",
     "class": "Warlock",
     "cost": 3,
-    "desc": "Whenever you summon a minion, deal 5 damage to your hero.",
+    "desc": "After you summon a minion, deal 5 damage to your hero.",
     "head": "unlicensed-apothecary",
     "hp": 5,
     "hpwn": 49747,
@@ -20973,7 +20973,7 @@
   },
   "Wrath": {
     "atk": null,
-    "cdn": "https://media-Hearth.cursecdn.com/avatars/330/567/633.png",
+    "cdn": "https://media-Hearth.cursecdn.com/avatars/349/83/636440873128110708.png",
     "class": "Druid",
     "cost": 2,
     "desc": "Choose One - Deal 3 damage to a minion; or 1 damage and draw a card.",
