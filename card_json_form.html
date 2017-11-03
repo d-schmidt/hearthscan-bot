@@ -20,7 +20,7 @@
         $scope.nameI = 'Target Dummy';
         $scope.nameChanged = function () {
             $scope.nameI = $scope.name ? $scope.name.replace(/:/g, '') : 'Target Dummy';
-            $scope.head = $scope.nameI.toLowerCase().replace(/[ ,]/g, '-').replace(/'/g , '');
+            $scope.head = $scope.nameI.toLowerCase().replace(/ /g, '-').replace(/[',]/g , '');
             $scope.headI = $scope.head;
         };
         $scope.manaI = 0;
