@@ -13,7 +13,8 @@
         "12" : {"name" : "Mean Streets of Gadgetzan", "code" : "MSoG", "std" : true},
         "13" : {"name" : "Journey to Un'Goro", "code" : "UNG", "std" : true},
         "14" : {"name" : "Hall of Fame", "code" : "HOF", "std" : false},
-        "15" : {"name" : "Knights of the Frozen Throne", "code" : "KFT", "std" : true}
+        "15" : {"name" : "Knights of the Frozen Throne", "code" : "KFT", "std" : true},
+        "15" : {"name" : "Kobolds and Catacombs", "code" : "KnC", "std" : true}
     },
 
     "specials" : {

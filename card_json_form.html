@@ -6,7 +6,10 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>.control-label {margin-bottom: 15px;}</style>
+<style>
+.control-label text-right {margin-bottom: 15px;}
+.form-group {margin-bottom: 5px;}
+</style>
 </head>
 <!-- I use this to quickly create valid json cards for tempinfo.json in spoiler season -->
 <body>
@@ -17,7 +20,7 @@
         $scope.nameI = 'Target Dummy';
         $scope.nameChanged = function () {
             $scope.nameI = $scope.name ? $scope.name.replace(/:/g, '') : 'Target Dummy';
-            $scope.head = $scope.nameI.toLowerCase().replace(/ /g, '-').replace(/'/g , '');
+            $scope.head = $scope.nameI.toLowerCase().replace(/[ ,]/g, '-').replace(/'/g , '');
             $scope.headI = $scope.head;
         };
         $scope.manaI = 0;
@@ -60,13 +63,15 @@
     <form class="form-horizontal">
         <div class="form-group">
 
-            <label class="col-sm-2 control-label">name</label>
-            <div class="col-sm-10">
+            <label class="col-xs-2 control-label text-right">name</label>
+            <div class="col-xs-10">
                 <input type="text" class="form-control" ng-model="name" placeholder="name" ng-change="nameChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">Class</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">Class</label>
+            <div class="col-xs-10">
                 <select ng-model="class" class="form-control" name="class" ng-init="class = 'Neutral'">
                     <option value="Neutral">Neutral</option>
                     <option value="Druid">Druid</option>
@@ -84,50 +89,66 @@
                     <option value="Goons (HPW)">Goons (HPW)</option>
                 </select>
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">Mana</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">Mana</label>
+            <div class="col-xs-10">
                 <input type="number" class="form-control" ng-model="mana" placeholder="mana" ng-change="manaChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">atk</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">atk</label>
+            <div class="col-xs-10">
                 <input type="number" class="form-control" ng-model="atk" placeholder="atk" ng-change="atkChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">hp</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">hp</label>
+            <div class="col-xs-10">
                 <input type="number" class="form-control" ng-model="hp" placeholder="hp" ng-change="hpChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">desc</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">desc</label>
+            <div class="col-xs-10">
                 <input type="text" class="form-control" ng-model="desc" placeholder="desc" ng-change="descChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">cdn</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">cdn</label>
+            <div class="col-xs-10">
                 <input type="text" class="form-control" ng-model="cdn" placeholder="cdn" ng-change="cdnChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">hpwn</label>
-            <div class="col-sm-1">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">hpwn</label>
+            <div class="col-xs-2">
                 <a class="btn btn-default" href="http://www.hearthpwn.com/search?search={{name}}#t1:cards" role="button" ng-disabled="! name" target="_blank">Hearthpwn</a>
             </div>
-            <div class="col-sm-9">
+            <div class="col-xs-8">
                 <input type="number" class="form-control" ng-model="hpwn" placeholder="hpwn" ng-change="hpwnChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">head</label>
-            <div class="col-sm-1">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">head</label>
+            <div class="col-xs-2">
                 <a class="btn btn-default" href="http://hearthstone.services.zam.com/v1/card/autocomplete/{{name}}" role="button" ng-disabled="! name" target="_blank">Hearthhead</a>
             </div>
-            <div class="col-sm-9">
+            <div class="col-xs-8">
                 <input type="text" class="form-control" ng-model="head" placeholder="head" ng-change="headChanged()">
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">Rarity</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">Rarity</label>
+            <div class="col-xs-10">
                 <select ng-model="rarity" class="form-control" name="rarity" ng-init="rarity = 'Common'">
                     <option value="Token">Token</option>
                     <option value="Common">Common</option>
@@ -137,10 +158,12 @@
                     <option value="Legendary">Legendary</option>
                 </select>
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">set</label>
-            <div class="col-sm-10">
-                <select ng-model="set" class="form-control" name="set" ng-init="set = 'Knights of the Frozen Throne'">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">set</label>
+            <div class="col-xs-10">
+                <select ng-model="set" class="form-control" name="set" ng-init="set = 'Kobolds and Catacombs'">
                     <option value="Basic">Basic</option>
                     <option value="Classic">Classic</option>
                     <option value="Reward">Reward</option>
@@ -155,11 +178,14 @@
                     <option value="Mean Streets of Gadgetzan">Mean Streets of Gadgetzan</option>
                     <option value="Journey to Un'Goro">Journey to Un'Goro</option>
                     <option value="Knights of the Frozen Throne">Knights of the Frozen Throne</option>
+                    <option value="Kobolds and Catacombs">Kobolds and Catacombs</option>
                 </select>
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">type</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">type</label>
+            <div class="col-xs-10">
                 <select ng-model="type" class="form-control" name="type" ng-init="type = 'Minion'">
                     <option value="Minion">Minion</option>
                     <option value="Spell">Spell</option>
@@ -167,9 +193,11 @@
                     <option value="Hero">Hero</option>
                 </select>
             </div>
+        </div>
 
-            <label class="col-sm-2 control-label">subtype</label>
-            <div class="col-sm-10">
+        <div class="form-group">
+            <label class="col-xs-2 control-label text-right">subtype</label>
+            <div class="col-xs-10">
                 <select ng-model="subtype" class="form-control" name="subtype" ng-init="subtype = ''" ng-change="subtypeChanged()">
                     <option value="">Nothing</option>
                     <option value="Beast">Beast</option>
@@ -203,8 +231,7 @@
         "set": "{{set}}",
         "subType": {{subtypeI}},
         "type": "{{type}}"
-    },
-
+    }
 </pre>
 </div>
 </div>
