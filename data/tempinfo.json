@@ -343,5 +343,50 @@
         "set": "Kobolds and Catacombs",
         "subType": null,
         "type": "Minion"
+    },
+    "Twig of the World Tree": {
+        "atk": 1,
+        "cdn": "https://i.imgur.com/VFjs5tR.png",
+        "class": "Druid",
+        "cost": 4,
+        "desc": "Deathrattle: Gain 10 Mana Crystals.",
+        "head": "twig-of-the-world-tree",
+        "hp": 5,
+        "hpwn": 12288,
+        "name": "Twig of the World Tree",
+        "rarity": "Legendary",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Weapon"
+    },
+    "Rummaging Kobold": {
+        "atk": 1,
+        "cdn": "http://media-hearth.cursecdn.com/avatars/353/127/636468522702747699.png",
+        "class": "Neutral",
+        "cost": 3,
+        "desc": "Battlecry: Return one of your destroyed weapons to your hand.",
+        "head": "rummaging-kobold",
+        "hp": 3,
+        "hpwn": 76879,
+        "name": "Rummaging Kobold",
+        "rarity": "Epic",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Minion"
+    },
+    "Zola the Gorgon": {
+        "atk": 2,
+        "cdn": "http://media-hearth.cursecdn.com/avatars/353/159/636468627151435328.png",
+        "class": "Neutral",
+        "cost": 3,
+        "desc": "Battlecry: Choose a friendly minion. Add a Golden copy of it to your hand.",
+        "head": "zola-the-gorgon",
+        "hp": 2,
+        "hpwn": 76879,
+        "name": "Zola the Gorgon",
+        "rarity": "Legendary",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Minion"
     }
 }
