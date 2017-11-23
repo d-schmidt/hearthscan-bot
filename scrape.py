@@ -112,7 +112,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
                 image = 'http://media-hearth.cursecdn.com/avatars/148/738/687.png'
             # /cards/31128-annoy-o-tron-fanclub
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
-            return int(hpid), image.replace('http://', 'https://')
+            return int(hpid), image.replace('http://', 'https://').lower()
 
     log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn '%s' '%s'", set, name)
     raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
@@ -284,7 +284,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                 image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
 
             card = tokens[ids['id']]
-            card['cdn'] = image.replace('http://', 'https://')
+            card['cdn'] = image.replace('http://', 'https://').lower()
             card['hpwn'] = ids['hpwn']
             card['head'] = getHearthHeadId(card['name'], "ignored", "ignored")
 
@@ -339,7 +339,7 @@ def parseSingle(hpid):
 
     name = getFirst(root[0].xpath('./header[1]/h2/text()'))
     head = re.sub(r"[^\w]+", "-", name.lower())
-    cdn = getFirst(root[0].xpath('./section/img[@class="hscard-static"]/@src'))
+    cdn = getFirst(root[0].xpath('./section/img[@class="hscard-static"]/@src')).lower()
     descs = root[0].xpath('./div[h3 = "Card Text"]/p//text()')
     desc = ''.join(descs)
 
@@ -371,10 +371,10 @@ def parseSingle(hpid):
     cost = int(row.xpath('./td[@class="col-cost"]')[0].text)
     hp = row.xpath('./td[@class="col-health"]')[0].text
     hp = int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None
-    clazz = row.xpath('./td[@class="col-class"]')[0].text
-    clazz = clazz if clazz else 'Neutral'
+    clazz = getFirst(row.xpath('./td[@class="col-class"]//text()'))
+    clazz = clazz.strip() if clazz else 'Neutral'
 
-    return name, json.dumps({
+    return name, {
         "atk": atk,
         "cdn": cdn.replace('http://', 'https://'),
         "class": clazz,
@@ -388,11 +388,13 @@ def parseSingle(hpid):
         "set": cardset,
         "subType": subType,
         "type": cardtype
-    }, indent=4, separators=(',', ': '))
+    }
 
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        print(',\n"{}": {}'.format(*parseSingle(int(sys.argv[1]))))
+        name, card = parseSingle(int(sys.argv[1]))
+        card = json.dumps(card, indent=4, separators=(',', ': '))
+        print(',\n"{}": {}'.format(name, card))
     else:
         main()

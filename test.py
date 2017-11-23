@@ -95,10 +95,10 @@ class TestScrape(unittest.TestCase):
         with requests.Session() as s:
             self.assertEqual(scrape.getHearthpwnIdAndUrl('Quick Shot',
                     'Blackrock Mountain', 'Spell', False, s),
-                    (14459, 'https://media-Hearth.cursecdn.com/avatars/310/105/14459.png'))
+                    (14459, 'https://media-hearth.cursecdn.com/avatars/328/302/14459.png'))
             self.assertEqual(scrape.getHearthpwnIdAndUrl('Upgrade!',
                     'Classic', 'Spell', False, s),
-                    (638, 'https://media-Hearth.cursecdn.com/avatars/285/274/635951439216665743.png'))
+                    (638, 'https://media-hearth.cursecdn.com/avatars/330/899/638.png'))
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_full(self):
@@ -106,7 +106,7 @@ class TestScrape(unittest.TestCase):
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'https://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
+                'cdn': 'https://media-hearth.cursecdn.com/avatars/328/302/14459.png',
                 'desc': 'Deal 3 damage. If your hand is empty, draw a card.',
                 'hp': None,
                 'class': 'Hunter',
@@ -143,11 +143,12 @@ class TestScrape(unittest.TestCase):
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_full_tokens(self):
+        self.maxDiff = None
         expected = {
             'Quick Shot': {
                 'type': 'Spell',
                 'hpwn': 14459,
-                'cdn': 'https://media-Hearth.cursecdn.com/avatars/310/105/14459.png',
+                'cdn': 'https://media-hearth.cursecdn.com/avatars/328/302/14459.png',
                 'desc': 'Deal 3 damage. If your hand is empty, draw a card.',
                 'hp': None,
                 'class': 'Hunter',
@@ -200,6 +201,28 @@ class TestScrape(unittest.TestCase):
                 "Battlecry and Deathrattle: Summon a Jade Golem.")
         # multi class
         self.assertEqual(cards['CFM_902']['class'], "Lotus (DRS)")
+
+    @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
+    def test_single(self):
+        expected = {
+            'type': 'Spell',
+            'hpwn': 14459,
+            'cdn': 'https://media-hearth.cursecdn.com/avatars/328/302/14459.png',
+            'desc': 'Deal 3 damage.If your hand is empty, draw a card.',
+            'hp': None,
+            'class': 'Hunter',
+            'subType': None,
+            'set': 'Blackrock Mountain',
+            'rarity': 'Common',
+            'atk': None,
+            'head': 'quick-shot',
+            'name': 'Quick Shot',
+            'cost': 2
+        }
+
+        name, card = scrape.parseSingle(14459)
+        self.assertEqual(card, expected)
+
 
 
 class TestConst(unittest.TestCase):
