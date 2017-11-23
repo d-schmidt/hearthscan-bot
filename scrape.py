@@ -5,6 +5,7 @@ import logging as log
 import os
 import os.path
 import re
+import sys
 
 from lxml.html import fromstring
 import requests
@@ -320,5 +321,78 @@ def main():
         log.exception("main() error %s", e)
 
 
+def parseSingle(hpid):
+    def getFirst(list):
+        try:
+            return list[0]
+        except IndexError:
+            return None
+
+    cardTypes = {
+        "Playable Hero": "Hero",
+        "Ability": "Spell"
+    }
+
+    r = requests.get("http://www.hearthpwn.com/cards/{}".format(hpid))
+    r.raise_for_status()
+    root = fromstring(r.text).xpath('//div[@class="details card-details"]')
+
+    name = getFirst(root[0].xpath('./header[1]/h2/text()'))
+    head = re.sub(r"[^\w]+", "-", name.lower())
+    cdn = getFirst(root[0].xpath('./section/img[@class="hscard-static"]/@src'))
+    descs = root[0].xpath('./div[h3 = "Card Text"]/p//text()')
+    desc = ''.join(descs)
+
+    cardset = None
+    rarity = None
+    cardtype = None
+    subType = None
+    texts = iter(root[0].xpath('.//aside/ul/li//text()'))
+    for text in texts:
+        if text == 'Set: ': cardset = next(texts)
+        if text == 'Rarity: ': rarity = next(texts)
+        if text == 'Type: ':
+            cardtype = next(texts)
+            cardtype = cardTypes.get(cardtype, cardtype)
+        if text == 'Race: ':
+            subType = next(texts)
+            subType = subtypeFix.get(subType, subType)
+
+    # search
+    payload = {'filter-name': re.sub(r"[^\w]+", " ", name), 'display': 1, 'filter-unreleased': 1}
+    r = requests.get("http://www.hearthpwn.com/cards", params=payload)
+    r.raise_for_status()
+    html = fromstring(r.text)
+    path = "/cards/{}-{}".format(hpid, head)
+    row = getFirst(html.xpath('//div[@class="listing-body"]/table/tbody/tr[td/a/@href="{}"]'.format(path)))
+
+    atk = row.xpath('./td[@class="col-attack"]/text()')[0]
+    atk = int(atk) if atk and cardtype in ['Weapon', 'Minion'] else None
+    cost = int(row.xpath('./td[@class="col-cost"]')[0].text)
+    hp = row.xpath('./td[@class="col-health"]')[0].text
+    hp = int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None
+    clazz = row.xpath('./td[@class="col-class"]')[0].text
+    clazz = clazz if clazz else 'Neutral'
+
+    return name, json.dumps({
+        "atk": atk,
+        "cdn": cdn.replace('http://', 'https://'),
+        "class": clazz,
+        "cost": cost,
+        "desc": desc,
+        "head": head,
+        "hp": hp,
+        "hpwn": hpid,
+        "name": name,
+        "rarity": rarity,
+        "set": cardset,
+        "subType": subType,
+        "type": cardtype
+    }, indent=4, separators=(',', ': '))
+
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1:
+        print(',\n"{}": {}'.format(*parseSingle(int(sys.argv[1]))))
+    else:
+        main()
