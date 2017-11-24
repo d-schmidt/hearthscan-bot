@@ -89,13 +89,13 @@
         "subType": null,
         "type": "Spell"
     },
-    "Jasper Spellstone": {
+    "Lesser Jasper Spellstone": {
         "atk": 0,
         "cdn": "https://media-hearth.cursecdn.com/attachments/55/747/image.png",
         "class": "Druid",
         "cost": 1,
         "desc": "Deal 2/4/6 damage to a minion. (Gain 3 Armor to upgrade.)",
-        "head": "jasper-spellstone",
+        "head": "lesser-jasper-spellstone",
         "hp": null,
         "hpwn": 12288,
         "name": "Jasper Spellstone",
@@ -104,16 +104,16 @@
         "subType": null,
         "type": "Spell"
     },
-    "Sapphire Spellstone": {
+    "Lesser Sapphire Spellstone": {
         "atk": 0,
         "cdn": "https://media-hearth.cursecdn.com/attachments/55/748/image.png",
         "class": "Shaman",
         "cost": 7,
         "desc": "Summon 1/2/3 copies of a friendly minion. (Overload 3 Mana Crystals to upgrade.)",
-        "head": "sapphire-spellstone",
+        "head": "lesser-sapphire-spellstone",
         "hp": null,
         "hpwn": 12288,
-        "name": "Sapphire Spellstone",
+        "name": "Lesser Sapphire Spellstone",
         "rarity": "Rare",
         "set": "Kobolds and Catacombs",
         "subType": null,
@@ -314,16 +314,16 @@
         "subType": null,
         "type": "Spell"
     },
-    "Mithril Spellstone": {
+    "Lesser Mithril Spellstone": {
         "atk": null,
         "cdn": "https://media-hearth.cursecdn.com/avatars/352/978/636467816688004103.png",
         "class": "Warrior",
         "cost": 7,
         "desc": "Summon one/two/three 5/5 Mithril Golem. (Equip a Weapon to upgrade.)",
-        "head": "mithril-spellstone",
+        "head": "lesser-mithril-spellstone",
         "hp": null,
         "hpwn": 76872,
-        "name": "Mithril Spellstone",
+        "name": "Lesser Mithril Spellstone",
         "rarity": "Rare",
         "set": "Kobolds and Catacombs",
         "subType": null,
@@ -452,7 +452,7 @@
     "Raven Familiar": {
         "atk": 2,
         "cdn": "https://media-Hearth.cursecdn.com/avatars/353/392/636469701452193238.png",
-        "class": "Neutral",
+        "class": "Mage",
         "cost": 2,
         "desc": "Battlecry: Reveal a spell in each deck. If yours costs more, draw it.",
         "head": "raven-familiar",
@@ -467,7 +467,7 @@
     "Unidentified Maul": {
         "atk": 2,
         "cdn": "https://media-Hearth.cursecdn.com/avatars/353/393/636469701604693258.png",
-        "class": "Neutral",
+        "class": "Paladin",
         "cost": 3,
         "desc": "Gains a bonus effect in your hand.",
         "head": "unidentified-maul",
@@ -482,7 +482,7 @@
     "Grumble, Worldshaker": {
         "atk": 7,
         "cdn": "https://media-Hearth.cursecdn.com/avatars/353/425/636469826972701570.png",
-        "class": "Neutral",
+        "class": "Shaman",
         "cost": 6,
         "desc": "Battlecry: Return your other minions to your hand. They cost (1).",
         "head": "grumble-worldshaker",
@@ -497,7 +497,7 @@
     "Benevolent Djinn": {
         "atk": 2,
         "cdn": "https://media-Hearth.cursecdn.com/avatars/353/501/636470294437627138.png",
-        "class": "Neutral",
+        "class": "Paladin",
         "cost": 3,
         "desc": "At the end your turn, restore 3 Health to your hero.",
         "head": "benevolent-djinn",
@@ -512,7 +512,7 @@
     "Temporus": {
         "atk": 6,
         "cdn": "https://media-Hearth.cursecdn.com/avatars/353/467/636470210406077937.png",
-        "class": "Neutral",
+        "class": "Priest",
         "cost": 7,
         "desc": "Battlecry: Your opponent takes two turns. Then you take two turns.",
         "head": "temporus",
@@ -527,7 +527,7 @@
     "Grizzled Guardian": {
         "atk": 3,
         "cdn": "https://media-Hearth.cursecdn.com/avatars/353/483/636470247930347981.png",
-        "class": "Neutral",
+        "class": "Druid",
         "cost": 8,
         "desc": "Taunt. Deathrattle: Recruit 2 minions that cost (4) or less.",
         "head": "grizzled-guardian",
@@ -553,5 +553,50 @@
         "set": "Kobolds and Catacombs",
         "subType": null,
         "type": "Minion"
+    },
+    "Explosive Runes": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/353/655/636471225837791151.png",
+        "class": "Mage",
+        "cost": 3,
+        "desc": "After your opponent plays a minion, deal 6 damage to it and any excess to their hero.",
+        "head": "explosive-runes",
+        "hp": null,
+        "hpwn": 76906,
+        "name": "Explosive Runes",
+        "rarity": "Rare",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Spell"
+    },
+    "Lesser Pearl Spellstone": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/353/622/636471091618172163.png",
+        "class": "Paladin",
+        "cost": 2,
+        "desc": "Summon one 2/2 (4/4, 6/6) minion with Taunt. (Restore 3 Health to upgrade.)",
+        "head": "lesser-pearl-spellstone",
+        "hp": null,
+        "hpwn": 76900,
+        "name": "Lesser Pearl Spellstone",
+        "rarity": "Rare",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Spell"
+    },
+    "Lesser Ruby Spellstone": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/353/578/636470830669403373.png",
+        "class": "Mage",
+        "cost": 2,
+        "desc": "Add a/2/3 random Mage Spell(s) to your hand. (Play two Elementals to upgrade.)",
+        "head": "lesser-ruby-spellstone",
+        "hp": null,
+        "hpwn": 76897,
+        "name": "Lesser Ruby Spellstone",
+        "rarity": "Rare",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Spell"
     }
 }
