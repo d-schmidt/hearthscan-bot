@@ -35,7 +35,7 @@ def answerComment(r, comment, answeredDB, helper):
             header = formatter.createDuplicateMsg(sub.title, sub.permalink)
             message = header + answer
 
-            r.redditor(comment.author) \
+            r.redditor(comment.author.name) \
                     .message('You requested cards in a comment', message)
         else:
             # reply to comment
