@@ -338,7 +338,7 @@ def parseSingle(hpid):
     root = fromstring(r.text).xpath('//div[@class="details card-details"]')
 
     name = getFirst(root[0].xpath('./header[1]/h2/text()'))
-    head = re.sub(r"[^\w]+", "-", name.lower())
+    head = re.sub(r"[^\w]+", "-", name.replace("'", '').lower())
     cdn = getFirst(root[0].xpath('./section/img[@class="hscard-static"]/@src')).lower()
     descs = root[0].xpath('./div[h3 = "Card Text"]/p//text()')
     desc = ''.join(descs)
@@ -359,7 +359,7 @@ def parseSingle(hpid):
             subType = subtypeFix.get(subType, subType)
 
     # search
-    payload = {'filter-name': re.sub(r"[^\w]+", " ", name), 'display': 1, 'filter-unreleased': 1}
+    payload = {'filter-name': re.sub(r"[^\w']+", " ", name), 'display': 1, 'filter-unreleased': 1}
     r = requests.get("http://www.hearthpwn.com/cards", params=payload)
     r.raise_for_status()
     html = fromstring(r.text)
