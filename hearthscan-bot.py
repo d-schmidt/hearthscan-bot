@@ -41,7 +41,7 @@ def answerComment(r, comment, answeredDB, helper):
 
 
 def answerMention(r, comment, answeredDB, helper):
-    """read and answer a comment"""
+    """read and answer a mention"""
 
     cards, answer = helper.parseText(comment.body)
 
@@ -126,15 +126,21 @@ def answerPM(r, msg, pmUserCache, helper):
         r.redditor(credentials.admin_username).message(subject, msg.body)
 
 
+def getIdFromSubject(subject):
+    first_space = subject.find(' ', 6)
+    slice_to = first_space if first_space > 1 else len(subject)
+    if slice_to > 5:
+        return subject[5:slice_to]
+
+
 def forwardPMAnswer(r, answer_msg):
     """handle messages from bot admin which are answers to
     forwarded messages
     """
-    first_space = answer_msg.subject.find(' ', 6)
-    slice_to = first_space if first_space > 1 else len(answer_msg.subject)
+    message_id = getIdFromSubject(answer_msg.subject)
 
-    if slice_to > 5:
-        old_message = r.inbox.message(answer_msg.subject[5:slice_to])
+    if message_id:
+        old_message = r.inbox.message(message_id)
 
         if old_message:
             log.debug("forwarded answer to message id: %s", old_message.id)
@@ -146,11 +152,10 @@ def forwardMentionAnswer(r, answer_msg):
     """handle messages from bot admin which are answers to
     forwarded mentions
     """
-    first_space = answer_msg.subject.find(' ', 6)
-    slice_to = first_space if first_space > 1 else len(answer_msg.subject)
+    comment_id = getIdFromSubject(answer_msg.subject)
 
-    if slice_to > 5:
-        src_comment = r.comment(answer_msg.subject[5:slice_to])
+    if comment_id:
+        src_comment = r.comment(comment_id)
 
         if src_comment:
             log.debug("forwarded answer to comment id: %s", src_comment.id)
