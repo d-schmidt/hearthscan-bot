@@ -7,7 +7,7 @@ import sys
 import time
 
 import praw
-from praw.models import Message
+from praw.models import Message, Comment
 import prawcore
 
 
@@ -253,19 +253,21 @@ class RedditBot:
                     do(subreddit.comments(limit=self.newLimit),
                             self.__commentListener)
 
-                if self.__mentionListener and not self.killed:
-                    do(self.r.inbox.mentions(limit=self.newLimit),
-                            self.__mentionListener)
-
-                if self.__pmListener and not self.killed:
+                if (self.__pmListener or self.__mentionListener) and not self.killed:
                     items = list(self.r.inbox.unread(mark_read=True,
                             limit=self.newLimit))
 
                     for someitems in _partition(items, 100):
                         self.r.inbox.mark_read(someitems)
 
-                    do((item for item in items if isinstance(item, Message)),
-                            self.__pmListener)
+                    # pm
+                    if self.__pmListener:
+                        do((item for item in items if isinstance(item, Message)),
+                                self.__pmListener)
+                    # mention
+                    if self.__mentionListener:
+                        do((item for item in items if isinstance(item, Comment)),
+                                self.__mentionListener)
 
                 # post round actions
                 if not self.killed:

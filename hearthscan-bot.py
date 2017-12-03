@@ -24,11 +24,7 @@ def answerComment(r, comment, answeredDB, helper):
     if cards and answer:
         if answeredDB.exists(comment.parent_id, cards):
             # send pm instead of comment reply
-            try:
-                sub = comment.submission
-            except AttributeError:
-                # mention: praw-dev/praw#684
-                sub = r.comment(comment.id).submission
+            sub = comment.submission
 
             log.info("sending duplicate msg: %s with %s",
                     comment.author, cards)
@@ -42,6 +38,25 @@ def answerComment(r, comment, answeredDB, helper):
             log.info("replying to comment: %s %s with %s",
                     comment.id, comment.author.name, cards)
             comment.reply(answer)
+
+
+def answerMention(r, comment, answeredDB, helper):
+    """read and answer a comment"""
+
+    cards, answer = helper.parseText(comment.body)
+
+    if cards and answer:
+        if not answeredDB.exists(comment.parent_id, cards):
+            # reply to comment
+            log.info("replying to comment: %s %s with %s",
+                    comment.id, comment.author.name, cards)
+            comment.reply(answer)
+    else:
+        log.debug("forwarded mention with id: %s", comment.id)
+        # forward mentions without cards to admin
+        subject = '${} /u/{} in /r/{}/ "{}"'.format(comment.id, comment.author,
+                comment.subreddit, comment.submission.title)
+        r.redditor(credentials.admin_username).message(subject, comment.body)
 
 
 def answerSubmission(submission, helper):
@@ -60,22 +75,6 @@ def answerSubmission(submission, helper):
         submission.reply(answer)
 
 
-def forwardAnswer(r, answer_msg):
-    """handle messages from bot admin which are answers to
-    forwarded messages
-    """
-    first_space = answer_msg.subject.find(' ', 6)
-    slice_to = first_space if first_space > 1 else len(answer_msg.subject)
-
-    if slice_to > 5:
-        old_message = r.inbox.message(answer_msg.subject[5:slice_to])
-
-        if old_message:
-            log.debug("forwarded answer to id: %s", old_message.id)
-            old_message.reply(answer_msg.body)
-            answer_msg.reply("answer forwarded")
-
-
 def answerPM(r, msg, pmUserCache, helper):
     """ read and answer a pm """
 
@@ -90,10 +89,6 @@ def answerPM(r, msg, pmUserCache, helper):
         author = msg.author.name
         subject_author += " /u/" + author
 
-    # vip tags (mod, admin usw)
-    if msg.distinguished:
-        subject_author += " [" + msg.distinguished + "]"
-
     log.debug("found message with id: %s from %s", msg.id, author)
 
     if msg.author and not msg.distinguished and author in pmUserCache:
@@ -101,7 +96,11 @@ def answerPM(r, msg, pmUserCache, helper):
         return
 
     if author == credentials.admin_username and msg.subject[:5] == 're: #':
-        forwardAnswer(r, msg)
+        forwardPMAnswer(r, msg)
+        return
+
+    if author == credentials.admin_username and msg.subject[:5] == 're: $':
+        forwardMentionAnswer(r, msg)
         return
 
     pmUserCache[author] = int(time.time()) + PM_RATE_LIMIT
@@ -117,10 +116,46 @@ def answerPM(r, msg, pmUserCache, helper):
             log.info("sending msg: %s with %s", author, cards)
             msg.reply(answer)
     else:
+        # vip tags (mod, admin usw)
+        if msg.distinguished:
+            subject_author += " [" + msg.distinguished + "]"
+
         log.debug("forwarded message with id: %s", msg.id)
         # forward messages without cards to admin
         subject = '#{}{}: "{}"'.format(msg.id, subject_author, msg.subject)
         r.redditor(credentials.admin_username).message(subject, msg.body)
+
+
+def forwardPMAnswer(r, answer_msg):
+    """handle messages from bot admin which are answers to
+    forwarded messages
+    """
+    first_space = answer_msg.subject.find(' ', 6)
+    slice_to = first_space if first_space > 1 else len(answer_msg.subject)
+
+    if slice_to > 5:
+        old_message = r.inbox.message(answer_msg.subject[5:slice_to])
+
+        if old_message:
+            log.debug("forwarded answer to message id: %s", old_message.id)
+            old_message.reply(answer_msg.body)
+            answer_msg.reply("answer forwarded")
+
+
+def forwardMentionAnswer(r, answer_msg):
+    """handle messages from bot admin which are answers to
+    forwarded mentions
+    """
+    first_space = answer_msg.subject.find(' ', 6)
+    slice_to = first_space if first_space > 1 else len(answer_msg.subject)
+
+    if slice_to > 5:
+        src_comment = r.comment(answer_msg.subject[5:slice_to])
+
+        if src_comment:
+            log.debug("forwarded answer to comment id: %s", src_comment.id)
+            src_comment.reply(answer_msg.body)
+            answer_msg.reply("answer forwarded")
 
 
 def cleanPMUserCache(cache):
@@ -159,6 +194,9 @@ def main():
     def commentListener(r, comment):
         answerComment(r, comment, answeredDB, helper)
 
+    def mentionListener(r, comment):
+        answerMention(r, comment, answeredDB, helper)
+
     def pmListener(r, message):
         answerPM(r, message, pmUserCache, helper)
 
@@ -170,7 +208,7 @@ def main():
         RedditBot(subreddits=credentials.subreddits, newLimit=250, connectAttempts=5) \
                 .withSubmissionListener(submissionListener) \
                 .withCommentListener(commentListener) \
-                .withMentionListener(commentListener) \
+                .withMentionListener(mentionListener) \
                 .withPMListener(pmListener) \
                 .run(postAction)
     except:
