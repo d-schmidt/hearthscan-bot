@@ -67,7 +67,7 @@ def answerSubmission(submission, helper):
     if submission.is_self:
         text += ' ' + submission.selftext
 
-    cards, answer = helper.parseText(submission.selftext)
+    cards, answer = helper.parseText(text)
 
     if cards and answer:
         log.info("replying to submission: %s %s with %s",
