@@ -359,7 +359,7 @@ def parseSingle(hpid):
             subType = subtypeFix.get(subType, subType)
 
     # search
-    payload = {'filter-name': re.sub(r"[^\w]+", " ", name), 'display': 1, 'filter-unreleased': 1}
+    payload = {'filter-name': re.sub(r"[^\w']+", " ", name), 'display': 1, 'filter-unreleased': 1}
     r = requests.get("http://www.hearthpwn.com/cards", params=payload)
     r.raise_for_status()
     html = fromstring(r.text)
