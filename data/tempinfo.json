@@ -1588,5 +1588,35 @@
         "set": "Kobolds and Catacombs",
         "subType": null,
         "type": "Minion"
+    },
+    "Twilight Acolyte": {
+        "atk": 2,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/355/435/636479357267851367.png",
+        "class": "Priest",
+        "cost": 3,
+        "desc": "Battlecry: If you're holding a Dragon, swap this minion's Attack with another minion's.",
+        "head": "twilight-acolyte",
+        "hp": 4,
+        "hpwn": 76974,
+        "name": "Twilight Acolyte",
+        "rarity": "Epic",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Minion"
+    },
+    "Woecleaver": {
+        "atk": 3,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/355/496/636479714667997227.png",
+        "class": "Warrior",
+        "cost": 8,
+        "desc": "After your hero attacks, Recruit a minion.",
+        "head": "woecleaver",
+        "hp": 3,
+        "hpwn": 76975,
+        "name": "Woecleaver",
+        "rarity": "Legendary",
+        "set": "Kobolds and Catacombs",
+        "subType": null,
+        "type": "Weapon"
     }
 }
