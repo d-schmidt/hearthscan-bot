@@ -266,8 +266,10 @@ class RedditBot:
                                 self.__pmListener)
                     # mention
                     if self.__mentionListener:
-                        do((item for item in items if isinstance(item, Comment)),
-                                self.__mentionListener)
+                        for item in items:
+                            if isinstance(item, Comment):
+                                if item.subject == "username mention":
+                                    do([item], self.__mentionListener)
 
                 # post round actions
                 if not self.killed:
