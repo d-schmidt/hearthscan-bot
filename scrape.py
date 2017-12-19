@@ -243,7 +243,7 @@ def loadSets(allcards={}, sets=setids.keys()):
         with requests.Session() as hhSession:
             for setid in sets:
                 setname = cc.sets[setid]['name']
-                filename = "{} {}.json".format(setid, setname)
+                filename = "data/{} {}.json".format(setid, setname)
 
                 if os.path.isfile(filename):
                     log.debug("loadSets() using found '%s' file instead of internet", filename)
@@ -265,6 +265,7 @@ def loadSets(allcards={}, sets=setids.keys()):
                         card['hpwn'] = hpid
                         card['head'] = hhid
                         currentSet[card['name']] = card
+                        print('.', end='')
 
                     saveCardsAsJson(filename, currentSet)
                     resultCards.update(currentSet)
@@ -276,8 +277,23 @@ def loadTokens(tokens = {}, wantedTokens = {}):
     resultCards = {}
     with requests.Session() as session:
         for name, ids in wantedTokens.items():
-            if name != tokens[ids['id']]['name']:
-                log.warning('loadTokens() names do not match: %s - %s', name, tokens[ids['id']]['name'])
+            card = None
+
+            if 'id' in ids:
+                card = tokens[ids['id']]
+                if name != card['name']:
+                    log.warning('loadTokens() names do not match: %s - %s', name, tokens[ids['id']]['name'])
+
+            if 'id' not in ids:
+                for token in tokens.values():
+                    if name == token['name']:
+                        if card:
+                            log.warning('loadTokens() found token again: %s', name)
+                        card = token
+
+            if not card:
+                log.warning('loadTokens() could not find: %s', name)
+                exit()
 
             r = session.get('http://www.hearthpwn.com/cards/{}'.format(ids['hpwn']))
             r.raise_for_status()
@@ -285,7 +301,6 @@ def loadTokens(tokens = {}, wantedTokens = {}):
             if not image:
                 image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
 
-            card = tokens[ids['id']]
             card['cdn'] = image.replace('http://', 'https://').lower()
             card['hpwn'] = ids['hpwn']
             card['head'] = getHearthHeadId(card['name'], "ignored", "ignored")
@@ -296,6 +311,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
             card['hp'] = ids.get('hp', card['hp'])
 
             resultCards[card['name']] = card
+            print('.', end='')
 
     return resultCards
 

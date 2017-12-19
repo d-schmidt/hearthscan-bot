@@ -301,5 +301,171 @@
     "Frostmourne": {
         "id" : "ICC_314t1",
         "hpwn": 63047
+    },
+
+    "Rod of Roasting": {
+        "hpwn": 77189
+    },
+    "Wish": {
+        "hpwn": 77180
+    },
+    "Azari, the Devourer": {
+        "hpwn": 73328
+    },
+    "Shifting Hourglass": {
+        "hpwn": 77202
+    },
+    "Scroll of Wonder": {
+        "hpwn": 76943
+    },
+    "King's Ransom": {
+        "hpwn": 76896
+    },
+    "Primordial Wand": {
+        "hpwn": 77182
+    },
+    "Dr. Boom's Boombox": {
+        "hpwn": 77213
+    },
+    "Darkness Candle": {
+        "hpwn": 76988
+    },
+    "Embers of Ragnaros": {
+        "hpwn": 77196
+    },
+    "Orb of Destruction": {
+        "hpwn": 77176
+    },
+    "Tolin's Goblet": {
+        "hpwn": 73346
+    },
+    "Zarog's Crown": {
+        "hpwn": 73349
+    },
+    "Wondrous Wand": {
+        "hpwn": 73347
+    },
+    "Wand of Disintegration": {
+        "hpwn": 77175
+    },
+    "Greedy Pickaxe": {
+        "hpwn": 77210
+    },
+    "Vorpal Dagger": {
+        "hpwn": 77188
+    },
+    "Aleatoric Cube": {
+        "hpwn": 77186
+    },
+    "Amulet of Domination": {
+        "hpwn": 77174
+    },
+    "Horn of Cenarius": {
+        "hpwn": 77212
+    },
+    "Blade of Quel'Delar": {
+        "hpwn": 77218
+    },
+    "Quel'Delar": {
+        "hpwn": 77217
+    },
+    "Bag of Stuffing": {
+        "hpwn": 77190
+    },
+    "Boots of Haste": {
+        "hpwn": 77177
+    },
+    "Gloves of Mugging": {
+        "hpwn": 77209
+    },
+    "Hilt of Quel'Delar": {
+        "hpwn": 77219
+    },
+    "Tad's Pole": {
+        "hpwn": 77265
+    },
+    "Magic Mirror": {
+        "hpwn": 77179
+    },
+    "Mask of Mimicry": {
+        "hpwn": 77225
+    },
+    "Portable Forge": {
+        "hpwn": 77216
+    },
+    "THE CANDLE": {
+        "hpwn": 77222
+    },
+    "Loyal Sidekick": {
+        "hpwn": 77201
+    },
+    "Deadly Spore": {
+        "hpwn": 77163
+    },
+    "Portable Ice Wall": {
+        "hpwn": 77195
+    },
+    "Party Portal": {
+        "hpwn": 77181
+    },
+    "Archmage Staff": {
+        "hpwn": 77185
+    },
+    "Bag of Coins": {
+        "hpwn": 77211
+    },
+    "Battle Totem": {
+        "hpwn": 77224
+    },
+    "Captured Flag": {
+        "hpwn": 77197
+    },
+    "Cloak of Invisibility": {
+        "hpwn": 77205
+    },
+    "Crystal Gem": {
+        "hpwn": 77168
+    },
+    "Glyph of Warding": {
+        "hpwn": 77203
+    },
+    "Grommash's Armguards": {
+        "hpwn": 77183
+    },
+    "Justicar's Ring": {
+        "hpwn": 77169
+    },
+    "Khadgar's Scrying Orb": {
+        "hpwn": 77191
+    },
+    "Luminous Candle": {
+        "hpwn": 77331
+    },
+    "Mysterious Tome": {
+        "hpwn": 77208
+    },
+    "Potion of Vitality": {
+        "hpwn": 77167
+    },
+    "Robe of the Magi": {
+        "hpwn": 77193
+    },
+    "Scepter of Summoning": {
+        "hpwn": 77171
+    },
+    "Scroll of Confusion": {
+        "hpwn": 77214
+    },
+    "Small Backpacks": {
+        "hpwn": 77173
+    },
+    "Tag Team": {
+        "hpwn": 77237
+    },
+    "Totem of the Dead": {
+        "hpwn": 77223
+    },
+    "Sunken Chest": {
+        "hpwn": 77161
     }
 }
