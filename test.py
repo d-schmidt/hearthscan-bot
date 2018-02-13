@@ -136,9 +136,9 @@ class TestScrape(unittest.TestCase):
         }
 
         # this file is created to cache results
-        removeFile('07 Blackrock Mountain.json')
+        removeFile('data/07 Blackrock Mountain.json')
         scraped = scrape.loadSets(cards, ['07'])
-        removeFile('07 Blackrock Mountain.json')
+        removeFile('data/07 Blackrock Mountain.json')
         self.assertEqual(scraped, expected)
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
