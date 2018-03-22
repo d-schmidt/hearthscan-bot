@@ -148,5 +148,35 @@
         "set": "The Witchwood",
         "subType": "Beast",
         "type": "Minion"
+    },
+    "Warpath": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/366/548/636573419293279200.png",
+        "class": "Warrior",
+        "cost": 2,
+        "desc": "Echo. Deal 1 damage to all minions. ",
+        "head": "warpath",
+        "hp": null,
+        "hpwn": 89344,
+        "name": "Warpath",
+        "rarity": "Common",
+        "set": "The Witchwood",
+        "subType": null,
+        "type": "Spell"
+    },
+    "Face Collector": {
+        "atk": 2,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/366/545/636573412461495555.png",
+        "class": "Rogue",
+        "cost": 3,
+        "desc": "Echo. Battlecry: Add a random Legendary minion to your hand.",
+        "head": "face-collector",
+        "hp": 2,
+        "hpwn": 89345,
+        "name": "Face Collector",
+        "rarity": "Legendary",
+        "set": "The Witchwood",
+        "subType": null,
+        "type": "Minion"
     }
 }
