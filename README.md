@@ -5,14 +5,12 @@ To see the bot in action send a PM containing `[[Ragnaros]]` to [/u/hearthscan-b
 ## Requirements
 - tested on Python 3.4+
 - Python libraries: `requests`, `praw`, `lxml`
-- [Reddit API](https://www.reddit.com/prefs/apps/) id, secret and refresh token
+- [Reddit API](https://www.reddit.com/prefs/apps/) id, secret and refresh-token
 
 ## Tests
 To run the offline unit tests; clone this repo and:
 ```
-pip install requests
-pip install praw
-pip install lxml
+pip install -r requirements.txt
 
 copy credentials.py.example credentials.py
 copy praw.ini.example praw.ini
