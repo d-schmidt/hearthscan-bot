@@ -321,7 +321,7 @@
         "cost": 8,
         "desc": "Battlecry: Deal 3 damage to all minions.",
         "head": "hagatha-the-witch",
-        "hp": null,
+        "hp": 5,
         "hpwn": 89355,
         "name": "Hagatha the Witch",
         "rarity": "Legendary",
