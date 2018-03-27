@@ -328,5 +328,50 @@
         "set": "The Witchwood",
         "subType": null,
         "type": "Hero"
+    },
+    "Muck Hunter": {
+        "atk": 5,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/366/797/636577431517925750.png",
+        "class": "Neutral",
+        "cost": 5,
+        "desc": "Rush. Battlecry: Summon 2 2/1 Mucks for your opponent.",
+        "head": "muck-hunter",
+        "hp": 8,
+        "hpwn": 89357,
+        "name": "Muck Hunter",
+        "rarity": "Epic",
+        "set": "The Witchwood",
+        "subType": null,
+        "type": "Minion"
+    },
+    "Fluffy Wasp": {
+        "atk": 1,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/366/798/636577433543584097.png",
+        "class": "Warrior",
+        "cost": 2,
+        "desc": "Rush. Has +3 Attack when damaged.",
+        "head": "fluffy-wasp",
+        "hp": 3,
+        "hpwn": 89358,
+        "name": "Fluffy Wasp",
+        "rarity": "Rare",
+        "set": "The Witchwood",
+        "subType": "Beast",
+        "type": "Minion"
+    },
+    "Lord Godfrey": {
+        "atk": 4,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/366/811/636577562828784586.png",
+        "class": "Neutral",
+        "cost": 7,
+        "desc": "Battlecry: Deal 2 damage to all other minions. If any die, repeat this Battlecry.",
+        "head": "lord-godfrey",
+        "hp": 4,
+        "hpwn": 89359,
+        "name": "Lord Godfrey",
+        "rarity": "Legendary",
+        "set": "The Witchwood",
+        "subType": null,
+        "type": "Minion"
     }
 }
