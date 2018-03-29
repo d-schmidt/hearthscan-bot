@@ -478,5 +478,50 @@
         "set": "The Witchwood",
         "subType": "Mech",
         "type": "Minion"
+    },
+    "Coffin Crasher": {
+        "atk": 6,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/366/996/636578977260832691.png",
+        "class": "Priest",
+        "cost": 6,
+        "desc": "Deathrattle: Summon a Deathrattle minion from your hand.",
+        "head": "coffin-crasher",
+        "hp": 5,
+        "hpwn": 89368,
+        "name": "Coffin Crasher",
+        "rarity": "Rare",
+        "set": "The Witchwood",
+        "subType": null,
+        "type": "Minion"
+    },
+    "Darius Crowley": {
+        "atk": 4,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/367/55/636579434913127141.png",
+        "class": "Warrior",
+        "cost": 5,
+        "desc": "Rush. After this attacks and kills a minion, gain +2/+2.",
+        "head": "darius-crowley",
+        "hp": 4,
+        "hpwn": 89369,
+        "name": "Darius Crowley",
+        "rarity": "Legendary",
+        "set": "The Witchwood",
+        "subType": null,
+        "type": "Minion"
+    },
+    "Emeriss": {
+        "atk": 8,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/367/40/636579262361542667.png",
+        "class": "Hunter",
+        "cost": 10,
+        "desc": "Battlecry: Double the Attack and Health of all minions in your hand.",
+        "head": "emeriss",
+        "hp": 8,
+        "hpwn": 89370,
+        "name": "Emeriss",
+        "rarity": "Legendary",
+        "set": "The Witchwood",
+        "subType": "Dragon",
+        "type": "Minion"
     }
 }
