@@ -183,7 +183,7 @@ def loadJsonCards():
         if not subtype and "QUEST" in card.get("mechanics", []):
             subtype = 'Quest'
 
-        clazz = camelCase(card.get('playerClass', 'Neutral'))
+        clazz = camelCase(card.get('cardClass', 'Neutral'))
 
         if 'multiClassGroup' in card and 'classes' in card:
             multiClass = multiClassGroups[card['multiClassGroup']]
