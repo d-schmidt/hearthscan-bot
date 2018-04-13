@@ -6,15 +6,15 @@ import urllib
 import credentials
 
 
-atk_dur_template = " {atk}/{dur}"
+atk_dur_template = "{atk}/{dur}"
 subtype_template = " {subType}"
-desc_template = " - {desc}"
+desc_template = " | {desc}"
 extDesc_template = "[{text}]  \n"
 card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
                     "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
                     "^[HH](http://www.hearthhead.com/cards/{head}), "
                     "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
-                "{cost} Mana{atk_dur}{subtype}{desc}  \n{extDesc}")
+                "{cost}/{atk_dur}{subtype}{desc}  \n{extDesc}")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
             " ^( me with up to 7 [[cardname]]. )"
             "^[About.](https://www.reddit.com/message/compose/"
@@ -26,10 +26,9 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "To reduce duplicates, your cards are here:\n\n")
 
 # Standard legal icon
-# 2017 elephant because mammoth
-STD_ICON = '\U0001F418 '
 # 2018 bird because raven
-NEXT_STD_ICON = '\U0001F426'
+STD_ICON = '\U0001F426 '
+NEXT_STD_ICON = STD_ICON
 
 
 def createCardText(card, constants):
@@ -37,9 +36,12 @@ def createCardText(card, constants):
     cardSet = card['set']
     cardSetData = constants.sets[constants.setIds[cardSet]]
     cardSetCode = cardSetData.get('code')
-    atk_dur = ''
-    if card['atk'] is not None and card['hp'] is not None:
-        atk_dur = atk_dur_template.format(atk=card['atk'], dur=card['hp'])
+
+    atk = card['atk']
+    dur = card['hp']
+    if atk is None: atk = '-'
+    if dur is None: dur = '-'
+    atk_dur = atk_dur_template.format(atk=atk, dur=dur)
 
     cardDesc = card['desc']
     extDesc = card.get('extDesc', '')

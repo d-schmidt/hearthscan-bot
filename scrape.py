@@ -21,7 +21,7 @@ This is especially true when using images.
 
 
 # scrape main url
-setUrlTempl = ('http://www.hearthpwn.com/cards?'
+setUrlTempl = ('https://www.hearthpwn.com/cards?'
                'filter-name={}&filter-premium={}&filter-type={}&filter-set={}'
                '&filter-unreleased=1&display=2')
 # hearthstonejson set id to card_constant set id
@@ -39,7 +39,8 @@ jsonToCCSet = {
     'UNGORO' : '13',
     'HOF' : '14',
     'ICECROWN' : '15',
-    'LOOTAPALOOZA' : '16'
+    'LOOTAPALOOZA' : '16',
+    'GILNEAS' : '17'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -56,7 +57,8 @@ setids = {
     '13' : 108,
     '14' : 4,
     '15' : 109,
-    '16' : 110
+    '16' : 110,
+    '17' : 111
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -157,8 +159,11 @@ def loadJsonCards():
     tokens = {}
 
     for card in cardtextjson:
-        if card.get('set') not in jsonToCCSet:
-            # helper can't handle this yet
+        if card.get('set') not in jsonToCCSet and card.get('id') not in ['EX1_050', 'EX1_620', 'EX1_295']:
+            # uncollectible cards and unknown set
+            continue
+        if card.get('set') in ['HERO_SKINS']:
+            # not a real card set
             continue
         if card.get('type') not in ['MINION', 'SPELL', 'WEAPON', 'HERO', 'HERO_POWER']:
             # buffs are irrelevant for us
@@ -185,18 +190,28 @@ def loadJsonCards():
             classes = ''.join(c[:1] for c in card['classes'])
             clazz = '{} ({})'.format(multiClass, classes)
 
+        cardSet = card.get('set')
+        if not cardSet:
+            log.debug("loadJsonCards() collectible without set. HOF? %s", card)
+            cardSet = 'HOF'
+
+        cost = card.get('cost')
+        if cost is None and card.get('collectible'):
+            log.debug("loadJsonCards() collectible without cost: %s", card)
+            cost = 0
+
         cardData = {
             'id': card['id'],
             'name': card['name'],
             'rarity': rarity,
             'class': clazz,
-            'set': cc.sets[jsonToCCSet[card['set']]]['name'],
+            'set': cc.sets[jsonToCCSet[cardSet]]['name'],
             'type': camelCase(card['type']),
             'subType': subtypeFix.get(subtype, subtype),
             'cost': card.get('cost', 0),
             'desc': text,
             'atk': card.get('attack'),
-            'hp': card.get('health', card.get('durability'))
+            'hp': card.get('armor', card.get('health', card.get('durability')))
         }
 
         if card.get('collectible'):
@@ -295,7 +310,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                 log.warning('loadTokens() could not find: %s', name)
                 exit()
 
-            r = session.get('http://www.hearthpwn.com/cards/{}'.format(ids['hpwn']))
+            r = session.get('https://www.hearthpwn.com/cards/{}'.format(ids['hpwn']))
             r.raise_for_status()
             image = fromstring(r.text).xpath('//img[@class="hscard-static"]')[0].get('src')
             if not image:

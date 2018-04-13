@@ -3,7 +3,7 @@
         "id" : "EX1_tk28",
         "hpwn": 469
     },
-    "Ambush!": {
+    "Nerubian Ambush!": {
         "id" : "AT_035t",
         "hpwn": 22435
     },
@@ -467,5 +467,30 @@
     },
     "Sunken Chest": {
         "hpwn": 77161
+    },
+    "Golden Kobold": {
+        "hpwn": 73353
+    },
+
+    "Splitting Sapling": {
+        "hpwn": 89420
+    },
+    "Woodchip": {
+        "hpwn": 89421
+    },
+    "Amalgamation": {
+        "hpwn": 89624
+    },
+    "Bubba": {
+        "hpwn": 89495
+    },
+    "Butch": {
+        "hpwn": 89494
+    },
+    "Murloc Holmes": {
+        "hpwn": 89581
+    },
+    "Princess": {
+        "hpwn": 89496
     }
 }
