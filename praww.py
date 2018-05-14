@@ -79,7 +79,8 @@ class RedditBot:
     def __init__(self, *, subreddits, iniSite='bot',
             newLimit=25, sleep=30, connectAttempts=1,
             scopes=('submit', 'privatemessages', 'read', 'identity'),
-            dbName='praww.db'):
+            dbName='praww.db',
+            userBlacklist=[]):
         """Create an instance of Reddit. Does not yet connect.
 
         :param subreddits: list of subreddits to read
@@ -90,6 +91,7 @@ class RedditBot:
             sleep 2^n sec between attempts (default: 1)
         :param scopes: required scopes
         :param dbName: name of file of seen-things db
+        :param userBlacklist: users to ignore
         """
         self.killed = False
         signal.signal(signal.SIGTERM, self.__catchKill)
@@ -101,6 +103,7 @@ class RedditBot:
         self.connectAttempts = connectAttempts
         self.scopes = scopes
         self.dbName = dbName
+        self.userBlacklist = userBlacklist
 
         self.rateSleep = 0
         self.roundStart = 0
@@ -229,7 +232,7 @@ class RedditBot:
             for thing in things:
                 if self.killed or self.__seenDB.isSeen(thing):
                     return
-                if thing.author != self.me:
+                if thing.author != self.me and thing.author not in self.userBlacklist:
                     listener(self.r, thing)
 
         # create lockfile for clean shutdown, delete the file to stop bot

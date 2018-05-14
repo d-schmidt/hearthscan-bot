@@ -210,7 +210,10 @@ def main():
         cardDB.refreshTemp()
 
     try:
-        RedditBot(subreddits=credentials.subreddits, newLimit=250, connectAttempts=5) \
+        RedditBot(subreddits=credentials.subreddits,
+                    newLimit=250,
+                    connectAttempts=5,
+                    userBlacklist=set(credentials.userBlacklist)) \
                 .withSubmissionListener(submissionListener) \
                 .withCommentListener(commentListener) \
                 .withMentionListener(mentionListener) \
