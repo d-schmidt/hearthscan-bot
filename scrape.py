@@ -208,7 +208,7 @@ def loadJsonCards():
             'set': cc.sets[jsonToCCSet[cardSet]]['name'],
             'type': camelCase(card['type']),
             'subType': subtypeFix.get(subtype, subtype),
-            'cost': card.get('cost', 0),
+            'cost': cost,
             'desc': text,
             'atk': card.get('attack'),
             'hp': card.get('armor', card.get('health', card.get('durability')))
