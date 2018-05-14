@@ -159,7 +159,7 @@ def loadJsonCards():
     tokens = {}
 
     for card in cardtextjson:
-        if card.get('set') not in jsonToCCSet and card.get('id') not in ['EX1_050', 'EX1_620', 'EX1_295']:
+        if card.get('set') not in jsonToCCSet:
             # uncollectible cards and unknown set
             continue
         if card.get('set') in ['HERO_SKINS']:
