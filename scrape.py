@@ -44,8 +44,8 @@ jsonToCCSet = {
 }
 # card_constant set ids to hs internal set ids
 setids = {
-    '01' : 2  ,
-    '02' : 3  ,
+    '01' : 2,
+    '02' : 3,
     '05' : 100,
     '06' : 101,
     '07' : 102,
@@ -113,7 +113,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
         if title.lower() == name.lower():
             image = images[i].get('src')
             if not image:
-                image = 'http://media-hearth.cursecdn.com/avatars/148/738/687.png'
+                image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
             # /cards/31128-annoy-o-tron-fanclub
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
             return int(hpid), image.replace('http://', 'https://').lower()
@@ -366,7 +366,7 @@ def parseSingle(hpid):
         "Ability": "Spell"
     }
 
-    r = requests.get("http://www.hearthpwn.com/cards/{}".format(hpid))
+    r = requests.get("https://www.hearthpwn.com/cards/{}".format(hpid))
     r.raise_for_status()
     root = fromstring(r.text).xpath('//div[@class="details card-details"]')
 
@@ -393,7 +393,7 @@ def parseSingle(hpid):
 
     # search
     payload = {'filter-name': re.sub(r"[^\w']+", " ", name), 'display': 1, 'filter-unreleased': 1}
-    r = requests.get("http://www.hearthpwn.com/cards", params=payload)
+    r = requests.get("https://www.hearthpwn.com/cards", params=payload)
     r.raise_for_status()
     html = fromstring(r.text)
     path = "/cards/{}-{}".format(hpid, head)
