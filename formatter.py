@@ -37,8 +37,10 @@ def createCardText(card, constants):
     cardSetData = constants.sets[constants.setIds[cardSet]]
     cardSetCode = cardSetData.get('code')
 
+    cost = card['cost']
     atk = card['atk']
     dur = card['hp']
+    if cost is None: cost = '-'
     if atk is None: atk = '-'
     if dur is None: dur = '-'
     atk_dur = atk_dur_template.format(atk=atk, dur=dur)
@@ -54,7 +56,7 @@ def createCardText(card, constants):
         'class' : card['class'],
         'rarity' : card['rarity'],
         'set' : cardSetCode if cardSetCode else cardSet,
-        'cost' : card['cost'],
+        'cost' : cost,
         'desc' : desc_template.format(desc=cardDesc) if cardDesc else '',
         'extDesc': extDesc,
         'hpwn' : card['hpwn'],
