@@ -310,6 +310,7 @@
         "hpwn": 77180
     },
     "Azari, the Devourer": {
+        "id" : "LOOT_415t6",
         "hpwn": 73328
     },
     "Shifting Hourglass": {
@@ -385,6 +386,7 @@
         "hpwn": 77265
     },
     "Magic Mirror": {
+        "id" : "LOOTA_813",
         "hpwn": 77179
     },
     "Mask of Mimicry": {
@@ -415,6 +417,7 @@
         "hpwn": 77211
     },
     "Battle Totem": {
+        "id" : "LOOTA_846",
         "hpwn": 77224
     },
     "Captured Flag": {
@@ -463,6 +466,7 @@
         "hpwn": 77237
     },
     "Totem of the Dead": {
+        "id" : "LOOTA_845",
         "hpwn": 77223
     },
     "Sunken Chest": {

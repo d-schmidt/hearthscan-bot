@@ -1,18 +1,1 @@
-{
-  "Drakeslayer": {
-    "atk": 2,
-    "cdn": "https://media-hearth.cursecdn.com/avatars/369/231/636590945035390248.png",
-    "class": "Neutral",
-    "cost": 1,
-    "desc": "Poisonous",
-    "head": "drakeslayer",
-    "hp": 1,
-    "hpwn": 89481,
-    "id": "GIL_683t",
-    "name": "Drakeslayer",
-    "rarity": "Token",
-    "set": "The Witchwood",
-    "subType": null,
-    "type": "Minion"
-  }
-}
+{ }
