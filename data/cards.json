@@ -1636,7 +1636,7 @@
     "cdn": "https://media-hearth.cursecdn.com/avatars/369/177/636590944135742676.png",
     "class": "Neutral",
     "cost": 2,
-    "desc": "Battlecry: Choose a friendly minion. Shuffle a copy of it into your deck.",
+    "desc": "Battlecry: Choose a friendly minion. Shuffle a copy into your deck.",
     "head": "baleful-banker",
     "hp": 2,
     "hpwn": 89438,
@@ -7162,7 +7162,7 @@
     "cdn": "https://media-hearth.cursecdn.com/avatars/332/532/27233.png",
     "class": "Neutral",
     "cost": 4,
-    "desc": "Can't attack unless it's the only minion in the battlefield.",
+    "desc": "Can't attack unless it's the only minion on the battlefield.",
     "head": "eerie-statue",
     "hp": 7,
     "hpwn": 27233,
@@ -12424,7 +12424,7 @@
     "name": "Jungle Moonkin",
     "rarity": "Rare",
     "set": "The League of Explorers",
-    "subType": "Beast",
+    "subType": null,
     "type": "Minion"
   },
   "Jungle Panther": {
@@ -15339,7 +15339,7 @@
     "name": "Molten Giant",
     "rarity": "Epic",
     "set": "Hall of Fame",
-    "subType": null,
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Molten Reflection": {
@@ -15483,7 +15483,7 @@
     "name": "Mountain Giant",
     "rarity": "Epic",
     "set": "Classic",
-    "subType": null,
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Mountainfire Armor": {
@@ -16067,7 +16067,7 @@
     "cdn": "https://media-hearth.cursecdn.com/avatars/369/20/636590941505795114.png",
     "class": "Neutral",
     "cost": 4,
-    "desc": "Battlecry: If this is the only minion in the battlefield, gain +3/+3.",
+    "desc": "Battlecry: If this is the only minion on the battlefield, gain +3/+3.",
     "head": "night-prowler",
     "hp": 3,
     "hpwn": 89478,
@@ -16171,7 +16171,7 @@
     "name": "North Sea Kraken",
     "rarity": "Common",
     "set": "The Grand Tournament",
-    "subType": null,
+    "subType": "Beast",
     "type": "Minion"
   },
   "Northshire Cleric": {
@@ -25131,7 +25131,7 @@
     "name": "Witchwood Piper",
     "rarity": "Rare",
     "set": "The Witchwood",
-    "subType": null,
+    "subType": "Demon",
     "type": "Minion"
   },
   "Wobbling Runts": {
