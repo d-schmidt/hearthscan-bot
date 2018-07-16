@@ -88,5 +88,20 @@
         "set": "The Boomsday Project",
         "subType": "Mech",
         "type": "Minion"
+    },
+    "Menacing Nimbus": {
+        "atk": 2,
+        "cdn": "https://media-hearth.cursecdn.com/attachments/74/874/bcb46de8.png",
+        "class": "Shaman",
+        "cost": 2,
+        "desc": "Battlecry: Add a random Elemental to your hand.",
+        "head": "menacing-nimbus",
+        "hp": 2,
+        "hpwn": 12288,
+        "name": "Menacing Nimbus",
+        "rarity": "Common",
+        "set": "The Boomsday Project",
+        "subType": "Elemental",
+        "type": "Minion"
     }
 }
