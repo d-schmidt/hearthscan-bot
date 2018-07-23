@@ -425,11 +425,33 @@ def parseSingle(hpid):
         "type": cardtype
     }
 
+def formatSingle(name, card):
+    card = json.dumps(card, indent=4, separators=(',', ': '))
+    return ',\n"{}": {}'.format(name, card)
+
+
+def expandId(id):
+    matched = re.match(r'(\d+)(?:-(\d+))?', id)
+    if matched:
+        a, b = matched.group(1,2)
+        if b:
+            if int(a) >= int(b):
+                raise ValueError('invalid range: {}-{}'.format(a, b))
+            yield from range(int(a), int(b) + 1)
+        else:
+            yield a
+
+def expandIds(ids):
+    for id in ids:
+        yield from expandId(id)
+
+
+def parseMultiple(ids):
+    return "".join(formatSingle(*parseSingle(id)) for id in expandIds(ids))
+
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        name, card = parseSingle(int(sys.argv[1]))
-        card = json.dumps(card, indent=4, separators=(',', ': '))
-        print(',\n"{}": {}'.format(name, card))
+        print(parseMultiple(sys.argv[1:]))
     else:
         main()
