@@ -530,6 +530,11 @@ class TestHelper(unittest.TestCase):
             cards, text = helper.parseText(text)
             self.assertEqual(cards, ['test'], 'simple card')
             self.assertEqual(len(text), 0, 'unknown card')
+            # escaped simple find
+            text = '\\[\\[test\\]\\]'
+            cards, text = helper.parseText(text)
+            self.assertEqual(cards, ['test'], 'simple card')
+            self.assertEqual(len(text), 0, 'unknown card')
             # two cards, cleanName
             text = ' [[hello]] world [[Ab 123c]] '
             cards, text = helper.parseText(text)
@@ -547,10 +552,9 @@ class TestHelper(unittest.TestCase):
             self.assertTrue('Quick Shot' in text)
             # test card limit
             cardsNames = [chr(97 + i) * 2 for i in range(c.CARD_LIMIT + 1)]
-            text = '[[' + ']][['.join(cardsNames) +']]'
+            text = '[[' + ']][['.join(cardsNames) + ']]'
             cards, text = helper.parseText(text)
-            self.assertEqual(cards, cardsNames[:-1],
-                    'card limit')
+            self.assertEqual(cards, cardsNames[:-1], 'card limit')
             self.assertEqual(len(text), 0, 'unknown cards')
             # test short text
             text = '[[a]]'

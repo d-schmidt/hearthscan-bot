@@ -3,6 +3,7 @@ import io
 import itertools
 import json
 import logging as log
+import re
 import string
 
 import credentials
@@ -88,51 +89,34 @@ class HSHelper:
         return ' '.join(lines)
 
     def getCards(self, text):
-        """look for [[cardname]]s in text and collect them securely"""
+        """look for [[cardname]]s in text and collect them"""
         cards = []
         if len(text) < 6:
             return cards
 
-        open_bracket = False
-        card = ''
+        # regex for escaped (new reddit and some apps) and unescaped brackets
+        for card in re.finditer(r'\\?\[\\?\[([^\]\\]{1,30})\\?\]\\?\]', text):
+            card = card.group(1)
+            log.debug("adding a card: %s", card)
+            cleanCard = CardDB.cleanName(card)
 
-        # could be regex, but I rather not parse everything evil users are sending
-        for i in range(1, len(text)):
-            c = text[i]
+            if cleanCard:
+                log.debug("cleaned card name: %s", cleanCard)
+                # slight spelling error?
+                checkedCard = self.spellChecker.correct(cleanCard)
+                if cleanCard != checkedCard:
+                    log.info("spelling fixed: %s -> %s",
+                        cleanCard, checkedCard)
 
-            if open_bracket and c != ']':
-                card += c
-            if c == '[' and text[i-1] == '[':
-                open_bracket = True
-            if c == ']' and open_bracket:
-                if len(card) > 0:
-                    log.debug("adding a card: %s", card)
-                    cleanCard = CardDB.cleanName(card)
+                # is alternative name?
+                checkedCard = self.constants.translateAlt(checkedCard)
+                # add cardname
+                if checkedCard not in cards:
+                    cards.append(checkedCard)
+                else:
+                    log.info("duplicate card: %s", card)
 
-                    if cleanCard:
-                        log.debug("cleaned card name: %s", cleanCard)
-                        # slight spelling error?
-                        checkedCard = self.spellChecker.correct(cleanCard)
-                        if cleanCard != checkedCard:
-                            log.info("spelling fixed: %s -> %s",
-                                cleanCard, checkedCard)
-
-                        # is alternative name?
-                        checkedCard = self.constants.translateAlt(checkedCard)
-                        # add cardname
-                        if checkedCard not in cards:
-                            cards.append(checkedCard)
-                        else:
-                            log.info("duplicate card: %s", card)
-
-                card = ''
-                open_bracket = False
-                if len(cards) >= self.constants.CARD_LIMIT:
-                    break
-
-            if len(card) > 30:
-                card = ''
-                open_bracket = False
+            if len(cards) >= self.constants.CARD_LIMIT:
+                break
 
         return cards
-
