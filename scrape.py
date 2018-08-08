@@ -6,11 +6,13 @@ import os
 import os.path
 import re
 import sys
+from multiprocessing.dummy import Pool
 
 from lxml.html import fromstring
 import requests
 
 from constants import Constants
+
 
 """
 Please note:
@@ -60,7 +62,7 @@ setids = {
     '15' : 109,
     '16' : 110,
     '17' : 111,
-    '18' : 112
+    '18' : 113
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -256,9 +258,9 @@ def loadSets(allcards={}, sets=setids.keys()):
 
     resultCards = {}
 
-    with requests.Session() as session:
-        with requests.Session() as hhSession:
-            for setid in sets:
+    def doSet(setid):
+        with requests.Session() as session:
+            with requests.Session() as hhSession:
                 setname = cc.sets[setid]['name']
                 filename = "data/{} {}.json".format(setid, setname)
 
@@ -286,6 +288,9 @@ def loadSets(allcards={}, sets=setids.keys()):
 
                     saveCardsAsJson(filename, currentSet)
                     resultCards.update(currentSet)
+
+    with Pool(4) as p:
+        p.map(doSet, sets)
 
     return resultCards
 
@@ -357,6 +362,13 @@ def main():
 
 
 def parseSingle(hpid):
+    try:
+        return parseSingleThrowing(hpid)
+    except Exception as e:
+        print(hpid, e)
+        return "", {}
+
+def parseSingleThrowing(hpid):
     def getFirst(list):
         try:
             return list[0]
@@ -425,10 +437,13 @@ def parseSingle(hpid):
         "type": cardtype
     }
 
-def formatSingle(name, card):
-    card = json.dumps(card, indent=4, separators=(',', ': '))
-    return ',\n"{}": {}'.format(name, card)
 
+def formatSingle(name, card):
+    if name and card:
+        card = json.dumps(card, indent=4, separators=(',', ': '))
+        return ',\n"{}": {}'.format(name, card)
+    else:
+        return ""
 
 def expandId(id):
     matched = re.match(r'(\d+)(?:-(\d+))?', id)
@@ -441,9 +456,11 @@ def expandId(id):
         else:
             yield a
 
+
 def expandIds(ids):
     for id in ids:
         yield from expandId(id)
+
 
 
 def parseMultiple(ids):
