@@ -111,10 +111,13 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
     images = html.xpath('//td[@class="visual-image-cell"]/a/img')
     descs = html.xpath('//td[@class="visual-details-cell"]/h3/a')
 
+    # hpwn removes the ~
+    lowerName = name.lower().replace('ñ', 'n')
+
     for i in range(len(images)):
         title = descs[i].text
 
-        if title.lower() == name.lower():
+        if title.lower() == lowerName:
             image = images[i].get('src')
             if not image:
                 image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'

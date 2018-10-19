@@ -1,1 +1,62 @@
-{}
+{
+    "Icicle": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/379/1/636728848472452551.png",
+        "class": "Mage",
+        "cost": 2,
+        "desc": "Deal 2 damage to a minion. If it's Frozen, draw a card.",
+        "head": "icicle",
+        "hp": null,
+        "hpwn": 90139,
+        "name": "Icicle",
+        "rarity": "Epic",
+        "set": "Classic",
+        "subType": null,
+        "type": "Spell"
+    },
+    "Tome of Intellect": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/379/2/636728849010446406.png",
+        "class": "Mage",
+        "cost": 1,
+        "desc": "Add a random Mage spell to your hand.",
+        "head": "tome-of-intellect",
+        "hp": null,
+        "hpwn": 90140,
+        "name": "Tome of Intellect",
+        "rarity": "Common",
+        "set": "Classic",
+        "subType": null,
+        "type": "Spell"
+    },
+    "Call of the Void": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/379/3/636728849515782084.png",
+        "class": "Warlock",
+        "cost": 1,
+        "desc": "Add a random Demon to your hand.",
+        "head": "call-of-the-void",
+        "hp": null,
+        "hpwn": 90141,
+        "name": "Call of the Void",
+        "rarity": "Common",
+        "set": "Classic",
+        "subType": null,
+        "type": "Spell"
+    },
+    "Pilfer": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/379/4/636728850097131466.png",
+        "class": "Rogue",
+        "cost": 1,
+        "desc": "Add a random card to your hand (from your opponent's class).",
+        "head": "pilfer",
+        "hp": null,
+        "hpwn": 90142,
+        "name": "Pilfer",
+        "rarity": "Common",
+        "set": "Classic",
+        "subType": null,
+        "type": "Spell"
+    }
+}
