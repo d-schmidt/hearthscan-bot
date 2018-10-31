@@ -22,35 +22,14 @@ The test creates a `test.log`.
 ## Running the bot
 **Make sure the online test is successful!**  
 I use the `start.sh` on my PI to run in background.  
-If you want to start it without, no parameters are required (`python3 hearthscan-bot.py`).  
+If you want to start it without script, no parameters are required to start it (`python3 hearthscan-bot.py`).  
 The script pipes startup errors to `std.txt` and `err.txt`. The bot logs to `bot.log` once it is running.
 
-You will require json-data for the bot to work. Start the `scrape.py` and wait or create the two data files yourself.
-Create a `cards.json` and a `tokens.json` and add a card in the format:
-``` JSON
-{
-  "Abomination": {
-    "atk": 4,
-    "cdn": "http://media-Hearth.cursecdn.com/avatars/147/945/597.png",
-    "class": "Neutral",
-    "cost": 5,
-    "desc": "Taunt. Deathrattle: Deal 2 damage to ALL characters.",
-    "head": "abomination",
-    "hp": 4,
-    "hpwn": 597,
-    "name": "Abomination",
-    "rarity": "Rare",
-    "set": "Classic",
-    "subType": null,
-    "type": "Minion"
-  },
-  ...
-}
-```
-Cards are not required in the files, but both files have to exists and contain valid json: `{}`.  
-While the bot is running, you can teach it new cards without stopping. Create or edit `tempinfo.json` following the same format.
+There are JSON files included in this repository. If you want current data you can always recreate them using `scrape.py`.  
 
-Delete the `lockfile.lock` or kill it to stop the bot gracefully.
+While the bot is running, you can teach it new cards without stopping it. Create or edit `tempinfo.json` in the data-directory or edit it in this git repository.
+
+Delete the `lockfile.lock` or `kill` it on Linux to stop the bot gracefully.
 
 ## Learning from this bot
 A good starting point is `hearthscan-bot.py/main()`. I've tried to comment the code and use consistent, self explaining names.  
