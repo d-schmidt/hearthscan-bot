@@ -16,7 +16,8 @@
         "15" : {"name" : "Knights of the Frozen Throne", "code" : "KFT", "std" : true},
         "16" : {"name" : "Kobolds and Catacombs", "code" : "KnC", "std" : true},
         "17" : {"name" : "The Witchwood", "code" : "WW", "std" : true},
-        "18" : {"name" : "The Boomsday Project", "code" : "TBP", "std" : true}
+        "18" : {"name" : "The Boomsday Project", "code" : "TBP", "std" : true},
+        "19" : {"name" : "Rastakhan's Rumble", "code" : "RR", "std" : true}
     },
 
     "specials" : {
