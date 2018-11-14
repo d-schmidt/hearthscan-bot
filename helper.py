@@ -116,7 +116,7 @@ class HSHelper:
                 else:
                     log.info("duplicate card: %s", card)
 
-            if len(cards) >= self.constants.CARD_LIMIT:
+            if len(cards) > self.constants.CARD_LIMIT:
                 break
 
         return cards
