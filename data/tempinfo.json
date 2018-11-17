@@ -343,5 +343,50 @@
         "set": "Rastakhan's Rumble",
         "subType": null,
         "type": "Spell"
+    },
+    "Belligerent Gnome": {
+        "atk": 1,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/380/571/636777664605898484.png",
+        "class": "Neutral",
+        "cost": 2,
+        "desc": "Taunt Battlecry: If your opponent has 2 or more minions, gain +1 Attack.",
+        "head": "belligerent-gnome",
+        "hp": 4,
+        "hpwn": 90167,
+        "name": "Belligerent Gnome",
+        "rarity": "Rare",
+        "set": "Rastakhan's Rumble",
+        "subType": null,
+        "type": "Minion"
+    },
+    "Spirit of the Dead": {
+        "atk": 0,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/380/653/636779395355825770.png",
+        "class": "Priest",
+        "cost": 1,
+        "desc": "Stealth for 1 turn. After a friendly minion dies, shuffle a 1-Cost copy of it into your deck.",
+        "head": "spirit-of-the-dead",
+        "hp": 3,
+        "hpwn": 90168,
+        "name": "Spirit of the Dead",
+        "rarity": "Rare",
+        "set": "Rastakhan's Rumble",
+        "subType": null,
+        "type": "Minion"
+    },
+    "Bwonsamdi, the Dead": {
+        "atk": 7,
+        "cdn": "https://media-hearth.cursecdn.com/avatars/380/654/636779396108452794.png",
+        "class": "Priest",
+        "cost": 7,
+        "desc": "Battlecry: Draw 1-Cost minions from your deck until your hand is f ull.",
+        "head": "bwonsamdi-the-dead",
+        "hp": 7,
+        "hpwn": 90169,
+        "name": "Bwonsamdi, the Dead",
+        "rarity": "Legendary",
+        "set": "Rastakhan's Rumble",
+        "subType": null,
+        "type": "Minion"
     }
 }
