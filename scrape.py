@@ -344,13 +344,6 @@ def loadTokens(tokens = {}, wantedTokens = {}):
 
 
 def main():
-    print("see log scrape.log")
-    if os.path.isfile("scrape.log"):
-        os.remove("scrape.log")
-    log.basicConfig(filename="scrape.log",
-            format='%(asctime)s %(levelname)s %(message)s',
-            level=log.DEBUG)
-
     try:
         log.debug("main() full scrape will take 5-10 minutes")
         cards, tokens = loadJsonCards()
@@ -371,6 +364,8 @@ def parseSingle(hpid):
         return parseSingleThrowing(hpid)
     except Exception as e:
         print(hpid, e)
+        import traceback
+        traceback.print_exc()
         return "", {}
 
 def parseSingleThrowing(hpid):
@@ -390,7 +385,7 @@ def parseSingleThrowing(hpid):
     root = fromstring(r.text).xpath('//div[@class="details card-details"]')
 
     name = getFirst(root[0].xpath('./header[1]/h2/text()'))
-    head = re.sub(r"[^\w]+", "-", re.sub(r"['!]", '', name).lower())
+    head = re.sub(r"[^\w]+", "-", re.sub(r"['!.]", '', name).lower())
     cdn = getFirst(root[0].xpath('./section/img[@class="hscard-static"]/@src')).lower()
     descs = root[0].xpath('./div[h3 = "Card Text"]/p//text()')
     desc = ''.join(descs)
@@ -411,7 +406,7 @@ def parseSingleThrowing(hpid):
             subType = subtypeFix.get(subType, subType)
 
     # search
-    payload = {'filter-name': re.sub(r"[^\w']+", " ", name), 'display': 1, 'filter-unreleased': 1}
+    payload = {'filter-name': re.sub(r"[^\w']+", " ", name).strip(), 'display': 1, 'filter-unreleased': 1}
     r = requests.get("https://www.hearthpwn.com/cards", params=payload)
     r.raise_for_status()
     html = fromstring(r.text)
@@ -473,6 +468,13 @@ def parseMultiple(ids):
 
 
 if __name__ == "__main__":
+    print("see log scrape.log")
+    if os.path.isfile("scrape.log"):
+        os.remove("scrape.log")
+    log.basicConfig(filename="scrape.log",
+            format='%(asctime)s %(levelname)s %(message)s',
+            level=log.DEBUG)
+
     if len(sys.argv) > 1:
         print(parseMultiple(sys.argv[1:]))
     else:
