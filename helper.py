@@ -67,16 +67,17 @@ class HSHelper:
     def parseText(self, text):
         """returns found cards and answer text"""
         text = HSHelper.removeQuotes(text)
-        cards = self.getCards(text)
+        cards = self.__getCards(text)
         answer = ''
 
         if cards:
             log.debug("found cards: %s", cards)
-            cards = self.constants.replaceSpecial(cards)
+            cards = self.constants.replaceSpecial(cards) #expand
+            cards = [card for card in cards if card in self.cardDB]
+            cards = cards[:self.constants.CARD_LIMIT]
             answer = formatter.createAnswer(self.cardDB, cards)
 
         return cards, answer
-
 
     def removeQuotes(text):
         """removes quote blocks"""
@@ -88,7 +89,7 @@ class HSHelper:
 
         return ' '.join(lines)
 
-    def getCards(self, text):
+    def __getCards(self, text):
         """look for [[cardname]]s in text and collect them"""
         cards = []
         if len(text) < 6:
@@ -116,7 +117,8 @@ class HSHelper:
                 else:
                     log.info("duplicate card: %s", card)
 
-            if len(cards) >= self.constants.CARD_LIMIT:
+            # sometimes cards are removed, get more to fill limit
+            if len(cards) >= self.constants.CARD_LIMIT * 2:
                 break
 
         return cards

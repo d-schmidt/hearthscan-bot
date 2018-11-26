@@ -49,7 +49,7 @@ class Constants():
             else:
                 result.append(card)
 
-        return result[:self.CARD_LIMIT]
+        return result
 
 
     def translateAlt(self, card):

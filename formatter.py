@@ -80,12 +80,12 @@ def createAnswer(cardDB, cards):
     comment_text = ''
 
     for card in cards:
-        if card in cardDB:
-            log.debug('adding card to text: %s', card)
-            comment_text += cardDB[card]
+        log.debug('adding card to text: %s', card)
+        comment_text += cardDB[card]
 
     if comment_text:
         comment_text += signature
+
     return comment_text
 
 

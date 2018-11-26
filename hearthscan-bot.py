@@ -232,6 +232,7 @@ if __name__ == "__main__":
                     level=log.DEBUG)
 
     log.getLogger('prawcore').setLevel(log.INFO)
+    log.getLogger('urllib3.connectionpool').setLevel(log.INFO)
 
     # start
     try:

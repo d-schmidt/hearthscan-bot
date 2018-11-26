@@ -249,7 +249,7 @@ class TestConst(unittest.TestCase):
 
         with TempJson(constantJson) as json:
             c = Constants(json)
-            # tests replace and maxlength
+            # tests replace
             replaced = c.replaceSpecial(["111", "dreamcards", "333", "444"])
 
             self.assertEqual(replaced, ["111",
@@ -258,7 +258,8 @@ class TestConst(unittest.TestCase):
                                          "laughingsister",
                                          "nightmare",
                                          "yseraawakens",
-                                         "333"])
+                                         "333",
+                                         "444"])
 
     def test_AlternativeReplacements(self):
 
@@ -511,6 +512,12 @@ class TestHelper(unittest.TestCase):
             }
         }
 
+        # we need more cards (Card AA - Card UU)
+        for i in range(21):
+            name = 'Card ' + chr(97 + i)
+            cardDict[name] = cardDict['Quick Shot'].copy()
+            cardDict[name]['name'] = name
+
         constantDict = {
             'sets' : { '01' : {'name' : 'Basic'} },
             'specials' : { },
@@ -526,20 +533,21 @@ class TestHelper(unittest.TestCase):
             helper = HSHelper(db, c)
 
             # simple find
-            text = '[[test]]'
+            text = '[[Quick Shot]]'
             cards, text = helper.parseText(text)
-            self.assertEqual(cards, ['test'], 'simple card')
-            self.assertEqual(len(text), 0, 'unknown card')
+            self.assertEqual(cards, ['quickshot'], 'simple card')
+            self.assertTrue('Quick Shot' in text)
             # escaped simple find
-            text = '\\[\\[test\\]\\]'
+            text = '\\[\\[quickshot\\]\\]'
             cards, text = helper.parseText(text)
-            self.assertEqual(cards, ['test'], 'simple card')
-            self.assertEqual(len(text), 0, 'unknown card')
+            self.assertEqual(cards, ['quickshot'], 'simple card')
+            self.assertTrue('Quick Shot' in text)
             # two cards, cleanName
-            text = ' [[hello]] world [[Ab 123c]] '
+            text = ' [[card a]] world [[quickshot 42]] '
             cards, text = helper.parseText(text)
-            self.assertEqual(cards, ['hello', 'abc'], 'multi cards, clean')
-            self.assertEqual(len(text), 0, 'unknown cards')
+            self.assertEqual(cards, ['carda', 'quickshot'], 'multi cards, clean')
+            self.assertTrue('Quick Shot' in text)
+            self.assertTrue('Card a' in text)
             # spell check
             text = '[[Quic Shot]]'
             cards, text = helper.parseText(text)
@@ -550,12 +558,16 @@ class TestHelper(unittest.TestCase):
             cards, text = helper.parseText(text)
             self.assertEqual(cards, ['quickshot'], 'alternative name')
             self.assertTrue('Quick Shot' in text)
-            # test card limit
-            cardsNames = [chr(97 + i) * 2 for i in range(c.CARD_LIMIT + 1)]
+            # test card limit always working
+            cardsNames = ['card' + chr(97 + i) for i in range(c.CARD_LIMIT + 1)]
+            cardsNames = ['no card'] + cardsNames
             text = '[[' + ']][['.join(cardsNames) + ']]'
             cards, text = helper.parseText(text)
-            self.assertEqual(cards, cardsNames[:-1], 'card limit')
-            self.assertEqual(len(text), 0, 'unknown cards')
+            self.assertEqual(cards, cardsNames[1:-1],
+                    'CARD_LIMIT cards expected')
+            self.assertTrue('no card' not in text, 'unknown should be skipped')
+            for i in range(c.CARD_LIMIT):
+                self.assertTrue('Card ' + chr(97 + i) in text)
             # test short text
             text = '[[a]]'
             cards, text = helper.parseText(text)
