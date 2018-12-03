@@ -15,6 +15,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "A New Challenger...": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/638/636791252414720581.png",
+    "class": "Paladin",
+    "cost": 7,
+    "desc": "Discover a 6-Cost minion. Summon it with Taunt and Divine Shield.",
+    "head": "a-new-challenger",
+    "hp": null,
+    "hpwn": 90173,
+    "id": "TRL_305",
+    "name": "A New Challenger...",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Aberrant Berserker": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/377/106/636690955319457768.png",
@@ -239,6 +255,22 @@
     "subType": "Elemental",
     "type": "Minion"
   },
+  "Akali, the Rhino": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/701/636791253284986101.png",
+    "class": "Warrior",
+    "cost": 8,
+    "desc": "Rush Overkill: Draw a Rush minion from your deck. Give it +5/+5.",
+    "head": "akali-the-rhino",
+    "hp": 5,
+    "hpwn": 90220,
+    "id": "TRL_329",
+    "name": "Akali, the Rhino",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Al'Akir the Windlord": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/462/335.png",
@@ -397,6 +429,22 @@
     "rarity": "Common",
     "set": "Classic",
     "subType": null,
+    "type": "Minion"
+  },
+  "Amani War Bear": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/903/636791256440133346.png",
+    "class": "Neutral",
+    "cost": 7,
+    "desc": "Rush Taunt",
+    "head": "amani-war-bear",
+    "hp": 7,
+    "hpwn": 90197,
+    "id": "TRL_550",
+    "name": "Amani War Bear",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
     "type": "Minion"
   },
   "Ancestor's Call": {
@@ -1087,6 +1135,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Arcanosaur": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/656/636791252671737860.png",
+    "class": "Mage",
+    "cost": 6,
+    "desc": "Battlecry: If you played an Elemental last turn, deal 3 damage to all other minions.",
+    "head": "arcanosaur",
+    "hp": 3,
+    "hpwn": 90214,
+    "id": "TRL_311",
+    "name": "Arcanosaur",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Elemental",
+    "type": "Minion"
+  },
   "Arcanosmith": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/929/42062.png",
@@ -1180,6 +1244,54 @@
     "name": "Archmage Arugal",
     "rarity": "Legendary",
     "set": "The Witchwood",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Arena Fanatic": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/837/636791255503933982.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Battlecry: Give all minions in your hand +1/+1.",
+    "head": "arena-fanatic",
+    "hp": 3,
+    "hpwn": 90284,
+    "id": "TRL_517",
+    "name": "Arena Fanatic",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Arena Patron": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/843/636791255594554109.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Overkill: Summon another Arena Patron.",
+    "head": "arena-patron",
+    "hp": 3,
+    "hpwn": 90288,
+    "id": "TRL_521",
+    "name": "Arena Patron",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Arena Treasure Chest": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/855/636791255749701837.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Deathrattle: Draw 2 cards.",
+    "head": "arena-treasure-chest",
+    "hp": 4,
+    "hpwn": 90286,
+    "id": "TRL_525",
+    "name": "Arena Treasure Chest",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -1439,6 +1551,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Auchenai Phantasm": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/791/636791254916616900.png",
+    "class": "Priest",
+    "cost": 2,
+    "desc": "Battlecry: This turn, your healing effects deal damage instead.",
+    "head": "auchenai-phantasm",
+    "hp": 2,
+    "hpwn": 90283,
+    "id": "TRL_501",
+    "name": "Auchenai Phantasm",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Auchenai Soulpriest": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/61/656.png",
@@ -1569,7 +1697,7 @@
   },
   "Aviana": {
     "atk": 5,
-    "cdn": "https://media-hearth.cursecdn.com/avatars/327/929/22325.png",
+    "cdn": "https://media-hearth.cursecdn.com/avatars/379/800/636755834331028437.png",
     "class": "Druid",
     "cost": 10,
     "desc": "Your minions cost (1).",
@@ -1727,6 +1855,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Baited Arrow": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/734/636791254187281203.png",
+    "class": "Hunter",
+    "cost": 5,
+    "desc": "Deal 3 damage. Overkill: Summon a 5/5 Devilsaur.",
+    "head": "baited-arrow",
+    "hp": null,
+    "hpwn": 90156,
+    "id": "TRL_347",
+    "name": "Baited Arrow",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Baku the Mooneater": {
     "atk": 7,
     "cdn": "https://media-hearth.cursecdn.com/avatars/368/825/636590938203056887.png",
@@ -1774,6 +1918,22 @@
     "set": "The Grand Tournament",
     "subType": null,
     "type": "Spell"
+  },
+  "Banana Buffoon": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/818/636791255275034865.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: Add 2 Bananas to your hand.",
+    "head": "banana-buffoon",
+    "hp": 2,
+    "hpwn": 90268,
+    "id": "TRL_509",
+    "name": "Banana Buffoon",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Bane of Doom": {
     "atk": null,
@@ -1951,6 +2111,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Belligerent Gnome": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/827/636791255386596698.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Taunt Battlecry: If your opponent has 2 or more minions, gain +1 Attack.",
+    "head": "belligerent-gnome",
+    "hp": 4,
+    "hpwn": 90167,
+    "id": "TRL_514",
+    "name": "Belligerent Gnome",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Bellringer Sentry": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/368/993/636590941020428856.png",
@@ -2062,6 +2238,22 @@
     "set": "The Witchwood",
     "subType": null,
     "type": "Minion"
+  },
+  "Big Bad Voodoo": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/524/636791250873553761.png",
+    "class": "Shaman",
+    "cost": 2,
+    "desc": "Give a friendly minion \"Deathrattle: Summon a random minion that costs (1) more.\"",
+    "head": "big-bad-voodoo",
+    "hp": null,
+    "hpwn": 90229,
+    "id": "TRL_082",
+    "name": "Big Bad Voodoo",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Big Game Hunter": {
     "atk": 4,
@@ -2367,6 +2559,22 @@
     "subType": null,
     "type": "Weapon"
   },
+  "Blast Wave": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/671/636791252867977469.png",
+    "class": "Mage",
+    "cost": 5,
+    "desc": "Deal 2 damage to all minions. Overkill: Add a random Mage spell to your hand.",
+    "head": "blast-wave",
+    "hp": null,
+    "hpwn": 90204,
+    "id": "TRL_317",
+    "name": "Blast Wave",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Blastcrystal Potion": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/329/109/49741.png",
@@ -2607,6 +2815,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Blood Troll Sapper": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/617/636791252141454038.png",
+    "class": "Warlock",
+    "cost": 7,
+    "desc": "After a friendly minion dies, deal 2 damage to the enemy hero.",
+    "head": "blood-troll-sapper",
+    "hp": 8,
+    "hpwn": 90264,
+    "id": "TRL_257",
+    "name": "Blood Troll Sapper",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Blood Warriors": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/912/33166.png",
@@ -2686,6 +2910,22 @@
     "set": "Journey to Un'Goro",
     "subType": null,
     "type": "Spell"
+  },
+  "Bloodclaw": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/894/636791256324045933.png",
+    "class": "Paladin",
+    "cost": 1,
+    "desc": "Battlecry: Deal 5 damage to your hero.",
+    "head": "bloodclaw",
+    "hp": 2,
+    "hpwn": 90265,
+    "id": "TRL_543",
+    "name": "Bloodclaw",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Weapon"
   },
   "Bloodfen Raptor": {
     "atk": 3,
@@ -2818,6 +3058,22 @@
     "subType": "Pirate",
     "type": "Minion"
   },
+  "Bloodsail Howler": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/515/636791250749029353.png",
+    "class": "Rogue",
+    "cost": 2,
+    "desc": "Rush Battlecry: Gain +1/+1 for each other Pirate you control.",
+    "head": "bloodsail-howler",
+    "hp": 1,
+    "hpwn": 90252,
+    "id": "TRL_071",
+    "name": "Bloodsail Howler",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
   "Bloodsail Raider": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/480/637.png",
@@ -2832,6 +3088,22 @@
     "rarity": "Common",
     "set": "Classic",
     "subType": "Pirate",
+    "type": "Minion"
+  },
+  "Bloodscalp Strategist": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/743/636791254300399977.png",
+    "class": "Hunter",
+    "cost": 3,
+    "desc": "Battlecry: If you have a weapon equipped, Discover a spell.",
+    "head": "bloodscalp-strategist",
+    "hp": 4,
+    "hpwn": 90231,
+    "id": "TRL_349",
+    "name": "Bloodscalp Strategist",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
     "type": "Minion"
   },
   "Bloodworm": {
@@ -2912,6 +3184,22 @@
     "rarity": "Common",
     "set": "Whispers of the Old Gods",
     "subType": null,
+    "type": "Minion"
+  },
+  "Bog Slosher": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/506/636791250626389389.png",
+    "class": "Shaman",
+    "cost": 3,
+    "desc": "Battlecry: Return a friendly minion to your hand and give it +2/+2.",
+    "head": "bog-slosher",
+    "hp": 3,
+    "hpwn": 90238,
+    "id": "TRL_059",
+    "name": "Bog Slosher",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Bogshaper": {
@@ -3199,6 +3487,22 @@
     "name": "Booty Bay Bodyguard",
     "rarity": "Basic",
     "set": "Basic",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Booty Bay Bookie": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/800/636791255033016639.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Battlecry: Give your opponent a Coin.",
+    "head": "booty-bay-bookie",
+    "hp": 3,
+    "hpwn": 90280,
+    "id": "TRL_504",
+    "name": "Booty Bay Bookie",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -3490,6 +3794,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Bwonsamdi, the Dead": {
+    "atk": 7,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/626/636791252264259966.png",
+    "class": "Priest",
+    "cost": 7,
+    "desc": "Battlecry: Draw 1-Cost minions from your deck until your hand is full.",
+    "head": "bwonsamdi-the-dead",
+    "hp": 7,
+    "hpwn": 90169,
+    "id": "TRL_260",
+    "name": "Bwonsamdi, the Dead",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "C'Thun": {
     "atk": 6,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/918/31110.png",
@@ -3602,6 +3922,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Call of the Void": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/379/3/636728849515782084.png",
+    "class": "Warlock",
+    "cost": 1,
+    "desc": "Add a random Demon to your hand.",
+    "head": "call-of-the-void",
+    "hp": null,
+    "hpwn": 90141,
+    "id": "EX1_181",
+    "name": "Call of the Void",
+    "rarity": "Common",
+    "set": "Classic",
+    "subType": null,
+    "type": "Spell"
+  },
   "Call of the Wild": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/834/33167.png",
@@ -3650,6 +3986,22 @@
     "subType": null,
     "type": "Weapon"
   },
+  "Cannon Barrage": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/551/636791251277282078.png",
+    "class": "Rogue",
+    "cost": 6,
+    "desc": "Deal 3 damage to a random enemy. Repeat for each of your Pirates.",
+    "head": "cannon-barrage",
+    "hp": null,
+    "hpwn": 90160,
+    "id": "TRL_127",
+    "name": "Cannon Barrage",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Captain Greenskin": {
     "atk": 5,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/498/267.png",
@@ -3663,6 +4015,22 @@
     "name": "Captain Greenskin",
     "rarity": "Legendary",
     "set": "Classic",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
+  "Captain Hooktusk": {
+    "atk": 6,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/548/636791251232909376.png",
+    "class": "Rogue",
+    "cost": 8,
+    "desc": "Battlecry: Summon 3 Pirates from your deck. Give them Rush.",
+    "head": "captain-hooktusk",
+    "hp": 3,
+    "hpwn": 90234,
+    "id": "TRL_126",
+    "name": "Captain Hooktusk",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
     "subType": "Pirate",
     "type": "Minion"
   },
@@ -3985,6 +4353,22 @@
     "set": "Kobolds and Catacombs",
     "subType": null,
     "type": "Spell"
+  },
+  "Cheaty Anklebiter": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/821/636791255310970063.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Lifesteal Battlecry: Deal 1 damage.",
+    "head": "cheaty-anklebiter",
+    "hp": 1,
+    "hpwn": 90269,
+    "id": "TRL_512",
+    "name": "Cheaty Anklebiter",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Chief Inspector": {
     "atk": 4,
@@ -4994,6 +5378,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Crowd Roaster": {
+    "atk": 7,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/918/636791256623403896.png",
+    "class": "Neutral",
+    "cost": 7,
+    "desc": "Battlecry: If you're holding a Dragon, deal 7 damage to an enemy minion.",
+    "head": "crowd-roaster",
+    "hp": 4,
+    "hpwn": 90219,
+    "id": "TRL_569",
+    "name": "Crowd Roaster",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Cruel Dinomancer": {
     "atk": 5,
     "cdn": "https://media-hearth.cursecdn.com/avatars/335/142/55569.png",
@@ -5458,6 +5858,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Da Undatakah": {
+    "atk": 8,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/882/636791256134837372.png",
+    "class": "Neutral",
+    "cost": 8,
+    "desc": "Battlecry: Gain the Deathrattle effects of 3 friendly minions that died this game.",
+    "head": "da-undatakah",
+    "hp": 5,
+    "hpwn": 90240,
+    "id": "TRL_537",
+    "name": "Da Undatakah",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Dalaran Aspirant": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/327/785/22359.png",
@@ -5519,6 +5935,22 @@
     "name": "Dancing Swords",
     "rarity": "Common",
     "set": "Curse of Naxxramas",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Daring Fire-Eater": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/767/636791254591009212.png",
+    "class": "Mage",
+    "cost": 1,
+    "desc": "Battlecry: Your next Hero Power this turn deals 2 more damage.",
+    "head": "daring-fire-eater",
+    "hp": 1,
+    "hpwn": 90177,
+    "id": "TRL_390",
+    "name": "Daring Fire-Eater",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -6229,6 +6661,22 @@
     "subType": "Mech",
     "type": "Minion"
   },
+  "Demonbolt": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/909/636791256509660699.png",
+    "class": "Warlock",
+    "cost": 8,
+    "desc": "Destroy a minion. Costs (1) less for each minion you control.",
+    "head": "demonbolt",
+    "hp": null,
+    "hpwn": 90261,
+    "id": "TRL_555",
+    "name": "Demonbolt",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Demonfire": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/73/452.png",
@@ -6388,6 +6836,22 @@
     "set": "Knights of the Frozen Throne",
     "subType": "Demon",
     "type": "Minion"
+  },
+  "Devastate": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/680/636791252978596502.png",
+    "class": "Warrior",
+    "cost": 1,
+    "desc": "Deal 4 damage to a damaged minion.",
+    "head": "devastate",
+    "hp": null,
+    "hpwn": 90291,
+    "id": "TRL_321",
+    "name": "Devastate",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Devilsaur Egg": {
     "atk": 0,
@@ -6821,6 +7285,22 @@
     "subType": "Demon",
     "type": "Minion"
   },
+  "Dozing Marksman": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/776/636791254705846883.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Has +4 Attack while damaged.",
+    "head": "dozing-marksman",
+    "hp": 4,
+    "hpwn": 90278,
+    "id": "TRL_406",
+    "name": "Dozing Marksman",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Dr. Boom": {
     "atk": 7,
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/659/12182.png",
@@ -6919,6 +7399,22 @@
     "set": "Blackrock Mountain",
     "subType": null,
     "type": "Minion"
+  },
+  "Dragon Roar": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/758/636791254476484269.png",
+    "class": "Warrior",
+    "cost": 2,
+    "desc": "Add 2 random Dragons to your hand.",
+    "head": "dragon-roar",
+    "hp": null,
+    "hpwn": 90287,
+    "id": "TRL_362",
+    "name": "Dragon Roar",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Dragon Soul": {
     "atk": 0,
@@ -7064,6 +7560,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Dragonmaw Scorcher": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/858/636791255786887474.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Deal 1 damage to all other minions.",
+    "head": "dragonmaw-scorcher",
+    "hp": 6,
+    "hpwn": 90279,
+    "id": "TRL_526",
+    "name": "Dragonmaw Scorcher",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Dragonslayer": {
     "atk": 4,
     "cdn": "https://media-hearth.cursecdn.com/avatars/356/187/77001.png",
@@ -7141,6 +7653,22 @@
     "name": "Drakkari Enchanter",
     "rarity": "Epic",
     "set": "Knights of the Frozen Throne",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Drakkari Trickster": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/861/636791255831416230.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: Give each player a copy of a random card from their opponent's deck.",
+    "head": "drakkari-trickster",
+    "hp": 4,
+    "hpwn": 90277,
+    "id": "TRL_527",
+    "name": "Drakkari Trickster",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -7880,6 +8408,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Elemental Evocation": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/653/636791252631583788.png",
+    "class": "Mage",
+    "cost": 0,
+    "desc": "The next Elemental you play this turn costs (2) less.",
+    "head": "elemental-evocation",
+    "hp": null,
+    "hpwn": 90232,
+    "id": "TRL_310",
+    "name": "Elemental Evocation",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Elementary Reaction": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/376/323/636688325165362865.png",
@@ -7974,6 +8518,22 @@
     "rarity": "Rare",
     "set": "Kobolds and Catacombs",
     "subType": null,
+    "type": "Minion"
+  },
+  "Emberscale Drake": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/683/636791253020000271.png",
+    "class": "Warrior",
+    "cost": 5,
+    "desc": "Battlecry: If you're holding a Dragon, gain 5 Armor.",
+    "head": "emberscale-drake",
+    "hp": 5,
+    "hpwn": 90230,
+    "id": "TRL_323",
+    "name": "Emberscale Drake",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": "Dragon",
     "type": "Minion"
   },
   "Embrace Darkness": {
@@ -8824,6 +9384,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Farraki Battleaxe": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/635/636791252376910196.png",
+    "class": "Paladin",
+    "cost": 5,
+    "desc": "Overkill: Give a minion in your hand +2/+2.",
+    "head": "farraki-battleaxe",
+    "hp": 3,
+    "hpwn": 90215,
+    "id": "TRL_304",
+    "name": "Farraki Battleaxe",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Weapon"
+  },
   "Fatespinner": {
     "atk": 5,
     "cdn": "https://media-hearth.cursecdn.com/avatars/339/337/61830.png",
@@ -9352,6 +9928,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Firetree Witchdoctor": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/849/636791255674237262.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Battlecry: If you're holding a Dragon, Discover a spell.",
+    "head": "firetree-witchdoctor",
+    "hp": 2,
+    "hpwn": 90194,
+    "id": "TRL_523",
+    "name": "Firetree Witchdoctor",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Fireworks Tech": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/376/277/636688324378184438.png",
@@ -9621,6 +10213,22 @@
     "name": "Flash Heal",
     "rarity": "Common",
     "set": "The Grand Tournament",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Flash of Light": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/644/636791252493622633.png",
+    "class": "Paladin",
+    "cost": 2,
+    "desc": "Restore 4 Health. Draw a card.",
+    "head": "flash-of-light",
+    "hp": null,
+    "hpwn": 90262,
+    "id": "TRL_307",
+    "name": "Flash of Light",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Spell"
   },
@@ -9925,6 +10533,22 @@
     "name": "Forlorn Stalker",
     "rarity": "Rare",
     "set": "Whispers of the Old Gods",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Former Champ": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/557/636791251358058999.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Summon a 5/5 Hotshot.",
+    "head": "former-champ",
+    "hp": 1,
+    "hpwn": 90259,
+    "id": "TRL_151",
+    "name": "Former Champ",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -10432,7 +11056,7 @@
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/686/12287.png",
     "class": "Neutral",
     "cost": 6,
-    "desc": "Whenever you cast a 1-mana spell, add a random Mech to your hand.",
+    "desc": "Whenever you cast a 1-Cost spell, add a random Mech to your hand.",
     "head": "gazlowe",
     "hp": 6,
     "hpwn": 12287,
@@ -10669,7 +11293,7 @@
   },
   "Giggling Inventor": {
     "atk": 2,
-    "cdn": "https://media-hearth.cursecdn.com/avatars/376/434/636688326838648551.png",
+    "cdn": "https://media-hearth.cursecdn.com/avatars/379/802/636755834830230120.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Battlecry: Summon two 1/2 Mechs with Taunt and Divine Shield.",
@@ -11099,6 +11723,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Gonk, the Raptor": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/578/636791251636950118.png",
+    "class": "Druid",
+    "cost": 7,
+    "desc": "After your hero attacks and kills a minion, it may attack again.",
+    "head": "gonk-the-raptor",
+    "hp": 9,
+    "hpwn": 90237,
+    "id": "TRL_241",
+    "name": "Gonk, the Raptor",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Gorehowl": {
     "atk": 7,
     "cdn": "https://media-hearth.cursecdn.com/avatars/330/908/96.png",
@@ -11147,6 +11787,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Gral, the Shark": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/785/636791254836777298.png",
+    "class": "Rogue",
+    "cost": 5,
+    "desc": "Battlecry: Eat a minion in your deck and gain its stats. Deathrattle: Add it to your hand.",
+    "head": "gral-the-shark",
+    "hp": 2,
+    "hpwn": 90189,
+    "id": "TRL_409",
+    "name": "Gral, the Shark",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Grand Archivist": {
     "atk": 4,
     "cdn": "https://media-hearth.cursecdn.com/avatars/356/385/76909.png",
@@ -11176,6 +11832,22 @@
     "name": "Grand Crusader",
     "rarity": "Epic",
     "set": "The Grand Tournament",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Grave Horror": {
+    "atk": 7,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/782/636791254792404683.png",
+    "class": "Priest",
+    "cost": 12,
+    "desc": "Taunt Costs (1) less for each spell you've cast this game.",
+    "head": "grave-horror",
+    "hp": 8,
+    "hpwn": 90186,
+    "id": "TRL_408",
+    "name": "Grave Horror",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -11291,6 +11963,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Griftah": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/533/636791251039325703.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Battlecry: Discover two cards. Give one to your opponent at random.",
+    "head": "griftah",
+    "hp": 5,
+    "hpwn": 90213,
+    "id": "TRL_096",
+    "name": "Griftah",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Grim Necromancer": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/339/304/62947.png",
@@ -11322,6 +12010,22 @@
     "set": "Blackrock Mountain",
     "subType": null,
     "type": "Minion"
+  },
+  "Grim Rally": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/596/636791251867562661.png",
+    "class": "Warlock",
+    "cost": 1,
+    "desc": "Destroy a friendly minion. Give your minions +1/+1.",
+    "head": "grim-rally",
+    "hp": null,
+    "hpwn": 90217,
+    "id": "TRL_249",
+    "name": "Grim Rally",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Grimestreet Enforcer": {
     "atk": 4,
@@ -11627,6 +12331,54 @@
     "subType": null,
     "type": "Minion"
   },
+  "Gurubashi Chicken": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/806/636791255116762199.png",
+    "class": "Neutral",
+    "cost": 1,
+    "desc": "Overkill: Gain +5 Attack.",
+    "head": "gurubashi-chicken",
+    "hp": 1,
+    "hpwn": 90172,
+    "id": "TRL_506",
+    "name": "Gurubashi Chicken",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
+  "Gurubashi Hypemon": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/521/636791250832774763.png",
+    "class": "Rogue",
+    "cost": 7,
+    "desc": "Battlecry: Discover a 1/1 copy of a Battlecry minion. It costs (1).",
+    "head": "gurubashi-hypemon",
+    "hp": 7,
+    "hpwn": 90195,
+    "id": "TRL_077",
+    "name": "Gurubashi Hypemon",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Gurubashi Offering": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/834/636791255463936087.png",
+    "class": "Neutral",
+    "cost": 1,
+    "desc": "At the start of your turn, destroy this and gain 8 Armor.",
+    "head": "gurubashi-offering",
+    "hp": 2,
+    "hpwn": 90276,
+    "id": "TRL_516",
+    "name": "Gurubashi Offering",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Hadronox": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/339/743/61828.png",
@@ -11661,6 +12413,54 @@
     "set": "The Witchwood",
     "subType": null,
     "type": "Hero"
+  },
+  "Hakkar, the Soulflayer": {
+    "atk": 9,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/885/636791256176866443.png",
+    "class": "Neutral",
+    "cost": 10,
+    "desc": "Deathrattle: Shuffle a Corrupted Blood into each player's deck.",
+    "head": "hakkar-the-soulflayer",
+    "hp": 6,
+    "hpwn": 90190,
+    "id": "TRL_541",
+    "name": "Hakkar, the Soulflayer",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Halazzi, the Lynx": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/924/636791256748865042.png",
+    "class": "Hunter",
+    "cost": 5,
+    "desc": "Battlecry: Fill your hand with 1/1 Lynxes that have Rush.",
+    "head": "halazzi-the-lynx",
+    "hp": 2,
+    "hpwn": 90285,
+    "id": "TRL_900",
+    "name": "Halazzi, the Lynx",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
+  "Half-Time Scavenger": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/485/636791250131250069.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Stealth Overkill: Gain 3 Armor.",
+    "head": "half-time-scavenger",
+    "hp": 5,
+    "hpwn": 90274,
+    "id": "TRL_010",
+    "name": "Half-Time Scavenger",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Hallazeal the Ascended": {
     "atk": 4,
@@ -11822,6 +12622,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Haunting Visions": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/503/636791250575757429.png",
+    "class": "Shaman",
+    "cost": 3,
+    "desc": "The next spell you cast this turn costs (3) less. Discover a spell.",
+    "head": "haunting-visions",
+    "hp": null,
+    "hpwn": 90208,
+    "id": "TRL_058",
+    "name": "Haunting Visions",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Headcrack": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/330/558/135.png",
@@ -11837,6 +12653,22 @@
     "set": "Classic",
     "subType": null,
     "type": "Spell"
+  },
+  "Headhunter's Hatchet": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/539/636791251111822079.png",
+    "class": "Hunter",
+    "cost": 2,
+    "desc": "Battlecry: If you control a Beast, gain +1 Durability.",
+    "head": "headhunters-hatchet",
+    "hp": 2,
+    "hpwn": 90281,
+    "id": "TRL_111",
+    "name": "Headhunter's Hatchet",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Weapon"
   },
   "Healing Rain": {
     "atk": null,
@@ -11886,6 +12718,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Heavy Metal!": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/686/636791253056717258.png",
+    "class": "Warrior",
+    "cost": 6,
+    "desc": "Summon a random minion with Cost equal to your Armor (up to 10).",
+    "head": "heavy-metal",
+    "hp": null,
+    "hpwn": 90166,
+    "id": "TRL_324",
+    "name": "Heavy Metal!",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Hellfire": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/330/15/122.png",
@@ -11901,6 +12749,22 @@
     "set": "Basic",
     "subType": null,
     "type": "Spell"
+  },
+  "Helpless Hatchling": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/803/636791255073952119.png",
+    "class": "Neutral",
+    "cost": 1,
+    "desc": "Deathrattle: Reduce the Cost of a Beast in your hand by (1).",
+    "head": "helpless-hatchling",
+    "hp": 1,
+    "hpwn": 90273,
+    "id": "TRL_505",
+    "name": "Helpless Hatchling",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
   },
   "Hemet Nesingwary": {
     "atk": 6,
@@ -11998,6 +12862,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Hex Lord Malacrass": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/674/636791252904694077.png",
+    "class": "Mage",
+    "cost": 8,
+    "desc": "Battlecry: Add a copy of your opening hand to your hand (except this card).",
+    "head": "hex-lord-malacrass",
+    "hp": 5,
+    "hpwn": 90159,
+    "id": "TRL_318",
+    "name": "Hex Lord Malacrass",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Hidden Cache": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/328/959/49736.png",
@@ -12029,6 +12909,54 @@
     "set": "The Witchwood",
     "subType": null,
     "type": "Spell"
+  },
+  "High Priest Thekal": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/647/636791252537682757.png",
+    "class": "Paladin",
+    "cost": 3,
+    "desc": "Battlecry: Convert all but 1 of your Hero's Health into Armor.",
+    "head": "high-priest-thekal",
+    "hp": 4,
+    "hpwn": 90199,
+    "id": "TRL_308",
+    "name": "High Priest Thekal",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "High Priestess Jeklik": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/602/636791251953183050.png",
+    "class": "Warlock",
+    "cost": 4,
+    "desc": "Taunt, Lifesteal When you discard this, add 2 copies of it to your hand.",
+    "head": "high-priestess-jeklik",
+    "hp": 4,
+    "hpwn": 90182,
+    "id": "TRL_252",
+    "name": "High Priestess Jeklik",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Hir'eek, the Bat": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/605/636791251990837177.png",
+    "class": "Warlock",
+    "cost": 8,
+    "desc": "Battlecry: Fill your board with copies of this minion.",
+    "head": "hireek-the-bat",
+    "hp": 1,
+    "hpwn": 90150,
+    "id": "TRL_253",
+    "name": "Hir'eek, the Bat",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
   },
   "Hired Gun": {
     "atk": 4,
@@ -12606,6 +13534,22 @@
     "subType": null,
     "type": "Weapon"
   },
+  "Ice Cream Peddler": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/876/636791256050466836.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Battlecry: If you control a Frozen minion, gain 8 Armor.",
+    "head": "ice-cream-peddler",
+    "hp": 5,
+    "hpwn": 90270,
+    "id": "TRL_533",
+    "name": "Ice Cream Peddler",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Ice Fishing": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/339/443/62884.png",
@@ -12686,6 +13630,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Icicle": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/379/1/636728848472452551.png",
+    "class": "Mage",
+    "cost": 2,
+    "desc": "Deal 2 damage to a minion. If it's Frozen, draw a card.",
+    "head": "icicle",
+    "hp": null,
+    "hpwn": 90139,
+    "id": "EX1_179",
+    "name": "Icicle",
+    "rarity": "Epic",
+    "set": "Classic",
+    "subType": null,
+    "type": "Spell"
+  },
   "Igneous Elemental": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/335/178/55559.png",
@@ -12731,6 +13691,22 @@
     "name": "Illuminator",
     "rarity": "Rare",
     "set": "Goblin vs Gnomes",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Immortal Prelate": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/641/636791252455187134.png",
+    "class": "Paladin",
+    "cost": 2,
+    "desc": "Deathrattle: Shuffle this into your deck. It keeps any enchantments.",
+    "head": "immortal-prelate",
+    "hp": 3,
+    "hpwn": 90152,
+    "id": "TRL_306",
+    "name": "Immortal Prelate",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -13054,6 +14030,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Ironhide Direhorn": {
+    "atk": 7,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/569/636791251505707277.png",
+    "class": "Druid",
+    "cost": 7,
+    "desc": "Overkill: Summon a 5/5 Ironhide Runt.",
+    "head": "ironhide-direhorn",
+    "hp": 7,
+    "hpwn": 90170,
+    "id": "TRL_232",
+    "name": "Ironhide Direhorn",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Ironwood Golem": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/356/98/76965.png",
@@ -13244,6 +14236,22 @@
     "rarity": "Common",
     "set": "Mean Streets of Gadgetzan",
     "subType": null,
+    "type": "Minion"
+  },
+  "Jan'alai, the Dragonhawk": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/668/636791252829541823.png",
+    "class": "Mage",
+    "cost": 7,
+    "desc": "Battlecry: If your Hero Power dealt 8 damage this game, summon Ragnaros the Firelord.",
+    "head": "janalai-the-dragonhawk",
+    "hp": 4,
+    "hpwn": 90176,
+    "id": "TRL_316",
+    "name": "Jan'alai, the Dragonhawk",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
     "type": "Minion"
   },
   "Jeeves": {
@@ -13875,7 +14883,7 @@
     "cdn": "https://media-hearth.cursecdn.com/avatars/357/556/76967.png",
     "class": "Rogue",
     "cost": 1,
-    "desc": "Deathrattle: Shuffle this into your deck. It keeps any enchantments.",
+    "desc": "Always keeps enchantments. Deathrattle: Shuffle this into your deck.",
     "head": "kingsbane",
     "hp": 3,
     "hpwn": 76967,
@@ -14124,6 +15132,22 @@
     "rarity": "Basic",
     "set": "Basic",
     "subType": null,
+    "type": "Minion"
+  },
+  "Krag'wa, the Frog": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/731/636791254151658014.png",
+    "class": "Shaman",
+    "cost": 6,
+    "desc": "Battlecry: Return all spells you played last turn to your hand.",
+    "head": "kragwa-the-frog",
+    "hp": 6,
+    "hpwn": 90255,
+    "id": "TRL_345",
+    "name": "Krag'wa, the Frog",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
     "type": "Minion"
   },
   "Krul the Unshackled": {
@@ -14750,6 +15774,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Likkim": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/752/636791254407113073.png",
+    "class": "Shaman",
+    "cost": 2,
+    "desc": "Has +2 Attack while you have Overloaded Mana Crystals.",
+    "head": "likkim",
+    "hp": 3,
+    "hpwn": 90198,
+    "id": "TRL_352",
+    "name": "Likkim",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Weapon"
+  },
   "Lil' Exorcist": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/620/12239.png",
@@ -14779,6 +15819,22 @@
     "name": "Lilian Voss",
     "rarity": "Legendary",
     "set": "Knights of the Frozen Throne",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Linecracker": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/864/636791255870476590.png",
+    "class": "Neutral",
+    "cost": 7,
+    "desc": "Overkill: Double this minion's Attack.",
+    "head": "linecracker",
+    "hp": 10,
+    "hpwn": 90239,
+    "id": "TRL_528",
+    "name": "Linecracker",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -15315,7 +16371,7 @@
     "cdn": "https://media-hearth.cursecdn.com/avatars/328/341/14456.png",
     "class": "Neutral",
     "cost": 9,
-    "desc": "Deathrattle: Replace your hero with Ragnaros, the Firelord.",
+    "desc": "Deathrattle: Replace your hero with Ragnaros the Firelord.",
     "head": "majordomo-executus",
     "hp": 7,
     "hpwn": 14456,
@@ -15507,7 +16563,7 @@
   },
   "Mana Wyrm": {
     "atk": 1,
-    "cdn": "https://media-hearth.cursecdn.com/avatars/333/468/263.png",
+    "cdn": "https://media-hearth.cursecdn.com/avatars/379/798/636755833923073391.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Whenever you cast a spell, gain +1 Attack.",
@@ -15585,6 +16641,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Mark of the Loa": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/608/636791252027397465.png",
+    "class": "Druid",
+    "cost": 4,
+    "desc": "Choose One - Give a minion +2/+4 and Taunt; or Summon two 3/2 Raptors.",
+    "head": "mark-of-the-loa",
+    "hp": null,
+    "hpwn": 90244,
+    "id": "TRL_254",
+    "name": "Mark of the Loa",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Mark of the Lotus": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/329/121/49642.png",
@@ -15633,6 +16705,22 @@
     "subType": "Dragon",
     "type": "Minion"
   },
+  "Masked Contender": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/867/636791255914693088.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: If you control a Secret, play a Secret from your deck.",
+    "head": "masked-contender",
+    "hp": 4,
+    "hpwn": 90200,
+    "id": "TRL_530",
+    "name": "Masked Contender",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Mass Dispel": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/153/249.png",
@@ -15646,6 +16734,22 @@
     "name": "Mass Dispel",
     "rarity": "Rare",
     "set": "Classic",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Mass Hysteria": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/620/636791252178795938.png",
+    "class": "Priest",
+    "cost": 5,
+    "desc": "Force each minion to attack another random minion.",
+    "head": "mass-hysteria",
+    "hp": null,
+    "hpwn": 90253,
+    "id": "TRL_258",
+    "name": "Mass Hysteria",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Spell"
   },
@@ -15744,6 +16848,22 @@
     "set": "Whispers of the Old Gods",
     "subType": null,
     "type": "Minion"
+  },
+  "Master's Call": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/704/636791253321546602.png",
+    "class": "Hunter",
+    "cost": 3,
+    "desc": "Discover a minion in your deck. If all 3 are Beasts, draw them all.",
+    "head": "masters-call",
+    "hp": null,
+    "hpwn": 90222,
+    "id": "TRL_339",
+    "name": "Master's Call",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Mayor Noggenfogger": {
     "atk": 5,
@@ -16481,6 +17601,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Mojomaster Zihi": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/912/636791256546533626.png",
+    "class": "Neutral",
+    "cost": 6,
+    "desc": "Battlecry: Set each player to 5 Mana Crystals.",
+    "head": "mojomaster-zihi",
+    "hp": 5,
+    "hpwn": 90250,
+    "id": "TRL_564",
+    "name": "Mojomaster Zihi",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Molten Blade": {
     "atk": 1,
     "cdn": "https://media-hearth.cursecdn.com/avatars/335/271/55496.png",
@@ -16624,6 +17760,38 @@
     "set": "Classic",
     "subType": null,
     "type": "Spell"
+  },
+  "Mosh'Ogg Announcer": {
+    "atk": 6,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/873/636791256007031861.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Enemies attacking this have a 50% chance to attack someone else.",
+    "head": "moshogg-announcer",
+    "hp": 5,
+    "hpwn": 90243,
+    "id": "TRL_532",
+    "name": "Mosh'Ogg Announcer",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Mosh'ogg Enforcer": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/824/636791255348785584.png",
+    "class": "Neutral",
+    "cost": 8,
+    "desc": "Taunt Divine Shield",
+    "head": "moshogg-enforcer",
+    "hp": 14,
+    "hpwn": 90275,
+    "id": "TRL_513",
+    "name": "Mosh'ogg Enforcer",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Mossy Horror": {
     "atk": 2,
@@ -16830,6 +17998,22 @@
     "name": "Murloc Raider",
     "rarity": "Basic",
     "set": "Basic",
+    "subType": "Murloc",
+    "type": "Minion"
+  },
+  "Murloc Tastyfin": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/840/636791255543463070.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Deathrattle: Draw 2 Murlocs from your deck.",
+    "head": "murloc-tastyfin",
+    "hp": 2,
+    "hpwn": 90210,
+    "id": "TRL_520",
+    "name": "Murloc Tastyfin",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": "Murloc",
     "type": "Minion"
   },
@@ -17825,6 +19009,22 @@
     "subType": "Dragon",
     "type": "Minion"
   },
+  "Oondasta": {
+    "atk": 7,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/891/636791256286860523.png",
+    "class": "Neutral",
+    "cost": 9,
+    "desc": "Rush Overkill: Summon a Beast from your hand.",
+    "head": "oondasta",
+    "hp": 7,
+    "hpwn": 90171,
+    "id": "TRL_542",
+    "name": "Oondasta",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Open the Waygate": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/334/881/55551.png",
@@ -17872,6 +19072,38 @@
     "set": "Journey to Un'Goro",
     "subType": "Beast",
     "type": "Minion"
+  },
+  "Ornery Tortoise": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/900/636791256404822902.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: Deal 5 damage to your hero.",
+    "head": "ornery-tortoise",
+    "hp": 5,
+    "hpwn": 90260,
+    "id": "TRL_546",
+    "name": "Ornery Tortoise",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
+  "Overlord's Whip": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/755/636791254441329874.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "After you play a minion, deal 1 damage to it.",
+    "head": "overlords-whip",
+    "hp": 4,
+    "hpwn": 90211,
+    "id": "TRL_360",
+    "name": "Overlord's Whip",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Weapon"
   },
   "Ozruk": {
     "atk": 5,
@@ -18014,6 +19246,22 @@
     "name": "Pick Pocket",
     "rarity": "Rare",
     "set": "The Witchwood",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Pilfer": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/379/4/636728850097131466.png",
+    "class": "Rogue",
+    "cost": 1,
+    "desc": "Add a random card to your hand (from your opponent's class).",
+    "head": "pilfer",
+    "hp": null,
+    "hpwn": 90142,
+    "id": "EX1_182",
+    "name": "Pilfer",
+    "rarity": "Common",
+    "set": "Classic",
     "subType": null,
     "type": "Spell"
   },
@@ -18417,6 +19665,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Pounce": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/581/636791251673510576.png",
+    "class": "Druid",
+    "cost": 0,
+    "desc": "Give your hero +2 Attack this turn.",
+    "head": "pounce",
+    "hp": null,
+    "hpwn": 90272,
+    "id": "TRL_243",
+    "name": "Pounce",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Power Overwhelming": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/339/184/170.png",
@@ -18542,6 +19806,22 @@
     "name": "Powershot",
     "rarity": "Rare",
     "set": "The Grand Tournament",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Predatory Instincts": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/584/636791251713977183.png",
+    "class": "Druid",
+    "cost": 4,
+    "desc": "Draw a Beast from your deck. Double its Health.",
+    "head": "predatory-instincts",
+    "hp": null,
+    "hpwn": 90207,
+    "id": "TRL_244",
+    "name": "Predatory Instincts",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Spell"
   },
@@ -18801,6 +20081,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Princess Talanji": {
+    "atk": 7,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/623/636791252217543775.png",
+    "class": "Priest",
+    "cost": 8,
+    "desc": "Battlecry: Summon all minions from your hand that didn't start in your deck.",
+    "head": "princess-talanji",
+    "hp": 5,
+    "hpwn": 90209,
+    "id": "TRL_259",
+    "name": "Princess Talanji",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Prismatic Lens": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/376/524/636688328595281245.png",
@@ -19009,6 +20305,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Pyromaniac": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/665/636791252790012672.png",
+    "class": "Mage",
+    "cost": 3,
+    "desc": "Whenever your Hero Power kills a minion, draw a card.",
+    "head": "pyromaniac",
+    "hp": 4,
+    "hpwn": 90158,
+    "id": "TRL_315",
+    "name": "Pyromaniac",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Pyros": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/334/872/52582.png",
@@ -19088,6 +20400,22 @@
     "set": "Blackrock Mountain",
     "subType": null,
     "type": "Spell"
+  },
+  "Rabble Bouncer": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/831/636791255425188335.png",
+    "class": "Neutral",
+    "cost": 7,
+    "desc": "Taunt Costs (1) less for each enemy minion.",
+    "head": "rabble-bouncer",
+    "hp": 7,
+    "hpwn": 90203,
+    "id": "TRL_515",
+    "name": "Rabble Bouncer",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Rabid Worgen": {
     "atk": 3,
@@ -19184,6 +20512,38 @@
     "set": "Basic",
     "subType": null,
     "type": "Minion"
+  },
+  "Raiding Party": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/545/636791251192911489.png",
+    "class": "Rogue",
+    "cost": 3,
+    "desc": "Draw 2 Pirates from your deck. Combo: And a weapon.",
+    "head": "raiding-party",
+    "hp": null,
+    "hpwn": 90185,
+    "id": "TRL_124",
+    "name": "Raiding Party",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Rain of Toads": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/746/636791254333835731.png",
+    "class": "Shaman",
+    "cost": 6,
+    "desc": "Summon three 2/4 Toads with Taunt. Overload: (3)",
+    "head": "rain-of-toads",
+    "hp": null,
+    "hpwn": 90157,
+    "id": "TRL_351",
+    "name": "Rain of Toads",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Rallying Blade": {
     "atk": 3,
@@ -19505,6 +20865,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Reckless Diretroll": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/906/636791256475756494.png",
+    "class": "Warlock",
+    "cost": 3,
+    "desc": "Taunt Battlecry: Discard your lowest Cost card.",
+    "head": "reckless-diretroll",
+    "hp": 6,
+    "hpwn": 90180,
+    "id": "TRL_551",
+    "name": "Reckless Diretroll",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Reckless Experimenter": {
     "atk": 4,
     "cdn": "https://media-hearth.cursecdn.com/avatars/376/653/636688331114650435.png",
@@ -19665,6 +21041,38 @@
     "subType": null,
     "type": "Minion"
   },
+  "Regenerate": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/930/636791259096069786.png",
+    "class": "Priest",
+    "cost": 0,
+    "desc": "Restore 3 Health.",
+    "head": "regenerate",
+    "hp": null,
+    "hpwn": 90242,
+    "id": "TRL_128",
+    "name": "Regenerate",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Regeneratin' Thug": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/815/636791255232537114.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "At the start of your turn, restore 2 Health to this minion.",
+    "head": "regeneratin-thug",
+    "hp": 5,
+    "hpwn": 90267,
+    "id": "TRL_508",
+    "name": "Regeneratin' Thug",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Reincarnate": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/331/268/7731.png",
@@ -19822,6 +21230,22 @@
     "name": "Revenge",
     "rarity": "Rare",
     "set": "Blackrock Mountain",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Revenge of the Wild": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/915/636791256583250079.png",
+    "class": "Hunter",
+    "cost": 2,
+    "desc": "Summon your Beasts that died this turn.",
+    "head": "revenge-of-the-wild",
+    "hp": null,
+    "hpwn": 90196,
+    "id": "TRL_566",
+    "name": "Revenge of the Wild",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Spell"
   },
@@ -19998,6 +21422,22 @@
     "name": "Rotten Applebaum",
     "rarity": "Common",
     "set": "The Witchwood",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Rumbletusk Shaker": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/870/636791255954065914.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Deathrattle: Summon a 3/2 Rumbletusk Breaker.",
+    "head": "rumbletusk-shaker",
+    "hp": 2,
+    "hpwn": 90266,
+    "id": "TRL_531",
+    "name": "Rumbletusk Shaker",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -20193,6 +21633,22 @@
     "subType": "Pirate",
     "type": "Minion"
   },
+  "Sand Drudge": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/554/636791251316186142.png",
+    "class": "Priest",
+    "cost": 3,
+    "desc": "Whenever you cast a spell, summon a 1/1 Zombie with Taunt.",
+    "head": "sand-drudge",
+    "hp": 3,
+    "hpwn": 90241,
+    "id": "TRL_131",
+    "name": "Sand Drudge",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Sandbinder": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/369/23/636590941563029299.png",
@@ -20257,6 +21713,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Saronite Taskmaster": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/761/636791254512419783.png",
+    "class": "Neutral",
+    "cost": 1,
+    "desc": "Deathrattle: Summon a 0/3 Free Agent with Taunt for your opponent.",
+    "head": "saronite-taskmaster",
+    "hp": 3,
+    "hpwn": 90205,
+    "id": "TRL_363",
+    "name": "Saronite Taskmaster",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Sated Threshadon": {
     "atk": 5,
     "cdn": "https://media-hearth.cursecdn.com/avatars/334/842/55534.png",
@@ -20304,6 +21776,22 @@
     "set": "Basic",
     "subType": null,
     "type": "Spell"
+  },
+  "Savage Striker": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/575/636791251592733682.png",
+    "class": "Druid",
+    "cost": 2,
+    "desc": "Battlecry: Deal damage to an enemy minion equal to your hero's Attack.",
+    "head": "savage-striker",
+    "hp": 3,
+    "hpwn": 90154,
+    "id": "TRL_240",
+    "name": "Savage Striker",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Savagery": {
     "atk": null,
@@ -20369,6 +21857,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Scarab Egg": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/797/636791254991925119.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Deathrattle: Summon three 1/1 Scarabs.",
+    "head": "scarab-egg",
+    "hp": 2,
+    "hpwn": 90263,
+    "id": "TRL_503",
+    "name": "Scarab Egg",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Scarlet Crusader": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/330/390/475.png",
@@ -20416,6 +21920,22 @@
     "set": "Classic",
     "subType": "Beast",
     "type": "Minion"
+  },
+  "Scorch": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/662/636791252746733933.png",
+    "class": "Mage",
+    "cost": 4,
+    "desc": "Deal 4 damage to a minion. Costs (1) if you played an Elemental last turn.",
+    "head": "scorch",
+    "hp": null,
+    "hpwn": 90258,
+    "id": "TRL_313",
+    "name": "Scorch",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Scorp-o-matic": {
     "atk": 1,
@@ -20564,6 +22084,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Seance": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/536/636791251078386662.png",
+    "class": "Priest",
+    "cost": 2,
+    "desc": "Choose a minion. Add a copy of it to your hand.",
+    "head": "seance",
+    "hp": null,
+    "hpwn": 90235,
+    "id": "TRL_097",
+    "name": "Seance",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Second-Rate Bruiser": {
     "atk": 4,
     "cdn": "https://media-hearth.cursecdn.com/avatars/329/304/49626.png",
@@ -20707,6 +22243,38 @@
     "set": "Mean Streets of Gadgetzan",
     "subType": null,
     "type": "Minion"
+  },
+  "Serpent Ward": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/500/636791250527166290.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "At the end of your turn, deal 2 damage to the enemy hero.",
+    "head": "serpent-ward",
+    "hp": 2,
+    "hpwn": 90289,
+    "id": "TRL_057",
+    "name": "Serpent Ward",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": "Totem",
+    "type": "Minion"
+  },
+  "Serrated Tooth": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/518/636791250791214459.png",
+    "class": "Rogue",
+    "cost": 1,
+    "desc": "Deathrattle: Give your minions Rush.",
+    "head": "serrated-tooth",
+    "hp": 3,
+    "hpwn": 90271,
+    "id": "TRL_074",
+    "name": "Serrated Tooth",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Weapon"
   },
   "Servant of Kalimos": {
     "atk": 4,
@@ -21175,6 +22743,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Sharkfin Fan": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/809/636791255154885177.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "After your hero attacks, summon a 1/1 Pirate.",
+    "head": "sharkfin-fan",
+    "hp": 2,
+    "hpwn": 90147,
+    "id": "TRL_507",
+    "name": "Sharkfin Fan",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
   "Shatter": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/654/35244.png",
@@ -21284,6 +22868,22 @@
     "name": "Shieldbearer",
     "rarity": "Common",
     "set": "Classic",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Shieldbreaker": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/852/636791255712985125.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Battlecry: Silence an enemy minion with Taunt.",
+    "head": "shieldbreaker",
+    "hp": 1,
+    "hpwn": 90290,
+    "id": "TRL_524",
+    "name": "Shieldbreaker",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -21415,6 +23015,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Shirvallah, the Tiger": {
+    "atk": 7,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/629/636791252301289197.png",
+    "class": "Paladin",
+    "cost": 25,
+    "desc": "Divine Shield, Rush, Lifesteal Costs (1) less for each Mana you've spent on spells.",
+    "head": "shirvallah-the-tiger",
+    "hp": 5,
+    "hpwn": 90145,
+    "id": "TRL_300",
+    "name": "Shirvallah, the Tiger",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Shiv": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/330/710/164.png",
@@ -21444,6 +23060,22 @@
     "name": "Shooting Star",
     "rarity": "Common",
     "set": "The Boomsday Project",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Shriek": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/587/636791251755537451.png",
+    "class": "Warlock",
+    "cost": 1,
+    "desc": "Discard your lowest Cost card. Deal 2 damage to all minions.",
+    "head": "shriek",
+    "hp": null,
+    "hpwn": 90179,
+    "id": "TRL_245",
+    "name": "Shriek",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Spell"
   },
@@ -21557,6 +23189,22 @@
     "rarity": "Rare",
     "set": "Goblin vs Gnomes",
     "subType": "Mech",
+    "type": "Minion"
+  },
+  "Sightless Ranger": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/494/636791250351238193.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Rush Overkill: Summon two 1/1 Bats.",
+    "head": "sightless-ranger",
+    "hp": 4,
+    "hpwn": 90233,
+    "id": "TRL_020",
+    "name": "Sightless Ranger",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
     "type": "Minion"
   },
   "Silence": {
@@ -22023,6 +23671,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Smolderthorn Lancer": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/692/636791253157336821.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "Battlecry: If you're holding a Dragon, destroy a damaged enemy minion.",
+    "head": "smolderthorn-lancer",
+    "hp": 2,
+    "hpwn": 90183,
+    "id": "TRL_326",
+    "name": "Smolderthorn Lancer",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Smuggler's Crate": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/329/55/49735.png",
@@ -22086,6 +23750,22 @@
     "set": "The Witchwood",
     "subType": null,
     "type": "Spell"
+  },
+  "Snapjaw Shellfighter": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/879/636791256093277131.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Whenever an adjacent minion takes damage, this minion takes it instead.",
+    "head": "snapjaw-shellfighter",
+    "hp": 8,
+    "hpwn": 90245,
+    "id": "TRL_535",
+    "name": "Snapjaw Shellfighter",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Sneaky Devil": {
     "atk": 2,
@@ -22311,6 +23991,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Soulwarden": {
+    "atk": 6,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/593/636791251831314534.png",
+    "class": "Warlock",
+    "cost": 6,
+    "desc": "Battlecry: Add 3 random cards you discarded this game to your hand.",
+    "head": "soulwarden",
+    "hp": 6,
+    "hpwn": 90181,
+    "id": "TRL_247",
+    "name": "Soulwarden",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Sound the Bells!": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/369/165/636590943936257709.png",
@@ -22326,6 +24022,22 @@
     "set": "The Witchwood",
     "subType": null,
     "type": "Spell"
+  },
+  "Soup Vendor": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/921/636791256709960966.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Whenever you restore 3 or more Health to your hero, draw a card.",
+    "head": "soup-vendor",
+    "hp": 4,
+    "hpwn": 90202,
+    "id": "TRL_570",
+    "name": "Soup Vendor",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Southsea Captain": {
     "atk": 3,
@@ -22583,6 +24295,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Spellzerker": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/659/636791252709548442.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Has Spell Damage +2 while damaged.",
+    "head": "spellzerker",
+    "hp": 3,
+    "hpwn": 90292,
+    "id": "TRL_312",
+    "name": "Spellzerker",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Spider Bomb": {
     "atk": 2,
     "cdn": "https://media-hearth.cursecdn.com/avatars/376/413/636688326474816746.png",
@@ -22711,6 +24439,150 @@
     "subType": null,
     "type": "Spell"
   },
+  "Spirit of the Bat": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/599/636791251908185605.png",
+    "class": "Warlock",
+    "cost": 2,
+    "desc": "Stealth for 1 turn. After a friendly minion dies, give a minion in your hand +1/+1.",
+    "head": "spirit-of-the-bat",
+    "hp": 3,
+    "hpwn": 90149,
+    "id": "TRL_251",
+    "name": "Spirit of the Bat",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Dead": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/794/636791254954739694.png",
+    "class": "Priest",
+    "cost": 1,
+    "desc": "Stealth for 1 turn. After a friendly minion dies, shuffle a 1-Cost copy of it into your deck.",
+    "head": "spirit-of-the-dead",
+    "hp": 3,
+    "hpwn": 90168,
+    "id": "TRL_502",
+    "name": "Spirit of the Dead",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Dragonhawk": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/677/636791252942192098.png",
+    "class": "Mage",
+    "cost": 2,
+    "desc": "Stealth for 1 turn. Your Hero Power also targets adjacent minions.",
+    "head": "spirit-of-the-dragonhawk",
+    "hp": 3,
+    "hpwn": 90178,
+    "id": "TRL_319",
+    "name": "Spirit of the Dragonhawk",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Frog": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/509/636791250669346063.png",
+    "class": "Shaman",
+    "cost": 3,
+    "desc": "Stealth for 1 turn. Whenever you cast a spell, draw a spell from your deck that costs (1) more.",
+    "head": "spirit-of-the-frog",
+    "hp": 3,
+    "hpwn": 90218,
+    "id": "TRL_060",
+    "name": "Spirit of the Frog",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Lynx": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/927/636791256796674605.png",
+    "class": "Hunter",
+    "cost": 3,
+    "desc": "Stealth for 1 turn. Whenever you summon a Beast, give it +1/+1.",
+    "head": "spirit-of-the-lynx",
+    "hp": 3,
+    "hpwn": 90282,
+    "id": "TRL_901",
+    "name": "Spirit of the Lynx",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Raptor": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/566/636791251469146326.png",
+    "class": "Druid",
+    "cost": 1,
+    "desc": "Stealth for 1 turn. After your hero attacks and kills a minion, draw a card.",
+    "head": "spirit-of-the-raptor",
+    "hp": 3,
+    "hpwn": 90212,
+    "id": "TRL_223",
+    "name": "Spirit of the Raptor",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Rhino": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/695/636791253201084282.png",
+    "class": "Warrior",
+    "cost": 1,
+    "desc": "Stealth for 1 turn. Your Rush minions are Immune the turn they're summoned.",
+    "head": "spirit-of-the-rhino",
+    "hp": 3,
+    "hpwn": 90251,
+    "id": "TRL_327",
+    "name": "Spirit of the Rhino",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Shark": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/530/636791250960580260.png",
+    "class": "Rogue",
+    "cost": 4,
+    "desc": "Stealth for 1 turn. Your minions' Battlecries and Combos trigger twice.",
+    "head": "spirit-of-the-shark",
+    "hp": 3,
+    "hpwn": 90148,
+    "id": "TRL_092",
+    "name": "Spirit of the Shark",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Spirit of the Tiger": {
+    "atk": 0,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/650/636791252595804600.png",
+    "class": "Paladin",
+    "cost": 4,
+    "desc": "Stealth for 1 turn. After you cast a spell, summon a Tiger with stats equal to its Cost.",
+    "head": "spirit-of-the-tiger",
+    "hp": 3,
+    "hpwn": 90188,
+    "id": "TRL_309",
+    "name": "Spirit of the Tiger",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Spiritsinger Umbra": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/335/205/55522.png",
@@ -22791,6 +24663,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Splitting Image": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/770/636791254629600866.png",
+    "class": "Mage",
+    "cost": 3,
+    "desc": "Secret: When one of your minions is attacked, summon a copy of it.",
+    "head": "splitting-image",
+    "hp": null,
+    "hpwn": 90247,
+    "id": "TRL_400",
+    "name": "Splitting Image",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Spreading Madness": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/333/705/33169.png",
@@ -22837,6 +24725,22 @@
     "rarity": "Common",
     "set": "The Boomsday Project",
     "subType": "Mech",
+    "type": "Minion"
+  },
+  "Springpaw": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/737/636791254225091432.png",
+    "class": "Hunter",
+    "cost": 1,
+    "desc": "Rush Battlecry: Add a 1/1 Lynx with Rush to your hand.",
+    "head": "springpaw",
+    "hp": 1,
+    "hpwn": 90155,
+    "id": "TRL_348",
+    "name": "Springpaw",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Beast",
     "type": "Minion"
   },
   "Sprint": {
@@ -22950,6 +24854,22 @@
     "set": "Classic",
     "subType": "Beast",
     "type": "Minion"
+  },
+  "Stampeding Roar": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/614/636791252105362279.png",
+    "class": "Druid",
+    "cost": 6,
+    "desc": "Summon a random Beast from your hand and give it Rush.",
+    "head": "stampeding-roar",
+    "hp": null,
+    "hpwn": 90221,
+    "id": "TRL_255",
+    "name": "Stampeding Roar",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Stand Against Darkness": {
     "atk": null,
@@ -23156,6 +25076,22 @@
     "name": "Stolen Goods",
     "rarity": "Rare",
     "set": "Mean Streets of Gadgetzan",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Stolen Steel": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/560/636791251394150672.png",
+    "class": "Rogue",
+    "cost": 2,
+    "desc": "Discover a weapon (from another class).",
+    "head": "stolen-steel",
+    "hp": null,
+    "hpwn": 90294,
+    "id": "TRL_156",
+    "name": "Stolen Steel",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Spell"
   },
@@ -23511,6 +25447,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Sul'thraze": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/689/636791253111557873.png",
+    "class": "Warrior",
+    "cost": 6,
+    "desc": "Overkill: You may attack again.",
+    "head": "sulthraze",
+    "hp": 4,
+    "hpwn": 90146,
+    "id": "TRL_325",
+    "name": "Sul'thraze",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Weapon"
+  },
   "Summoning Portal": {
     "atk": 0,
     "cdn": "https://media-hearth.cursecdn.com/avatars/330/767/566.png",
@@ -23622,6 +25574,22 @@
     "set": "The Boomsday Project",
     "subType": null,
     "type": "Weapon"
+  },
+  "Surrender to Madness": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/788/636791254877243963.png",
+    "class": "Priest",
+    "cost": 3,
+    "desc": "Destroy 3 of your Mana Crystals. Give all minions in your deck +2/+2.",
+    "head": "surrender-to-madness",
+    "hp": null,
+    "hpwn": 90151,
+    "id": "TRL_500",
+    "name": "Surrender to Madness",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Swamp Dragon Egg": {
     "atk": 0,
@@ -24023,6 +25991,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "The Beast Within": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/542/636791251150569992.png",
+    "class": "Hunter",
+    "cost": 1,
+    "desc": "Give a friendly Beast +1/+1, then it attacks a random enemy minion.",
+    "head": "the-beast-within",
+    "hp": null,
+    "hpwn": 90254,
+    "id": "TRL_119",
+    "name": "The Beast Within",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "The Black Knight": {
     "atk": 4,
     "cdn": "https://media-hearth.cursecdn.com/avatars/330/342/396.png",
@@ -24410,6 +26394,22 @@
     "subType": "Elemental",
     "type": "Minion"
   },
+  "Ticket Scalper": {
+    "atk": 5,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/491/636791250252024812.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Overkill: Draw 2 cards.",
+    "head": "ticket-scalper",
+    "hp": 3,
+    "hpwn": 90165,
+    "id": "TRL_015",
+    "name": "Ticket Scalper",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
   "Ticking Abomination": {
     "atk": 5,
     "cdn": "https://media-hearth.cursecdn.com/avatars/339/470/61811.png",
@@ -24457,6 +26457,22 @@
     "set": "Basic",
     "subType": "Beast",
     "type": "Minion"
+  },
+  "Time Out!": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/632/636791252339880767.png",
+    "class": "Paladin",
+    "cost": 3,
+    "desc": "Your hero is Immune until your next turn.",
+    "head": "time-out",
+    "hp": null,
+    "hpwn": 90164,
+    "id": "TRL_302",
+    "name": "Time Out!",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
   },
   "Tinker's Sharpsword Oil": {
     "atk": null,
@@ -24650,6 +26666,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Tome of Intellect": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/379/2/636728849010446406.png",
+    "class": "Mage",
+    "cost": 1,
+    "desc": "Add a random Mage spell to your hand.",
+    "head": "tome-of-intellect",
+    "hp": null,
+    "hpwn": 90140,
+    "id": "EX1_180",
+    "name": "Tome of Intellect",
+    "rarity": "Common",
+    "set": "Classic",
+    "subType": null,
+    "type": "Spell"
+  },
   "Toothy Chest": {
     "atk": 0,
     "cdn": "https://media-hearth.cursecdn.com/avatars/356/190/77016.png",
@@ -24791,6 +26823,22 @@
     "name": "Totemic Might",
     "rarity": "Basic",
     "set": "Basic",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Totemic Smash": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/488/636791250192340529.png",
+    "class": "Shaman",
+    "cost": 1,
+    "desc": "Deal 2 damage. Overkill: Summon a basic Totem.",
+    "head": "totemic-smash",
+    "hp": null,
+    "hpwn": 90216,
+    "id": "TRL_012",
+    "name": "Totemic Smash",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Spell"
   },
@@ -24969,6 +27017,22 @@
     "set": "Goblin vs Gnomes",
     "subType": null,
     "type": "Spell"
+  },
+  "Treespeaker": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/707/636791253359825740.png",
+    "class": "Druid",
+    "cost": 5,
+    "desc": "Battlecry: Transform your Treants into 5/5 Ancients.",
+    "head": "treespeaker",
+    "hp": 4,
+    "hpwn": 90256,
+    "id": "TRL_341",
+    "name": "Treespeaker",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
   },
   "Trogg Beastrager": {
     "atk": 3,
@@ -25658,6 +27722,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Untamed Beastmaster": {
+    "atk": 3,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/773/636791254669442693.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Whenever you draw a Beast, give it +2/+2.",
+    "head": "untamed-beastmaster",
+    "hp": 4,
+    "hpwn": 90187,
+    "id": "TRL_405",
+    "name": "Untamed Beastmaster",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Unwilling Sacrifice": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/339/602/62873.png",
@@ -26209,6 +28289,22 @@
     "subType": "Demon",
     "type": "Minion"
   },
+  "Void Contract": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/590/636791251791472897.png",
+    "class": "Warlock",
+    "cost": 8,
+    "desc": "Destroy half of each player's deck.",
+    "head": "void-contract",
+    "hp": null,
+    "hpwn": 90153,
+    "id": "TRL_246",
+    "name": "Void Contract",
+    "rarity": "Epic",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Void Crusher": {
     "atk": 5,
     "cdn": "https://media-hearth.cursecdn.com/avatars/327/836/22387.png",
@@ -26545,6 +28641,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Walk the Plank": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/563/636791251430242367.png",
+    "class": "Rogue",
+    "cost": 4,
+    "desc": "Destroy an undamaged minion.",
+    "head": "walk-the-plank",
+    "hp": null,
+    "hpwn": 90201,
+    "id": "TRL_157",
+    "name": "Walk the Plank",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Spell"
+  },
   "Walnut Sprite": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/369/132/636590943376155668.png",
@@ -26593,6 +28705,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "War Master Voone": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/698/636791253244988215.png",
+    "class": "Warrior",
+    "cost": 4,
+    "desc": "Battlecry: Copy all Dragons in your hand.",
+    "head": "war-master-voone",
+    "hp": 3,
+    "hpwn": 90193,
+    "id": "TRL_328",
+    "name": "War Master Voone",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Warbot": {
     "atk": 1,
     "cdn": "https://media-hearth.cursecdn.com/avatars/377/112/636690957322786106.png",
@@ -26607,6 +28735,22 @@
     "rarity": "Common",
     "set": "Goblin vs Gnomes",
     "subType": "Mech",
+    "type": "Minion"
+  },
+  "Wardruid Loti": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/93/636786831452897238.png",
+    "class": "Druid",
+    "cost": 3,
+    "desc": "Choose One - Transform into one of Loti's four dinosaur forms.",
+    "head": "wardruid-loti",
+    "hp": 2,
+    "hpwn": 90223,
+    "id": "TRL_343",
+    "name": "Wardruid Loti",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
     "type": "Minion"
   },
   "Wargear": {
@@ -26673,6 +28817,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Wartbringer": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/846/636791255633145733.png",
+    "class": "Shaman",
+    "cost": 1,
+    "desc": "Battlecry: If you played 2 spells this turn, deal 2 damage.",
+    "head": "wartbringer",
+    "hp": 1,
+    "hpwn": 90293,
+    "id": "TRL_522",
+    "name": "Wartbringer",
+    "rarity": "Common",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Water Elemental": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/329/943/274.png",
@@ -26687,6 +28847,22 @@
     "rarity": "Basic",
     "set": "Basic",
     "subType": "Elemental",
+    "type": "Minion"
+  },
+  "Waterboy": {
+    "atk": 2,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/779/636791254755844240.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Battlecry: Your next Hero Power this turn costs (0).",
+    "head": "waterboy",
+    "hp": 1,
+    "hpwn": 90175,
+    "id": "TRL_407",
+    "name": "Waterboy",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
     "type": "Minion"
   },
   "Wax Elemental": {
@@ -27569,6 +29745,22 @@
     "subType": "Dragon",
     "type": "Minion"
   },
+  "Zandalari Templar": {
+    "atk": 4,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/897/636791256363262522.png",
+    "class": "Paladin",
+    "cost": 4,
+    "desc": "Battlecry: If you've restored 10 Health this game, gain +4/+4 and Taunt.",
+    "head": "zandalari-templar",
+    "hp": 4,
+    "hpwn": 90192,
+    "id": "TRL_545",
+    "name": "Zandalari Templar",
+    "rarity": "Rare",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
   "Zap!": {
     "atk": null,
     "cdn": "https://media-hearth.cursecdn.com/avatars/369/261/636590945500375380.png",
@@ -27598,6 +29790,22 @@
     "name": "Zealous Initiate",
     "rarity": "Common",
     "set": "Whispers of the Old Gods",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Zentimo": {
+    "atk": 1,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/527/636791250917457802.png",
+    "class": "Shaman",
+    "cost": 3,
+    "desc": "Whenever you target a minion with a spell, it also targets adjacent ones.",
+    "head": "zentimo",
+    "hp": 3,
+    "hpwn": 90174,
+    "id": "TRL_085",
+    "name": "Zentimo",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
   },
@@ -27696,5 +29904,24 @@
     "set": "One Night in Karazhan",
     "subType": "Mech",
     "type": "Minion"
+  },
+  "Zul'jin": {
+    "atk": null,
+    "cdn": "https://media-hearth.cursecdn.com/avatars/381/278/636788992288347869.png",
+    "class": "Hunter",
+    "cost": 10,
+    "desc": "Battlecry: Cast all spells you've played this game (targets chosen randomly).",
+    "extDesc": [
+      "Berserker Throw (2): Hero Power Deal 2 damage."
+    ],
+    "head": "zuljin",
+    "hp": 5,
+    "hpwn": 90248,
+    "id": "TRL_065",
+    "name": "Zul'jin",
+    "rarity": "Legendary",
+    "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Hero"
   }
 }

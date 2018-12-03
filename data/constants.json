@@ -50,13 +50,11 @@
         "grimpatron" : "patron",
         "sludgebelcher" : "belcher",
         "truesilverchampion" : "truesilver",
-        "polymorph" : "sheep",
-        "hex" : "frog",
+        "polymorph" : "sheep"
         "kezanmystic" : "kezan",
         "biggamehunter" : "bgh",
         "mindcontroltech" : "mct",
         "lorewalkercho" : "cho",
-        "shieldedminibot" : "minibot",
         "pilotedshredder" : "shredder",
         "ironbeakowl" : "owl",
         "senjinshieldmasta" : "tazdingo",
@@ -66,11 +64,8 @@
         "varianwrynn" : "varian",
         "polymorphboar" : "boar",
         "themistcaller" : "mistcaller",
-        "theskeletonknight" : "skeletonknight",
-        "nexuschampionsaraad" : "sarad",
         "edwinvancleef" : ["edwin", "vancleef"],
         "cairnebloodhoof" : "cairne",
-        "justicartrueheart" : ["justicar", "trueheart"],
         "alakirthewindlord" : "alakir",
         "bolvarfordragon" : "bolvar",
         "troggzortheearthinator" : "troggzor",
@@ -78,7 +73,6 @@
         "archthiefrafaam" : "rafaam",
         "renojackson" : "reno",
         "brannbronzebeard" : "brann",
-        "forgottentorch" : "torch",
         "explorershat" : "hat",
         "maptothegoldenmonkey" : "map",
         "sirfinleymrrgglton" : ["sirfinley", "finley"],
@@ -87,7 +81,6 @@
         "nzoththecorruptor" : "nzoth",
         "theboogeymonster" : "boogeymonster",
         "xarilpoisonedmind" : "xaril",
-        "muklatyrantofthevale" : "muklatyrant",
         "yshaarjrageunbound" : "yshaarj",
         "yoggsaronhopesend" : ["yogg", "yoggsaron", "rngesus"],
 
@@ -100,11 +93,7 @@
         "wickerflameburnbristle" : ["wickerflame", "burnbristle"],
         "kuntheforgottenking" : "kun",
         "auctionmasterbeardo" : "beardo",
-        "shakuthecollector" : "shaku",
-        "auctionmasterbeardo" : "beardo",
-        "donhancho" : "don",
         "razathechained" : "raza",
-        "genzotheshark" : "genzo",
         "ayablackpaw" : "aya",
 
         "Hemet, Jungle Hunter" : "hemet",
@@ -153,6 +142,14 @@
         "Zerek, Master Cloner": "Zerek",
         "Myra Rotspring": "Myra",
         "Electra Stormsurge": "Electra",
-        "Dr. Boom, Mad Genius": "Mad Genius"
+        "Dr. Boom, Mad Genius": "Mad Genius",
+        
+        "Shirvallah, the Tiger": ["Shirvallah", "Tiger"],
+        "Hakkar, the Soulflayer": "Hakkar",
+        "Gonk, the Raptor": ["Gonk", "Raptor"],
+        "Jan'alai, the Dragonhawk": ["Jan'alai", "Dragonhawk"],
+        "Krag'wa, the Frog": ["Krag'wa", "Frog"],
+        "Gral, the Shark": ["Gral", "Shark"],
+        "Halazzi, the Lynx": ["Halazzi", "Lynx"]
     }
 }
