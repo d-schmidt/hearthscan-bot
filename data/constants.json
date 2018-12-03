@@ -50,7 +50,7 @@
         "grimpatron" : "patron",
         "sludgebelcher" : "belcher",
         "truesilverchampion" : "truesilver",
-        "polymorph" : "sheep"
+        "polymorph" : "sheep",
         "kezanmystic" : "kezan",
         "biggamehunter" : "bgh",
         "mindcontroltech" : "mct",
@@ -143,7 +143,7 @@
         "Myra Rotspring": "Myra",
         "Electra Stormsurge": "Electra",
         "Dr. Boom, Mad Genius": "Mad Genius",
-        
+
         "Shirvallah, the Tiger": ["Shirvallah", "Tiger"],
         "Hakkar, the Soulflayer": "Hakkar",
         "Gonk, the Raptor": ["Gonk", "Raptor"],
