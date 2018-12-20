@@ -109,7 +109,7 @@ def answerPM(r, msg, pmUserCache, helper):
     cards, answer = helper.parseText(text)
 
     if cards:
-        if 'info' in cards:
+        if '[[info]]' in text:
             answer = helper.getInfoText(author) + answer
 
         if answer:
