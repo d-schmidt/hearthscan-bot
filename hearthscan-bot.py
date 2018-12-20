@@ -108,13 +108,13 @@ def answerPM(r, msg, pmUserCache, helper):
     text = msg.subject + ' ' + msg.body
     cards, answer = helper.parseText(text)
 
-    if cards:
-        if '[[info]]' in text:
-            answer = helper.getInfoText(author) + answer
+    if '[[info]]' in text:
+        answer = helper.getInfoText(author) + answer
 
-        if answer:
+    if cards or answer:
+        if cards:
             log.info("sending msg: %s with %s", author, cards)
-            msg.reply(answer)
+        msg.reply(answer)
     else:
         # vip tags (mod, admin usw)
         if msg.distinguished:
