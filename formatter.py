@@ -11,9 +11,9 @@ subtype_template = " {subType}"
 desc_template = " | {desc}"
 extDesc_template = "[{text}]  \n"
 card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
-                    "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
-                    "^[HH](http://www.hearthhead.com/cards/{head}), "
-                    "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
+                    "^[HP](https://www.hearthpwn.com/cards/{hpwn}), "
+                    "^[TD](https://www.hearthstonetopdecks.com/cards/{head}/), "
+                    "^[W](https://hearthstone.gamepedia.com/{wiki})  \n"
                 "{cost}/{atk_dur}{subtype}{desc}  \n{extDesc}")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
             " ^( me with up to 7 [[cardname]]. )"
@@ -28,7 +28,8 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
 # Standard legal icon
 # 2018 bird because raven
 STD_ICON = '\U0001F426 '
-NEXT_STD_ICON = STD_ICON
+# 2019 dragon because dragon
+NEXT_STD_ICON = '\U0001F409 '
 
 
 def createCardText(card, constants):
@@ -69,7 +70,7 @@ def createCardText(card, constants):
                 if card['subType'] else '',
 
         'std' : STD_ICON if cardSetData.get('std') else \
-                NEXT_STD_ICON if cardSetData.get('unreleased') else '~ '
+                NEXT_STD_ICON if cardSetData.get('unreleased') else ' '
     }
 
     return card_template.format(**local_card)

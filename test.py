@@ -651,7 +651,7 @@ class TestBot(unittest.TestCase):
         msg = MagicMock()
         msg.subreddit = None
         msg.author.name = 'user'
-        msg.id = 'msgid'
+        msg.id = 'msgidus'
         msg.distinguished = None
         pmUserCache = {'user' : 1234}
 
@@ -669,7 +669,7 @@ class TestBot(unittest.TestCase):
         msg = MagicMock()
         msg.subreddit = None
         msg.author.name = 'user'
-        msg.id = 'msgid'
+        msg.id = 'msgids'
         msg.distinguished = None
         msg.subject = 'sub'
         msg.body = 'body'
@@ -694,14 +694,14 @@ class TestBot(unittest.TestCase):
         msg = MagicMock()
         msg.subreddit = None
         msg.author.name = 'user'
-        msg.id = 'msgid'
+        msg.id = 'msgidpm'
         msg.distinguished = None
         msg.subject = 'sub'
         msg.body = 'body'
         pmUserCache = { }
 
         helper = MagicMock()
-        helper.parseText = MagicMock(return_value=([], 'text'))
+        helper.parseText = MagicMock(return_value=([], ''))
 
         redMsg = MagicMock()
         r.redditor = MagicMock(return_value=redMsg)
@@ -712,9 +712,9 @@ class TestBot(unittest.TestCase):
         self.assertTrue('user' in pmUserCache, 'user added to cache')
 
         expected = [call.redditor(credentials.admin_username)]
-        self.assertEqual(r.method_calls, expected, 'get reditor')
+        self.assertEqual(r.method_calls, expected, 'get redditor')
 
-        expected = [call.message('#msgid /u/user: "sub"', msg.body)]
+        expected = [call.message('#msgidpm /u/user: "sub"', msg.body)]
         self.assertEqual(redMsg.method_calls, expected, 'set message')
 
         expected = [call.parseText('sub body')]
