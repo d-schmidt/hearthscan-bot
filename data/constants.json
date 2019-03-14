@@ -28,7 +28,8 @@
         "powerchords" : ["iammurloc", "powerofthehorde", "roguesdoit"],
         "spareparts" : ["armorplating", "emergencycoolant", "finickycloakfield", "reversingswitch", "rustyhorn", "timerewinder", "whirlingblades"],
         "toxins" : ["bloodthistletoxin", "briarthorntoxin", "fadeleaftoxin", "firebloomtoxin", "kingsbloodtoxin"],
-        "Elemental Invocations" : ["Invocation of Earth", "Invocation of Water", "Invocation of Fire", "Invocation of Air"]
+        "Elemental Invocations" : ["Invocation of Earth", "Invocation of Water", "Invocation of Fire", "Invocation of Air"],
+        "Lackeys": ["Ethereal Lackey", "Faceless Lackey", "Goblin Lackey", "Witchy Lackey", "Kobold Lackey"]
     },
 
     "alternative_names" : {
