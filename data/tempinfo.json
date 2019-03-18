@@ -193,5 +193,35 @@
         "set": "Rise of Shadows",
         "subType": null,
         "type": "Minion"
+    },
+    "Togwaggle’s Scheme": {
+        "atk": null,
+        "cdn": "https://media-hearth.cursecdn.com/attachments/91/563/fc040b6c.png",
+        "class": "Rogue",
+        "cost": 1,
+        "desc": "Choose a minion. Shuffle 1 copy of it into your deck. (Upgrades each turn!)",
+        "head": "togwaggle’s-schem",
+        "hp": null,
+        "hpwn": 12288,
+        "name": "Togwaggle’s Schem",
+        "rarity": "Rare",
+        "set": "Rise of Shadows",
+        "subType": null,
+        "type": "Spell"
+    },
+    "Swampqueen Hagatha": {
+        "atk": 5,
+        "cdn": "https://media-hearth.cursecdn.com/attachments/91/800/c1d1e645.png",
+        "class": "Shaman",
+        "cost": 7,
+        "desc": "Battlecry: Add a 5/5 Horror to your hand. Teach it two Shaman spells.",
+        "head": "swampqueen-hagatha",
+        "hp": 5,
+        "hpwn": 12288,
+        "name": "Swampqueen Hagatha",
+        "rarity": "Legendary",
+        "set": "Rise of Shadows",
+        "subType": null,
+        "type": "Minion"
     }
 }
