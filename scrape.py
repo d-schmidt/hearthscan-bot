@@ -89,12 +89,10 @@ multiClassGroups = {
 }
 
 
-hearthHeadClean = re.compile(r"[^\-a-z0-9 ]")
-
-def getHearthHeadId(name, type, session):
+def getHearthHeadId(name, *ignored):
     log.debug("getHearthHeadId() getting %s id for hearthhead", name)
     # HearthHead does now work without id
-    return hearthHeadClean.sub('', name.lower()).replace(' ', '-')
+    return re.sub(r"[^\w]+", "-", re.sub(r"['!.]", '', name).lower())
 
 
 hpIdRegex = re.compile(r"/cards/(\d+)-.*")
@@ -385,7 +383,7 @@ def parseSingleThrowing(hpid):
     root = fromstring(r.text).xpath('//div[@class="details card-details"]')
 
     name = getFirst(root[0].xpath('./header[1]/h2/text()'))
-    head = re.sub(r"[^\w]+", "-", re.sub(r"['!.]", '', name).lower())
+    head = getHearthHeadId(name)
     cdn = getFirst(root[0].xpath('./section/img[@class="hscard-static"]/@src')).lower()
     descs = root[0].xpath('./div[h3 = "Card Text"]/p//text()')
     desc = ''.join(descs)
@@ -467,6 +465,43 @@ def parseMultiple(ids):
     return "".join(formatSingle(*parseSingle(id)) for id in expandIds(ids))
 
 
+def parseHTD(url):
+    r = requests.get(url)
+    r.raise_for_status()
+    html = fromstring(r.text)
+
+    name = html.xpath('//article//div[@class="card-content"]/p/strong')[0].text
+    name = fixText(name)
+    desc = ''
+    if html.xpath('//article//div[@class="card-content"]/h3')[0].text == 'Card Text':
+        desc = ' '.join((s.strip() for s in html.xpath('//article//div[@class="card-content"]/p')[1].itertext()))
+
+    data = {}
+    for li in html.xpath('//article//ul/li'):
+        st = tuple(li.itertext())
+        data[st[0].strip()] = ''.join(s.strip() for s in st[1:])
+
+    cardtype = data['Type:']
+    atk = data.get('Attack:')
+    hp = data.get('Health:', data.get('Durability:'))
+
+    return name, {
+        "atk": int(atk) if atk and cardtype in ['Weapon', 'Minion'] else None,
+        "cdn": 'https://media-hearth.cursecdn.com/avatars/148/738/687.png',
+        "class": data.get('Class:'),
+        "cost": int(data['Mana Cost:']),
+        "desc": desc,
+        "head": getHearthHeadId(name),
+        "hp": int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None,
+        "hpwn": 12288,
+        "name": name,
+        "rarity": data.get('Rarity:'),
+        "set": data.get('Set:'),
+        "subType": data.get('Race:'),
+        "type": cardtype
+    }
+
+
 if __name__ == "__main__":
     print("see log scrape.log")
     if os.path.isfile("scrape.log"):
@@ -476,6 +511,10 @@ if __name__ == "__main__":
             level=log.DEBUG)
 
     if len(sys.argv) > 1:
-        print(parseMultiple(sys.argv[1:]))
+        if 'hearthstonetopdecks' in sys.argv[1]:
+            print(formatSingle(*parseHTD(sys.argv[1])))
+        else:
+            print(parseMultiple(sys.argv[1:]))
+
     else:
         main()
