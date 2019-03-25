@@ -29,6 +29,7 @@
         "spareparts" : ["armorplating", "emergencycoolant", "finickycloakfield", "reversingswitch", "rustyhorn", "timerewinder", "whirlingblades"],
         "toxins" : ["bloodthistletoxin", "briarthorntoxin", "fadeleaftoxin", "firebloomtoxin", "kingsbloodtoxin"],
         "Elemental Invocations" : ["Invocation of Earth", "Invocation of Water", "Invocation of Fire", "Invocation of Air"],
+        "fantastic treasures" : ["Tolin's Goblet", "Zarog's Crown", "Wondrous Wand", "Golden Kobold"],
         "Lackeys": ["Ethereal Lackey", "Faceless Lackey", "Goblin Lackey", "Witchy Lackey", "Kobold Lackey"]
     },
 
