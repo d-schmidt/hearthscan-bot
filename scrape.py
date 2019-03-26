@@ -484,6 +484,7 @@ def parseHTD(url):
     cardtype = data['Type:']
     atk = data.get('Attack:')
     hp = data.get('Health:', data.get('Durability:'))
+    rarity = data.get('Rarity:')
 
     return name, {
         "atk": int(atk) if atk and cardtype in ['Weapon', 'Minion'] else None,
@@ -495,7 +496,7 @@ def parseHTD(url):
         "hp": int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None,
         "hpwn": 12288,
         "name": name,
-        "rarity": data.get('Rarity:'),
+        "rarity": 'Token' if rarity == 'Free' else rarity,
         "set": data.get('Set:'),
         "subType": data.get('Race:'),
         "type": cardtype
