@@ -488,7 +488,7 @@ def parseHTD(url):
 
     return name, {
         "atk": int(atk) if atk and cardtype in ['Weapon', 'Minion'] else None,
-        "cdn": 'https://media-hearth.cursecdn.com/avatars/148/738/687.png',
+        "cdn": html.xpath('//article//img/@src')[0],
         "class": data.get('Class:'),
         "cost": int(data['Mana Cost:']),
         "desc": desc,
