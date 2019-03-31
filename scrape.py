@@ -466,6 +466,7 @@ def parseMultiple(ids):
 
 
 def parseHTD(url):
+    log.debug("parseHTD() get %s", url)
     r = requests.get(url)
     r.raise_for_status()
     html = fromstring(r.text)
@@ -503,6 +504,13 @@ def parseHTD(url):
     }
 
 
+def parseHTDPage(url):
+    r = requests.get(url)
+    r.raise_for_status()
+    html = fromstring(r.text)
+    return html.xpath('//article//header[@class="entry-header"]/h2/a/@href')
+
+
 if __name__ == "__main__":
     print("see log scrape.log")
     if os.path.isfile("scrape.log"):
@@ -513,7 +521,12 @@ if __name__ == "__main__":
 
     if len(sys.argv) > 1:
         if 'hearthstonetopdecks' in sys.argv[1]:
-            print(formatSingle(*parseHTD(sys.argv[1])))
+            if 'cards' in sys.argv[1]:
+                urls = [sys.argv[1]]
+            else:
+                urls = parseHTDPage(sys.argv[1])
+            print("".join(formatSingle(*parseHTD(url)) for url in urls))
+
         else:
             print(parseMultiple(sys.argv[1:]))
 
