@@ -465,7 +465,7 @@ def parseMultiple(ids):
     return "".join(formatSingle(*parseSingle(id)) for id in expandIds(ids))
 
 
-def parseHTD(url):
+def parseHTD(url, requests=requests):
     log.debug("parseHTD() get %s", url)
     r = requests.get(url)
     r.raise_for_status()
@@ -474,7 +474,8 @@ def parseHTD(url):
     name = html.xpath('//article//div[@class="card-content"]/p/strong')[0].text
     name = fixText(name)
     desc = ''
-    if html.xpath('//article//div[@class="card-content"]/h3')[0].text == 'Card Text':
+    descTags = html.xpath('//article//div[@class="card-content"]/h3')
+    if descTags and descTags[0].text == 'Card Text':
         desc = ' '.join((s.strip() for s in html.xpath('//article//div[@class="card-content"]/p')[1].itertext()))
 
     data = {}
@@ -504,7 +505,7 @@ def parseHTD(url):
     }
 
 
-def parseHTDPage(url):
+def parseHTDPage(url, requests=requests):
     r = requests.get(url)
     r.raise_for_status()
     html = fromstring(r.text)
@@ -521,11 +522,12 @@ if __name__ == "__main__":
 
     if len(sys.argv) > 1:
         if 'hearthstonetopdecks' in sys.argv[1]:
-            if 'cards' in sys.argv[1]:
-                urls = [sys.argv[1]]
-            else:
-                urls = parseHTDPage(sys.argv[1])
-            print("".join(formatSingle(*parseHTD(url)) for url in urls))
+            with requests.Session() as session:
+                if 'cards' in sys.argv[1]:
+                    urls = [sys.argv[1]]
+                else:
+                    urls = parseHTDPage(sys.argv[1], session)
+                print("".join(formatSingle(*parseHTD(url, session)) for url in urls))
 
         else:
             print(parseMultiple(sys.argv[1:]))
