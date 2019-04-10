@@ -6,6 +6,7 @@ import os
 import os.path
 import re
 import sys
+import time
 from multiprocessing.dummy import Pool
 
 from lxml.html import fromstring
@@ -44,7 +45,8 @@ jsonToCCSet = {
     'LOOTAPALOOZA' : '16',
     'GILNEAS' : '17',
     'BOOMSDAY' : '18',
-    'TROLL' : '19'
+    'TROLL' : '19',
+    'DALARAN' : '20'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -64,7 +66,8 @@ setids = {
     '16' : 110,
     '17' : 111,
     '18' : 113,
-    '19' : 114
+    '19' : 114,
+    '20' : 115
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -263,34 +266,40 @@ def loadSets(allcards={}, sets=setids.keys()):
 
     def doSet(setid):
         with requests.Session() as session:
-            with requests.Session() as hhSession:
-                setname = cc.sets[setid]['name']
-                filename = "data/{} {}.json".format(setid, setname)
+            setname = cc.sets[setid]['name']
+            filename = "data/{} {}.json".format(setid, setname)
 
-                if os.path.isfile(filename):
-                    log.debug("loadSets() using found '%s' file instead of internet", filename)
-                    with open(filename, 'r', encoding='utf8') as f:
-                        resultCards.update(json.load(f))
-                else:
-                    currentSet = {}
+            if os.path.isfile(filename):
+                log.debug("loadSets() using found '%s' file instead of internet", filename)
+                with open(filename, 'r', encoding='utf8') as f:
+                    resultCards.update(json.load(f))
+            else:
+                log.debug("loadSets() getting set from internet %s", setname)
+                currentSet = {}
 
-                    for card in setcarddata.get(setname, []):
+                for card in setcarddata.get(setname, []):
+                    try:
                         hpid, image = getHearthpwnIdAndUrl(card['name'],
                                                             setname,
                                                             card['type'],
                                                             False,
                                                             session)
 
-                        hhid = getHearthHeadId(card['name'], card['type'], hhSession)
-
                         card['cdn'] = image
                         card['hpwn'] = hpid
-                        card['head'] = hhid
-                        currentSet[card['name']] = card
-                        print('.', end='')
+                    except Exception as e:
+                        urlName = getHearthHeadId(card['name'])
+                        url = 'https://www.hearthstonetopdecks.com/cards/{}/'.format(urlName)
+                        _, cardHTD = parseHTD(url, session)
+                        card['cdn'] = cardHTD['cdn']
+                        card['hpwn'] = 12288
 
-                    saveCardsAsJson(filename, currentSet)
-                    resultCards.update(currentSet)
+                    card['head'] = getHearthHeadId(card['name'])
+                    currentSet[card['name']] = card
+                    print('.', end='')
+
+                saveCardsAsJson(filename, currentSet)
+                resultCards.update(currentSet)
 
     with Pool(4) as p:
         p.map(doSet, sets)
@@ -320,20 +329,27 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                 log.warning('loadTokens() could not find: %s', name)
                 exit()
 
-            r = session.get('https://www.hearthpwn.com/cards/{}'.format(ids['hpwn']))
-            r.raise_for_status()
-            image = fromstring(r.text).xpath('//img[@class="hscard-static"]')[0].get('src')
-            if not image:
-                image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
+            if 'hpwn' in ids:
+                r = session.get('https://www.hearthpwn.com/cards/{}'.format(ids['hpwn']))
+                r.raise_for_status()
+                image = fromstring(r.text).xpath('//img[@class="hscard-static"]')[0].get('src')
+                if not image:
+                    image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
 
-            card['cdn'] = image.replace('http://', 'https://').lower()
-            card['hpwn'] = ids['hpwn']
-            card['head'] = getHearthHeadId(card['name'], "ignored", "ignored")
+                card['cdn'] = image.replace('http://', 'https://').lower()
+                card['hpwn'] = ids['hpwn']
+                card['head'] = getHearthHeadId(card['name'])
 
-            # since jade golem: overwrite scraped stats with prepared ones
-            card['atk'] = ids.get('atk', card['atk'])
-            card['cost'] = ids.get('cost', card['cost'])
-            card['hp'] = ids.get('hp', card['hp'])
+                # since jade golem: overwrite scraped stats with prepared ones
+                card['atk'] = ids.get('atk', card['atk'])
+                card['cost'] = ids.get('cost', card['cost'])
+                card['hp'] = ids.get('hp', card['hp'])
+            else:
+                urlName = getHearthHeadId(card['name'])
+                url = 'https://www.hearthstonetopdecks.com/cards/{}/'.format(urlName)
+                _, cardHTD = parseHTD(url, session)
+                cardHTD["id"] = card["id"]
+                card = cardHTD
 
             resultCards[card['name']] = card
             print('.', end='')
@@ -514,9 +530,10 @@ def parseHTDPage(url, requests=requests):
 
 if __name__ == "__main__":
     print("see log scrape.log")
-    if os.path.isfile("scrape.log"):
-        os.remove("scrape.log")
-    log.basicConfig(filename="scrape.log",
+    logfile = "scrape-{}.log".format(int(time.time()))
+    if os.path.isfile(logfile):
+        os.remove(logfile)
+    log.basicConfig(filename=logfile,
             format='%(asctime)s %(levelname)s %(message)s',
             level=log.DEBUG)
 

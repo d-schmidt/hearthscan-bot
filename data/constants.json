@@ -11,14 +11,14 @@
         "10" : {"name" : "Whispers of the Old Gods", "code" : "OG", "std" : false},
         "11" : {"name" : "One Night in Karazhan", "code" : "Kara", "std" : false},
         "12" : {"name" : "Mean Streets of Gadgetzan", "code" : "MSoG", "std" : false},
-        "13" : {"name" : "Journey to Un'Goro", "code" : "UNG", "std" : true},
+        "13" : {"name" : "Journey to Un'Goro", "code" : "UNG", "std" : false},
         "14" : {"name" : "Hall of Fame", "code" : "HOF", "std" : false},
-        "15" : {"name" : "Knights of the Frozen Throne", "code" : "KFT", "std" : true},
-        "16" : {"name" : "Kobolds and Catacombs", "code" : "KnC", "std" : true},
+        "15" : {"name" : "Knights of the Frozen Throne", "code" : "KFT", "std" : false},
+        "16" : {"name" : "Kobolds and Catacombs", "code" : "KnC", "std" : false},
         "17" : {"name" : "The Witchwood", "code" : "WW", "std" : true},
         "18" : {"name" : "The Boomsday Project", "code" : "TBP", "std" : true},
         "19" : {"name" : "Rastakhan's Rumble", "code" : "RR", "std" : true},
-        "20" : {"name" : "Rise of Shadows", "code" : "RoS", "unreleased" : true}
+        "20" : {"name" : "Rise of Shadows", "code" : "RoS", "std" : true, "unreleased" : false}
     },
 
     "specials" : {
@@ -137,6 +137,8 @@
         "Marin the Fox" : "Marin",
 
         "Hagatha the Witch": "Hagatha",
+        "Baku the Mooneater": "baku",
+        "Genn Greymane": "Genn",
 
         "Flobbidinous Floop": "Floop",
         "Boommaster Flark": "Flark",

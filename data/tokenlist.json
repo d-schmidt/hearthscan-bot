@@ -509,5 +509,16 @@
     },
     "Bomb": {
         "hpwn": 89894
+    },
+
+    "Ethereal Lackey": {
+    },
+    "Faceless Lackey": {
+    },
+    "Goblin Lackey": {
+    },
+    "Witchy Lackey": {
+    },
+    "Kobold Lackey": {
     }
 }
