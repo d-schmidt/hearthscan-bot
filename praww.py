@@ -232,7 +232,8 @@ class RedditBot:
             for thing in things:
                 if self.killed or self.__seenDB.isSeen(thing):
                     return
-                if thing.author != self.me and thing.author not in self.userBlacklist:
+                if (isinstance(thing, praw.models.Submission) or thing.author != self.me) \
+                        and thing.author not in self.userBlacklist:
                     listener(self.r, thing)
 
         # create lockfile for clean shutdown, delete the file to stop bot
