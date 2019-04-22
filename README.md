@@ -1,3 +1,5 @@
+<p align="center"><img src="/logo/logotype-horizontal.png"></p>
+
 # hearthscan-bot
 Explaining cards in [reddit.com/r/hearthstone](https://www.reddit.com/r/hearthstone/).  
 To see the bot in action send a PM containing `[[Ragnaros]]` to [/u/hearthscan-bot](https://www.reddit.com/message/compose/?to=hearthscan-bot)
