@@ -112,7 +112,6 @@ def answerPM(r, msg, pmUserCache, helper):
         answer = helper.getInfoText(author) + answer
 
     if cards or answer:
-        log.info("ass sending msg: %s with %s %s", author, cards, answer)
         if cards:
             log.info("sending msg: %s with %s", author, cards)
         msg.reply(answer)
