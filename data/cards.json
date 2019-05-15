@@ -28826,7 +28826,7 @@
     "subType": null,
     "type": "Minion"
   },
-  "Travelling Healer": {
+  "Traveling Healer": {
     "atk": 3,
     "cdn": "https://media-hearth.cursecdn.com/avatars/386/393/636897359569457228.png",
     "class": "Neutral",
@@ -28836,7 +28836,7 @@
     "hp": 2,
     "hpwn": 90580,
     "id": "DAL_078",
-    "name": "Travelling Healer",
+    "name": "Traveling Healer",
     "rarity": "Common",
     "set": "Rise of Shadows",
     "subType": null,
@@ -31936,6 +31936,22 @@
     "set": "The Witchwood",
     "subType": null,
     "type": "Spell"
+  },
+  "Zayle, Shadow Cloak": {
+    "atk": 3,
+    "cdn": "https://www.hearthstonetopdecks.com/wp-content/uploads/2019/05/Zayle-Shadow-Cloak-300x427.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "You start the game with one of Zayle's EVIL Decks!",
+    "head": "zayle-shadow-cloak",
+    "hp": 2,
+    "hpwn": 12288,
+    "id": "DAL_800",
+    "name": "Zayle, Shadow Cloak",
+    "rarity": "Legendary",
+    "set": "Rise of Shadows",
+    "subType": null,
+    "type": "Minion"
   },
   "Zealous Initiate": {
     "atk": 1,
