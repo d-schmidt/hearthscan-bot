@@ -13,36 +13,5 @@
         "set": "Rise of Shadows",
         "subType": "Murloc",
         "type": "Minion"
-    },
-  "Zayle, Shadow Cloak": {
-    "atk": 3,
-    "cdn": "https://www.hearthstonetopdecks.com/wp-content/uploads/2019/05/Zayle-Shadow-Cloak-300x427.png",
-    "class": "Neutral",
-    "cost": 2,
-    "desc": "You start the game with one of Zayle's EVIL Decks!",
-    "head": "zayle-shadow-cloak",
-    "hp": 2,
-    "hpwn": 12288,
-    "id": "DAL_800",
-    "name": "Zayle, Shadow Cloak",
-    "rarity": "Legendary",
-    "set": "Rise of Shadows",
-    "subType": null,
-    "type": "Minion"
-  },
-"SN1P-SN4P": {
-    "atk": 2,
-    "cdn": "https://www.hearthstonetopdecks.com/wp-content/uploads/2019/05/SN1P-SN4P-300x422.png",
-    "class": "Neutral",
-    "cost": 3,
-    "desc": "Magnetic,  Echo  Deathrattle: Summon two 1/1 Microbots.",
-    "head": "sn1p-sn4p",
-    "hp": 3,
-    "hpwn": 12288,
-    "name": "SN1P-SN4P",
-    "rarity": "Legendary",
-    "set": "The Boomsday Project",
-    "subType": "Mech",
-    "type": "Minion"
-}
+    }
 }
