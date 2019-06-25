@@ -56,7 +56,7 @@ def createCardText(card, constants):
         'type' : card['type'],
         'class' : card['class'],
         'rarity' : card['rarity'],
-        'set' : cardSetCode if cardSetCode else cardSet,
+        'set' : cardSetCode or cardSet,
         'cost' : cost,
         'desc' : desc_template.format(desc=cardDesc) if cardDesc else '',
         'extDesc': extDesc,

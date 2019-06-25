@@ -210,6 +210,9 @@ def loadJsonCards():
             log.debug("loadJsonCards() collectible without cost: %s", card)
             cost = 0
 
+        if 'name' not in card:
+            print(card)
+
         cardData = {
             'id': card['id'],
             'name': card['name'],
@@ -278,8 +281,9 @@ def loadSets(allcards={}, sets=setids.keys()):
                 currentSet = {}
 
                 for card in setcarddata.get(setname, []):
+                    name = 'Travelling Healer' if card['name'] == 'Traveling Healer' else card['name']
                     try:
-                        hpid, image = getHearthpwnIdAndUrl(card['name'],
+                        hpid, image = getHearthpwnIdAndUrl(name,
                                                             setname,
                                                             card['type'],
                                                             False,
@@ -294,7 +298,7 @@ def loadSets(allcards={}, sets=setids.keys()):
                         card['cdn'] = cardHTD['cdn']
                         card['hpwn'] = 12288
 
-                    card['head'] = getHearthHeadId(card['name'])
+                    card['head'] = getHearthHeadId(name)
                     currentSet[card['name']] = card
                     print('.', end='')
 
@@ -369,8 +373,10 @@ def main():
         if os.path.isfile('data/tokenlist.json'):
             with open('data/tokenlist.json', 'r', encoding='utf8') as f:
                 saveCardsAsJson("data/tokens.json", loadTokens(tokens, json.load(f)))
+        print("success")
     except Exception as e:
         log.exception("main() error %s", e)
+        print("error", e)
 
 
 def parseSingle(hpid):
@@ -499,7 +505,7 @@ def parseHTD(url, requests=requests):
         st = tuple(li.itertext())
         data[st[0].strip()] = ''.join(s.strip() for s in st[1:])
 
-    cardtype = data['Type:']
+    cardtype = data.get('Type:', 'Minion')
     atk = data.get('Attack:')
     hp = data.get('Health:', data.get('Durability:'))
     rarity = data.get('Rarity:')

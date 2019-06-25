@@ -14,10 +14,10 @@ from cardDB import CardDB
 class SpellChecker():
     """Find and fix simple spelling errors.
     based on Peter Norvig
-    http://norvig.com/spell-correct.html
+    https://norvig.com/spell-correct.html
     """
     def __init__(self, names):
-        self.model = set(names)
+        self.model = set(name.lower() for name in names)
 
     def __known(self, words):
         for w in words:
@@ -33,15 +33,15 @@ class SpellChecker():
         inserts    = (a + c + b     for a, b in splits for c in string.ascii_lowercase)
         return itertools.chain(deletes, transposes, replaces, inserts)
 
+    def __edits2(self, word):
+        # distance 2 errors
+        # insert: or self.__known(self.__edits2(lword))
+        return set(e2 for e1 in self.__edits(word) for e2 in self.__edits(e1))
+
     def correct(self, word):
         """returns input word or fixed version if found"""
-        return self.__known([word]) or self.__known(self.__edits(word)) or word
-
-    """
-    # distance 2
-    def known_edits2(word):
-        return set(e2 for e1 in edits1(word) for e2 in edits1(e1) if e2 in NWORDS)
-    """
+        lword = word.lower()
+        return self.__known([lword]) or self.__known(self.__edits(lword)) or word
 
 
 class HSHelper:
