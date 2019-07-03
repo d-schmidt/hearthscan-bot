@@ -157,13 +157,19 @@ def fixText(text):
 
     return text
 
+def getCardJson():
+    if not os.path.isfile('raw-cards.json'):
+        with open('raw-cards.json', 'wb') as f:
+            f.write(requests.get('https://api.hearthstonejson.com/v1/latest/enUS/cards.json').content)
+
+    with open('raw-cards.json', encoding='utf8') as f:
+        return json.load(f)
+
 
 def loadJsonCards():
     log.debug("loadJsonCards() loading latest card texts from hearthstonejson.com")
     # https://github.com/HearthSim/hearthstonejson
-    r = requests.get('https://api.hearthstonejson.com/v1/latest/enUS/cards.json')
-    r.raise_for_status()
-    cardtextjson = r.json()
+    cardtextjson = getCardJson()
 
     cards = {}
     tokens = {}
@@ -292,7 +298,7 @@ def loadSets(allcards={}, sets=setids.keys()):
                         card['cdn'] = image
                         card['hpwn'] = hpid
                     except Exception as e:
-                        urlName = getHearthHeadId(card['name'])
+                        urlName = getHearthHeadId(name)
                         url = 'https://www.hearthstonetopdecks.com/cards/{}/'.format(urlName)
                         _, cardHTD = parseHTD(url, session)
                         card['cdn'] = cardHTD['cdn']
@@ -505,6 +511,8 @@ def parseHTD(url, requests=requests):
         st = tuple(li.itertext())
         data[st[0].strip()] = ''.join(s.strip() for s in st[1:])
 
+    if 'Type:' not in data:
+        print('type missing on page:', name)
     cardtype = data.get('Type:', 'Minion')
     atk = data.get('Attack:')
     hp = data.get('Health:', data.get('Durability:'))

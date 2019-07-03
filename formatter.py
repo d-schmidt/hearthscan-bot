@@ -30,6 +30,8 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
 STD_ICON = '\U0001F409 '
 # 2019 dragon because dragon
 NEXT_STD_ICON = '\U0001F409 '
+# unreleased sleep
+NEXT_STD_ICON = '\U0001F4A4 '
 
 
 def createCardText(card, constants):
