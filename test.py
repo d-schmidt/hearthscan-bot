@@ -616,14 +616,14 @@ class TestHelper(unittest.TestCase):
                 os.rename('data/_info_msg.templ', 'data/info_msg.templ')
 
     def test_JsonFiles(self):
-        if os.path.isfile('tempinfo.json'):
-            with open('tempinfo.json', 'r') as infofile:
+        if os.path.isfile('data/tempinfo.json'):
+            with open('data/tempinfo.json', 'r') as infofile:
                 json.load(infofile)
-        if os.path.isfile("tokens.json"):
-            with open('tokens.json', 'r') as infofile:
+        if os.path.isfile("data/tokens.json"):
+            with open('data/tokens.json', 'r') as infofile:
                 json.load(infofile)
-        if os.path.isfile("cards.json"):
-            with open('cards.json', 'r') as infofile:
+        if os.path.isfile("data/cards.json"):
+            with open('data/cards.json', 'r') as infofile:
                 json.load(infofile)
 
 
