@@ -511,14 +511,22 @@
         "hpwn": 89894
     },
 
-    "Ethereal Lackey": {
-    },
-    "Faceless Lackey": {
-    },
-    "Goblin Lackey": {
-    },
-    "Witchy Lackey": {
-    },
-    "Kobold Lackey": {
-    }
+    "Ethereal Lackey": {},
+    "Faceless Lackey": {},
+    "Goblin Lackey": {},
+    "Witchy Lackey": {},
+    "Kobold Lackey": {},
+
+    "Highkeeper Ra": {},
+    "Titanic Lackey": {},
+
+    "Ramkahen Roar": {},
+    "Ossirian Tear": {},
+    "Tome of Origination": {},
+    "Ascendant Scroll": {},
+    "Emperor Wraps": {},
+    "Anraphet's Core": {},
+    "Heart of Vir'naal": {},
+    "Ancient Blades": {},
+    "Obelisk's Eye": {}
 }

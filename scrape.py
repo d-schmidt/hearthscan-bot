@@ -46,7 +46,8 @@ jsonToCCSet = {
     'GILNEAS' : '17',
     'BOOMSDAY' : '18',
     'TROLL' : '19',
-    'DALARAN' : '20'
+    'DALARAN' : '20',
+    'ULDUM' : '21'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -67,7 +68,8 @@ setids = {
     '17' : 111,
     '18' : 113,
     '19' : 114,
-    '20' : 115
+    '20' : 115,
+    '21' : 116
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -95,7 +97,10 @@ multiClassGroups = {
 def getHearthHeadId(name, *ignored):
     log.debug("getHearthHeadId() getting %s id for hearthhead", name)
     # HearthHead does now work without id
-    return re.sub(r"[^\w]+", "-", re.sub(r"['!.]", '', name).lower())
+
+    name = re.sub(r"['!.]", '', name).lower()
+    name = re.sub(r"[ñ]", 'n', name)
+    return re.sub(r"[^\w]+", "-", name)
 
 
 hpIdRegex = re.compile(r"/cards/(\d+)-.*")
@@ -114,8 +119,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
     images = html.xpath('//td[@class="visual-image-cell"]/a/img')
     descs = html.xpath('//td[@class="visual-details-cell"]/h3/a')
 
-    # hpwn removes the ~
-    lowerName = name.lower().replace('ñ', 'n')
+    lowerName = name.lower()
 
     for i in range(len(images)):
         title = descs[i].text

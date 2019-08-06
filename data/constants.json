@@ -19,7 +19,7 @@
         "18" : {"name" : "The Boomsday Project", "code" : "TBP", "std" : true},
         "19" : {"name" : "Rastakhan's Rumble", "code" : "RR", "std" : true},
         "20" : {"name" : "Rise of Shadows", "code" : "RoS", "std" : true, "unreleased" : false},
-        "21" : {"name" : "Saviors of Uldum", "code" : "SoU", "std" : false, "unreleased" : true}
+        "21" : {"name" : "Saviors of Uldum", "code" : "SoU", "std" : true, "unreleased" : false}
     },
 
     "specials" : {
@@ -31,7 +31,7 @@
         "toxins" : ["bloodthistletoxin", "briarthorntoxin", "fadeleaftoxin", "firebloomtoxin", "kingsbloodtoxin"],
         "Elemental Invocations" : ["Invocation of Earth", "Invocation of Water", "Invocation of Fire", "Invocation of Air"],
         "fantastic treasures" : ["Tolin's Goblet", "Zarog's Crown", "Wondrous Wand", "Golden Kobold"],
-        "Lackeys": ["Ethereal Lackey", "Faceless Lackey", "Goblin Lackey", "Witchy Lackey", "Kobold Lackey"]
+        "Lackeys": ["Ethereal Lackey", "Faceless Lackey", "Goblin Lackey", "Witchy Lackey", "Kobold Lackey", "Titanic Lackey"]
     },
 
     "alternative_names" : {
