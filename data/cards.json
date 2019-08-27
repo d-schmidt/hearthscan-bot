@@ -113,7 +113,7 @@
   },
   "Academic Espionage": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/320/636688325116948662.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/183/89859.png",
     "class": "Rogue",
     "cost": 4,
     "desc": "Shuffle 10 cards from your opponent's class into your deck. They cost (1).",
@@ -209,7 +209,7 @@
   },
   "Acornbearer": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/579/636899110525072313.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/87/90589.png",
     "class": "Druid",
     "cost": 1,
     "desc": "Deathrattle: Add two 1/1 Squirrels to your hand.",
@@ -817,7 +817,7 @@
   },
   "Annoy-o-Module": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/698/636688332125808420.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/576/89810.png",
     "class": "Paladin",
     "cost": 4,
     "desc": "Magnetic Divine Shield Taunt",
@@ -993,7 +993,7 @@
   },
   "Aranasi Broodmother": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/363/636897321713169392.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/57/90551.png",
     "class": "Warlock",
     "cost": 6,
     "desc": "Taunt When you draw this, restore 4 Health to your hero.",
@@ -1025,7 +1025,7 @@
   },
   "Arcane Anomaly": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/331/839/42043.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/454/42043.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Whenever you cast a spell, give this minion +1 Health.",
@@ -1089,7 +1089,7 @@
   },
   "Arcane Dynamo": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/611/636688330256425792.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/486/89882.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: Discover a spell that costs (5) or more.",
@@ -1137,7 +1137,7 @@
   },
   "Arcane Fletcher": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/619/636899161922076532.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/120/90678.png",
     "class": "Hunter",
     "cost": 4,
     "desc": "Whenever you play a 1-Cost minion, draw a spell from your deck.",
@@ -1153,7 +1153,7 @@
   },
   "Arcane Giant": {
     "atk": 8,
-    "cdn": "https://media.hearthpwn.com/avatars/331/935/42049.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/550/42049.png",
     "class": "Neutral",
     "cost": 12,
     "desc": "Costs (1) less for each spell you've cast this game.",
@@ -1249,7 +1249,7 @@
   },
   "Arcane Servant": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/618/636899161396019943.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/18/90677.png",
     "class": "Neutral",
     "cost": 2,
     "desc": null,
@@ -1297,7 +1297,7 @@
   },
   "Arcane Watcher": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/564/636899085491185309.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/180/90628.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Can't attack unless you have Spell Damage.",
@@ -1361,7 +1361,7 @@
   },
   "Arcanosmith": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/929/42062.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/544/42062.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Summon a 0/5 minion with Taunt.",
@@ -1393,7 +1393,7 @@
   },
   "Arch-Villain Rafaam": {
     "atk": 7,
-    "cdn": "https://media.hearthpwn.com/avatars/386/464/636897997655070045.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/165/90546.png",
     "class": "Warlock",
     "cost": 7,
     "desc": "Taunt Battlecry: Replace your hand and deck with Legendary minions.",
@@ -1425,7 +1425,7 @@
   },
   "Archivist Elysiana": {
     "atk": 7,
-    "cdn": "https://media.hearthpwn.com/avatars/388/691/636941428448201045.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/372/90621.png",
     "class": "Neutral",
     "cost": 9,
     "desc": "Battlecry: Discover 5 cards. Replace your deck with 2 copies of each.",
@@ -1489,7 +1489,7 @@
   },
   "Archmage Vargoth": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/433/636897394423995412.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/213/90615.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "At the end of your turn, cast a spell you've cast this turn (targets are random).",
@@ -1793,7 +1793,7 @@
   },
   "Astral Rift": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/332/636688325300804315.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/195/89915.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Add 2 random minions to your hand.",
@@ -1825,7 +1825,7 @@
   },
   "Astromancer": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/419/636688326622049760.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/285/89835.png",
     "class": "Mage",
     "cost": 7,
     "desc": "Battlecry: Summon a random minion with Cost equal to your hand size.",
@@ -1889,7 +1889,7 @@
   },
   "Augmented Elekk": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/638/636688330877129875.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/513/89871.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Whenever you shuffle a card into a deck, shuffle in an extra copy.",
@@ -1905,7 +1905,7 @@
   },
   "Autodefense Matrix": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/689/636688331891728229.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/567/89817.png",
     "class": "Paladin",
     "cost": 1,
     "desc": "Secret: When one of your minions is attacked, give it Divine Shield.",
@@ -1969,7 +1969,7 @@
   },
   "Avian Watcher": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/842/42044.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/457/42044.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: If you control a Secret, gain +1/+1 and Taunt.",
@@ -2065,7 +2065,7 @@
   },
   "Azerite Elemental": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/617/636899161011047638.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/195/90676.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "At the start of your turn, gain Spell Damage +2.",
@@ -2113,7 +2113,7 @@
   },
   "Babbling Book": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/785/42028.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/400/42028.png",
     "class": "Mage",
     "cost": 1,
     "desc": "Battlecry: Add a random Mage spell to your hand.",
@@ -2273,7 +2273,7 @@
   },
   "Barista Lynchen": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/498/636898233289882410.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/192/90622.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Add a copy of each of your other Battlecry minions to your hand.",
@@ -2305,9 +2305,9 @@
   },
   "Barnes": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/914/42021.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/529/42021.png",
     "class": "Neutral",
-    "cost": 4,
+    "cost": 5,
     "desc": "Battlecry: Summon a 1/1 copy of a random minion in your deck.",
     "head": "barnes",
     "hp": 4,
@@ -2385,7 +2385,7 @@
   },
   "Batterhead": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/401/636897363633205178.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/285/90588.png",
     "class": "Neutral",
     "cost": 8,
     "desc": "Rush. After this attacks and kills a minion, it may attack again.",
@@ -2449,7 +2449,7 @@
   },
   "Beakered Lightning": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/410/636688326419232024.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/276/89947.png",
     "class": "Shaman",
     "cost": 0,
     "desc": "Deal 1 damage to all minions. Overload: (2)",
@@ -2593,7 +2593,7 @@
   },
   "Beryllium Nullifier": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/389/172/636964320400577145.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/243/89800.png",
     "class": "Warrior",
     "cost": 7,
     "desc": "Magnetic Can't be targeted by spells or Hero Powers.",
@@ -2657,7 +2657,7 @@
   },
   "Big Bad Archmage": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/386/461/636897994116259227.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/204/90561.png",
     "class": "Neutral",
     "cost": 10,
     "desc": "At the end of your turn, summon a random 6-Cost minion.",
@@ -2753,7 +2753,7 @@
   },
   "Biology Project": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/293/636688324659858961.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/156/89808.png",
     "class": "Druid",
     "cost": 1,
     "desc": "Each player gains 2 Mana Crystals.",
@@ -3025,7 +3025,7 @@
   },
   "Blastmaster Boom": {
     "atk": 7,
-    "cdn": "https://media.hearthpwn.com/avatars/386/465/636897998374180158.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/973/90567.png",
     "class": "Warrior",
     "cost": 7,
     "desc": "Battlecry: Summon two 1/1 Boom Bots for each Bomb in your opponent's deck.",
@@ -3153,7 +3153,7 @@
   },
   "Blessing of the Ancients": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/584/636899116562868170.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/78/90645.png",
     "class": "Druid",
     "cost": 3,
     "desc": "Twinspell Give your minions +1/+1.",
@@ -3169,7 +3169,7 @@
   },
   "Blightnozzle Crawler": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/647/636688331027152901.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/522/89841.png",
     "class": "Rogue",
     "cost": 4,
     "desc": "Deathrattle: Summon a 1/1 Ooze with Poisonous and Rush.",
@@ -3844,7 +3844,7 @@
   },
   "Bomb Toss": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/268/636688324178717093.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/132/89913.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Deal 2 damage. Summon a 0/2 Goblin Bomb.",
@@ -3956,7 +3956,7 @@
   },
   "Book Wyrm": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/833/42029.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/448/42029.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: If you're holding a Dragon, destroy an enemy minion with 3 or less Attack.",
@@ -3988,7 +3988,7 @@
   },
   "Boommaster Flark": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/271/636688324263834353.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/135/89848.png",
     "class": "Hunter",
     "cost": 7,
     "desc": "Battlecry: Summon four 0/2 Goblin Bombs.",
@@ -4068,7 +4068,7 @@
   },
   "Brainstormer": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/488/636688327968836862.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/357/89946.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Gain +1 Health for each spell in your hand.",
@@ -4244,7 +4244,7 @@
   },
   "Bronze Gatekeeper": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/262/636688324044505350.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/126/89896.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Magnetic Taunt",
@@ -4260,7 +4260,7 @@
   },
   "Bronze Herald": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/413/636897379996832318.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/33/90597.png",
     "class": "Paladin",
     "cost": 3,
     "desc": "Deathrattle: Add two 4/4 Dragons to your hand.",
@@ -4324,7 +4324,7 @@
   },
   "Bull Dozer": {
     "atk": 9,
-    "cdn": "https://media.hearthpwn.com/avatars/376/593/636688329931127633.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/468/89945.png",
     "class": "Neutral",
     "cost": 9,
     "desc": "Divine Shield",
@@ -4388,7 +4388,7 @@
   },
   "Burly Shovelfist": {
     "atk": 9,
-    "cdn": "https://media.hearthpwn.com/avatars/386/616/636899160301563110.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/417/90675.png",
     "class": "Neutral",
     "cost": 9,
     "desc": "Rush",
@@ -4564,7 +4564,7 @@
   },
   "Call to Adventure": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/435/636897395257727413.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/348/90617.png",
     "class": "Paladin",
     "cost": 3,
     "desc": "Draw the lowest Cost minion from your deck. Give it +2/+2.",
@@ -4756,7 +4756,7 @@
   },
   "Cat Trick": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/770/42051.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/385/42051.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Secret: After your opponent casts a spell, summon a 4/2 Panther with Stealth.",
@@ -4804,7 +4804,7 @@
   },
   "Catrina Muerte": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/386/462/636897995500471727.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/336/90614.png",
     "class": "Priest",
     "cost": 8,
     "desc": "At the end of your turn, summon a friendly minion that died this game.",
@@ -4884,7 +4884,7 @@
   },
   "Celestial Emissary": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/584/636688329769523532.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/459/89836.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Battlecry: Your next spell this turn has Spell Damage +2.",
@@ -5028,7 +5028,7 @@
   },
   "Chef Nomi": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/386/463/636897996347308582.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/207/90545.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Battlecry: If your deck is empty, summon six 6/6 Greasefire Elementals.",
@@ -5236,7 +5236,7 @@
   },
   "Cloaked Huntress": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/782/42050.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/397/42050.png",
     "class": "Hunter",
     "cost": 3,
     "desc": "Your Secrets cost (0).",
@@ -5252,7 +5252,7 @@
   },
   "Cloakscale Chemist": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/491/636688328016950963.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/360/89944.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Stealth Divine Shield",
@@ -5316,7 +5316,7 @@
   },
   "Clockwork Goblin": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/386/636897356226378721.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/964/90573.png",
     "class": "Warrior",
     "cost": 3,
     "desc": "Battlecry: Shuffle a Bomb into your opponent's deck. When drawn, it explodes for 5 damage.",
@@ -5348,7 +5348,7 @@
   },
   "Cloning Device": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/164/636964317881851542.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/396/89837.png",
     "class": "Priest",
     "cost": 1,
     "desc": "Discover a copy of a minion in your opponent's deck.",
@@ -5620,7 +5620,7 @@
   },
   "Commander Rhyssa": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/423/636897386298130444.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/246/90606.png",
     "class": "Paladin",
     "cost": 3,
     "desc": "Your Secrets trigger twice.",
@@ -5748,9 +5748,9 @@
   },
   "Conjurer's Calling": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/529/636898513918958253.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/48/90625.png",
     "class": "Mage",
-    "cost": 3,
+    "cost": 4,
     "desc": "Twinspell Destroy a minion. Summon 2 minions of the same Cost to replace it.",
     "head": "conjurers-calling",
     "hp": null,
@@ -5796,7 +5796,7 @@
   },
   "Convincing Infiltrator": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/566/636899088451258148.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/943/90630.png",
     "class": "Priest",
     "cost": 5,
     "desc": "Taunt Deathrattle: Destroy a random enemy minion.",
@@ -5812,7 +5812,7 @@
   },
   "Coppertail Imposter": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/641/636688330923574045.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/516/89899.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Gain Stealth until your next turn.",
@@ -6036,7 +6036,7 @@
   },
   "Cosmic Anomaly": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/677/636688331676019320.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/552/89861.png",
     "class": "Mage",
     "cost": 4,
     "desc": "Spell Damage +2",
@@ -6148,7 +6148,7 @@
   },
   "Crazed Chemist": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/665/636688331391704723.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/540/89943.png",
     "class": "Rogue",
     "cost": 5,
     "desc": "Combo: Give a friendly minion +4 Attack.",
@@ -6372,7 +6372,7 @@
   },
   "Crystal Power": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/418/636897382415515542.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/69/90601.png",
     "class": "Druid",
     "cost": 1,
     "desc": "Choose One - Deal 2 damage to a minion; or Restore 5 Health.",
@@ -6388,7 +6388,7 @@
   },
   "Crystal Stag": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/417/636897382031207364.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/438/90600.png",
     "class": "Druid",
     "cost": 5,
     "desc": "Rush. Battlecry: If you've restored 5 Health this game, summon a copy of this.",
@@ -6420,7 +6420,7 @@
   },
   "Crystallizer": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/545/636688328961513265.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/420/89905.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Battlecry: Deal 5 damage to your hero. Gain 5 Armor.",
@@ -6436,7 +6436,7 @@
   },
   "Crystalsmith Kangor": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/377/636688325992824932.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/240/89860.png",
     "class": "Paladin",
     "cost": 2,
     "desc": "Divine Shield, Lifesteal Your healing is doubled.",
@@ -6452,7 +6452,7 @@
   },
   "Crystalsong Portal": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/399/636897361906909704.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/84/90586.png",
     "class": "Druid",
     "cost": 2,
     "desc": "Discover a Druid minion. If your hand has no minions, keep all 3.",
@@ -6484,7 +6484,7 @@
   },
   "Crystology": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/161/636964317158949854.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/570/89847.png",
     "class": "Paladin",
     "cost": 1,
     "desc": "Draw two 1-Attack minions from your deck.",
@@ -6692,7 +6692,7 @@
   },
   "Cybertech Chip": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/530/636688328680758842.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/405/89843.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Give your minions \"Deathrattle: Add a random Mech to your hand.\"",
@@ -6772,7 +6772,7 @@
   },
   "Dalaran Crusader": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/615/636899159714195087.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/994/90674.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Divine Shield",
@@ -6788,7 +6788,7 @@
   },
   "Dalaran Librarian": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/563/636899083917251151.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/369/90627.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Silence adjacent minions.",
@@ -6820,7 +6820,7 @@
   },
   "Damaged Stegotron": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/548/636688329051641170.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/423/89942.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Taunt Battlecry: Deal 6 damage to this minion.",
@@ -6852,7 +6852,7 @@
   },
   "Daring Escape": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/613/636899159253338858.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/351/90673.png",
     "class": "Rogue",
     "cost": 1,
     "desc": "Return all friendly minions to your hand.",
@@ -7108,7 +7108,7 @@
   },
   "Darkest Hour": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/612/636899158517122708.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/45/90672.png",
     "class": "Warlock",
     "cost": 6,
     "desc": "Destroy all friendly minions. For each one, summon a random minion from your deck.",
@@ -7268,7 +7268,7 @@
   },
   "Dead Ringer": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/563/636688329369718737.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/438/89819.png",
     "class": "Priest",
     "cost": 2,
     "desc": "Deathrattle: Draw a Deathrattle minion from your deck.",
@@ -7300,7 +7300,7 @@
   },
   "Deadly Fork": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/896/42057.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/511/42057.png",
     "class": "Rogue",
     "cost": 3,
     "desc": "Deathrattle: Add a 3/2 weapon to your hand.",
@@ -7687,7 +7687,7 @@
   },
   "Demonic Project": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/704/636688332227037293.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/582/89825.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Each player transforms a random minion in their hand into a Demon.",
@@ -7719,7 +7719,7 @@
   },
   "Dendrologist": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/494/636688328056694422.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/363/89816.png",
     "class": "Druid",
     "cost": 2,
     "desc": "Battlecry: If you control a Treant, Discover a spell.",
@@ -7815,7 +7815,7 @@
   },
   "Desperate Measures": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/434/636897394848070907.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/27/90616.png",
     "class": "Paladin",
     "cost": 1,
     "desc": "Twinspell Cast a random Paladin Secret.",
@@ -7927,7 +7927,7 @@
   },
   "Dimensional Ripper": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/390/621/637005259972679727.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/961/90618.png",
     "class": "Warrior",
     "cost": 10,
     "desc": "Summon 2 copies of a minion in your deck.",
@@ -8343,7 +8343,7 @@
   },
   "Doubling Imp": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/368/636688325829090692.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/231/89908.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "Battlecry: Summon a copy of this minion.",
@@ -8391,7 +8391,7 @@
   },
   "Dr. Boom's Scheme": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/388/636897357319945110.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/928/90575.png",
     "class": "Warrior",
     "cost": 4,
     "desc": "Gain 1 Armor. (Upgrades each turn!)",
@@ -8407,9 +8407,9 @@
   },
   "Dr. Boom, Mad Genius": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/905/636688443628537623.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/246/89827.png",
     "class": "Warrior",
-    "cost": 7,
+    "cost": 9,
     "desc": "Battlecry: For the rest of the game, your Mechs have Rush.",
     "extDesc": [
       "Big Red Button (2): Hero Power Activate this turn's Mech Suit power!"
@@ -8426,7 +8426,7 @@
   },
   "Dr. Morrigan": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/389/170/636964319922845397.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/390/89890.png",
     "class": "Warlock",
     "cost": 6,
     "desc": "Deathrattle: Swap this with a minion from your deck.",
@@ -8522,7 +8522,7 @@
   },
   "Dragon Speaker": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/412/636897379460327241.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/39/90596.png",
     "class": "Paladin",
     "cost": 5,
     "desc": "Battlecry: Give all Dragons in your hand +3/+3.",
@@ -8874,7 +8874,7 @@
   },
   "Dreampetal Florist": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/503/636688328180505301.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/378/89880.png",
     "class": "Druid",
     "cost": 7,
     "desc": "At the end of your turn, reduce the Cost of a random minion in your hand by (7).",
@@ -8890,7 +8890,7 @@
   },
   "Dreamway Guardians": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/375/636897332609092777.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/363/90563.png",
     "class": "Druid",
     "cost": 2,
     "desc": "Summon two 1/2 Dryads with Lifesteal.",
@@ -9034,7 +9034,7 @@
   },
   "Duel!": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/429/636897392557441926.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/357/90612.png",
     "class": "Paladin",
     "cost": 5,
     "desc": "Summon a minion from each player's deck. They fight!",
@@ -9210,7 +9210,7 @@
   },
   "Dyn-o-matic": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/344/636688325468459337.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/207/89895.png",
     "class": "Warrior",
     "cost": 5,
     "desc": "Battlecry: Deal 5 damage randomly split among all minions except Mechs.",
@@ -9226,7 +9226,7 @@
   },
   "E.M.P. Operative": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/614/636688330333922751.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/489/89883.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Destroy a Mech.",
@@ -9242,7 +9242,7 @@
   },
   "EVIL Cable Rat": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/386/387/636897356739574472.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/150/90574.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Add a Lackey to your hand.",
@@ -9258,7 +9258,7 @@
   },
   "EVIL Conscripter": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/408/636897369921620622.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/153/90592.png",
     "class": "Priest",
     "cost": 2,
     "desc": "Deathrattle: Add a Lackey to your hand.",
@@ -9274,7 +9274,7 @@
   },
   "EVIL Genius": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/407/636897369406028083.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/300/90591.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Battlecry: Destroy a friendly minion to add 2 random Lackeys to your hand.",
@@ -9290,7 +9290,7 @@
   },
   "EVIL Miscreant": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/388/692/636941428785090917.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/156/90549.png",
     "class": "Rogue",
     "cost": 3,
     "desc": "Combo: Add two random Lackeys to your hand.",
@@ -9354,7 +9354,7 @@
   },
   "Eager Underling": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/390/636897358469294773.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/222/90577.png",
     "class": "Warlock",
     "cost": 4,
     "desc": "Deathrattle: Give two random friendly minions +2/+2.",
@@ -9514,7 +9514,7 @@
   },
   "Eccentric Scribe": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/386/611/636899157850366908.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/228/90671.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Deathrattle: Summon four 1/1 Vengeful Scrolls.",
@@ -9562,7 +9562,7 @@
   },
   "Ectomancy": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/575/636688329605359140.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/450/89941.png",
     "class": "Warlock",
     "cost": 6,
     "desc": "Summon copies of all Demons you control.",
@@ -9674,7 +9674,7 @@
   },
   "Electra Stormsurge": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/485/636688327900100894.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/354/89804.png",
     "class": "Shaman",
     "cost": 3,
     "desc": "Battlecry: Your next spell this turn casts twice.",
@@ -9690,7 +9690,7 @@
   },
   "Electrowright": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/626/636688330618537372.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/501/89940.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: If you're holding a spell that costs (5) or more, gain +1/+1.",
@@ -9738,7 +9738,7 @@
   },
   "Elementary Reaction": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/323/636688325165362865.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/186/89939.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Draw a card. Copy it if you played an Elemental last turn.",
@@ -9994,7 +9994,7 @@
   },
   "Enchanted Raven": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/331/923/42024.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/538/42024.png",
     "class": "Druid",
     "cost": 1,
     "desc": null,
@@ -10122,7 +10122,7 @@
   },
   "Eternium Rover": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/296/636688324706062888.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/159/89851.png",
     "class": "Warrior",
     "cost": 1,
     "desc": "Whenever this minion takes damage, gain 2 Armor.",
@@ -10170,7 +10170,7 @@
   },
   "Ethereal Peddler": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/331/872/42023.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/487/42023.png",
     "class": "Rogue",
     "cost": 5,
     "desc": "Battlecry: If you're holding any cards from another class, reduce their Cost by (2).",
@@ -10186,7 +10186,7 @@
   },
   "Eureka!": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/329/636688325259860760.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/192/89855.png",
     "class": "Shaman",
     "cost": 6,
     "desc": "Summon a copy of a random minion from your hand.",
@@ -10346,7 +10346,7 @@
   },
   "Exotic Mountseller": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/499/636898234223646052.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/432/90623.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Whenever you cast a spell, summon a random 3-Cost Beast.",
@@ -10378,7 +10378,7 @@
   },
   "Explodinator": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/587/636688329828468616.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/462/89910.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Summon two 0/2 Goblin Bombs.",
@@ -10506,9 +10506,9 @@
   },
   "Extra Arms": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/163/636964317589640622.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/222/89912.png",
     "class": "Priest",
-    "cost": 2,
+    "cost": 3,
     "desc": "Give a minion +2/+2. Add 'More Arms!' to your hand that gives +2/+2.",
     "head": "extra-arms",
     "hp": null,
@@ -10618,7 +10618,7 @@
   },
   "Faceless Rager": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/609/636899156743147559.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/390/90670.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Copy a friendly minion's Health.",
@@ -10682,7 +10682,7 @@
   },
   "Faithful Lumi": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/311/636688324988327527.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/174/89821.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Battlecry: Give a friendly Mech +1/+1.",
@@ -10890,7 +10890,7 @@
   },
   "Fel Lord Betrug": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/419/636897382961402379.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/303/90602.png",
     "class": "Warlock",
     "cost": 8,
     "desc": "Whenever you draw a minion, summon a copy with Rush that dies at end of turn.",
@@ -11354,7 +11354,7 @@
   },
   "Firelands Portal": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/881/42025.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/496/42025.png",
     "class": "Mage",
     "cost": 7,
     "desc": "Deal 5 damage. Summon a random 5-Cost minion.",
@@ -11386,7 +11386,7 @@
   },
   "Fireworks Tech": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/277/636688324378184438.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/141/89854.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Battlecry: Give a friendly Mech +1/+1. If it has Deathrattle, trigger it.",
@@ -11658,7 +11658,7 @@
   },
   "Flark's Boom-Zooka": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/158/636964315709706240.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/384/89918.png",
     "class": "Hunter",
     "cost": 7,
     "desc": "Summon 3 minions from your deck. They attack enemy minions, then die.",
@@ -11722,7 +11722,7 @@
   },
   "Flight Master": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/608/636899156258163698.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/393/90669.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Summon a 2/2 Gryphon for each player.",
@@ -11754,7 +11754,7 @@
   },
   "Flobbidinous Floop": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/518/636688328502463347.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/393/89812.png",
     "class": "Druid",
     "cost": 4,
     "desc": "While in your hand, this is a 3/4 copy of the last minion you played.",
@@ -11770,7 +11770,7 @@
   },
   "Floop's Glorious Gloop": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/536/636688328786837970.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/411/89898.png",
     "class": "Druid",
     "cost": 1,
     "desc": "Whenever a minion dies this turn, gain 1 Mana Crystal this turn only.",
@@ -11818,7 +11818,7 @@
   },
   "Fool's Bane": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/821/42041.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/436/42041.png",
     "class": "Warrior",
     "cost": 5,
     "desc": "Unlimited attacks each turn. Can't attack heroes.",
@@ -11914,7 +11914,7 @@
   },
   "Forbidden Words": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/357/636897306979241963.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/339/90548.png",
     "class": "Priest",
     "cost": 0,
     "desc": "Spend all your Mana. Destroy a minion with that much Attack or less.",
@@ -12509,7 +12509,7 @@
   },
   "Galvanizer": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/686/636688331840573761.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/564/89891.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Reduce the Cost of Mechs in your hand by (1).",
@@ -12861,7 +12861,7 @@
   },
   "Giggling Inventor": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/379/802/636755834830230120.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/300/89838.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Battlecry: Summon two 1/2 Mechs with Taunt and Divine Shield.",
@@ -13037,7 +13037,7 @@
   },
   "Gloop Sprayer": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/389/155/636964314868092425.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/432/89846.png",
     "class": "Druid",
     "cost": 7,
     "desc": "Battlecry: Summon a copy of each adjacent minion.",
@@ -13053,7 +13053,7 @@
   },
   "Glow-Tron": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/683/636688331786058616.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/561/89902.png",
     "class": "Paladin",
     "cost": 1,
     "desc": "Magnetic",
@@ -13069,7 +13069,7 @@
   },
   "Glowstone Technician": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/389/162/636964317394355287.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/573/89938.png",
     "class": "Paladin",
     "cost": 5,
     "desc": "Battlecry: Give all minions in your hand +2/+2.",
@@ -13213,7 +13213,7 @@
   },
   "Goblin Bomb": {
     "atk": 0,
-    "cdn": "https://media.hearthpwn.com/avatars/376/265/636688324097279964.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/129/89850.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Deathrattle: Deal 2 damage to the enemy hero.",
@@ -13229,7 +13229,7 @@
   },
   "Goblin Prank": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/527/636688328641005373.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/402/89937.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Give a friendly minion +3/+3 and Rush. It dies at end of turn.",
@@ -14032,7 +14032,7 @@
   },
   "Hagatha's Scheme": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/364/636897322822208966.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/931/90552.png",
     "class": "Shaman",
     "cost": 5,
     "desc": "Deal 1 damage to all minions. (Upgrades each turn!)",
@@ -14192,7 +14192,7 @@
   },
   "Harbinger Celestia": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/632/636688330754539087.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/507/89909.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Stealth After your opponent plays a minion, become a copy of it.",
@@ -14368,7 +14368,7 @@
   },
   "Hecklebot": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/420/636897383995689027.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/958/90603.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Taunt Battlecry: Your opponent summons a minion from their deck.",
@@ -14384,7 +14384,7 @@
   },
   "Heistbaron Togwaggle": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/466/636898001634615123.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/162/90569.png",
     "class": "Rogue",
     "cost": 6,
     "desc": "Battlecry: If you control a Lackey, choose a fantastic treasure.",
@@ -14464,7 +14464,7 @@
   },
   "Hench-Clan Burglar": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/391/636897358906773094.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/159/90578.png",
     "class": "Rogue",
     "cost": 4,
     "desc": "Battlecry: Discover a spell from another class.",
@@ -14480,7 +14480,7 @@
   },
   "Hench-Clan Hag": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/469/636898033753455937.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/0/90620.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Summon two 1/1 Amalgams with all minion types.",
@@ -14496,7 +14496,7 @@
   },
   "Hench-Clan Hogsteed": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/410/636897378205354733.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/384/90594.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Rush Deathrattle: Summon a 1/1 Murloc.",
@@ -14512,7 +14512,7 @@
   },
   "Hench-Clan Shadequill": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/565/636899087131999279.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/946/90629.png",
     "class": "Priest",
     "cost": 4,
     "desc": "Deathrattle: Restore 5 Health to the enemy hero.",
@@ -14528,7 +14528,7 @@
   },
   "Hench-Clan Sneak": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/607/636899155723389958.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/15/90668.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Stealth",
@@ -14576,7 +14576,7 @@
   },
   "Heroic Innkeeper": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/606/636899155174648639.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/216/90667.png",
     "class": "Neutral",
     "cost": 8,
     "desc": "Taunt. Battlecry: Gain +2/+2 for each other friendly minion.",
@@ -14880,7 +14880,7 @@
   },
   "Holomancer": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/437/636688326888722890.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/306/89936.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "After your opponent plays a minion, summon a 1/1 copy of it.",
@@ -15312,7 +15312,7 @@
   },
   "Hunting Party": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/605/636899154448235809.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/282/90666.png",
     "class": "Hunter",
     "cost": 5,
     "desc": "Copy all Beasts in your hand.",
@@ -15680,7 +15680,7 @@
   },
   "Impferno": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/571/636899096510027585.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/297/90635.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "Give your Demons +1 Attack. Deal 1 damage to all enemy minions.",
@@ -15696,7 +15696,7 @@
   },
   "Improve Morale": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/370/636897327917248255.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/420/90558.png",
     "class": "Warrior",
     "cost": 1,
     "desc": "Deal 1 damage to a minion. If it survives, add a Lackey to your hand.",
@@ -15984,7 +15984,7 @@
   },
   "Ironforge Portal": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/890/42064.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/505/42064.png",
     "class": "Warrior",
     "cost": 5,
     "desc": "Gain 4 Armor. Summon a random 4-Cost minion.",
@@ -16064,7 +16064,7 @@
   },
   "Ivory Knight": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/331/854/42019.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/469/42019.png",
     "class": "Paladin",
     "cost": 6,
     "desc": "Battlecry: Discover a spell. Restore Health to your hero equal to its Cost.",
@@ -16288,7 +16288,7 @@
   },
   "Jepetto Joybuzz": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/386/411/636897378977630890.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/411/90595.png",
     "class": "Neutral",
     "cost": 8,
     "desc": "Battlecry: Draw 2 minions from your deck. Set their Attack, Health, and Cost to 1.",
@@ -16368,7 +16368,7 @@
   },
   "Juicy Psychmelon": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/476/636688327753478236.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/345/89867.png",
     "class": "Druid",
     "cost": 4,
     "desc": "Draw a 7, 8, 9, and 10-Cost minion from your deck.",
@@ -16384,7 +16384,7 @@
   },
   "Jumbo Imp": {
     "atk": 8,
-    "cdn": "https://media.hearthpwn.com/avatars/386/576/636899103826906517.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/219/90640.png",
     "class": "Warlock",
     "cost": 10,
     "desc": "Costs (1) less whenever a friendly Demon dies while this is in your hand.",
@@ -16592,7 +16592,7 @@
   },
   "Kaboom Bot": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/680/636688331728743751.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/555/89935.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Deathrattle: Deal 4 damage to a random enemy minion.",
@@ -16608,7 +16608,7 @@
   },
   "Kalecgos": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/460/636897993442496015.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/309/90544.png",
     "class": "Mage",
     "cost": 10,
     "desc": "Your first spell each turn costs (0). Battlecry: Discover a spell.",
@@ -16640,7 +16640,7 @@
   },
   "Kangor's Endless Army": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/701/636688332170422582.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/579/89818.png",
     "class": "Paladin",
     "cost": 7,
     "desc": "Resurrect 3 friendly Mechs. They keep any Magnetic upgrades.",
@@ -16656,7 +16656,7 @@
   },
   "Kara Kazham!": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/803/42033.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/418/42033.png",
     "class": "Warlock",
     "cost": 5,
     "desc": "Summon a 1/1 Candle, 2/2 Broom, and 3/3 Teapot.",
@@ -16720,7 +16720,7 @@
   },
   "Keeper Stalladris": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/398/636897361576038780.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/360/90585.png",
     "class": "Druid",
     "cost": 2,
     "desc": "After you cast a Choose One spell, add copies of both choices to your hand.",
@@ -16800,7 +16800,7 @@
   },
   "Khadgar": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/381/636897353304300126.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/249/90568.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Your cards that summon minions summon twice as many.",
@@ -16864,7 +16864,7 @@
   },
   "Kindly Grandmother": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/776/42020.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/391/42020.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Deathrattle: Summon a 3/2 Big Bad Wolf.",
@@ -17040,7 +17040,7 @@
   },
   "Kirin Tor Tricaster": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/577/636899104850420253.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/252/90641.png",
     "class": "Mage",
     "cost": 4,
     "desc": "Spell Damage +3 Your spells cost (1) more.",
@@ -17360,7 +17360,7 @@
   },
   "Lab Recruiter": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/446/636688327088410234.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/315/89823.png",
     "class": "Rogue",
     "cost": 2,
     "desc": "Battlecry: Shuffle 3 copies of a friendly minion into your deck.",
@@ -17440,7 +17440,7 @@
   },
   "Landscaping": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/497/636688328096907928.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/366/89815.png",
     "class": "Druid",
     "cost": 3,
     "desc": "Summon two 2/2 Treants.",
@@ -17504,7 +17504,7 @@
   },
   "Lazul's Scheme": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/367/636897324784831885.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/937/90555.png",
     "class": "Priest",
     "cost": 0,
     "desc": "Reduce the Attack of an enemy minion by 1 until your next turn. (Upgrades each turn!)",
@@ -17776,7 +17776,7 @@
   },
   "Lifeweaver": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/376/636897333413907635.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/93/90564.png",
     "class": "Druid",
     "cost": 3,
     "desc": "Whenever you restore Health, add a random Druid spell to your hand.",
@@ -17872,7 +17872,7 @@
   },
   "Lightforged Blessing": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/395/636897360423440110.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/234/90582.png",
     "class": "Paladin",
     "cost": 2,
     "desc": "Twinspell Give a friendly minion Lifesteal.",
@@ -18160,7 +18160,7 @@
   },
   "Loose Specimen": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/376/620/636688330521338975.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/495/89934.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Deal 6 damage randomly split among other friendly minions.",
@@ -18368,7 +18368,7 @@
   },
   "Lucentbark": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/378/636897335980871292.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/96/90566.png",
     "class": "Druid",
     "cost": 8,
     "desc": "Taunt Deathrattle: Go dormant. Restore 5 Health to awaken this minion.",
@@ -18400,9 +18400,9 @@
   },
   "Luna's Pocket Galaxy": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/160/636964316871392528.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/288/89888.png",
     "class": "Mage",
-    "cost": 5,
+    "cost": 7,
     "desc": "Change the Cost of minions in your deck to (1).",
     "head": "lunas-pocket-galaxy",
     "hp": null,
@@ -18512,7 +18512,7 @@
   },
   "Mad Summoner": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/575/636899102612414212.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/405/90639.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: Fill each player's board with 1/1 Imps.",
@@ -18544,7 +18544,7 @@
   },
   "Madame Lazul": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/372/636897329675772207.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/354/90560.png",
     "class": "Priest",
     "cost": 3,
     "desc": "Battlecry: Discover a copy of a card in your opponent's hand.",
@@ -18576,7 +18576,7 @@
   },
   "Maelstrom Portal": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/875/42045.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/490/42045.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Deal 1 damage to all enemy minions. Summon a random 1-Cost minion.",
@@ -18608,7 +18608,7 @@
   },
   "Magic Carpet": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/386/574/636899100016278404.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/429/90638.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "After you play a 1-Cost minion, give it +1 Attack and Rush.",
@@ -18624,7 +18624,7 @@
   },
   "Magic Dart Frog": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/386/573/636899098915829618.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/54/90637.png",
     "class": "Mage",
     "cost": 2,
     "desc": "After you cast a spell, deal 1 damage to a random enemy minion.",
@@ -18640,7 +18640,7 @@
   },
   "Magic Trick": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/392/636897359424258363.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/306/90579.png",
     "class": "Mage",
     "cost": 1,
     "desc": "Discover a spell that costs (3) or less.",
@@ -18752,7 +18752,7 @@
   },
   "Malchezaar's Imp": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/887/42027.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/502/42027.png",
     "class": "Warlock",
     "cost": 1,
     "desc": "Whenever you discard a card, draw a card.",
@@ -18867,7 +18867,7 @@
   },
   "Mana Cyclone": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/425/636897390000214742.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/291/90608.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Battlecry: For each spell you've cast this turn, add a random Mage spell to your hand.",
@@ -18899,7 +18899,7 @@
   },
   "Mana Reservoir": {
     "atk": 0,
-    "cdn": "https://media.hearthpwn.com/avatars/386/572/636899097591762312.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/399/90636.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Spell Damage +1",
@@ -19075,7 +19075,7 @@
   },
   "Marked Shot": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/431/636897393112905529.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/117/90613.png",
     "class": "Hunter",
     "cost": 4,
     "desc": "Deal 4 damage to a minion. Discover a spell.",
@@ -19155,7 +19155,7 @@
   },
   "Mass Resurrection": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/415/636897380625671333.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/342/90598.png",
     "class": "Priest",
     "cost": 9,
     "desc": "Summon 3 friendly minions that died this game.",
@@ -19347,7 +19347,7 @@
   },
   "Mecha'thun": {
     "atk": 10,
-    "cdn": "https://media.hearthpwn.com/avatars/376/506/636688328235189935.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/381/89877.png",
     "class": "Neutral",
     "cost": 10,
     "desc": "Deathrattle: If you have no cards in your deck, hand, and battlefield, destroy the enemy hero.",
@@ -19363,7 +19363,7 @@
   },
   "Mechanical Whelp": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/299/636688324760617745.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/162/89852.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Deathrattle: Summon a 7/7 Mechanical Dragon.",
@@ -19395,7 +19395,7 @@
   },
   "Mechano-Egg": {
     "atk": 0,
-    "cdn": "https://media.hearthpwn.com/avatars/376/602/636688330097602010.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/477/89901.png",
     "class": "Paladin",
     "cost": 5,
     "desc": "Deathrattle: Summon an 8/8 Robosaur.",
@@ -19411,7 +19411,7 @@
   },
   "Mecharoo": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/539/636688328837612404.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/414/89933.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Deathrattle: Summon a 1/1 Jo-E Bot.",
@@ -19443,7 +19443,7 @@
   },
   "Medivh's Valet": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/331/893/42048.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/508/42048.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Battlecry: If you control a Secret, deal 3 damage.",
@@ -19459,7 +19459,7 @@
   },
   "Medivh, the Guardian": {
     "atk": 7,
-    "cdn": "https://media.hearthpwn.com/avatars/331/908/42036.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/523/42036.png",
     "class": "Neutral",
     "cost": 8,
     "desc": "Battlecry: Equip Atiesh, Greatstaff of the Guardian.",
@@ -19491,7 +19491,7 @@
   },
   "Menacing Nimbus": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/590/636688329879943186.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/465/89806.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Battlecry: Add a random Elemental to your hand.",
@@ -19507,7 +19507,7 @@
   },
   "Menagerie Magician": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/331/926/42055.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/541/42055.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Give a random friendly Beast, Dragon, and Murloc +2/+2.",
@@ -19523,7 +19523,7 @@
   },
   "Menagerie Warden": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/331/866/42059.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/481/42059.png",
     "class": "Druid",
     "cost": 6,
     "desc": "Battlecry: Choose a friendly Beast. Summon a copy of it.",
@@ -19539,7 +19539,7 @@
   },
   "Messenger Raven": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/389/636897357828117170.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/42/90576.png",
     "class": "Mage",
     "cost": 3,
     "desc": "Battlecry: Discover a Mage minion.",
@@ -19587,7 +19587,7 @@
   },
   "Meteorologist": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/671/636688331522366084.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/546/89884.png",
     "class": "Mage",
     "cost": 6,
     "desc": "Battlecry: For each card in your hand, deal 1 damage to a random enemy.",
@@ -19635,7 +19635,7 @@
   },
   "Microtech Controller": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/596/636688329986332313.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/471/89932.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Summon two 1/1 Microbots.",
@@ -19939,7 +19939,7 @@
   },
   "Missile Launcher": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/347/636688325512373259.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/210/89857.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Magnetic At the end of your turn, deal 1 damage to all other characters.",
@@ -19987,7 +19987,7 @@
   },
   "Moat Lurker": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/845/42063.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/460/42063.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: Destroy a minion. Deathrattle: Resummon it.",
@@ -20163,7 +20163,7 @@
   },
   "Moonglade Portal": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/878/42040.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/493/42040.png",
     "class": "Druid",
     "cost": 6,
     "desc": "Restore 6 Health. Summon a random 6-Cost minion.",
@@ -20195,7 +20195,7 @@
   },
   "Moroes": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/848/42030.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/463/42030.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Stealth At the end of your turn, summon a 1/1 Steward.",
@@ -20371,7 +20371,7 @@
   },
   "Muckmorpher": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/421/636897384803311729.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/955/90604.png",
     "class": "Shaman",
     "cost": 5,
     "desc": "Battlecry: Transform into a 4/4 copy of a different minion in your deck.",
@@ -20435,7 +20435,7 @@
   },
   "Mulchmuncher": {
     "atk": 8,
-    "cdn": "https://media.hearthpwn.com/avatars/389/156/636964315280031400.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/453/89814.png",
     "class": "Druid",
     "cost": 9,
     "desc": "Rush. Costs (1) less for each friendly Treant that died this game.",
@@ -20659,7 +20659,7 @@
   },
   "Mutate": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/588/636899123724028801.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/982/90649.png",
     "class": "Shaman",
     "cost": 0,
     "desc": "Transform a friendly minion into a random one that costs (1) more.",
@@ -20675,7 +20675,7 @@
   },
   "Myra Rotspring": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/404/636688326336114734.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/270/89865.png",
     "class": "Rogue",
     "cost": 5,
     "desc": "Battlecry: Discover a Deathrattle minion. Also gain its Deathrattle.",
@@ -20691,7 +20691,7 @@
   },
   "Myra's Unstable Element": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/401/636688326286270378.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/267/89802.png",
     "class": "Rogue",
     "cost": 5,
     "desc": "Draw the rest of your deck.",
@@ -20707,7 +20707,7 @@
   },
   "Mysterious Blade": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/582/636899113481712857.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/243/90644.png",
     "class": "Paladin",
     "cost": 2,
     "desc": "Battlecry: If you control a Secret, gain +1 Attack.",
@@ -20867,7 +20867,7 @@
   },
   "Necrium Blade": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/443/636688327016483922.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/312/89872.png",
     "class": "Rogue",
     "cost": 3,
     "desc": "Deathrattle: Trigger the Deathrattle of a random friendly minion.",
@@ -20883,7 +20883,7 @@
   },
   "Necrium Vial": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/560/636688329275090410.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/435/89879.png",
     "class": "Rogue",
     "cost": 5,
     "desc": "Trigger a friendly minion's Deathrattle twice.",
@@ -20899,7 +20899,7 @@
   },
   "Necromechanic": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/389/157/636964315494764893.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/144/89917.png",
     "class": "Hunter",
     "cost": 4,
     "desc": "Your Deathrattles trigger twice.",
@@ -21075,7 +21075,7 @@
   },
   "Nethersoul Buster": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/371/636688325871084380.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/234/89906.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "Battlecry: Gain +1 Attack for each damage your hero has taken this turn.",
@@ -21091,7 +21091,7 @@
   },
   "Netherspite Historian": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/860/42039.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/475/42039.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: If you're holding a Dragon, Discover a Dragon.",
@@ -21107,7 +21107,7 @@
   },
   "Never Surrender!": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/405/636897368867182902.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/240/90590.png",
     "class": "Paladin",
     "cost": 1,
     "desc": "Secret: When your opponent casts a spell, give your minions +2 Health.",
@@ -21171,7 +21171,7 @@
   },
   "Nightbane Templar": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/331/788/42052.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/403/42052.png",
     "class": "Paladin",
     "cost": 3,
     "desc": "Battlecry: If you're holding a Dragon, summon two 1/1 Whelps.",
@@ -21235,7 +21235,7 @@
   },
   "Nine Lives": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/396/636897361049086926.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/132/90583.png",
     "class": "Hunter",
     "cost": 3,
     "desc": "Discover a friendly Deathrattle minion that died this game. Also trigger its Deathrattle.",
@@ -21331,7 +21331,7 @@
   },
   "Nozari": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/426/636897390375388611.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/267/90609.png",
     "class": "Paladin",
     "cost": 10,
     "desc": "Battlecry: Restore both heroes to full Health.",
@@ -21411,7 +21411,7 @@
   },
   "Oblivitron": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/369/636897326110211957.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/129/90557.png",
     "class": "Hunter",
     "cost": 6,
     "desc": "Deathrattle: Summon a Mech from your hand and trigger its Deathrattle.",
@@ -21571,7 +21571,7 @@
   },
   "Omega Agent": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/599/636688330034126419.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/474/89822.png",
     "class": "Warlock",
     "cost": 5,
     "desc": "Battlecry: If you have 10 Mana Crystals, summon 2 copies of this minion.",
@@ -21587,7 +21587,7 @@
   },
   "Omega Assembly": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/455/636688327310449627.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/324/89845.png",
     "class": "Warrior",
     "cost": 1,
     "desc": "Discover a Mech. If you have 10 Mana Crystals, keep all 3 cards.",
@@ -21603,7 +21603,7 @@
   },
   "Omega Defender": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/452/636688327221321852.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/321/89809.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Taunt Battlecry: If you have 10 Mana Crystals, gain +10 Attack.",
@@ -21619,7 +21619,7 @@
   },
   "Omega Devastator": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/371/636897329031985316.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/423/90559.png",
     "class": "Warrior",
     "cost": 4,
     "desc": "Battlecry: If you have 10 Mana Crystals, deal 10 damage to a minion.",
@@ -21635,7 +21635,7 @@
   },
   "Omega Medic": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/350/636688325551336565.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/213/89834.png",
     "class": "Priest",
     "cost": 3,
     "desc": "Battlecry: If you have 10 Mana Crystals, restore 10 Health to your hero.",
@@ -21651,7 +21651,7 @@
   },
   "Omega Mind": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/617/636688330422630419.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/492/89885.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Battlecry: If you have 10 Mana Crystals, your spells have Lifesteal this turn.",
@@ -21699,7 +21699,7 @@
   },
   "Onyx Bishop": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/917/42058.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/532/42058.png",
     "class": "Priest",
     "cost": 5,
     "desc": "Battlecry: Summon a friendly minion that died this game.",
@@ -21859,7 +21859,7 @@
   },
   "Pantry Spider": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/830/42053.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/445/42053.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Summon a 1/3 Spider.",
@@ -22083,7 +22083,7 @@
   },
   "Piloted Reaper": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/431/636688326798474994.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/297/89931.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Deathrattle: Summon a random minion from your hand that costs (2) or less.",
@@ -22387,7 +22387,7 @@
   },
   "Plot Twist": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/400/636897362758826686.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/288/90587.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Shuffle your hand into your deck. Draw that many cards.",
@@ -22403,7 +22403,7 @@
   },
   "Pogo-Hopper": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/389/165/636964318172030562.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/309/89844.png",
     "class": "Rogue",
     "cost": 1,
     "desc": "Battlecry: Gain +2/+2 for each other Pogo-Hopper you played this game.",
@@ -22499,7 +22499,7 @@
   },
   "Pompous Thespian": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/794/42034.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/409/42034.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Taunt",
@@ -22515,7 +22515,7 @@
   },
   "Portal Keeper": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/604/636899153936397627.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/270/90665.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Shuffle 3 Portals into your deck. When drawn, summon a 2/2 Demon with Rush.",
@@ -22531,7 +22531,7 @@
   },
   "Portal Overfiend": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/603/636899152850736470.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/225/90664.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: Shuffle 3 Portals into your deck. When drawn, summon a 2/2 Demon with Rush.",
@@ -22579,7 +22579,7 @@
   },
   "Potion Vendor": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/386/562/636899082415034085.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/189/90626.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Battlecry: Restore 2 Health to all friendly characters.",
@@ -22691,7 +22691,7 @@
   },
   "Power Word: Replicate": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/581/636688329718689071.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/456/89870.png",
     "class": "Priest",
     "cost": 5,
     "desc": "Choose a friendly minion. Summon a 5/5 copy of it.",
@@ -22739,7 +22739,7 @@
   },
   "Power of Creation": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/383/636897354528806304.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/261/90570.png",
     "class": "Mage",
     "cost": 8,
     "desc": "Discover a 6-Cost minion. Summon two copies of it.",
@@ -22851,7 +22851,7 @@
   },
   "Priest of the Feast": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/836/42056.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/451/42056.png",
     "class": "Priest",
     "cost": 4,
     "desc": "Whenever you cast a spell, restore 3 Health to your hero.",
@@ -23027,7 +23027,7 @@
   },
   "Prince Malchezaar": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/377/124/636690967125334146.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/520/42031.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Start of Game: Add 5 extra Legendary minions to your deck.",
@@ -23107,7 +23107,7 @@
   },
   "Prismatic Lens": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/524/636688328595281245.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/399/89893.png",
     "class": "Paladin",
     "cost": 4,
     "desc": "Draw a minion and a spell from your deck. Swap their Costs.",
@@ -23155,7 +23155,7 @@
   },
   "Protect the King!": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/815/42032.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/430/42032.png",
     "class": "Warrior",
     "cost": 3,
     "desc": "For each enemy minion, summon a 1/1 Pawn with Taunt.",
@@ -23171,7 +23171,7 @@
   },
   "Proud Defender": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/570/636899093424687887.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/201/90634.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Taunt Has +2 Attack while you have no other minions.",
@@ -23315,7 +23315,7 @@
   },
   "Purify": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/797/42061.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/412/42061.png",
     "class": "Priest",
     "cost": 2,
     "desc": "Silence a friendly minion. Draw a card.",
@@ -23571,7 +23571,7 @@
   },
   "Rafaam's Scheme": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/368/636897325315021747.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/925/90556.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "Summon 1 1/1 |4(Imp, Imps). (Upgrades each turn!)",
@@ -23763,7 +23763,7 @@
   },
   "Rapid Fire": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/589/636899124982120362.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/123/90650.png",
     "class": "Hunter",
     "cost": 1,
     "desc": "Twinspell Deal 1 damage.",
@@ -23971,7 +23971,7 @@
   },
   "Ray of Frost": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/424/636897389264758507.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/255/90607.png",
     "class": "Mage",
     "cost": 1,
     "desc": "Twinspell Freeze a minion. If it's already Frozen, deal 2 damage to it.",
@@ -24083,7 +24083,7 @@
   },
   "Reckless Experimenter": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/653/636688331114650435.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/528/89820.png",
     "class": "Priest",
     "cost": 5,
     "desc": "Deathrattle minions you play cost (3) less, but die at end of turn. (Cost can't be reduced below 1.)",
@@ -24163,7 +24163,7 @@
   },
   "Recurring Villain": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/602/636899152145510973.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/402/90663.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Deathrattle: If this minion has 4 or more Attack, resummon it.",
@@ -24403,7 +24403,7 @@
   },
   "Replicating Menace": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/464/636688327522398103.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/333/89875.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Magnetic Deathrattle: Summon three 1/1 Microbots.",
@@ -24419,7 +24419,7 @@
   },
   "Research Project": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/668/636688331446769385.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/543/89916.png",
     "class": "Mage",
     "cost": 2,
     "desc": "Each player draws 2 cards.",
@@ -24627,7 +24627,7 @@
   },
   "Rocket Boots": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/305/636688324852275792.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/168/89930.png",
     "class": "Warrior",
     "cost": 2,
     "desc": "Give a minion Rush. Draw a card.",
@@ -24771,7 +24771,7 @@
   },
   "Runic Egg": {
     "atk": 0,
-    "cdn": "https://media.hearthpwn.com/avatars/331/824/42065.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/439/42065.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Deathrattle: Draw a card.",
@@ -24787,7 +24787,7 @@
   },
   "Rusty Recycler": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/290/636688324607734375.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/153/89929.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Taunt Lifesteal",
@@ -24835,7 +24835,7 @@
   },
   "SN1P-SN4P": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/388/689/636941426782285362.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/558/90680.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Magnetic, Echo Deathrattle: Summon two 1/1 Microbots.",
@@ -24931,7 +24931,7 @@
   },
   "Safeguard": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/590/636899126496813924.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/6/90651.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Taunt Deathrattle: Summon a 0/5 Vault Safe with Taunt.",
@@ -25283,7 +25283,7 @@
   },
   "Scargil": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/585/636899120380923959.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/345/90646.png",
     "class": "Shaman",
     "cost": 4,
     "desc": "Your Murlocs cost (1).",
@@ -25478,7 +25478,7 @@
   },
   "Seaforium Bomber": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/566/636688329451345873.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/441/89887.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Shuffle a Bomb into your opponent's deck. When drawn, it explodes for 5 damage.",
@@ -25558,7 +25558,7 @@
   },
   "Secret Plan": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/473/636688327710904443.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/342/89914.png",
     "class": "Hunter",
     "cost": 1,
     "desc": "Discover a Secret.",
@@ -25590,7 +25590,7 @@
   },
   "Security Rover": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/389/171/636964320129707828.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/216/89876.png",
     "class": "Warrior",
     "cost": 6,
     "desc": "Whenever this minion takes damage, summon a 2/3 Mech with Taunt.",
@@ -26153,7 +26153,7 @@
   },
   "Shadowy Figure": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/428/636897392159236113.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/940/90611.png",
     "class": "Priest",
     "cost": 2,
     "desc": "Battlecry: Transform into a 2/2 copy of a friendly Deathrattle minion.",
@@ -26457,7 +26457,7 @@
   },
   "Shimmerfly": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/386/457/636897988439814326.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/279/90619.png",
     "class": "Hunter",
     "cost": 1,
     "desc": "Deathrattle: Add a random Hunter spell to your hand.",
@@ -26553,7 +26553,7 @@
   },
   "Shooting Star": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/554/636688329145369136.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/429/89862.png",
     "class": "Mage",
     "cost": 1,
     "desc": "Deal 1 damage to a minion and the minions next to it.",
@@ -26601,7 +26601,7 @@
   },
   "Shrink Ray": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/374/636688325950411280.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/237/89864.png",
     "class": "Paladin",
     "cost": 5,
     "desc": "Set the Attack and Health of all minions to 1.",
@@ -26905,7 +26905,7 @@
   },
   "Silvermoon Portal": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/331/884/42054.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/499/42054.png",
     "class": "Paladin",
     "cost": 4,
     "desc": "Give a minion +2/+2. Summon a random 2-Cost minion.",
@@ -26921,7 +26921,7 @@
   },
   "Silverware Golem": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/920/42037.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/535/42037.png",
     "class": "Warlock",
     "cost": 3,
     "desc": "If you discard this minion, summon it.",
@@ -27049,7 +27049,7 @@
   },
   "Skaterbot": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/259/636688323961728335.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/123/89897.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Magnetic Rush",
@@ -27209,7 +27209,7 @@
   },
   "Sludge Slurper": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/416/636897381219954169.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/177/90599.png",
     "class": "Shaman",
     "cost": 1,
     "desc": "Battlecry: Add a Lackey to your hand. Overload: (1)",
@@ -27465,7 +27465,7 @@
   },
   "Soldier of Fortune": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/569/636899092192522144.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/426/90633.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Whenever this minion attacks, give your opponent a Coin.",
@@ -27545,7 +27545,7 @@
   },
   "Soul Infusion": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/428/636688326749970841.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/294/89907.png",
     "class": "Warlock",
     "cost": 1,
     "desc": "Give the left-most minion in your hand +2/+2.",
@@ -27577,7 +27577,7 @@
   },
   "Soul of the Murloc": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/586/636899121484110989.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/321/90647.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Give your minions \"Deathrattle: Summon a 1/1 Murloc.\"",
@@ -27705,7 +27705,7 @@
   },
   "Spark Drill": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/335/636688325347248704.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/198/89928.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Rush Deathrattle: Add two 1/1 Sparks with Rush to your hand.",
@@ -27721,7 +27721,7 @@
   },
   "Spark Engine": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/608/636688330206201448.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/483/89927.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Add a 1/1 Spark with Rush to your hand.",
@@ -27849,7 +27849,7 @@
   },
   "Spellbook Binder": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/601/636899148375406230.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/12/90662.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: If you have Spell Damage, draw a card.",
@@ -27913,7 +27913,7 @@
   },
   "Spellward Jeweler": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/362/636897321096745835.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/991/90550.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Your hero can't be targeted by spells or Hero Powers until your next turn.",
@@ -27961,7 +27961,7 @@
   },
   "Spider Bomb": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/413/636688326474816746.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/279/89807.png",
     "class": "Hunter",
     "cost": 3,
     "desc": "Magnetic Deathrattle: Destroy a random enemy minion.",
@@ -28025,7 +28025,7 @@
   },
   "Spirit Bomb": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/169/636964319636217668.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/228/89904.png",
     "class": "Warlock",
     "cost": 1,
     "desc": "Deal 4 damage to a minion and your hero.",
@@ -28041,7 +28041,7 @@
   },
   "Spirit Claws": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/863/42042.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/478/42042.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Has +2 Attack while you have Spell Damage.",
@@ -28393,7 +28393,7 @@
   },
   "Spring Rocket": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/458/636688327356103172.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/327/89926.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Deal 2 damage.",
@@ -28569,7 +28569,7 @@
   },
   "Star Aligner": {
     "atk": 7,
-    "cdn": "https://media.hearthpwn.com/avatars/376/629/636688330668131658.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/504/89842.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Battlecry: If you control 3 minions with 7 Health, deal 7 damage to all enemies.",
@@ -28617,7 +28617,7 @@
   },
   "Stargazer Luna": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/341/636688325429725940.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/204/89805.png",
     "class": "Mage",
     "cost": 3,
     "desc": "After you play the right-most card in your hand, draw a card.",
@@ -28681,7 +28681,7 @@
   },
   "Steel Rager": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/674/636688331589271822.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/549/89925.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Rush",
@@ -28873,7 +28873,7 @@
   },
   "Storm Chaser": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/449/636688327173247726.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/318/89874.png",
     "class": "Shaman",
     "cost": 4,
     "desc": "Battlecry: Draw a spell from your deck that costs (5) or more.",
@@ -29081,7 +29081,7 @@
   },
   "Subject 9": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/662/636688331299796657.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/537/89889.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: Draw 5 different Secrets from your deck.",
@@ -29225,7 +29225,7 @@
   },
   "Sunreaver Spy": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/581/636899111721213103.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/997/90643.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: If you control a Secret, gain +1/+1.",
@@ -29241,7 +29241,7 @@
   },
   "Sunreaver Warmage": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/578/636899108864538429.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/186/90642.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Battlecry: If you're holding a spell that costs (5) or more, deal 4 damage.",
@@ -29289,7 +29289,7 @@
   },
   "Supercollider": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/479/636688327797441949.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/348/89811.png",
     "class": "Warrior",
     "cost": 5,
     "desc": "After you attack a minion, force it to attack one of its neighbors.",
@@ -29385,7 +29385,7 @@
   },
   "Swampqueen Hagatha": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/366/636897324199465313.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/168/90554.png",
     "class": "Shaman",
     "cost": 7,
     "desc": "Battlecry: Add a 5/5 Horror to your hand. Teach it two Shaman spells.",
@@ -29417,7 +29417,7 @@
   },
   "Swashburglar": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/331/869/42046.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/484/42046.png",
     "class": "Rogue",
     "cost": 1,
     "desc": "Battlecry: Add a random card to your hand (from your opponent's class).",
@@ -29433,7 +29433,7 @@
   },
   "Sweeping Strikes": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/600/636899147033880695.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/967/90661.png",
     "class": "Warrior",
     "cost": 2,
     "desc": "Give a minion \"Also damages minions next to whomever this attacks.\"",
@@ -29529,7 +29529,7 @@
   },
   "Tak Nozwhisker": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/386/374/636897331584689499.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/330/90562.png",
     "class": "Rogue",
     "cost": 7,
     "desc": "Whenever you shuffle a card into your deck, add a copy to your hand.",
@@ -29705,7 +29705,7 @@
   },
   "Tending Tauren": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/500/636688328135411249.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/369/89900.png",
     "class": "Druid",
     "cost": 6,
     "desc": "Choose One - Give your other minions +1/+1; or Summon two 2/2 Treants.",
@@ -29785,7 +29785,7 @@
   },
   "Test Subject": {
     "atk": 0,
-    "cdn": "https://media.hearthpwn.com/avatars/376/635/636688330824775227.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/510/89911.png",
     "class": "Priest",
     "cost": 1,
     "desc": "Deathrattle: Return any spells you cast on this minion to your hand.",
@@ -29865,7 +29865,7 @@
   },
   "The Boom Reaver": {
     "atk": 7,
-    "cdn": "https://media.hearthpwn.com/avatars/386/506/636898267203662098.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/979/90624.png",
     "class": "Warrior",
     "cost": 10,
     "desc": "Battlecry: Summon a copy of a minion in your deck. Give it Rush.",
@@ -29881,7 +29881,7 @@
   },
   "The Boomship": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/308/636688324900739973.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/171/89856.png",
     "class": "Warrior",
     "cost": 9,
     "desc": "Summon 3 random minions from your hand. Give them Rush.",
@@ -29913,7 +29913,7 @@
   },
   "The Curator": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/331/857/42022.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/472/42022.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Taunt Battlecry: Draw a Beast, Dragon, and Murloc from your deck.",
@@ -29945,7 +29945,7 @@
   },
   "The Forest's Aid": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/459/636897991737155091.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/60/90547.png",
     "class": "Druid",
     "cost": 8,
     "desc": "Twinspell Summon five 2/2 Treants.",
@@ -30073,7 +30073,7 @@
   },
   "The Soularium": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/659/636688331224750050.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/534/89881.png",
     "class": "Warlock",
     "cost": 1,
     "desc": "Draw 3 cards. At the end of your turn, discard them.",
@@ -30089,7 +30089,7 @@
   },
   "The Storm Bringer": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/167/636964318789749907.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/273/89892.png",
     "class": "Shaman",
     "cost": 6,
     "desc": "Transform your minions into random Legendary minions.",
@@ -30236,7 +30236,7 @@
   },
   "Thunderhead": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/389/168/636964319150711947.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/351/89873.png",
     "class": "Shaman",
     "cost": 4,
     "desc": "After you play a card with Overload, summon two 1/1 Sparks with Rush.",
@@ -30444,7 +30444,7 @@
   },
   "Togwaggle's Scheme": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/365/636897323532575746.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/934/90553.png",
     "class": "Rogue",
     "cost": 1,
     "desc": "Choose a minion. Shuffle 1 |4(copy, copies) of it into your deck. (Upgrades each turn!)",
@@ -30604,7 +30604,7 @@
   },
   "Topsy Turvy": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/572/636688329566235760.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/447/89924.png",
     "class": "Priest",
     "cost": 0,
     "desc": "Swap a minion's Attack and Health.",
@@ -30828,7 +30828,7 @@
   },
   "Toxfin": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/386/591/636899127987899492.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/985/90652.png",
     "class": "Neutral",
     "cost": 1,
     "desc": "Battlecry: Give a friendly Murloc Poisonous.",
@@ -30876,7 +30876,7 @@
   },
   "Toxicologist": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/314/636688325031071294.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/177/89923.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Give your weapon +1 Attack.",
@@ -31084,7 +31084,7 @@
   },
   "Tunnel Blaster": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/599/636899146521930847.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/435/90660.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "Taunt Deathrattle: Deal 3 damage to all minions.",
@@ -31452,7 +31452,7 @@
   },
   "Underbelly Angler": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/587/636899122617601324.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/952/90648.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "After you play a Murloc, add a random Murloc to your hand.",
@@ -31468,7 +31468,7 @@
   },
   "Underbelly Fence": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/377/636897334643609442.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/324/90565.png",
     "class": "Rogue",
     "cost": 2,
     "desc": "Battlecry: If you're holding a card from another class, gain +1/+1 and Rush.",
@@ -31484,7 +31484,7 @@
   },
   "Underbelly Ooze": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/598/636899145940755557.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/198/90659.png",
     "class": "Neutral",
     "cost": 7,
     "desc": "After this minion survives damage, summon a copy of it.",
@@ -31564,7 +31564,7 @@
   },
   "Unexpected Results": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/159/636964316321046016.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/282/89826.png",
     "class": "Mage",
     "cost": 3,
     "desc": "Summon two random 2-Cost minions (improved by Spell Damage).",
@@ -31580,7 +31580,7 @@
   },
   "Unidentified Contract": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/384/636897355056842895.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/102/90571.png",
     "class": "Rogue",
     "cost": 6,
     "desc": "Destroy a minion. Gains a bonus effect in your hand.",
@@ -31660,7 +31660,7 @@
   },
   "Unleash the Beast": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/397/636897361051899728.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/135/90584.png",
     "class": "Hunter",
     "cost": 6,
     "desc": "Twinspell Summon a 5/5 Wyvern with Rush.",
@@ -31708,7 +31708,7 @@
   },
   "Unpowered Mauler": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/326/636688325208686688.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/189/89922.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Can only attack if you cast a spell this turn.",
@@ -31756,7 +31756,7 @@
   },
   "Unseen Saboteur": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/427/636897390781776445.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/183/90610.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Battlecry: Your opponent casts a random spell from their hand (targets chosen randomly).",
@@ -31772,7 +31772,7 @@
   },
   "Unsleeping Soul": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/568/636899091147768268.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/976/90632.png",
     "class": "Priest",
     "cost": 4,
     "desc": "Silence a friendly minion, then summon a copy of it.",
@@ -31900,7 +31900,7 @@
   },
   "Upgradeable Framebot": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/376/461/636688327447041449.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/330/89801.png",
     "class": "Neutral",
     "cost": 2,
     "desc": null,
@@ -31932,7 +31932,7 @@
   },
   "Ursatron": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/592/636899132993493149.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/294/90653.png",
     "class": "Hunter",
     "cost": 3,
     "desc": "Deathrattle: Draw a Mech from your deck.",
@@ -32115,7 +32115,7 @@
   },
   "Vendetta": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/394/636897360261186875.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/327/90581.png",
     "class": "Rogue",
     "cost": 4,
     "desc": "Deal 4 damage to a minion. Costs (0) if you're holding a card from another class.",
@@ -32147,7 +32147,7 @@
   },
   "Venomizer": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/274/636688324337280856.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/138/89921.png",
     "class": "Hunter",
     "cost": 2,
     "desc": "Magnetic Poisonous",
@@ -32211,7 +32211,7 @@
   },
   "Vereesa Windrunner": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/386/409/636897377398910254.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/144/90593.png",
     "class": "Hunter",
     "cost": 7,
     "desc": "Battlecry: Equip Thori'dal, the Stars' Fury.",
@@ -32291,7 +32291,7 @@
   },
   "Vicious Scraphound": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/386/597/636899145448869779.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/414/90658.png",
     "class": "Warrior",
     "cost": 2,
     "desc": "Whenever this minion deals damage, gain that much Armor.",
@@ -32387,7 +32387,7 @@
   },
   "Violet Haze": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/389/166/636964318413552041.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/180/89920.png",
     "class": "Rogue",
     "cost": 2,
     "desc": "Add 2 random Deathrattle cards to your hand.",
@@ -32403,7 +32403,7 @@
   },
   "Violet Illusionist": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/331/938/42060.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/553/42060.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "During your turn, your hero is Immune.",
@@ -32419,7 +32419,7 @@
   },
   "Violet Spellsword": {
     "atk": 1,
-    "cdn": "https://media.hearthpwn.com/avatars/386/596/636899144924214323.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/21/90657.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Battlecry: Gain +1 Attack for each spell in your hand.",
@@ -32451,7 +32451,7 @@
   },
   "Violet Warden": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/595/636899143284300015.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/24/90656.png",
     "class": "Neutral",
     "cost": 6,
     "desc": "Taunt Spell Damage +1",
@@ -32531,7 +32531,7 @@
   },
   "Void Analyst": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/533/636688328732233354.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/408/89886.png",
     "class": "Warlock",
     "cost": 2,
     "desc": "Deathrattle: Give all Demons in your hand +1/+1.",
@@ -32771,7 +32771,7 @@
   },
   "Voltaic Burst": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/551/636688329103495726.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/426/89866.png",
     "class": "Shaman",
     "cost": 1,
     "desc": "Summon two 1/1 Sparks with Rush. Overload: (1)",
@@ -32899,7 +32899,7 @@
   },
   "Waggle Pick": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/567/636899089673020653.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/333/90631.png",
     "class": "Rogue",
     "cost": 4,
     "desc": "Deathrattle: Return a random friendly minion to your hand. It costs (2) less.",
@@ -32947,7 +32947,7 @@
   },
   "Walking Fountain": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/386/422/636897385433222955.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/949/90605.png",
     "class": "Shaman",
     "cost": 8,
     "desc": "Lifesteal, Rush, Windfury",
@@ -33059,7 +33059,7 @@
   },
   "Wargear": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/644/636688330972808292.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/519/89799.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Magnetic",
@@ -33219,7 +33219,7 @@
   },
   "Weaponized Pi\u00f1ata": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/470/636688327666000442.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/339/89824.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "Deathrattle: Add a random Legendary minion to your hand.",
@@ -33251,7 +33251,7 @@
   },
   "Weapons Project": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/284/636688324471522661.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/147/89903.png",
     "class": "Warrior",
     "cost": 2,
     "desc": "Each player equips a 2/3 Weapon and gains 6 Armor.",
@@ -33331,7 +33331,7 @@
   },
   "Whirliglider": {
     "atk": 2,
-    "cdn": "https://media.hearthpwn.com/avatars/376/512/636688328352800373.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/387/89919.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "Battlecry: Summon a 0/2 Goblin Bomb.",
@@ -33395,7 +33395,7 @@
   },
   "Whirlwind Tempest": {
     "atk": 6,
-    "cdn": "https://media.hearthpwn.com/avatars/386/594/636899141739112635.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/381/90655.png",
     "class": "Neutral",
     "cost": 8,
     "desc": "Your minions with Windfury have Mega-Windfury.",
@@ -33427,7 +33427,7 @@
   },
   "Whizbang the Wonderful": {
     "atk": 4,
-    "cdn": "https://media.hearthpwn.com/avatars/376/707/636688332279181919.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/585/89813.png",
     "class": "Neutral",
     "cost": 4,
     "desc": "You start the game with one of Whizbang's Wonderful Decks!",
@@ -33459,7 +33459,7 @@
   },
   "Wicked Witchdoctor": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/800/42047.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/415/42047.png",
     "class": "Shaman",
     "cost": 4,
     "desc": "Whenever you cast a spell, summon a random basic Totem.",
@@ -33731,7 +33731,7 @@
   },
   "Witch's Brew": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/386/593/636899139979592635.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/174/90654.png",
     "class": "Shaman",
     "cost": 2,
     "desc": "Restore 4 Health. Repeatable this turn.",
@@ -34035,7 +34035,7 @@
   },
   "Wrenchcalibur": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/386/385/636897355627187583.png",
+    "cdn": "https://media.hearthpwn.com/avatars/409/970/90572.png",
     "class": "Warrior",
     "cost": 4,
     "desc": "After your hero attacks, shuffle a Bomb into your opponent's deck.",
@@ -34259,7 +34259,7 @@
   },
   "Zayle, Shadow Cloak": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/388/639/636939866929734009.png",
+    "cdn": "https://media.hearthpwn.com/avatars/410/441/90679.png",
     "class": "Neutral",
     "cost": 2,
     "desc": "You start the game with one of Zayle's EVIL Decks!",
@@ -34323,7 +34323,7 @@
   },
   "Zerek's Cloning Gallery": {
     "atk": null,
-    "cdn": "https://media.hearthpwn.com/avatars/376/656/636688331184106700.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/531/89840.png",
     "class": "Priest",
     "cost": 9,
     "desc": "Summon a 1/1 copy of each minion in your deck.",
@@ -34339,7 +34339,7 @@
   },
   "Zerek, Master Cloner": {
     "atk": 5,
-    "cdn": "https://media.hearthpwn.com/avatars/376/425/636688326709987397.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/291/89863.png",
     "class": "Priest",
     "cost": 6,
     "desc": "Deathrattle: If you've cast any spells on this minion, resummon it.",
@@ -34355,7 +34355,7 @@
   },
   "Zilliax": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/376/623/636688330575813565.png",
+    "cdn": "https://media.hearthpwn.com/avatars/407/498/89803.png",
     "class": "Neutral",
     "cost": 5,
     "desc": "Magnetic Divine Shield, Taunt, Lifesteal, Rush",
@@ -34403,7 +34403,7 @@
   },
   "Zoobot": {
     "atk": 3,
-    "cdn": "https://media.hearthpwn.com/avatars/331/902/42035.png",
+    "cdn": "https://media.hearthpwn.com/avatars/415/517/42035.png",
     "class": "Neutral",
     "cost": 3,
     "desc": "Battlecry: Give a random friendly Beast, Dragon, and Murloc +1/+1.",
