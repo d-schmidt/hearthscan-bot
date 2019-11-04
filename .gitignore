@@ -9,6 +9,7 @@
 *.db
 credentials.py
 praw.ini
+lockfile.lock
 
 
 # Byte-compiled / optimized / DLL files

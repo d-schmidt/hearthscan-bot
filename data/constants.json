@@ -19,7 +19,8 @@
         "18" : {"name" : "The Boomsday Project", "code" : "TBP", "std" : true},
         "19" : {"name" : "Rastakhan's Rumble", "code" : "RR", "std" : true},
         "20" : {"name" : "Rise of Shadows", "code" : "RoS", "std" : true, "unreleased" : false},
-        "21" : {"name" : "Saviors of Uldum", "code" : "SoU", "std" : true, "unreleased" : false}
+        "21" : {"name" : "Saviors of Uldum", "code" : "SoU", "std" : true, "unreleased" : false},
+        "22" : {"name" : "Descent of Dragons", "code" : "DoD", "std" : true, "unreleased" : true}
     },
 
     "specials" : {

@@ -161,12 +161,14 @@ def fixText(text):
 
     return text
 
+
 def getCardJson():
-    if not os.path.isfile('raw-cards.json'):
-        with open('raw-cards.json', 'wb') as f:
+    rawJson = 'raw-cards.json'
+    if not os.path.isfile(rawJson) or os.path.getmtime(rawJson) < (time.time() - 24*60*60):
+        with open(rawJson, 'wb') as f:
             f.write(requests.get('https://api.hearthstonejson.com/v1/latest/enUS/cards.json').content)
 
-    with open('raw-cards.json', encoding='utf8') as f:
+    with open(rawJson, encoding='utf8') as f:
         return json.load(f)
 
 
@@ -362,6 +364,8 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                 urlName = getHearthHeadId(card['name'])
                 url = 'https://www.hearthstonetopdecks.com/cards/{}/'.format(urlName)
                 _, cardHTD = parseHTD(url, session)
+                if not cardHTD.get("desc") and card.get('desc'):
+                    cardHTD["desc"] = card.get('desc')
                 cardHTD["id"] = card["id"]
                 card = cardHTD
 
