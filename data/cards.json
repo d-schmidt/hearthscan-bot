@@ -111,6 +111,22 @@
     "subType": "Demon",
     "type": "Minion"
   },
+  "Abyssal Summoner": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/305/151343.png",
+    "class": "Warlock",
+    "cost": 6,
+    "desc": "Battlecry: Summon a Demon with Taunt and stats equal to your hand size.",
+    "head": "abyssal-summoner",
+    "hp": 2,
+    "hpwn": 151343,
+    "id": "DRG_207",
+    "name": "Abyssal Summoner",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Academic Espionage": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/407/183/89859.png",
@@ -270,6 +286,22 @@
     "set": "Whispers of the Old Gods",
     "subType": "Beast",
     "type": "Minion"
+  },
+  "Aeroponics": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/542/151429.png",
+    "class": "Druid",
+    "cost": 5,
+    "desc": "Draw 2 cards. Costs (2) less for each Treant you control.",
+    "head": "aeroponics",
+    "hp": null,
+    "hpwn": 151429,
+    "id": "DRG_314",
+    "name": "Aeroponics",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
   },
   "Air Elemental": {
     "atk": 2,
@@ -479,6 +511,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Amber Watcher": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/362/151331.png",
+    "class": "Paladin",
+    "cost": 5,
+    "desc": "Battlecry: Restore 8 Health.",
+    "head": "amber-watcher",
+    "hp": 6,
+    "hpwn": 151331,
+    "id": "DRG_226",
+    "name": "Amber Watcher",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Ancestor's Call": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/423/108/12218.png",
@@ -558,6 +606,22 @@
     "set": "Classic",
     "subType": null,
     "type": "Spell"
+  },
+  "Ancharrr": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/83/151352.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "After your hero attacks, draw a Pirate from your deck.",
+    "head": "ancharrr",
+    "hp": 3,
+    "hpwn": 151352,
+    "id": "DRG_025",
+    "name": "Ancharrr",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Weapon"
   },
   "Ancient Brewmaster": {
     "atk": 5,
@@ -1068,6 +1132,22 @@
     "name": "Arcane Blast",
     "rarity": "Epic",
     "set": "The Grand Tournament",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Arcane Breath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/278/151359.png",
+    "class": "Mage",
+    "cost": 1,
+    "desc": "Deal 2 damage to a minion. If you're holding a Dragon, Discover a spell.",
+    "head": "arcane-breath",
+    "hp": null,
+    "hpwn": 151359,
+    "id": "DRG_106",
+    "name": "Arcane Breath",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -2015,6 +2095,22 @@
     "subType": "Quest",
     "type": "Spell"
   },
+  "Awaken!": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/422/151391.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "Invoke Galakrond. Deal 1 damage to all minions.",
+    "head": "awaken",
+    "hp": null,
+    "hpwn": 151391,
+    "id": "DRG_249",
+    "name": "Awaken!",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Axe Flinger": {
     "atk": 2,
     "cdn": "https://media.hearthpwn.com/avatars/426/318/14439.png",
@@ -2092,6 +2188,22 @@
     "name": "Azure Drake",
     "rarity": "Rare",
     "set": "Hall of Fame",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Azure Explorer": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/269/127296.png",
+    "class": "Mage",
+    "cost": 4,
+    "desc": "Spell Damage +2 Battlecry: Discover a Dragon.",
+    "head": "azure-explorer",
+    "hp": 3,
+    "hpwn": 127296,
+    "id": "DRG_102",
+    "name": "Azure Explorer",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": "Dragon",
     "type": "Minion"
   },
@@ -2175,6 +2287,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Bad Luck Albatross": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/185/151358.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Deathrattle: Shuffle two 1/1 Albatross into your opponent's deck.",
+    "head": "bad-luck-albatross",
+    "hp": 3,
+    "hpwn": 151358,
+    "id": "DRG_071",
+    "name": "Bad Luck Albatross",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Baited Arrow": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/420/272/90156.png",
@@ -2252,6 +2380,22 @@
     "name": "Banana Buffoon",
     "rarity": "Common",
     "set": "Rastakhan's Rumble",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Bandersmosh": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/248/151362.png",
+    "class": "Shaman",
+    "cost": 5,
+    "desc": "Each turn this is in your hand, transform it into a 5/5 copy of a random Legendary minion.",
+    "head": "bandersmosh",
+    "hp": 5,
+    "hpwn": 151362,
+    "id": "DRG_096",
+    "name": "Bandersmosh",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -2703,6 +2847,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Big Ol' Whelp": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/134/151402.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Draw a card.",
+    "head": "big-ol-whelp",
+    "hp": 5,
+    "hpwn": 151402,
+    "id": "DRG_054",
+    "name": "Big Ol' Whelp",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Big-Time Racketeer": {
     "atk": 1,
     "cdn": "https://media.hearthpwn.com/avatars/422/815/49625.png",
@@ -3069,6 +3229,22 @@
     "rarity": "Epic",
     "set": "Journey to Un'Goro",
     "subType": "Elemental",
+    "type": "Minion"
+  },
+  "Blazing Battlemage": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/407/151386.png",
+    "class": "Neutral",
+    "cost": 1,
+    "desc": null,
+    "head": "blazing-battlemage",
+    "hp": 2,
+    "hpwn": 151386,
+    "id": "DRG_239",
+    "name": "Blazing Battlemage",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
     "type": "Minion"
   },
   "Blazing Invocation": {
@@ -3538,6 +3714,22 @@
     "subType": "Pirate",
     "type": "Minion"
   },
+  "Bloodsail Flybooter": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/107/151414.png",
+    "class": "Rogue",
+    "cost": 1,
+    "desc": "Battlecry: Add two 1/1 Pirates to your hand.",
+    "head": "bloodsail-flybooter",
+    "hp": 1,
+    "hpwn": 151414,
+    "id": "DRG_035",
+    "name": "Bloodsail Flybooter",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
   "Bloodsail Howler": {
     "atk": 1,
     "cdn": "https://media.hearthpwn.com/avatars/420/20/90252.png",
@@ -3632,6 +3824,22 @@
     "rarity": "Common",
     "set": "Mean Streets of Gadgetzan",
     "subType": "Murloc",
+    "type": "Minion"
+  },
+  "Blowtorch Saboteur": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/584/151378.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: Your opponent's next Hero Power costs (3).",
+    "head": "blowtorch-saboteur",
+    "hp": 4,
+    "hpwn": 151378,
+    "id": "DRG_403",
+    "name": "Blowtorch Saboteur",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
     "type": "Minion"
   },
   "Blubber Baron": {
@@ -4178,6 +4386,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Breath of Dreams": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/551/127269.png",
+    "class": "Druid",
+    "cost": 2,
+    "desc": "Draw a card. If you're holding a Dragon, gain an empty Mana Crystal.",
+    "head": "breath-of-dreams",
+    "hp": null,
+    "hpwn": 127269,
+    "id": "DRG_318",
+    "name": "Breath of Dreams",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Breath of Sindragosa": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/423/186/62897.png",
@@ -4191,6 +4415,22 @@
     "name": "Breath of Sindragosa",
     "rarity": "Common",
     "set": "Knights of the Frozen Throne",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Breath of the Infinite": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/512/151353.png",
+    "class": "Priest",
+    "cost": 3,
+    "desc": "Deal 2 damage to all minions. If you're holding a Dragon, only damage enemies.",
+    "head": "breath-of-the-infinite",
+    "hp": null,
+    "hpwn": 151353,
+    "id": "DRG_307",
+    "name": "Breath of the Infinite",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -4241,6 +4481,22 @@
     "set": "Knights of the Frozen Throne",
     "subType": null,
     "type": "Spell"
+  },
+  "Bronze Explorer": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/365/151370.png",
+    "class": "Paladin",
+    "cost": 3,
+    "desc": "Lifesteal Battlecry: Discover a Dragon.",
+    "head": "bronze-explorer",
+    "hp": 3,
+    "hpwn": 151370,
+    "id": "DRG_229",
+    "name": "Bronze Explorer",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
   },
   "Bronze Gatekeeper": {
     "atk": 1,
@@ -4591,6 +4847,38 @@
     "name": "Call to Arms",
     "rarity": "Epic",
     "set": "Kobolds and Catacombs",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Camouflaged Dirigible": {
+    "atk": 6,
+    "cdn": "https://media.hearthpwn.com/avatars/430/197/151333.png",
+    "class": "Neutral",
+    "cost": 6,
+    "desc": "Battlecry: Give your other Mechs Stealth until your next turn.",
+    "head": "camouflaged-dirigible",
+    "hp": 6,
+    "hpwn": 151333,
+    "id": "DRG_074",
+    "name": "Camouflaged Dirigible",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Mech",
+    "type": "Minion"
+  },
+  "Candle Breath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/101/127290.png",
+    "class": "Rogue",
+    "cost": 6,
+    "desc": "Draw 3 cards. Costs (3) less while you're holding a Dragon.",
+    "head": "candle-breath",
+    "hp": null,
+    "hpwn": 127290,
+    "id": "DRG_033",
+    "name": "Candle Breath",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -5042,6 +5330,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Chenvaala": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/272/151348.png",
+    "class": "Mage",
+    "cost": 3,
+    "desc": "After you cast three spells in a turn, summon a 5/5 Elemental.",
+    "head": "chenvaala",
+    "hp": 5,
+    "hpwn": 151348,
+    "id": "DRG_104",
+    "name": "Chenvaala",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Elemental",
+    "type": "Minion"
+  },
   "Chief Inspector": {
     "atk": 4,
     "cdn": "https://media.hearthpwn.com/avatars/413/342/89474.png",
@@ -5154,6 +5458,38 @@
     "subType": "Dragon",
     "type": "Minion"
   },
+  "Chromatic Egg": {
+    "atk": 0,
+    "cdn": "https://media.hearthpwn.com/avatars/430/224/151345.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Secretly Discover a Dragon to hatch into. Deathrattle: Hatch!",
+    "head": "chromatic-egg",
+    "hp": 3,
+    "hpwn": 151345,
+    "id": "DRG_086",
+    "name": "Chromatic Egg",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Chronobreaker": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/506/151369.png",
+    "class": "Priest",
+    "cost": 5,
+    "desc": "Deathrattle: If you're holding a Dragon, deal 3 damage to all enemy minions.",
+    "head": "chronobreaker",
+    "hp": 5,
+    "hpwn": 151369,
+    "id": "DRG_304",
+    "name": "Chronobreaker",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Cinderstorm": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/413/78/89450.png",
@@ -5199,6 +5535,22 @@
     "name": "Claw",
     "rarity": "Basic",
     "set": "Basic",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Clear the Way": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/428/151325.png",
+    "class": "Hunter",
+    "cost": 1,
+    "desc": "Sidequest: Summon 3 Rush minions. Reward: Summon a 4/4 Gryphon with Rush.",
+    "head": "clear-the-way",
+    "hp": null,
+    "hpwn": 151325,
+    "id": "DRG_251",
+    "name": "Clear the Way",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -5423,6 +5775,22 @@
     "name": "Cobalt Scalebane",
     "rarity": "Common",
     "set": "Knights of the Frozen Throne",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Cobalt Spellkin": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/200/151371.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Add two 1-Cost spells from your class to your hand.",
+    "head": "cobalt-spellkin",
+    "hp": 5,
+    "hpwn": 151371,
+    "id": "DRG_075",
+    "name": "Cobalt Spellkin",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": "Dragon",
     "type": "Minion"
   },
@@ -5938,6 +6306,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Corrosive Breath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/53/127289.png",
+    "class": "Hunter",
+    "cost": 2,
+    "desc": "Deal 3 damage to a minion. If you're holding a Dragon, it also hits the enemy hero.",
+    "head": "corrosive-breath",
+    "hp": null,
+    "hpwn": 127289,
+    "id": "DRG_006",
+    "name": "Corrosive Breath",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Corrosive Sludge": {
     "atk": 5,
     "cdn": "https://media.hearthpwn.com/avatars/416/864/77002.png",
@@ -5951,6 +6335,22 @@
     "name": "Corrosive Sludge",
     "rarity": "Common",
     "set": "Kobolds and Catacombs",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Corrupt Elementalist": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/338/151416.png",
+    "class": "Shaman",
+    "cost": 5,
+    "desc": "Battlecry: Invoke Galakrond twice.",
+    "head": "corrupt-elementalist",
+    "hp": 3,
+    "hpwn": 151416,
+    "id": "DRG_218",
+    "name": "Corrupt Elementalist",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -6160,6 +6560,22 @@
     "rarity": "Common",
     "set": "The Boomsday Project",
     "subType": null,
+    "type": "Minion"
+  },
+  "Crazed Netherwing": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/287/151329.png",
+    "class": "Warlock",
+    "cost": 5,
+    "desc": "Battlecry: If you're holding a Dragon, deal 3 damage to all other characters.",
+    "head": "crazed-netherwing",
+    "hp": 5,
+    "hpwn": 151329,
+    "id": "DRG_201",
+    "name": "Crazed Netherwing",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
     "type": "Minion"
   },
   "Crazed Worshipper": {
@@ -6544,6 +6960,22 @@
     "rarity": "Rare",
     "set": "Whispers of the Old Gods",
     "subType": null,
+    "type": "Minion"
+  },
+  "Cumulo-Maximus": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/344/151356.png",
+    "class": "Shaman",
+    "cost": 5,
+    "desc": "Battlecry: If you have Overloaded Mana Crystals, deal 5 damage.",
+    "head": "cumulo-maximus",
+    "hp": 5,
+    "hpwn": 151356,
+    "id": "DRG_223",
+    "name": "Cumulo-Maximus",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Curio Collector": {
@@ -7074,6 +7506,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Dark Skies": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/296/151380.png",
+    "class": "Warlock",
+    "cost": 3,
+    "desc": "Deal 1 damage to a random minion. Repeat for each card in your hand.",
+    "head": "dark-skies",
+    "hp": null,
+    "hpwn": 151380,
+    "id": "DRG_204",
+    "name": "Dark Skies",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Dark Wispers": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/414/266/12298.png",
@@ -7509,6 +7957,22 @@
     "subType": "Dragon",
     "type": "Minion"
   },
+  "Deathwing, Mad Aspect": {
+    "atk": 12,
+    "cdn": "https://media.hearthpwn.com/avatars/430/86/127293.png",
+    "class": "Warrior",
+    "cost": 8,
+    "desc": "Battlecry: Attack ALL other minions.",
+    "head": "deathwing-mad-aspect",
+    "hp": 12,
+    "hpwn": 127293,
+    "id": "DRG_026",
+    "name": "Deathwing, Mad Aspect",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Deck of Wonders": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/416/846/76942.png",
@@ -7733,6 +8197,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Depth Charge": {
+    "atk": 0,
+    "cdn": "https://media.hearthpwn.com/avatars/430/209/151365.png",
+    "class": "Neutral",
+    "cost": 1,
+    "desc": "At the start of your turn, deal 5 damage to ALL minions.",
+    "head": "depth-charge",
+    "hp": 5,
+    "hpwn": 151365,
+    "id": "DRG_078",
+    "name": "Depth Charge",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Deranged Doctor": {
     "atk": 8,
     "cdn": "https://media.hearthpwn.com/avatars/426/447/89466.png",
@@ -7908,6 +8388,22 @@
     "set": "Mean Streets of Gadgetzan",
     "subType": null,
     "type": "Spell"
+  },
+  "Devoted Maniac": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/125/127300.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Rush Battlecry: Invoke Galakrond.",
+    "head": "devoted-maniac",
+    "hp": 2,
+    "hpwn": 127300,
+    "id": "DRG_050",
+    "name": "Devoted Maniac",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
   },
   "Devour Mind": {
     "atk": null,
@@ -8085,6 +8581,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Disciple of Galakrond": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/503/151424.png",
+    "class": "Priest",
+    "cost": 1,
+    "desc": "Battlecry: Invoke Galakrond.",
+    "head": "disciple-of-galakrond",
+    "hp": 2,
+    "hpwn": 151424,
+    "id": "DRG_303",
+    "name": "Disciple of Galakrond",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Diseased Vulture": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/421/115/90752.png",
@@ -8180,6 +8692,22 @@
     "set": "Whispers of the Old Gods",
     "subType": null,
     "type": "Spell"
+  },
+  "Diving Gryphon": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/62/151350.png",
+    "class": "Hunter",
+    "cost": 3,
+    "desc": "Rush Battlecry: Draw a Rush minion from your deck.",
+    "head": "diving-gryphon",
+    "hp": 1,
+    "hpwn": 151350,
+    "id": "DRG_010",
+    "name": "Diving Gryphon",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Beast",
+    "type": "Minion"
   },
   "Djinni of Zephyrs": {
     "atk": 4,
@@ -8456,6 +8984,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Dragon Breeder": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/182/151346.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Battlecry: Choose a friendly Dragon. Add a copy of it to your hand.",
+    "head": "dragon-breeder",
+    "hp": 3,
+    "hpwn": 151346,
+    "id": "DRG_070",
+    "name": "Dragon Breeder",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Dragon Consort": {
     "atk": 5,
     "cdn": "https://media.hearthpwn.com/avatars/407/825/14452.png",
@@ -8568,6 +9112,70 @@
     "subType": null,
     "type": "Spell"
   },
+  "Dragon's Hoard": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/92/127303.png",
+    "class": "Rogue",
+    "cost": 1,
+    "desc": "Discover a Legendary minion from another class.",
+    "head": "dragons-hoard",
+    "hp": null,
+    "hpwn": 127303,
+    "id": "DRG_028",
+    "name": "Dragon's Hoard",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Dragon's Pack": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/332/151422.png",
+    "class": "Shaman",
+    "cost": 5,
+    "desc": "Summon two 2/3 Spirit Wolves with Taunt. If you've Invoked twice, give them +3/+3.",
+    "head": "dragons-pack",
+    "hp": null,
+    "hpwn": 151422,
+    "id": "DRG_217",
+    "name": "Dragon's Pack",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Dragonbane": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/449/127271.png",
+    "class": "Hunter",
+    "cost": 4,
+    "desc": "After you use your Hero Power, deal 5 damage to a random enemy.",
+    "head": "dragonbane",
+    "hp": 5,
+    "hpwn": 127271,
+    "id": "DRG_256",
+    "name": "Dragonbane",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Mech",
+    "type": "Minion"
+  },
+  "Dragonblight Cultist": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/290/127281.png",
+    "class": "Warlock",
+    "cost": 3,
+    "desc": "Battlecry: Invoke Galakrond. Gain +1 Attack for each other friendly minion.",
+    "head": "dragonblight-cultist",
+    "hp": 1,
+    "hpwn": 127281,
+    "id": "DRG_202",
+    "name": "Dragonblight Cultist",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Dragoncaller Alanna": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/426/657/76960.png",
@@ -8581,6 +9189,22 @@
     "name": "Dragoncaller Alanna",
     "rarity": "Legendary",
     "set": "Kobolds and Catacombs",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Dragoncaster": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/566/151360.png",
+    "class": "Mage",
+    "cost": 6,
+    "desc": "Battlecry: If you're holding a Dragon, your next spell this turn costs (0).",
+    "head": "dragoncaster",
+    "hp": 4,
+    "hpwn": 151360,
+    "id": "DRG_322",
+    "name": "Dragoncaster",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -8664,6 +9288,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Dragonmaw Poacher": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/161/151379.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Battlecry: If your opponent controls a Dragon, gain +4/+4 and Rush.",
+    "head": "dragonmaw-poacher",
+    "hp": 4,
+    "hpwn": 151379,
+    "id": "DRG_063",
+    "name": "Dragonmaw Poacher",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Dragonmaw Scorcher": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/420/404/90279.png",
@@ -8678,6 +9318,38 @@
     "rarity": "Common",
     "set": "Rastakhan's Rumble",
     "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Dragonqueen Alexstrasza": {
+    "atk": 8,
+    "cdn": "https://media.hearthpwn.com/avatars/430/230/151349.png",
+    "class": "Neutral",
+    "cost": 9,
+    "desc": "Battlecry: If your deck has no duplicates, add 2 random Dragons to your hand. They cost (0).",
+    "head": "dragonqueen-alexstrasza",
+    "hp": 8,
+    "hpwn": 151349,
+    "id": "DRG_089",
+    "name": "Dragonqueen Alexstrasza",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Dragonrider Talritha": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/380/151321.png",
+    "class": "Paladin",
+    "cost": 3,
+    "desc": "Deathrattle: Give a Dragon in your hand +3/+3 and this Deathrattle.",
+    "head": "dragonrider-talritha",
+    "hp": 3,
+    "hpwn": 151321,
+    "id": "DRG_235",
+    "name": "Dragonrider Talritha",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
     "type": "Minion"
   },
   "Dragonslayer": {
@@ -8838,6 +9510,22 @@
     "rarity": "Basic",
     "set": "Basic",
     "subType": "Demon",
+    "type": "Minion"
+  },
+  "Dread Raven": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/227/151355.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Has +3 Attack for each other Dread Raven you control.",
+    "head": "dread-raven",
+    "hp": 4,
+    "hpwn": 151355,
+    "id": "DRG_088",
+    "name": "Dread Raven",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": "Beast",
     "type": "Minion"
   },
   "Dreadscale": {
@@ -9208,6 +9896,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Dwarven Sharpshooter": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/437/127274.png",
+    "class": "Hunter",
+    "cost": 1,
+    "desc": "Your Hero Power can target minions.",
+    "head": "dwarven-sharpshooter",
+    "hp": 3,
+    "hpwn": 127274,
+    "id": "DRG_253",
+    "name": "Dwarven Sharpshooter",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Dyn-o-matic": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/407/207/89895.png",
@@ -9301,6 +10005,22 @@
     "name": "EVIL Miscreant",
     "rarity": "Common",
     "set": "Rise of Shadows",
+    "subType": null,
+    "type": "Minion"
+  },
+  "EVIL Quartermaster": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/68/151372.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "Battlecry: Add a Lackey to your hand. Gain 3 Armor.",
+    "head": "evil-quartermaster",
+    "hp": 3,
+    "hpwn": 151372,
+    "id": "DRG_020",
+    "name": "EVIL Quartermaster",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -9704,6 +10424,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Elemental Allies": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/575/151423.png",
+    "class": "Mage",
+    "cost": 1,
+    "desc": "Sidequest: Play an Elemental 2 turns in a row. Reward: Draw 3 spells from your deck.",
+    "head": "elemental-allies",
+    "hp": null,
+    "hpwn": 151423,
+    "id": "DRG_324",
+    "name": "Elemental Allies",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Elemental Destruction": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/426/240/22345.png",
@@ -9880,6 +10616,22 @@
     "subType": "Dragon",
     "type": "Minion"
   },
+  "Embiggen": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/545/151375.png",
+    "class": "Druid",
+    "cost": 0,
+    "desc": "Give all minions in your deck +2/+2. They cost (1) more (up to 10).",
+    "head": "embiggen",
+    "hp": null,
+    "hpwn": 151375,
+    "id": "DRG_315",
+    "name": "Embiggen",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Embrace Darkness": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/415/139/62857.png",
@@ -9911,6 +10663,22 @@
     "set": "Whispers of the Old Gods",
     "subType": null,
     "type": "Spell"
+  },
+  "Emerald Explorer": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/539/127272.png",
+    "class": "Druid",
+    "cost": 6,
+    "desc": "Taunt Battlecry: Discover a Dragon.",
+    "head": "emerald-explorer",
+    "hp": 8,
+    "hpwn": 127272,
+    "id": "DRG_313",
+    "name": "Emerald Explorer",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
   },
   "Emerald Hive Queen": {
     "atk": 2,
@@ -10072,6 +10840,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Envoy of Lazul": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/509/151322.png",
+    "class": "Priest",
+    "cost": 2,
+    "desc": "Battlecry: Look at 3 cards. Guess which one is in your opponent's hand to get a copy of it.",
+    "head": "envoy-of-lazul",
+    "hp": 2,
+    "hpwn": 151322,
+    "id": "DRG_306",
+    "name": "Envoy of Lazul",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Equality": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/412/391/383.png",
@@ -10215,6 +10999,70 @@
     "set": "Kobolds and Catacombs",
     "subType": null,
     "type": "Spell"
+  },
+  "Evasive Chimaera": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/170/151384.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Poisonous Can't be targeted by spells or Hero Powers.",
+    "head": "evasive-chimaera",
+    "hp": 1,
+    "hpwn": 151384,
+    "id": "DRG_066",
+    "name": "Evasive Chimaera",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Beast",
+    "type": "Minion"
+  },
+  "Evasive Drakonid": {
+    "atk": 7,
+    "cdn": "https://media.hearthpwn.com/avatars/430/521/127278.png",
+    "class": "Neutral",
+    "cost": 7,
+    "desc": "Taunt Can't be targeted by spells or Hero Powers.",
+    "head": "evasive-drakonid",
+    "hp": 7,
+    "hpwn": 127278,
+    "id": "DRG_310",
+    "name": "Evasive Drakonid",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Evasive Feywing": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/194/151395.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Can't be targeted by spells or Hero Powers.",
+    "head": "evasive-feywing",
+    "hp": 4,
+    "hpwn": 151395,
+    "id": "DRG_073",
+    "name": "Evasive Feywing",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Evasive Wyrm": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/212/151408.png",
+    "class": "Neutral",
+    "cost": 6,
+    "desc": "Divine Shield. Rush. Can't be targeted by spells or Hero Powers.",
+    "head": "evasive-wyrm",
+    "hp": 3,
+    "hpwn": 151408,
+    "id": "DRG_079",
+    "name": "Evasive Wyrm",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
   },
   "Everyfin is Awesome": {
     "atk": null,
@@ -10584,6 +11432,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Faceless Corruptor": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/203/151381.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Rush. Battlecry: Transform one of your minions into a copy of this.",
+    "head": "faceless-corruptor",
+    "hp": 4,
+    "hpwn": 151381,
+    "id": "DRG_076",
+    "name": "Faceless Corruptor",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Faceless Lurker": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/421/187/90842.png",
@@ -10807,6 +11671,22 @@
     "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Weapon"
+  },
+  "Fate Weaver": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/494/127297.png",
+    "class": "Priest",
+    "cost": 4,
+    "desc": "Battlecry: If you've Invoked twice, reduce the Cost of cards in your hand by (1).",
+    "head": "fate-weaver",
+    "hp": 6,
+    "hpwn": 127297,
+    "id": "DRG_300",
+    "name": "Fate Weaver",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
   },
   "Fatespinner": {
     "atk": 5,
@@ -11144,6 +12024,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Fiendish Rites": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/425/127279.png",
+    "class": "Warlock",
+    "cost": 3,
+    "desc": "Invoke Galakrond. Give your minions +1 Attack.",
+    "head": "fiendish-rites",
+    "hp": null,
+    "hpwn": 127279,
+    "id": "DRG_250",
+    "name": "Fiendish Rites",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Fierce Monkey": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/416/66/27255.png",
@@ -11269,6 +12165,22 @@
     "name": "Fire Fly",
     "rarity": "Common",
     "set": "Journey to Un'Goro",
+    "subType": "Elemental",
+    "type": "Minion"
+  },
+  "Fire Hawk": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/152/151401.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: Gain +1 Attack for each card in your opponent's hand.",
+    "head": "fire-hawk",
+    "hp": 3,
+    "hpwn": 151401,
+    "id": "DRG_060",
+    "name": "Fire Hawk",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": "Elemental",
     "type": "Minion"
   },
@@ -11736,6 +12648,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Flik Skyshiv": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/119/151342.png",
+    "class": "Rogue",
+    "cost": 6,
+    "desc": "Battlecry: Destroy a minion and all copies of it (wherever they are).",
+    "head": "flik-skyshiv",
+    "hp": 4,
+    "hpwn": 151342,
+    "id": "DRG_037",
+    "name": "Flik Skyshiv",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Floating Watcher": {
     "atk": 4,
     "cdn": "https://media.hearthpwn.com/avatars/414/461/12271.png",
@@ -12168,6 +13096,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Frizz Kindleroost": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/452/151364.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Battlecry: Reduce the Cost of Dragons in your deck by (2).",
+    "head": "frizz-kindleroost",
+    "hp": 4,
+    "hpwn": 151364,
+    "id": "DRG_257",
+    "name": "Frizz Kindleroost",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Frost Elemental": {
     "atk": 5,
     "cdn": "https://media.hearthpwn.com/avatars/411/983/598.png",
@@ -12506,6 +13450,86 @@
     "set": "Goblin vs Gnomes",
     "subType": "Beast",
     "type": "Minion"
+  },
+  "Galakrond, the Nightmare": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/599/127266.png",
+    "class": "Rogue",
+    "cost": 7,
+    "desc": ")",
+    "head": "galakrond-the-nightmare",
+    "hp": 5,
+    "hpwn": 127266,
+    "id": "DRG_610",
+    "name": "Galakrond, the Nightmare",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Hero"
+  },
+  "Galakrond, the Tempest": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/608/151398.png",
+    "class": "Shaman",
+    "cost": 7,
+    "desc": ")",
+    "head": "galakrond-the-tempest",
+    "hp": 5,
+    "hpwn": 151398,
+    "id": "DRG_620",
+    "name": "Galakrond, the Tempest",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Hero"
+  },
+  "Galakrond, the Unbreakable": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/626/151324.png",
+    "class": "Warrior",
+    "cost": 7,
+    "desc": ")",
+    "head": "galakrond-the-unbreakable",
+    "hp": 5,
+    "hpwn": 151324,
+    "id": "DRG_650",
+    "name": "Galakrond, the Unbreakable",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Hero"
+  },
+  "Galakrond, the Unspeakable": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/635/127288.png",
+    "class": "Priest",
+    "cost": 7,
+    "desc": ")",
+    "head": "galakrond-the-unspeakable",
+    "hp": 5,
+    "hpwn": 127288,
+    "id": "DRG_660",
+    "name": "Galakrond, the Unspeakable",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Hero"
+  },
+  "Galakrond, the Wretched": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/590/127283.png",
+    "class": "Warlock",
+    "cost": 7,
+    "desc": ")",
+    "head": "galakrond-the-wretched",
+    "hp": 5,
+    "hpwn": 127283,
+    "id": "DRG_600",
+    "name": "Galakrond, the Wretched",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Hero"
   },
   "Galvanizer": {
     "atk": 1,
@@ -13259,6 +14283,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Goboglide Tech": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/149/151397.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: If you control a Mech, gain +1/+1 and Rush.",
+    "head": "goboglide-tech",
+    "hp": 3,
+    "hpwn": 151397,
+    "id": "DRG_059",
+    "name": "Goboglide Tech",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Golakka Crawler": {
     "atk": 2,
     "cdn": "https://media.hearthpwn.com/avatars/421/784/55453.png",
@@ -13371,6 +14411,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Goru the Mightree": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/554/151377.png",
+    "class": "Druid",
+    "cost": 7,
+    "desc": "Taunt Battlecry: For the rest of the game, your Treants have +1/+1.",
+    "head": "goru-the-mightree",
+    "hp": 10,
+    "hpwn": 151377,
+    "id": "DRG_319",
+    "name": "Goru the Mightree",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Gral, the Shark": {
     "atk": 2,
     "cdn": "https://media.hearthpwn.com/avatars/420/326/90189.png",
@@ -13450,6 +14506,22 @@
     "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Minion"
+  },
+  "Grave Rune": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/500/151417.png",
+    "class": "Priest",
+    "cost": 4,
+    "desc": "Give a minion \"Deathrattle: Summon 2 copies of this.\"",
+    "head": "grave-rune",
+    "hp": null,
+    "hpwn": 151417,
+    "id": "DRG_302",
+    "name": "Grave Rune",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
   },
   "Grave Shambler": {
     "atk": 4,
@@ -13787,6 +14859,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Grizzled Wizard": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/578/151387.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Battlecry: Swap Hero Powers with your opponent until your next turn.",
+    "head": "grizzled-wizard",
+    "hp": 2,
+    "hpwn": 151387,
+    "id": "DRG_401",
+    "name": "Grizzled Wizard",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Grommash Hellscream": {
     "atk": 4,
     "cdn": "https://media.hearthpwn.com/avatars/412/181/643.png",
@@ -13977,6 +15065,22 @@
     "rarity": "Epic",
     "set": "Rastakhan's Rumble",
     "subType": null,
+    "type": "Minion"
+  },
+  "Gyrocopter": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/155/151393.png",
+    "class": "Neutral",
+    "cost": 6,
+    "desc": "Rush Windfury",
+    "head": "gyrocopter",
+    "hp": 5,
+    "hpwn": 151393,
+    "id": "DRG_061",
+    "name": "Gyrocopter",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Mech",
     "type": "Minion"
   },
   "Hack the System": {
@@ -14750,6 +15854,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Hippogryph": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/167/151403.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Rush Taunt",
+    "head": "hippogryph",
+    "hp": 6,
+    "hpwn": 151403,
+    "id": "DRG_065",
+    "name": "Hippogryph",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Beast",
+    "type": "Minion"
+  },
   "Hir'eek, the Bat": {
     "atk": 1,
     "cdn": "https://media.hearthpwn.com/avatars/426/828/90150.png",
@@ -14796,6 +15916,22 @@
     "rarity": "Epic",
     "set": "Saviors of Uldum",
     "subType": null,
+    "type": "Minion"
+  },
+  "Hoard Pillager": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/137/151428.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Battlecry: Equip one of your destroyed weapons.",
+    "head": "hoard-pillager",
+    "hp": 2,
+    "hpwn": 151428,
+    "id": "DRG_055",
+    "name": "Hoard Pillager",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Pirate",
     "type": "Minion"
   },
   "Hoarding Dragon": {
@@ -15069,6 +16205,22 @@
     "set": "Saviors of Uldum",
     "subType": null,
     "type": "Weapon"
+  },
+  "Hot Air Balloon": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/143/151335.png",
+    "class": "Neutral",
+    "cost": 1,
+    "desc": "At the start of your turn, gain +1 Health.",
+    "head": "hot-air-balloon",
+    "hp": 2,
+    "hpwn": 151335,
+    "id": "DRG_057",
+    "name": "Hot Air Balloon",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Mech",
+    "type": "Minion"
   },
   "Hot Spring Guardian": {
     "atk": 2,
@@ -15899,6 +17051,22 @@
     "name": "Into the Fray",
     "rarity": "Rare",
     "set": "Saviors of Uldum",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Invocation of Frost": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/419/151412.png",
+    "class": "Shaman",
+    "cost": 1,
+    "desc": "Freeze an enemy. Invoke Galakrond.",
+    "head": "invocation-of-frost",
+    "hp": null,
+    "hpwn": 151412,
+    "id": "DRG_248",
+    "name": "Invocation of Frost",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -17246,6 +18414,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Kobold Stickyfinger": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/218/151354.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Steal your opponent's weapon.",
+    "head": "kobold-stickyfinger",
+    "hp": 4,
+    "hpwn": 151354,
+    "id": "DRG_082",
+    "name": "Kobold Stickyfinger",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
   "Kodorider": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/422/625/22266.png",
@@ -17308,6 +18492,22 @@
     "rarity": "Legendary",
     "set": "Rastakhan's Rumble",
     "subType": "Beast",
+    "type": "Minion"
+  },
+  "Kronx Dragonhoof": {
+    "atk": 6,
+    "cdn": "https://media.hearthpwn.com/avatars/430/251/151334.png",
+    "class": "Neutral",
+    "cost": 6,
+    "desc": "Battlecry: Draw Galakrond. If you're already Galakrond, unleash a Devastation.",
+    "head": "kronx-dragonhoof",
+    "hp": 6,
+    "hpwn": 151334,
+    "id": "DRG_099",
+    "name": "Kronx Dragonhoof",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
     "type": "Minion"
   },
   "Krul the Unshackled": {
@@ -17515,6 +18715,22 @@
     "name": "Lazul's Scheme",
     "rarity": "Epic",
     "set": "Rise of Shadows",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Learn Draconic": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/569/127286.png",
+    "class": "Mage",
+    "cost": 1,
+    "desc": "Sidequest: Spend 8 Mana on spells. Reward: Summon a 6/6 Dragon.",
+    "head": "learn-draconic",
+    "hp": null,
+    "hpwn": 127286,
+    "id": "DRG_323",
+    "name": "Learn Draconic",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -17886,6 +19102,38 @@
     "subType": null,
     "type": "Spell"
   },
+  "Lightforged Crusader": {
+    "atk": 7,
+    "cdn": "https://media.hearthpwn.com/avatars/430/368/151415.png",
+    "class": "Paladin",
+    "cost": 7,
+    "desc": "Battlecry: If your deck has no Neutral cards, add 5 random Paladin cards to your hand.",
+    "head": "lightforged-crusader",
+    "hp": 7,
+    "hpwn": 151415,
+    "id": "DRG_231",
+    "name": "Lightforged Crusader",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Lightforged Zealot": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/371/151418.png",
+    "class": "Paladin",
+    "cost": 4,
+    "desc": "Battlecry: If your deck has no Neutral cards, equip a 4/2 Truesilver Champion.",
+    "head": "lightforged-zealot",
+    "hp": 2,
+    "hpwn": 151418,
+    "id": "DRG_232",
+    "name": "Lightforged Zealot",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Lightfused Stegodon": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/422/36/55507.png",
@@ -17915,6 +19163,22 @@
     "name": "Lightning Bolt",
     "rarity": "Common",
     "set": "Classic",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Lightning Breath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/341/127263.png",
+    "class": "Shaman",
+    "cost": 3,
+    "desc": "Deal 4 damage to a minion. If you're holding a Dragon, also damage its neighbors.",
+    "head": "lightning-breath",
+    "hp": null,
+    "hpwn": 127263,
+    "id": "DRG_219",
+    "name": "Lightning Breath",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -18061,6 +19325,22 @@
     "set": "Saviors of Uldum",
     "subType": null,
     "type": "Weapon"
+  },
+  "Living Dragonbreath": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/176/151392.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Your minions can't be Frozen.",
+    "head": "living-dragonbreath",
+    "hp": 4,
+    "hpwn": 151392,
+    "id": "DRG_068",
+    "name": "Living Dragonbreath",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Elemental",
+    "type": "Minion"
   },
   "Living Mana": {
     "atk": null,
@@ -18833,6 +20113,22 @@
     "subType": "Dragon",
     "type": "Minion"
   },
+  "Malygos, Aspect of Magic": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/461/127294.png",
+    "class": "Mage",
+    "cost": 5,
+    "desc": "Battlecry: If you're holding a Dragon, Discover an upgraded Mage spell.",
+    "head": "malygos-aspect-of-magic",
+    "hp": 8,
+    "hpwn": 127294,
+    "id": "DRG_270",
+    "name": "Malygos, Aspect of Magic",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Mana Addict": {
     "atk": 1,
     "cdn": "https://media.hearthpwn.com/avatars/423/40/67.png",
@@ -18894,6 +20190,22 @@
     "name": "Mana Geode",
     "rarity": "Epic",
     "set": "Mean Streets of Gadgetzan",
+    "subType": "Elemental",
+    "type": "Minion"
+  },
+  "Mana Giant": {
+    "atk": 8,
+    "cdn": "https://media.hearthpwn.com/avatars/430/284/151419.png",
+    "class": "Mage",
+    "cost": 8,
+    "desc": "Costs (1) less for each card you've played this game that didn't start in your deck.",
+    "head": "mana-giant",
+    "hp": 8,
+    "hpwn": 151419,
+    "id": "DRG_109",
+    "name": "Mana Giant",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
     "subType": "Elemental",
     "type": "Minion"
   },
@@ -19809,6 +21121,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Mindflayer Kaahrj": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/515/151368.png",
+    "class": "Priest",
+    "cost": 3,
+    "desc": "Battlecry: Choose an enemy minion. Deathrattle: Summon a new copy of it.",
+    "head": "mindflayer-kaahrj",
+    "hp": 3,
+    "hpwn": 151368,
+    "id": "DRG_308",
+    "name": "Mindflayer Kaahrj",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Mindgames": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/423/54/301.png",
@@ -20112,6 +21440,22 @@
     "set": "Journey to Un'Goro",
     "subType": null,
     "type": "Weapon"
+  },
+  "Molten Breath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/587/127302.png",
+    "class": "Warrior",
+    "cost": 4,
+    "desc": "Deal 5 damage to a minion. If you're holding a Dragon, gain 5 Armor.",
+    "head": "molten-breath",
+    "hp": null,
+    "hpwn": 127302,
+    "id": "DRG_500",
+    "name": "Molten Breath",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
   },
   "Molten Giant": {
     "atk": 8,
@@ -20625,6 +21969,22 @@
     "subType": "Murloc",
     "type": "Minion"
   },
+  "Murozond the Infinite": {
+    "atk": 8,
+    "cdn": "https://media.hearthpwn.com/avatars/430/233/151382.png",
+    "class": "Priest",
+    "cost": 8,
+    "desc": "Battlecry: Play all cards your opponent played last turn.",
+    "head": "murozond-the-infinite",
+    "hp": 8,
+    "hpwn": 151382,
+    "id": "DRG_090",
+    "name": "Murozond the Infinite",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Museum Curator": {
     "atk": 1,
     "cdn": "https://media.hearthpwn.com/avatars/416/9/27250.png",
@@ -20865,6 +22225,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Necrium Apothecary": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/98/151330.png",
+    "class": "Rogue",
+    "cost": 4,
+    "desc": "Combo: Draw a Deathrattle minion from your deck and gain its Deathrattle.",
+    "head": "necrium-apothecary",
+    "hp": 5,
+    "hpwn": 151330,
+    "id": "DRG_031",
+    "name": "Necrium Apothecary",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Necrium Blade": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/407/312/89872.png",
@@ -21073,6 +22449,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Nether Breath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/299/151328.png",
+    "class": "Warlock",
+    "cost": 2,
+    "desc": "Deal 2 damage. If you're holding a Dragon, deal 4 damage with Lifesteal instead.",
+    "head": "nether-breath",
+    "hp": null,
+    "hpwn": 151328,
+    "id": "DRG_205",
+    "name": "Nether Breath",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Nethersoul Buster": {
     "atk": 1,
     "cdn": "https://media.hearthpwn.com/avatars/407/234/89906.png",
@@ -21249,6 +22641,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Nithogg": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/347/151361.png",
+    "class": "Shaman",
+    "cost": 6,
+    "desc": "Battlecry: Summon two 0/3 Eggs. Next turn they hatch into 4/4 Drakes with Rush.",
+    "head": "nithogg",
+    "hp": 5,
+    "hpwn": 151361,
+    "id": "DRG_224",
+    "name": "Nithogg",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Noble Sacrifice": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/411/761/158.png",
@@ -21358,6 +22766,22 @@
     "name": "Nozdormu",
     "rarity": "Legendary",
     "set": "Classic",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Nozdormu the Timeless": {
+    "atk": 8,
+    "cdn": "https://media.hearthpwn.com/avatars/430/518/127301.png",
+    "class": "Paladin",
+    "cost": 4,
+    "desc": "Battlecry: Set each player to 10 Mana Crystals.",
+    "head": "nozdormu-the-timeless",
+    "hp": 8,
+    "hpwn": 127301,
+    "id": "DRG_309",
+    "name": "Nozdormu the Timeless",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
     "subType": "Dragon",
     "type": "Minion"
   },
@@ -21873,6 +23297,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Parachute Brigand": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/140/151425.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "After you play a Pirate, summon this minion from your hand.",
+    "head": "parachute-brigand",
+    "hp": 2,
+    "hpwn": 151425,
+    "id": "DRG_056",
+    "name": "Parachute Brigand",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
   "Paragon of Light": {
     "atk": 2,
     "cdn": "https://media.hearthpwn.com/avatars/413/405/89433.png",
@@ -22032,6 +23472,22 @@
     "set": "Saviors of Uldum",
     "subType": null,
     "type": "Spell"
+  },
+  "Phase Stalker": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/434/127273.png",
+    "class": "Hunter",
+    "cost": 2,
+    "desc": "After you use your Hero Power, cast a Secret from your deck.",
+    "head": "phase-stalker",
+    "hp": 3,
+    "hpwn": 127273,
+    "id": "DRG_252",
+    "name": "Phase Stalker",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Beast",
+    "type": "Minion"
   },
   "Pick Pocket": {
     "atk": null,
@@ -22350,6 +23806,22 @@
     "name": "Plaguebringer",
     "rarity": "Basic",
     "set": "Basic",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Platebreaker": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/179/151373.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Destroy your opponent's Armor.",
+    "head": "platebreaker",
+    "hp": 5,
+    "hpwn": 151373,
+    "id": "DRG_069",
+    "name": "Platebreaker",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -22801,6 +24273,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Praise Galakrond!": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/95/127280.png",
+    "class": "Rogue",
+    "cost": 1,
+    "desc": "Give a minion +1 Attack. Invoke Galakrond.",
+    "head": "praise-galakrond",
+    "hp": null,
+    "hpwn": 127280,
+    "id": "DRG_030",
+    "name": "Praise Galakrond!",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Predatory Instincts": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/420/98/90207.png",
@@ -22974,6 +24462,22 @@
     "name": "Primordial Drake",
     "rarity": "Epic",
     "set": "Journey to Un'Goro",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Primordial Explorer": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/440/127295.png",
+    "class": "Hunter",
+    "cost": 3,
+    "desc": "Poisonous Battlecry: Discover a Dragon.",
+    "head": "primordial-explorer",
+    "hp": 3,
+    "hpwn": 127295,
+    "id": "DRG_254",
+    "name": "Primordial Explorer",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": "Dragon",
     "type": "Minion"
   },
@@ -23681,6 +25185,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Rain of Fire": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/302/151396.png",
+    "class": "Warlock",
+    "cost": 1,
+    "desc": "Deal 1 damage to all characters.",
+    "head": "rain-of-fire",
+    "hp": null,
+    "hpwn": 151396,
+    "id": "DRG_206",
+    "name": "Rain of Fire",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Rain of Toads": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/420/287/90157.png",
@@ -23744,6 +25264,22 @@
     "set": "Saviors of Uldum",
     "subType": null,
     "type": "Minion"
+  },
+  "Ramming Speed": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/74/151394.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "Force a minion to attack one of its neighbors.",
+    "head": "ramming-speed",
+    "hp": null,
+    "hpwn": 151394,
+    "id": "DRG_022",
+    "name": "Ramming Speed",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
   },
   "Rampage": {
     "atk": null,
@@ -24545,6 +26081,22 @@
     "subType": "Demon",
     "type": "Minion"
   },
+  "Righteous Cause": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/59/151404.png",
+    "class": "Paladin",
+    "cost": 1,
+    "desc": "Sidequest: Summon 5 minions. Reward: Give your minions +1/+1.",
+    "head": "righteous-cause",
+    "hp": null,
+    "hpwn": 151404,
+    "id": "DRG_008",
+    "name": "Righteous Cause",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Righteous Protector": {
     "atk": 1,
     "cdn": "https://media.hearthpwn.com/avatars/414/677/62864.png",
@@ -24592,6 +26144,22 @@
     "set": "Kobolds and Catacombs",
     "subType": null,
     "type": "Minion"
+  },
+  "Ritual Chopper": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/71/151389.png",
+    "class": "Warrior",
+    "cost": 2,
+    "desc": "Battlecry: Invoke Galakrond.",
+    "head": "ritual-chopper",
+    "hp": 2,
+    "hpwn": 151389,
+    "id": "DRG_021",
+    "name": "Ritual Chopper",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Weapon"
   },
   "River Crocolisk": {
     "atk": 2,
@@ -24670,6 +26238,22 @@
     "name": "Roll the Bones",
     "rarity": "Rare",
     "set": "Knights of the Frozen Throne",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Rolling Fireball": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/563/151413.png",
+    "class": "Mage",
+    "cost": 5,
+    "desc": "Deal 8 damage to a minion. Any excess damage continues to the left or right.",
+    "head": "rolling-fireball",
+    "hp": null,
+    "hpwn": 151413,
+    "id": "DRG_321",
+    "name": "Rolling Fireball",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -24993,6 +26577,38 @@
     "subType": "Pirate",
     "type": "Minion"
   },
+  "Sanctuary": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/455/151341.png",
+    "class": "Paladin",
+    "cost": 2,
+    "desc": "Sidequest: Take no damage for a turn. Reward: Summon a 3/6 minion with Taunt.",
+    "head": "sanctuary",
+    "hp": null,
+    "hpwn": 151341,
+    "id": "DRG_258",
+    "name": "Sanctuary",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Sand Breath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/377/127291.png",
+    "class": "Paladin",
+    "cost": 1,
+    "desc": "Give a minion +1/+2. Give it Divine Shield if you're holding a Dragon.",
+    "head": "sand-breath",
+    "hp": null,
+    "hpwn": 127291,
+    "id": "DRG_233",
+    "name": "Sand Breath",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Sand Drudge": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/420/62/90241.png",
@@ -25153,6 +26769,22 @@
     "subType": "Beast",
     "type": "Minion"
   },
+  "Sathrovarr": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/581/127287.png",
+    "class": "Neutral",
+    "cost": 9,
+    "desc": "Battlecry: Choose a friendly minion. Add a copy of it to your hand, deck, and battlefield.",
+    "head": "sathrovarr",
+    "hp": 5,
+    "hpwn": 127287,
+    "id": "DRG_402",
+    "name": "Sathrovarr",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Demon",
+    "type": "Minion"
+  },
   "Savage Combatant": {
     "atk": 5,
     "cdn": "https://media.hearthpwn.com/avatars/422/541/22293.png",
@@ -25247,6 +26879,22 @@
     "rarity": "Epic",
     "set": "Whispers of the Old Gods",
     "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Scalerider": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/215/151405.png",
+    "class": "Neutral",
+    "cost": 3,
+    "desc": "Battlecry: If you're holding a Dragon, deal 2 damage.",
+    "head": "scalerider",
+    "hp": 3,
+    "hpwn": 151405,
+    "id": "DRG_081",
+    "name": "Scalerider",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
     "type": "Minion"
   },
   "Scaleworm": {
@@ -25359,6 +27007,22 @@
     "rarity": "Common",
     "set": "Classic",
     "subType": "Beast",
+    "type": "Minion"
+  },
+  "Scion of Ruin": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/65/151347.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "Rush. Battlecry: If you've Invoked twice, summon 2 copies of this.",
+    "head": "scion-of-ruin",
+    "hp": 2,
+    "hpwn": 151347,
+    "id": "DRG_019",
+    "name": "Scion of Ruin",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
     "type": "Minion"
   },
   "Scorch": {
@@ -25492,6 +27156,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Seal Fate": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/416/127267.png",
+    "class": "Rogue",
+    "cost": 3,
+    "desc": "Deal 3 damage to an undamaged character. Invoke Galakrond.",
+    "head": "seal-fate",
+    "hp": null,
+    "hpwn": 127267,
+    "id": "DRG_247",
+    "name": "Seal Fate",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Seal of Champions": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/406/859/22373.png",
@@ -25587,6 +27267,22 @@
     "set": "Classic",
     "subType": null,
     "type": "Minion"
+  },
+  "Secure the Deck": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/548/151323.png",
+    "class": "Druid",
+    "cost": 1,
+    "desc": "Sidequest: Attack twice with your hero. Reward: Add 3 'Claw' spells to your hand.",
+    "head": "secure-the-deck",
+    "hp": null,
+    "hpwn": 151323,
+    "id": "DRG_317",
+    "name": "Secure the Deck",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
   },
   "Security Rover": {
     "atk": 2,
@@ -26343,6 +28039,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Shield of Galakrond": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/410/127268.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Taunt Battlecry: Invoke Galakrond.",
+    "head": "shield-of-galakrond",
+    "hp": 5,
+    "hpwn": 127268,
+    "id": "DRG_242",
+    "name": "Shield of Galakrond",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Shieldbearer": {
     "atk": 0,
     "cdn": "https://media.hearthpwn.com/avatars/412/157/24.png",
@@ -26644,6 +28356,38 @@
     "name": "Shroom Brewer",
     "rarity": "Common",
     "set": "Kobolds and Catacombs",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Shrubadier": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/536/151427.png",
+    "class": "Druid",
+    "cost": 2,
+    "desc": "Battlecry: Summon a 2/2 Treant.",
+    "head": "shrubadier",
+    "hp": 1,
+    "hpwn": 151427,
+    "id": "DRG_312",
+    "name": "Shrubadier",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Shu'ma": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/236/151320.png",
+    "class": "Neutral",
+    "cost": 7,
+    "desc": "At the end of your turn, fill your board with 1/1 Tentacles.",
+    "head": "shuma",
+    "hp": 7,
+    "hpwn": 151320,
+    "id": "DRG_091",
+    "name": "Shu'ma",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -27127,6 +28871,54 @@
     "subType": null,
     "type": "Weapon"
   },
+  "Sky Claw": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/356/151399.png",
+    "class": "Paladin",
+    "cost": 3,
+    "desc": "Your other Mechs have +1 Attack. Battlecry: Summon two 1/1 Microcopters.",
+    "head": "sky-claw",
+    "hp": 2,
+    "hpwn": 151399,
+    "id": "DRG_225",
+    "name": "Sky Claw",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Mech",
+    "type": "Minion"
+  },
+  "Sky Raider": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/80/151385.png",
+    "class": "Warrior",
+    "cost": 1,
+    "desc": "Battlecry: Add a random Pirate to your hand.",
+    "head": "sky-raider",
+    "hp": 2,
+    "hpwn": 151385,
+    "id": "DRG_024",
+    "name": "Sky Raider",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Pirate",
+    "type": "Minion"
+  },
+  "Skybarge": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/77/151430.png",
+    "class": "Warrior",
+    "cost": 3,
+    "desc": "After you summon a Pirate, deal 2 damage to a random enemy.",
+    "head": "skybarge",
+    "hp": 5,
+    "hpwn": 151430,
+    "id": "DRG_023",
+    "name": "Skybarge",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": "Mech",
+    "type": "Minion"
+  },
   "Skycap'n Kragg": {
     "atk": 4,
     "cdn": "https://media.hearthpwn.com/avatars/422/585/22260.png",
@@ -27141,6 +28933,22 @@
     "rarity": "Legendary",
     "set": "The Grand Tournament",
     "subType": "Pirate",
+    "type": "Minion"
+  },
+  "Skyfin": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/191/151388.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: If you're holding a Dragon, summon 2 random Murlocs.",
+    "head": "skyfin",
+    "hp": 3,
+    "hpwn": 151388,
+    "id": "DRG_072",
+    "name": "Skyfin",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": "Murloc",
     "type": "Minion"
   },
   "Slam": {
@@ -28439,6 +30247,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Squallhunter": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/320/151383.png",
+    "class": "Shaman",
+    "cost": 4,
+    "desc": "Spell Damage +2 Overload: (2)",
+    "head": "squallhunter",
+    "hp": 7,
+    "hpwn": 151383,
+    "id": "DRG_211",
+    "name": "Squallhunter",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Squashling": {
     "atk": 2,
     "cdn": "https://media.hearthpwn.com/avatars/413/477/89435.png",
@@ -28887,6 +30711,22 @@
     "subType": "Elemental",
     "type": "Minion"
   },
+  "Storm's Wrath": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/326/151407.png",
+    "class": "Shaman",
+    "cost": 1,
+    "desc": "Give your minions +1/+1. Overload: (1)",
+    "head": "storms-wrath",
+    "hp": null,
+    "hpwn": 151407,
+    "id": "DRG_215",
+    "name": "Storm's Wrath",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Stormcrack": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/423/658/35227.png",
@@ -28916,6 +30756,22 @@
     "name": "Stormforged Axe",
     "rarity": "Common",
     "set": "Classic",
+    "subType": null,
+    "type": "Weapon"
+  },
+  "Stormhammer": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/56/151367.png",
+    "class": "Hunter",
+    "cost": 3,
+    "desc": "Doesn't lose Durability while you control a Dragon.",
+    "head": "stormhammer",
+    "hp": 2,
+    "hpwn": 151367,
+    "id": "DRG_007",
+    "name": "Stormhammer",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Weapon"
   },
@@ -28983,6 +30839,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Stowaway": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/104/151363.png",
+    "class": "Rogue",
+    "cost": 5,
+    "desc": "Battlecry: If there are cards in your deck that didn't start there, draw 2 of them.",
+    "head": "stowaway",
+    "hp": 4,
+    "hpwn": 151363,
+    "id": "DRG_034",
+    "name": "Stowaway",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Stranglethorn Tiger": {
     "atk": 5,
     "cdn": "https://media.hearthpwn.com/avatars/411/632/338.png",
@@ -29030,6 +30902,22 @@
     "set": "Mean Streets of Gadgetzan",
     "subType": null,
     "type": "Minion"
+  },
+  "Strength in Numbers": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/128/151410.png",
+    "class": "Druid",
+    "cost": 1,
+    "desc": "Sidequest: Spend 10 Mana on minions. Reward: Summon a minion from your deck.",
+    "head": "strength-in-numbers",
+    "hp": null,
+    "hpwn": 151410,
+    "id": "DRG_051",
+    "name": "Strength in Numbers",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
   },
   "Strongshell Scavenger": {
     "atk": 2,
@@ -29318,6 +31206,22 @@
     "set": "Saviors of Uldum",
     "subType": "Quest",
     "type": "Spell"
+  },
+  "Surging Tempest": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/329/151409.png",
+    "class": "Shaman",
+    "cost": 1,
+    "desc": "Has +1 Attack while you have Overloaded Mana Crystals.",
+    "head": "surging-tempest",
+    "hp": 3,
+    "hpwn": 151409,
+    "id": "DRG_216",
+    "name": "Surging Tempest",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Elemental",
+    "type": "Minion"
   },
   "Surrender to Madness": {
     "atk": null,
@@ -29639,6 +31543,22 @@
     "subType": "Mech",
     "type": "Minion"
   },
+  "Tasty Flyfish": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/122/151390.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Deathrattle: Give a Dragon in your hand +2/+2.",
+    "head": "tasty-flyfish",
+    "hp": 2,
+    "hpwn": 151390,
+    "id": "DRG_049",
+    "name": "Tasty Flyfish",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Murloc",
+    "type": "Minion"
+  },
   "Tauren Warrior": {
     "atk": 2,
     "cdn": "https://media.hearthpwn.com/avatars/412/127/477.png",
@@ -29732,6 +31652,22 @@
     "name": "Tentacle of N'Zoth",
     "rarity": "Common",
     "set": "Whispers of the Old Gods",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Tentacled Menace": {
+    "atk": 6,
+    "cdn": "https://media.hearthpwn.com/avatars/430/221/151366.png",
+    "class": "Neutral",
+    "cost": 5,
+    "desc": "Battlecry: Each player draws a card. Swap their Costs.",
+    "head": "tentacled-menace",
+    "hp": 5,
+    "hpwn": 151366,
+    "id": "DRG_084",
+    "name": "Tentacled Menace",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -30330,6 +32266,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Time Rip": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/413/127299.png",
+    "class": "Priest",
+    "cost": 5,
+    "desc": "Destroy a minion. Invoke Galakrond.",
+    "head": "time-rip",
+    "hp": null,
+    "hpwn": 127299,
+    "id": "DRG_246",
+    "name": "Time Rip",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Tinker's Sharpsword Oil": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/414/194/12276.png",
@@ -30858,6 +32810,22 @@
     "subType": null,
     "type": "Spell"
   },
+  "Toxic Reinforcements": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/443/127298.png",
+    "class": "Hunter",
+    "cost": 1,
+    "desc": "Sidequest: Use your Hero Power three times. Reward: Summon three 1/1 Leper Gnomes.",
+    "head": "toxic-reinforcements",
+    "hp": null,
+    "hpwn": 127298,
+    "id": "DRG_255",
+    "name": "Toxic Reinforcements",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
+  },
   "Toxic Sewer Ooze": {
     "atk": 4,
     "cdn": "https://media.hearthpwn.com/avatars/422/825/49701.png",
@@ -30938,6 +32906,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Transmogrifier": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/242/151351.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Whenever you draw a card, transform it into a random Legendary minion.",
+    "head": "transmogrifier",
+    "hp": 3,
+    "hpwn": 151351,
+    "id": "DRG_092",
+    "name": "Transmogrifier",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Traveling Healer": {
     "atk": 3,
     "cdn": "https://www.hearthstonetopdecks.com/wp-content/uploads/2019/03/Travelling-Healer-300x418.png",
@@ -30983,6 +32967,22 @@
     "name": "Tree of Life",
     "rarity": "Epic",
     "set": "Goblin vs Gnomes",
+    "subType": null,
+    "type": "Spell"
+  },
+  "Treenforcements": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/524/151376.png",
+    "class": "Druid",
+    "cost": 1,
+    "desc": "Choose One - Give a minion +2 Health and Taunt; or Summon a 2/2 Treant.",
+    "head": "treenforcements",
+    "hp": null,
+    "hpwn": 151376,
+    "id": "DRG_311",
+    "name": "Treenforcements",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Spell"
   },
@@ -31047,6 +33047,22 @@
     "name": "Troggzor the Earthinator",
     "rarity": "Legendary",
     "set": "Goblin vs Gnomes",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Troll Batrider": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/173/151406.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Battlecry: Deal 3 damage to a random enemy minion.",
+    "head": "troll-batrider",
+    "hp": 3,
+    "hpwn": 151406,
+    "id": "DRG_067",
+    "name": "Troll Batrider",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -31354,6 +33370,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Twin Tyrant": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/323/127275.png",
+    "class": "Neutral",
+    "cost": 8,
+    "desc": "Battlecry: Deal 4 damage to two random enemy minions.",
+    "head": "twin-tyrant",
+    "hp": 10,
+    "hpwn": 127275,
+    "id": "DRG_213",
+    "name": "Twin Tyrant",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Twisted Worgen": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/418/592/35223.png",
@@ -31432,6 +33464,22 @@
     "rarity": "Common",
     "set": "Journey to Un'Goro",
     "subType": "Beast",
+    "type": "Minion"
+  },
+  "Umbral Skulker": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/89/127277.png",
+    "class": "Rogue",
+    "cost": 4,
+    "desc": "Battlecry: If you've Invoked twice, add 3 Coins to your hand.",
+    "head": "umbral-skulker",
+    "hp": 3,
+    "hpwn": 127277,
+    "id": "DRG_027",
+    "name": "Umbral Skulker",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
     "type": "Minion"
   },
   "Unbound Elemental": {
@@ -31962,6 +34010,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Utgarde Grapplesniper": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/206/151400.png",
+    "class": "Neutral",
+    "cost": 6,
+    "desc": "Battlecry: Both players draw a card. If it's a Dragon, summon it.",
+    "head": "utgarde-grapplesniper",
+    "hp": 5,
+    "hpwn": 151400,
+    "id": "DRG_077",
+    "name": "Utgarde Grapplesniper",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Uther of the Ebon Blade": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/423/182/62906.png",
@@ -32010,6 +34074,22 @@
     "name": "Val'kyr Soulclaimer",
     "rarity": "Rare",
     "set": "Knights of the Frozen Throne",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Valdris Felgorge": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/311/151344.png",
+    "class": "Warlock",
+    "cost": 7,
+    "desc": "Battlecry: Increase your maximum hand size to 12. Draw 4 cards.",
+    "head": "valdris-felgorge",
+    "hp": 4,
+    "hpwn": 151344,
+    "id": "DRG_208",
+    "name": "Valdris Felgorge",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -32094,6 +34174,22 @@
     "name": "Varian Wrynn",
     "rarity": "Legendary",
     "set": "The Grand Tournament",
+    "subType": null,
+    "type": "Minion"
+  },
+  "Veiled Worshipper": {
+    "atk": 5,
+    "cdn": "https://media.hearthpwn.com/avatars/430/293/127276.png",
+    "class": "Warlock",
+    "cost": 4,
+    "desc": "Battlecry: If you've Invoked twice, draw 3 cards.",
+    "head": "veiled-worshipper",
+    "hp": 4,
+    "hpwn": 127276,
+    "id": "DRG_203",
+    "name": "Veiled Worshipper",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
     "subType": null,
     "type": "Minion"
   },
@@ -32191,6 +34287,22 @@
     "rarity": "Common",
     "set": "Classic",
     "subType": null,
+    "type": "Minion"
+  },
+  "Veranus": {
+    "atk": 7,
+    "cdn": "https://media.hearthpwn.com/avatars/430/245/151332.png",
+    "class": "Hunter",
+    "cost": 6,
+    "desc": "Battlecry: Change the Health of all enemy minions to 1.",
+    "head": "veranus",
+    "hp": 6,
+    "hpwn": 151332,
+    "id": "DRG_095",
+    "name": "Veranus",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
     "type": "Minion"
   },
   "Verdant Longneck": {
@@ -32431,6 +34543,22 @@
     "rarity": "Common",
     "set": "Rise of Shadows",
     "subType": null,
+    "type": "Minion"
+  },
+  "Violet Spellwing": {
+    "atk": 1,
+    "cdn": "https://media.hearthpwn.com/avatars/430/281/151421.png",
+    "class": "Mage",
+    "cost": 1,
+    "desc": "Deathrattle: Add an 'Arcane Missiles' spell to your hand.",
+    "head": "violet-spellwing",
+    "hp": 1,
+    "hpwn": 151421,
+    "id": "DRG_107",
+    "name": "Violet Spellwing",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": "Elemental",
     "type": "Minion"
   },
   "Violet Teacher": {
@@ -33217,6 +35345,22 @@
     "subType": "Elemental",
     "type": "Minion"
   },
+  "Waxadred": {
+    "atk": 7,
+    "cdn": "https://media.hearthpwn.com/avatars/430/113/127292.png",
+    "class": "Rogue",
+    "cost": 5,
+    "desc": "Deathrattle: Shuffle a Candle into your deck that resummons Waxadred when drawn.",
+    "head": "waxadred",
+    "hp": 5,
+    "hpwn": 127292,
+    "id": "DRG_036",
+    "name": "Waxadred",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
   "Weaponized Pi\u00f1ata": {
     "atk": 4,
     "cdn": "https://media.hearthpwn.com/avatars/426/276/89824.png",
@@ -33408,6 +35552,22 @@
     "set": "Rise of Shadows",
     "subType": "Elemental",
     "type": "Minion"
+  },
+  "Whispers of EVIL": {
+    "atk": null,
+    "cdn": "https://media.hearthpwn.com/avatars/430/497/151426.png",
+    "class": "Priest",
+    "cost": 0,
+    "desc": "Add a Lackey to your hand.",
+    "head": "whispers-of-evil",
+    "hp": null,
+    "hpwn": 151426,
+    "id": "DRG_301",
+    "name": "Whispers of EVIL",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Spell"
   },
   "White Eyes": {
     "atk": 5,
@@ -33664,6 +35824,22 @@
     "set": "The Witchwood",
     "subType": null,
     "type": "Spell"
+  },
+  "Wing Commander": {
+    "atk": 2,
+    "cdn": "https://media.hearthpwn.com/avatars/430/146/151411.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Has +2 Attack for each Dragon in your hand.",
+    "head": "wing-commander",
+    "hp": 5,
+    "hpwn": 151411,
+    "id": "DRG_058",
+    "name": "Wing Commander",
+    "rarity": "Common",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
   },
   "Wisp": {
     "atk": 1,
@@ -34113,6 +36289,22 @@
     "subType": null,
     "type": "Minion"
   },
+  "Wyrmrest Purifier": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/158/151374.png",
+    "class": "Neutral",
+    "cost": 2,
+    "desc": "Battlecry: Transform all Neutral cards in your deck into random cards from your class.",
+    "head": "wyrmrest-purifier",
+    "hp": 2,
+    "hpwn": 151374,
+    "id": "DRG_062",
+    "name": "Wyrmrest Purifier",
+    "rarity": "Epic",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Xaril, Poisoned Mind": {
     "atk": 3,
     "cdn": "https://media.hearthpwn.com/avatars/423/588/33139.png",
@@ -34222,6 +36414,22 @@
     "name": "Ysera",
     "rarity": "Legendary",
     "set": "Classic",
+    "subType": "Dragon",
+    "type": "Minion"
+  },
+  "Ysera, Unleashed": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/557/127264.png",
+    "class": "Druid",
+    "cost": 9,
+    "desc": "Battlecry: Shuffle 7 Dream Portals into your deck. When drawn, summon a random Dragon.",
+    "head": "ysera-unleashed",
+    "hp": 12,
+    "hpwn": 127264,
+    "id": "DRG_320",
+    "name": "Ysera, Unleashed",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
     "subType": "Dragon",
     "type": "Minion"
   },
@@ -34417,6 +36625,22 @@
     "subType": "Mech",
     "type": "Minion"
   },
+  "Zul'Drak Ritualist": {
+    "atk": 3,
+    "cdn": "https://media.hearthpwn.com/avatars/430/164/151456.png",
+    "class": "Neutral",
+    "cost": 4,
+    "desc": "Taunt Battlecry: Summon three random 1-Cost minions for your opponent.",
+    "head": "zuldrak-ritualist",
+    "hp": 9,
+    "hpwn": 151340,
+    "id": "DRG_064",
+    "name": "Zul'Drak Ritualist",
+    "rarity": "Rare",
+    "set": "Descent of Dragons",
+    "subType": null,
+    "type": "Minion"
+  },
   "Zul'jin": {
     "atk": null,
     "cdn": "https://media.hearthpwn.com/avatars/420/14/90248.png",
@@ -34435,5 +36659,21 @@
     "set": "Rastakhan's Rumble",
     "subType": null,
     "type": "Hero"
+  },
+  "Zzeraku the Warped": {
+    "atk": 4,
+    "cdn": "https://media.hearthpwn.com/avatars/430/314/151357.png",
+    "class": "Warlock",
+    "cost": 8,
+    "desc": "Whenever your hero takes damage, summon a 6/6 Nether Drake.",
+    "head": "zzeraku-the-warped",
+    "hp": 12,
+    "hpwn": 151357,
+    "id": "DRG_209",
+    "name": "Zzeraku the Warped",
+    "rarity": "Legendary",
+    "set": "Descent of Dragons",
+    "subType": "Dragon",
+    "type": "Minion"
   }
 }

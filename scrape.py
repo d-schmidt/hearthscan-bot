@@ -47,7 +47,8 @@ jsonToCCSet = {
     'BOOMSDAY' : '18',
     'TROLL' : '19',
     'DALARAN' : '20',
-    'ULDUM' : '21'
+    'ULDUM' : '21',
+    'DRAGONS' : '22'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -69,7 +70,8 @@ setids = {
     '18' : 113,
     '19' : 114,
     '20' : 115,
-    '21' : 116
+    '21' : 116,
+    '22' : 1200
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -560,16 +562,22 @@ if __name__ == "__main__":
             level=log.DEBUG)
 
     if len(sys.argv) > 1:
+        result = ""
         if 'hearthstonetopdecks' in sys.argv[1]:
             with requests.Session() as session:
                 if 'cards' in sys.argv[1]:
                     urls = [sys.argv[1]]
                 else:
                     urls = parseHTDPage(sys.argv[1], session)
-                print("".join(formatSingle(*parseHTD(url, session)) for url in urls))
+                result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
 
         else:
-            print(parseMultiple(sys.argv[1:]))
+            result = parseMultiple(sys.argv[1:])
+        if result:
+            print(result)
+            resultFile = "result-{}.log".format(int(time.time()))
+            with open(resultFile, "w", newline="\n", encoding='utf8') as f:
+                f.write(result)
 
     else:
         main()
