@@ -13728,7 +13728,7 @@
     "cdn": "https://media.hearthpwn.com/avatars/430/599/127266.png",
     "class": "Rogue",
     "cost": 7,
-    "desc": ")",
+    "desc": "Battlecry: Draw 1 card. It costs (0). (Invoke twice to upgrade.)",
     "extDesc": [
       "Galakrond's Guile (2): Hero Power Add a Lackey to your hand."
     ],
@@ -13747,7 +13747,7 @@
     "cdn": "https://media.hearthpwn.com/avatars/430/608/151398.png",
     "class": "Shaman",
     "cost": 7,
-    "desc": ")",
+    "desc": "Battlecry: Summon two 2/2 Storms with Rush. (Invoke twice to upgrade.)",
     "extDesc": [
       "Galakrond's Fury (2): Hero Power Summon a 2/1 Elemental with Rush."
     ],
@@ -13766,7 +13766,7 @@
     "cdn": "https://media.hearthpwn.com/avatars/430/626/151324.png",
     "class": "Warrior",
     "cost": 7,
-    "desc": ")",
+    "desc": "Battlecry: Draw 1 minion. Give it +4/+4. (Invoke twice to upgrade.)",
     "extDesc": [
       "Galakrond's Might (2): Hero Power Give your hero +3 Attack this turn."
     ],
@@ -13785,7 +13785,7 @@
     "cdn": "https://media.hearthpwn.com/avatars/430/635/127288.png",
     "class": "Priest",
     "cost": 7,
-    "desc": ")",
+    "desc": "Battlecry: Destroy 1 random enemy minion. (Invoke twice to upgrade.)",
     "extDesc": [
       "Galakrond's Wit (2): Hero Power Add a random Priest minion to your hand."
     ],
@@ -13804,7 +13804,7 @@
     "cdn": "https://media.hearthpwn.com/avatars/430/590/127283.png",
     "class": "Warlock",
     "cost": 7,
-    "desc": ")",
+    "desc": "Battlecry: Summon 1 random Demon. (Invoke twice to upgrade.)",
     "extDesc": [
       "Galakrond's Malice (2): Hero Power Summon two 1/1 Imps."
     ],
