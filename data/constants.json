@@ -20,7 +20,8 @@
         "19" : {"name" : "Rastakhan's Rumble", "code" : "RR", "std" : true},
         "20" : {"name" : "Rise of Shadows", "code" : "RoS", "std" : true, "unreleased" : false},
         "21" : {"name" : "Saviors of Uldum", "code" : "SoU", "std" : true, "unreleased" : false},
-        "22" : {"name" : "Descent of Dragons", "code" : "DoD", "std" : true, "unreleased" : false}
+        "22" : {"name" : "Descent of Dragons", "code" : "DoD", "std" : true, "unreleased" : false},
+        "23" : {"name" : "Galakrond's Awakening", "code" : "GA", "std" : true, "unreleased" : false}
     },
 
     "specials" : {
@@ -32,7 +33,7 @@
         "toxins" : ["bloodthistletoxin", "briarthorntoxin", "fadeleaftoxin", "firebloomtoxin", "kingsbloodtoxin"],
         "Elemental Invocations" : ["Invocation of Earth", "Invocation of Water", "Invocation of Fire", "Invocation of Air"],
         "fantastic treasures" : ["Tolin's Goblet", "Zarog's Crown", "Wondrous Wand", "Golden Kobold"],
-        "Lackeys": ["Ethereal Lackey", "Faceless Lackey", "Goblin Lackey", "Witchy Lackey", "Kobold Lackey", "Titanic Lackey"]
+        "Lackeys": ["Ethereal Lackey", "Faceless Lackey", "Goblin Lackey", "Witchy Lackey", "Kobold Lackey", "Titanic Lackey", "Draconic Lackey"]
     },
 
     "alternative_names" : {

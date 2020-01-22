@@ -528,5 +528,15 @@
     "Anraphet's Core": {},
     "Heart of Vir'naal": {},
     "Ancient Blades": {},
-    "Obelisk's Eye": {}
+    "Obelisk's Eye": {},
+
+    "Draconic Lackey": {},
+
+    "Ice Shard": {
+        "hpwn": 184979
+    },
+    "Sharkbait": {
+        "hpwn": 184986,
+        "id": "YOD_038t"
+    }
 }
