@@ -200,7 +200,10 @@ def loadJsonCards():
 
         text = card.get('text')
         # jade golem cards have two texts
-        text = fixText(card.get('collectionText', text))
+        if "Galakrond, the " == card['name'][:15] and card.get('collectionText'):
+            text = fixText(text + "Invoke twice to upgrade." + card.get('collectionText'))
+        else:
+            text = fixText(card.get('collectionText', text))
 
         rarity = card.get('rarity', 'Token')
         rarity = 'Basic' if rarity == 'FREE' else camelCase(rarity)
@@ -528,7 +531,13 @@ def parseHTD(url, requests=requests):
     cardtype = data.get('Type:', 'Minion')
     atk = data.get('Attack:')
     hp = data.get('Health:', data.get('Durability:'))
+    cardset = data.get('Set:')
     rarity = data.get('Rarity:')
+    if rarity == 'Free':
+        if cardset == 'Basic':
+            rarity = 'Basic'
+        else:
+            rarity = 'Token'
 
     return name, {
         "atk": int(atk) if atk and cardtype in ['Weapon', 'Minion'] else None,
@@ -540,8 +549,8 @@ def parseHTD(url, requests=requests):
         "hp": int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None,
         "hpwn": 12288,
         "name": name,
-        "rarity": 'Token' if rarity == 'Free' else rarity,
-        "set": data.get('Set:'),
+        "rarity": rarity,
+        "set": cardset,
         "subType": data.get('Race:'),
         "type": cardtype
     }
@@ -580,6 +589,8 @@ if __name__ == "__main__":
             resultFile = "result-{}.log".format(int(time.time()))
             with open(resultFile, "w", newline="\n", encoding='utf8') as f:
                 f.write(result)
+        else:
+            print("nothing found: ", sys.argv[1])
 
     else:
         main()
