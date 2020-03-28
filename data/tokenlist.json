@@ -521,7 +521,9 @@
     "Highkeeper Ra": {},
     "Titanic Lackey": {},
 
-    "Ramkahen Roar": {},
+    "Pharaoh's Warmask": {
+        "hpwn": 90818
+    },
     "Ossirian Tear": {},
     "Tome of Origination": {},
     "Ascendant Scroll": {},
@@ -539,5 +541,17 @@
     "Sharkbait": {
         "hpwn": 184986,
         "id": "YOD_038t"
-    }
+    },
+
+
+    "Ashes of Al'ar": {},
+    "Akama Prime": {},
+    "Kanrethad Prime": {},
+    "Zixor Prime": {},
+    "Reliquary Prime": {},
+    "Msshi'fn Prime": {},
+    "Kargath Prime": {},
+    "Vashj Prime": {},
+    "Solarian Prime": {},
+    "Murgurgle Prime": {}
 }
