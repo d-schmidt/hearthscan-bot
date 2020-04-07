@@ -15,15 +15,15 @@
         "14" : {"name" : "Hall of Fame", "code" : "HOF", "std" : false},
         "15" : {"name" : "Knights of the Frozen Throne", "code" : "KFT", "std" : false},
         "16" : {"name" : "Kobolds and Catacombs", "code" : "KnC", "std" : false},
-        "17" : {"name" : "The Witchwood", "code" : "WW", "std" : true},
-        "18" : {"name" : "The Boomsday Project", "code" : "TBP", "std" : true},
-        "19" : {"name" : "Rastakhan's Rumble", "code" : "RR", "std" : true},
-        "20" : {"name" : "Rise of Shadows", "code" : "RoS", "std" : true, "unreleased" : false},
-        "21" : {"name" : "Saviors of Uldum", "code" : "SoU", "std" : true, "unreleased" : false},
-        "22" : {"name" : "Descent of Dragons", "code" : "DoD", "std" : true, "unreleased" : false},
-        "23" : {"name" : "Galakrond's Awakening", "code" : "GA", "std" : true, "unreleased" : false},
-        "24" : {"name" : "Demon Hunter Initiate", "code" : "DHI", "std" : false, "unreleased" : true},
-        "25" : {"name" : "Ashes of Outland", "code" : "AO", "std" : false, "unreleased" : true}
+        "17" : {"name" : "The Witchwood", "code" : "WW", "std" : false},
+        "18" : {"name" : "The Boomsday Project", "code" : "TBP", "std" : false},
+        "19" : {"name" : "Rastakhan's Rumble", "code" : "RR", "std" : false},
+        "20" : {"name" : "Rise of Shadows", "code" : "RoS", "std" : true},
+        "21" : {"name" : "Saviors of Uldum", "code" : "SoU", "std" : true},
+        "22" : {"name" : "Descent of Dragons", "code" : "DoD", "std" : true},
+        "23" : {"name" : "Galakrond's Awakening", "code" : "GA", "std" : true},
+        "24" : {"name" : "Demon Hunter Initiate", "code" : "DHI", "std" : true},
+        "25" : {"name" : "Ashes of Outland", "code" : "AO", "std" : true, "unreleased" : false}
     },
 
     "specials" : {

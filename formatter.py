@@ -26,10 +26,8 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "To reduce duplicates, your cards are here:\n\n")
 
 # Standard legal icon
-# 2019 dragon because dragon
-STD_ICON = '\U0001F409 '
-# 2019 dragon because dragon
-NEXT_STD_ICON = '\U0001F409 '
+# 2020 fire because phoenix
+STD_ICON = '\U0001F525 '
 # unreleased sleep
 NEXT_STD_ICON = '\U0001F4A4 '
 
