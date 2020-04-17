@@ -1,17 +1,2 @@
 {
-    "Hench-Clan Squire": {
-        "atk": 1,
-        "cdn": "https://hs-card-images.hearthpwn.com/enUS/DAL_743t.png",
-        "class": "Neutral",
-        "cost": 1,
-        "desc": null,
-        "head": "hench-clan-squire",
-        "hp": 1,
-        "hpwn": 12288,
-        "name": "Hench-Clan Squire",
-        "rarity": "Token",
-        "set": "Rise of Shadows",
-        "subType": "Murloc",
-        "type": "Minion"
-    }
 }
