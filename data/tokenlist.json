@@ -511,6 +511,9 @@
         "hpwn": 89894
     },
     "Thori'dal, the Stars' Fury": {},
+    "Hench-Clan Squire": {
+        "hpwn": 91033
+    },
 
     "Ethereal Lackey": {},
     "Faceless Lackey": {},
@@ -546,7 +549,9 @@
 
     "Ashes of Al'ar": {},
     "Akama Prime": {},
-    "Kanrethad Prime": {},
+    "Kanrethad Prime": {
+        "id": "BT_309t"
+    },
     "Zixor Prime": {},
     "Reliquary Prime": {},
     "Msshi'fn Prime": {},
