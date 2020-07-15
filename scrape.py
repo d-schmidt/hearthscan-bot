@@ -138,7 +138,7 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
                 image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
             # /cards/31128-annoy-o-tron-fanclub
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
-            return int(hpid), image.replace('http://', 'https://').lower()
+            return int(hpid), image.replace('http://', 'https://')
 
     log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn '%s' '%s'", set, name)
     raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
@@ -217,11 +217,15 @@ def loadJsonCards():
             subtype = 'Quest'
 
         clazz = camelCase(card.get('cardClass', 'Neutral'))
+        clazz = cc.classes.get(clazz, clazz)
 
         if 'multiClassGroup' in card and 'classes' in card:
             multiClass = multiClassGroups[card['multiClassGroup']]
             classes = ''.join(c[:1] for c in card['classes'])
             clazz = '{} ({})'.format(multiClass, classes)
+
+        if 'multiClassGroup' not in card and 'classes' in card:
+            clazz = '+'.join(cc.classes.get(camelCase(c), camelCase(c)) for c in card['classes'])
 
         cardSet = card.get('set')
         if not cardSet:
@@ -363,7 +367,7 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                 if not image:
                     image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
 
-                card['cdn'] = image.replace('http://', 'https://').lower()
+                card['cdn'] = image.replace('http://', 'https://')
                 card['hpwn'] = ids['hpwn']
                 card['head'] = getHearthHeadId(card['name'])
 
@@ -465,6 +469,7 @@ def parseSingleThrowing(hpid):
     hp = int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None
     clazz = getFirst(row.xpath('./td[@class="col-class"]//text()'))
     clazz = clazz.strip() if clazz else 'Neutral'
+    clazz = cc.classes.get(clazz, clazz) # TODO multi classes
 
     return name, {
         "atk": atk,
@@ -543,10 +548,14 @@ def parseHTD(url, requests=requests):
         else:
             rarity = 'Token'
 
+    clazz = cc.classes.get(data.get('Class:'), data.get('Class:'))
+    if not clazz:
+        clazz = '+'.join(cc.classes.get(c, c) for c in data.get('Classes:').split(','))
+
     return name, {
         "atk": int(atk) if atk and cardtype in ['Weapon', 'Minion'] else None,
         "cdn": html.xpath('//article//img/@src')[0],
-        "class": data.get('Class:'),
+        "class": clazz,
         "cost": int(data['Mana Cost:']),
         "desc": desc,
         "head": getHearthHeadId(name),

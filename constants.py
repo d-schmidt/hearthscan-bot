@@ -18,6 +18,9 @@ class Constants():
         for id, setDetails in self.sets.items():
             self.setIds[setDetails['name']] = id
 
+        # classes
+        self.classes = constants.get('classes', {})
+
         # special keywords to replace
         self.__specials = {}
         for key, values in constants['specials'].items():

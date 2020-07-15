@@ -23,7 +23,26 @@
         "22" : {"name" : "Descent of Dragons", "code" : "DoD", "std" : true},
         "23" : {"name" : "Galakrond's Awakening", "code" : "GA", "std" : true},
         "24" : {"name" : "Demon Hunter Initiate", "code" : "DHI", "std" : true},
-        "25" : {"name" : "Ashes of Outland", "code" : "AO", "std" : true, "unreleased" : false}
+        "25" : {"name" : "Ashes of Outland", "code" : "AO", "std" : true, "unreleased" : false},
+        "26" : {"name" : "Scholomance Academy", "code" : "SA", "std" : false, "unreleased" : true}
+    },
+
+    "classes": {
+        "Neutral": "N",
+        "Druid": "DR",
+        "Hunter": "HT",
+        "Mage": "MA",
+        "Paladin": "PL",
+        "Priest": "PR",
+        "Rogue": "RO",
+        "Shaman": "SH",
+        "Warlock": "WL",
+        "Warrior": "WR",
+        "Demon Hunter": "DH",
+        "Dream": "Dream",
+        "Kabal (MPW)": "Kabal (MPW)",
+        "Lotus (RSD)": "Lotus (RSD)",
+        "Goons (HPW)": "Goons (HPW)"
     },
 
     "specials" : {
