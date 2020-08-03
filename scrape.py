@@ -29,29 +29,30 @@ setUrlTempl = ('https://www.hearthpwn.com/cards?'
                '&filter-unreleased=1&display=2')
 # hearthstonejson set id to card_constant set id
 jsonToCCSet = {
-    'CORE'    : '01',
-    'EXPERT1' : '02',
-    'NAXX' : '05',
-    'GVG' : '06',
-    'BRM' : '07',
-    'TGT' : '08',
-    'LOE' : '09',
-    'OG' : '10',
-    'KARA' : '11',
-    'GANGS' : '12',
-    'UNGORO' : '13',
-    'HOF' : '14',
-    'ICECROWN' : '15',
-    'LOOTAPALOOZA' : '16',
-    'GILNEAS' : '17',
-    'BOOMSDAY' : '18',
-    'TROLL' : '19',
-    'DALARAN' : '20',
-    'ULDUM' : '21',
-    'DRAGONS' : '22',
-    'YEAR_OF_THE_DRAGON' : '23',
-    'DEMON_HUNTER_INITIATE' : '24',
-    'BLACK_TEMPLE' : '25'
+    'CORE': '01',
+    'EXPERT1': '02',
+    'NAXX': '05',
+    'GVG': '06',
+    'BRM': '07',
+    'TGT': '08',
+    'LOE': '09',
+    'OG': '10',
+    'KARA': '11',
+    'GANGS': '12',
+    'UNGORO': '13',
+    'HOF': '14',
+    'ICECROWN': '15',
+    'LOOTAPALOOZA': '16',
+    'GILNEAS': '17',
+    'BOOMSDAY': '18',
+    'TROLL': '19',
+    'DALARAN': '20',
+    'ULDUM': '21',
+    'DRAGONS': '22',
+    'YEAR_OF_THE_DRAGON': '23',
+    'DEMON_HUNTER_INITIATE': '24',
+    'BLACK_TEMPLE': '25',
+    'SCHOLOMANCE': '26'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -77,7 +78,8 @@ setids = {
     '22' : 1200,
     '23' : 1300,
     '24' : 1500,
-    '25' : 1400
+    '25' : 1400,
+    '26': 1443
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -219,12 +221,11 @@ def loadJsonCards():
         clazz = camelCase(card.get('cardClass', 'Neutral'))
         clazz = cc.classes.get(clazz, clazz)
 
-        if 'multiClassGroup' in card and 'classes' in card:
+        if 'multiClassGroup' in card and 'classes' in card and card['multiClassGroup'] in multiClassGroups:
             multiClass = multiClassGroups[card['multiClassGroup']]
             classes = ''.join(c[:1] for c in card['classes'])
             clazz = '{} ({})'.format(multiClass, classes)
-
-        if 'multiClassGroup' not in card and 'classes' in card:
+        elif 'classes' in card:
             clazz = '+'.join(cc.classes.get(camelCase(c), camelCase(c)) for c in card['classes'])
 
         cardSet = card.get('set')
