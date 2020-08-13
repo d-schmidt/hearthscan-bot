@@ -514,7 +514,7 @@
   "Aldrachi Warblades": {
     "atk": 2,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_921.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 3,
     "desc": "Lifesteal",
     "head": "aldrachi-warblades",
@@ -6117,7 +6117,7 @@
   "Chaos Nova": {
     "atk": null,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_235.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 5,
     "desc": "Deal 4 damage to all minions.",
     "head": "chaos-nova",
@@ -6133,7 +6133,7 @@
   "Chaos Strike": {
     "atk": null,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_035.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 2,
     "desc": "Give your hero +2 Attack this turn. Draw a card.",
     "head": "chaos-strike",
@@ -7237,7 +7237,7 @@
   "Coordinated Strike": {
     "atk": null,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_036.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 3,
     "desc": "Summon three 1/1 Illidari with Rush.",
     "head": "coordinated-strike",
@@ -16013,7 +16013,7 @@
   "Glaivebound Adept": {
     "atk": 6,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_495.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 5,
     "desc": "Battlecry: If your hero attacked this turn, deal 4 damage.",
     "head": "glaivebound-adept",
@@ -19504,7 +19504,7 @@
   "Inner Demon": {
     "atk": null,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_512.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 8,
     "desc": "Give your hero +8 Attack this turn.",
     "head": "inner-demon",
@@ -30659,7 +30659,7 @@
   "Satyr Overseer": {
     "atk": 4,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_352.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 3,
     "desc": "After your hero attacks, summon a 2/2 Satyr.",
     "head": "satyr-overseer",
@@ -31942,7 +31942,7 @@
   "Shadowhoof Slayer": {
     "atk": 2,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_142.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 1,
     "desc": "Battlecry: Give your hero +1 Attack this turn.",
     "head": "shadowhoof-slayer",
@@ -32761,7 +32761,7 @@
   "Sightless Watcher": {
     "atk": 3,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_323.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 2,
     "desc": "Battlecry: Look at 3 cards in your deck. Choose one to put on top.",
     "head": "sightless-watcher",
@@ -33769,7 +33769,7 @@
   "Soul Cleave": {
     "atk": null,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_740.png?54613",
-    "class": "Demonhunter",
+    "class": "DH",
     "cost": 3,
     "desc": "Lifesteal Deal 2 damage to two random enemy minions.",
     "head": "soul-cleave",

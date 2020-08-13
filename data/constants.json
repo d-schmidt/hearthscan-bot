@@ -182,6 +182,9 @@
         "Jan'alai, the Dragonhawk": ["Jan'alai", "Dragonhawk"],
         "Krag'wa, the Frog": ["Krag'wa", "Frog"],
         "Gral, the Shark": ["Gral", "Shark"],
-        "Halazzi, the Lynx": ["Halazzi", "Lynx"]
+        "Halazzi, the Lynx": ["Halazzi", "Lynx"],
+
+        "Mozaki, Master Duelist": "Mozaki",
+        "Turalyon, the Tenured": "Turalyon"
     }
 }
