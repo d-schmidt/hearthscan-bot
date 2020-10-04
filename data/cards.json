@@ -145,7 +145,7 @@
   },
   "Ace Hunter Kreen": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_538.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_538.png?60352",
     "class": "HT+DH",
     "cost": 3,
     "desc": "Your other characters are Immune while attacking.",
@@ -257,7 +257,7 @@
   },
   "Activate the Obelisk": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_724.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_724.png?60352",
     "class": "PR",
     "cost": 1,
     "desc": "Quest: Restore 15 Health. Reward: Obelisk's Eye.",
@@ -305,7 +305,7 @@
   },
   "Adorable Infestation": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_617.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_617.png?60352",
     "class": "DR+HT",
     "cost": 1,
     "desc": "Give a minion +1/+1. Summon a 1/1 Cub. Add a Cub to your hand.",
@@ -721,7 +721,7 @@
   },
   "Ancestral Guardian": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_207.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_207.png?60352",
     "class": "PL",
     "cost": 4,
     "desc": "Lifesteal Reborn",
@@ -849,7 +849,7 @@
   },
   "Ancient Mysteries": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_726.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_726.png?60352",
     "class": "MA",
     "cost": 2,
     "desc": "Draw a Secret from your deck. It costs (0).",
@@ -897,7 +897,7 @@
   },
   "Ancient Void Hound": {
     "atk": 10,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_354.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_354.png?60352",
     "class": "DH",
     "cost": 9,
     "desc": "At the end of your turn, steal 1 Attack and Health from all enemy minions.",
@@ -1073,7 +1073,7 @@
   },
   "Animated Broomstick": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_311.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_311.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Rush Battlecry: Give your other minions Rush.",
@@ -1089,7 +1089,7 @@
   },
   "Anka, the Buried": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_288.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_288.png?60352",
     "class": "RO",
     "cost": 5,
     "desc": "Battlecry: Change each Deathrattle minion in your hand into a 1/1 that costs (1).",
@@ -1217,7 +1217,7 @@
   },
   "Anubisath Defender": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_138.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_138.png?60352",
     "class": "DR",
     "cost": 5,
     "desc": "Taunt. Costs (0) if you've cast a spell that costs (5) or more this turn.",
@@ -1249,7 +1249,7 @@
   },
   "Anubisath Warbringer": {
     "atk": 9,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_183.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_183.png?60352",
     "class": "N",
     "cost": 9,
     "desc": "Deathrattle: Give all minions in your hand +3/+3.",
@@ -1489,7 +1489,7 @@
   },
   "Arcane Flakmage": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_240.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_240.png?60352",
     "class": "MA",
     "cost": 2,
     "desc": "After you play a Secret, deal 2 damage to all enemy minions.",
@@ -1888,13 +1888,13 @@
     "type": "Minion"
   },
   "Archwitch Willow": {
-    "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_181.png?56359",
+    "atk": 5,
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_181.png?60352",
     "class": "WL",
-    "cost": 9,
+    "cost": 8,
     "desc": "Battlecry: Summon a random Demon from your hand and deck.",
     "head": "archwitch-willow",
-    "hp": 7,
+    "hp": 5,
     "hpwn": 329898,
     "id": "SCH_181",
     "name": "Archwitch Willow",
@@ -1969,7 +1969,7 @@
   },
   "Argent Braggart": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_149.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_149.png?60352",
     "class": "PL",
     "cost": 2,
     "desc": "Battlecry: Gain Attack and Health to match the highest in the battlefield.",
@@ -2081,7 +2081,7 @@
   },
   "Armagedillo": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_258.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_258.png?60352",
     "class": "WR",
     "cost": 6,
     "desc": "Taunt At the end of your turn, give all Taunt minions in your hand +2/+2.",
@@ -2097,7 +2097,7 @@
   },
   "Armored Goon": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_709.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_709.png?60352",
     "class": "WR",
     "cost": 6,
     "desc": "Whenever your hero attacks, gain 5 Armor.",
@@ -2305,7 +2305,7 @@
   },
   "Athletic Studies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_237.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_237.png?60352",
     "class": "WR",
     "cost": 1,
     "desc": "Discover a Rush minion. Your next one costs (1) less.",
@@ -2625,7 +2625,7 @@
   },
   "BEEEES!!!": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_134.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_134.png?60352",
     "class": "DR",
     "cost": 3,
     "desc": "Choose a minion. Summon four 1/1 Bees that attack it.",
@@ -3009,7 +3009,7 @@
   },
   "Bazaar Burglary": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_326.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_326.png?60352",
     "class": "RO",
     "cost": 1,
     "desc": "Quest: Add 4 cards from other classes to your hand. Reward: Ancient Blades.",
@@ -3025,7 +3025,7 @@
   },
   "Bazaar Mugger": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_327.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_327.png?60352",
     "class": "RO",
     "cost": 5,
     "desc": "Rush Battlecry: Add a random minion from another class to your hand.",
@@ -3057,7 +3057,7 @@
   },
   "Beaming Sidekick": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_191.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_191.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Battlecry: Give a friendly minion +2 Health.",
@@ -3713,7 +3713,7 @@
   },
   "Blatant Decoy": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_706.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_706.png?60352",
     "class": "N",
     "cost": 6,
     "desc": "Deathrattle: Each player summons the lowest Cost minion from their hand.",
@@ -3793,7 +3793,7 @@
   },
   "Blessing of Authority": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_138.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_138.png?60352",
     "class": "PL",
     "cost": 5,
     "desc": "Give a minion +8/+8. It can't attack heroes this turn.",
@@ -3953,7 +3953,7 @@
   },
   "Bloated Python": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_340.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_340.png?60352",
     "class": "HT",
     "cost": 3,
     "desc": "Deathrattle: Summon a 4/4 Hapless Handler.",
@@ -3969,7 +3969,7 @@
   },
   "Blood Herald": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_618.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_618.png?60352",
     "class": "HT+DH",
     "cost": 5,
     "desc": "Whenever a friendly minion dies while this is in your hand, gain +1/+1.",
@@ -4372,7 +4372,7 @@
   },
   "Bloodsworn Mercenary": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_720.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_720.png?60352",
     "class": "WR",
     "cost": 3,
     "desc": "Battlecry: Choose a damaged friendly minion. Summon a copy of it.",
@@ -4484,7 +4484,7 @@
   },
   "Body Wrapper": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_727.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_727.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Battlecry: Discover a friendly minion that died this game. Shuffle it into your deck.",
@@ -4772,7 +4772,7 @@
   },
   "Bone Wraith": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_275.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_275.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Taunt Reborn",
@@ -4868,7 +4868,7 @@
   },
   "Boneweb Egg": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_147.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_147.png?60352",
     "class": "WL",
     "cost": 2,
     "desc": "Deathrattle: Summon two 2/1 Spiders. If you discard this, trigger its Deathrattle.",
@@ -5044,7 +5044,7 @@
   },
   "Brain Freeze": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_509.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_509.png?60352",
     "class": "MA+RO",
     "cost": 1,
     "desc": "Freeze a minion. Combo: Also deal 3 damage to it.",
@@ -5156,7 +5156,7 @@
   },
   "Brazen Zealot": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_145.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_145.png?60352",
     "class": "PL",
     "cost": 1,
     "desc": "Whenever you summon a minion, gain +1 Attack.",
@@ -5268,7 +5268,7 @@
   },
   "Brittlebone Destroyer": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_513.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_513.png?60352",
     "class": "PR+WL",
     "cost": 4,
     "desc": "Battlecry: If your hero's Health changed this turn, destroy a minion.",
@@ -5364,7 +5364,7 @@
   },
   "Bug Collector": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_712.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_712.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: Summon a 1/1 Locust with Rush.",
@@ -5540,12 +5540,12 @@
   },
   "Cabal Acolyte": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_120.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_120.png?60352",
     "class": "PR",
     "cost": 4,
     "desc": "Taunt Spellburst: Gain control of a random enemy minion with 2 or less Attack.",
     "head": "cabal-acolyte",
-    "hp": 6,
+    "hp": 4,
     "hpwn": 329889,
     "id": "SCH_120",
     "name": "Cabal Acolyte",
@@ -5748,7 +5748,7 @@
   },
   "Candletaker": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_205.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_205.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Reborn",
@@ -5892,7 +5892,7 @@
   },
   "Carrion Studies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_300.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_300.png?60352",
     "class": "HT",
     "cost": 1,
     "desc": "Discover a Deathrattle minion. Your next one costs (1) less.",
@@ -6068,7 +6068,7 @@
   },
   "Ceremonial Maul": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_523.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_523.png?60352",
     "class": "PL+WR",
     "cost": 3,
     "desc": "Spellburst: Summon a Student with Taunt and stats equal to the spell's Cost.",
@@ -6532,7 +6532,7 @@
   },
   "Clever Disguise": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_328.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_328.png?60352",
     "class": "RO",
     "cost": 2,
     "desc": "Add 2 random spells from another class to your hand.",
@@ -6676,7 +6676,7 @@
   },
   "Cloud Prince": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_293.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_293.png?60352",
     "class": "MA",
     "cost": 5,
     "desc": "Battlecry: If you control a Secret, deal 6 damage.",
@@ -6772,7 +6772,7 @@
   },
   "Coerce": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_521.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_521.png?60352",
     "class": "RO+WR",
     "cost": 3,
     "desc": "Destroy a damaged minion. Combo: Destroy any minion.",
@@ -6964,7 +6964,7 @@
   },
   "Colossus of the Moon": {
     "atk": 10,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_721.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_721.png?60352",
     "class": "N",
     "cost": 10,
     "desc": "Divine Shield Reborn",
@@ -6980,7 +6980,7 @@
   },
   "Combustion": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_348.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_348.png?60352",
     "class": "MA",
     "cost": 3,
     "desc": "Deal 4 damage to a minion. Any excess damages both neighbors.",
@@ -7044,7 +7044,7 @@
   },
   "Commencement": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_533.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_533.png?60352",
     "class": "PL+WR",
     "cost": 7,
     "desc": "Summon a minion from your deck. Give it Taunt and Divine Shield.",
@@ -7140,7 +7140,7 @@
   },
   "Conjured Mirage": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_198.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_198.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Taunt At the start of your turn, shuffle this minion into your deck.",
@@ -7428,7 +7428,7 @@
   },
   "Corrupt the Waters": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_291.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_291.png?60352",
     "class": "SH",
     "cost": 1,
     "desc": "Quest: Play 6 Battlecry cards. Reward: Heart of Vir'naal.",
@@ -7620,7 +7620,7 @@
   },
   "Cram Session": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_353.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_353.png?60352",
     "class": "MA",
     "cost": 2,
     "desc": "Draw 1 cards (improved by Spell Damage).",
@@ -7700,7 +7700,7 @@
   },
   "Crimson Hothead": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_232.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_232.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Spellburst: Gain +1 Attack and Taunt.",
@@ -7908,7 +7908,7 @@
   },
   "Crystal Merchant": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_133.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_133.png?60352",
     "class": "DR",
     "cost": 2,
     "desc": "If you have any unspent Mana at the end of your turn, draw a card.",
@@ -8084,7 +8084,7 @@
   },
   "Cult Neophyte": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_713.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_713.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: Your opponent's spells cost (1) more next turn.",
@@ -8292,7 +8292,7 @@
   },
   "Cutting Class": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_623.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_623.png?60352",
     "class": "RO+WR",
     "cost": 5,
     "desc": "Draw 2 cards. Costs (1) less per Attack of your weapon.",
@@ -8324,7 +8324,7 @@
   },
   "Cycle of Hatred": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_253.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_253.png?60352",
     "class": "DH",
     "cost": 7,
     "desc": "Deal 3 damage to all minions. Summon a 3/3 Spirit for every minion killed.",
@@ -8676,7 +8676,7 @@
   },
   "Dark Pharaoh Tekahn": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_168.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_168.png?60352",
     "class": "WL",
     "cost": 5,
     "desc": "Battlecry: For the rest of the game, your Lackeys are 4/4.",
@@ -9335,7 +9335,7 @@
   },
   "Demon Companion": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_600.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_600.png?60352",
     "class": "HT+DH",
     "cost": 1,
     "desc": "Summon a random Demon Companion.",
@@ -9431,7 +9431,7 @@
   },
   "Demonic Studies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_158.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_158.png?60352",
     "class": "WL",
     "cost": 1,
     "desc": "Discover a Demon. Your next one costs (1) less.",
@@ -9527,7 +9527,7 @@
   },
   "Desert Hare": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_719.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_719.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Battlecry: Summon two 1/1 Desert Hares.",
@@ -9543,7 +9543,7 @@
   },
   "Desert Obelisk": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_703.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_703.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "If you control 3 of these at the end of your turn, deal 5 damage to a random enemy.",
@@ -9559,7 +9559,7 @@
   },
   "Desert Spear": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_430.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_430.png?60352",
     "class": "HT",
     "cost": 3,
     "desc": "After your hero attacks, summon a 1/1 Locust with Rush.",
@@ -9575,7 +9575,7 @@
   },
   "Desk Imp": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_145.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_145.png?60352",
     "class": "N",
     "cost": 0,
     "desc": null,
@@ -9687,7 +9687,7 @@
   },
   "Devolving Missiles": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_235.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_235.png?60352",
     "class": "MA+SH",
     "cost": 1,
     "desc": "Shoot three missiles at random enemy minions that transform them into ones that cost (1) less.",
@@ -9735,7 +9735,7 @@
   },
   "Devout Pupil": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_139.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_139.png?60352",
     "class": "PL+PR",
     "cost": 6,
     "desc": "Divine Shield, Taunt Costs (1) less for each spell you've cast on friendly characters this game.",
@@ -9751,7 +9751,7 @@
   },
   "Diligent Notetaker": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_236.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_236.png?60352",
     "class": "SH",
     "cost": 2,
     "desc": "Spellburst: Return the spell to your hand.",
@@ -9815,7 +9815,7 @@
   },
   "Dinotamer Brann": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_156.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_156.png?60352",
     "class": "HT",
     "cost": 7,
     "desc": "Battlecry: If your deck has no duplicates, summon King Krush.",
@@ -9959,7 +9959,7 @@
   },
   "Disciplinarian Gandling": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_126.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_126.png?60352",
     "class": "PR+WL",
     "cost": 4,
     "desc": "After you play a minion, destroy it and summon a 4/4 Failed Student.",
@@ -9975,7 +9975,7 @@
   },
   "Diseased Vulture": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_167.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_167.png?60352",
     "class": "WL",
     "cost": 4,
     "desc": "Whenever your hero takes damage on your turn, summon a random 3-Cost minion.",
@@ -10055,7 +10055,7 @@
   },
   "Divine Rager": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_143.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_143.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Divine Shield",
@@ -10135,7 +10135,7 @@
   },
   "Doctor Krastinov": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_425.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_425.png?60352",
     "class": "RO+WR",
     "cost": 5,
     "desc": "Rush Whenever this attacks, give your weapon +1/+1.",
@@ -10295,7 +10295,7 @@
   },
   "Double Jump": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_422.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_422.png?60352",
     "class": "DH",
     "cost": 1,
     "desc": "Draw an Outcast card from your deck.",
@@ -10410,7 +10410,7 @@
   },
   "Draconic Studies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_233.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_233.png?60352",
     "class": "PR",
     "cost": 1,
     "desc": "Discover a Dragon. Your next one costs (1) less.",
@@ -11242,7 +11242,7 @@
   },
   "Dune Sculptor": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_329.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_329.png?60352",
     "class": "MA",
     "cost": 3,
     "desc": "After you cast a spell, add a random Mage minion to your hand.",
@@ -11386,7 +11386,7 @@
   },
   "Dwarven Archaeologist": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_309.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_309.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "After you Discover a card, reduce its cost by (1).",
@@ -11530,7 +11530,7 @@
   },
   "EVIL Recruiter": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_162.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_162.png?60352",
     "class": "WL",
     "cost": 3,
     "desc": "Battlecry: Destroy a friendly Lackey to summon a 5/5 Demon.",
@@ -11546,7 +11546,7 @@
   },
   "EVIL Totem": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_276.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_276.png?60352",
     "class": "SH",
     "cost": 2,
     "desc": "At the end of your turn, add a Lackey to your hand.",
@@ -11690,7 +11690,7 @@
   },
   "Earthquake": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_181.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_181.png?60352",
     "class": "SH",
     "cost": 7,
     "desc": "Deal 5 damage to all minions, then deal 2 damage to all minions.",
@@ -11802,7 +11802,7 @@
   },
   "Educated Elekk": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_714.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_714.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Whenever a spell is played, this minion remembers it. Deathrattle: Shuffle the spells into your deck.",
@@ -12026,7 +12026,7 @@
   },
   "Elise the Enlightened": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_139.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_139.png?60352",
     "class": "DR",
     "cost": 5,
     "desc": "Battlecry: If your deck has no duplicates, duplicate your hand.",
@@ -12106,7 +12106,7 @@
   },
   "Embalming Ritual": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_265.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_265.png?60352",
     "class": "PR",
     "cost": 1,
     "desc": "Give a minion Reborn.",
@@ -12282,7 +12282,7 @@
   },
   "Enchanted Cauldron": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_157.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_157.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Spellburst: Cast a random spell of the same Cost.",
@@ -12810,7 +12810,7 @@
   },
   "Expired Merchant": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_163.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_163.png?60352",
     "class": "WL",
     "cost": 2,
     "desc": "Battlecry: Discard your highest Cost card. Deathrattle: Add 2 copies of it to your hand.",
@@ -13098,7 +13098,7 @@
   },
   "Faceless Lurker": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_189.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_189.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Taunt Battlecry: Double this minion's Health.",
@@ -13434,7 +13434,7 @@
   },
   "Fel Guardians": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_357.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_357.png?60352",
     "class": "DH",
     "cost": 7,
     "desc": "Summon three 1/2 Demons with Taunt. Costs (1) less whenever a friendly minion dies.",
@@ -13562,7 +13562,7 @@
   },
   "Felosophy": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_702.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_702.png?60352",
     "class": "WL+DH",
     "cost": 1,
     "desc": "Copy the lowest Cost Demon in your hand. Outcast: Give both +1/+1.",
@@ -13994,7 +13994,7 @@
   },
   "Firebrand": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_241.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_241.png?60352",
     "class": "MA",
     "cost": 3,
     "desc": "Spellburst: Deal 4 damage randomly split among all enemy minions.",
@@ -14074,7 +14074,7 @@
   },
   "First Day of School": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_247.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_247.png?60352",
     "class": "PL",
     "cost": 0,
     "desc": "Add 2 random 1-Cost minions to your hand.",
@@ -14090,7 +14090,7 @@
   },
   "Fishflinger": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_289.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_289.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: Add a random Murloc to each player's hand.",
@@ -14106,7 +14106,7 @@
   },
   "Fishy Flyer": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_707.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_707.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Rush. Deathrattle: Add a 4/3 Ghost with Rush to your hand.",
@@ -14234,7 +14234,7 @@
   },
   "Flame Ward": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_239.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_239.png?60352",
     "class": "MA",
     "cost": 3,
     "desc": "Secret: After a minion attacks your hero, deal 3 damage to all enemy minions.",
@@ -14426,7 +14426,7 @@
   },
   "Flesh Giant": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_140.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_140.png?60352",
     "class": "PR+WL",
     "cost": 8,
     "desc": "Costs (1) less for each time your hero's Health changed during your turns.",
@@ -14746,7 +14746,7 @@
   },
   "Forest Warden Omu": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_614.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_614.png?60352",
     "class": "DR",
     "cost": 6,
     "desc": "Spellburst: Refresh your Mana Crystals.",
@@ -14858,7 +14858,7 @@
   },
   "Frazzled Freshman": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_137.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_137.png?60352",
     "class": "PR",
     "cost": 1,
     "desc": null,
@@ -14970,7 +14970,7 @@
   },
   "Frightened Flunky": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_195.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_195.png?60352",
     "class": "WR",
     "cost": 2,
     "desc": "Taunt Battlecry: Discover a Taunt minion.",
@@ -15532,7 +15532,7 @@
   },
   "Garden Gnome": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_137.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_137.png?60352",
     "class": "DR",
     "cost": 4,
     "desc": "Battlecry: If you're holding a spell that costs (5) or more, summon two 2/2 Treants.",
@@ -15628,7 +15628,7 @@
   },
   "Generous Mummy": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_214.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_214.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Reborn Your opponent's cards cost (1) less.",
@@ -15852,7 +15852,7 @@
   },
   "Gibberling": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_242.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_242.png?60352",
     "class": "DR",
     "cost": 1,
     "desc": "Spellburst: Summon a Gibberling.",
@@ -15868,7 +15868,7 @@
   },
   "Gift of Luminance": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_302.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_302.png?60352",
     "class": "PL+PR",
     "cost": 3,
     "desc": "Give a minion Divine Shield, then summon a 1/1 copy of it.",
@@ -16044,7 +16044,7 @@
   },
   "Glide": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_356.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_356.png?60352",
     "class": "DH",
     "cost": 4,
     "desc": "Shuffle your hand into your deck. Draw 4 cards. Outcast: Your opponent does the same.",
@@ -16380,7 +16380,7 @@
   },
   "Golden Scarab": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_188.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_188.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Battlecry: Discover a 4-Cost card.",
@@ -16428,7 +16428,7 @@
   },
   "Goody Two-Shields": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_532.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_532.png?60352",
     "class": "PL",
     "cost": 3,
     "desc": "Divine Shield Spellburst: Gain Divine Shield.",
@@ -16572,7 +16572,7 @@
   },
   "Grandmummy": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_266.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_266.png?60352",
     "class": "PR",
     "cost": 2,
     "desc": "Reborn Deathrattle: Give a random friendly minion +1/+1.",
@@ -17036,7 +17036,7 @@
   },
   "Groundskeeper": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_613.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_613.png?60352",
     "class": "DR+SH",
     "cost": 4,
     "desc": "Taunt Battlecry: If you're holding a spell that costs (5) or more, restore 5 Health.",
@@ -17100,9 +17100,9 @@
   },
   "Guardian Animals": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_610.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_610.png?60352",
     "class": "DR+HT",
-    "cost": 7,
+    "cost": 8,
     "desc": "Summon two Beasts that cost (5) or less from your deck. Give them Rush.",
     "head": "guardian-animals",
     "hp": null,
@@ -17244,7 +17244,7 @@
   },
   "Hack the System": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_711.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_711.png?60352",
     "class": "WR",
     "cost": 1,
     "desc": "Quest: Attack 5 times with your hero. Reward: Anraphet's Core.",
@@ -17615,7 +17615,7 @@
   },
   "Headmaster Kel'Thuzad": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_224.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_224.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Spellburst: If the spell destroys any minions, summon them.",
@@ -17999,7 +17999,7 @@
   },
   "Hidden Oasis": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_135.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_135.png?60352",
     "class": "DR",
     "cost": 6,
     "desc": "Choose One - Summon a 6/6 Ancient with Taunt; or Restore 12 Health.",
@@ -18031,7 +18031,7 @@
   },
   "High Abbess Alura": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_141.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_141.png?60352",
     "class": "PL+PR",
     "cost": 4,
     "desc": "Spellburst: Cast a spell from your deck (targets this if possible).",
@@ -18063,7 +18063,7 @@
   },
   "High Priest Amet": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_262.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_262.png?60352",
     "class": "PR",
     "cost": 4,
     "desc": "Whenever you summon a minion, set its Health equal to this minion's.",
@@ -18159,7 +18159,7 @@
   },
   "History Buff": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_290.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_290.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Whenever you play a minion, give a random minion in your hand +1/+1.",
@@ -18351,7 +18351,7 @@
   },
   "Holy Ripple": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_272.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_272.png?60352",
     "class": "PR",
     "cost": 2,
     "desc": "Deal 1 damage to all enemies. Restore 1 Health to all friendly characters.",
@@ -18447,7 +18447,7 @@
   },
   "Hooked Scimitar": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_285.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_285.png?60352",
     "class": "RO",
     "cost": 3,
     "desc": "Combo: Gain +2 Attack.",
@@ -18703,7 +18703,7 @@
   },
   "Hunter's Pack": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_429.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_429.png?60352",
     "class": "HT",
     "cost": 3,
     "desc": "Add a random Hunter Beast, Secret, and weapon to your hand.",
@@ -18767,7 +18767,7 @@
   },
   "Hyena Alpha": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_154.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_154.png?60352",
     "class": "HT",
     "cost": 4,
     "desc": "Battlecry: If you control a Secret, summon two 2/2 Hyenas.",
@@ -19103,7 +19103,7 @@
   },
   "Impbalming": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_324.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_324.png?60352",
     "class": "WL",
     "cost": 4,
     "desc": "Destroy a minion. Shuffle 3 Worthless Imps into your deck.",
@@ -19295,7 +19295,7 @@
   },
   "In Formation!": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_525.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_525.png?60352",
     "class": "WR",
     "cost": 2,
     "desc": "Add 2 random Taunt minions to your hand.",
@@ -19359,7 +19359,7 @@
   },
   "Infested Goblin": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_250.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_250.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Taunt Deathrattle: Add two 1/1 Scarabs with Taunt to your hand.",
@@ -19407,7 +19407,7 @@
   },
   "Infiltrator Lilian": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_426.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_426.png?60352",
     "class": "RO",
     "cost": 4,
     "desc": "Stealth Deathrattle: Summon a 4/2 Forsaken Lilian that attacks a random enemy.",
@@ -19423,7 +19423,7 @@
   },
   "Initiation": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_512.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_512.png?60352",
     "class": "PR",
     "cost": 6,
     "desc": "Deal 4 damage to a minion. If that kills it, summon a new copy.",
@@ -19471,7 +19471,7 @@
   },
   "Injured Tol'vir": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_271.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_271.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Taunt Battlecry: Deal 3 damage to this minion.",
@@ -19567,7 +19567,7 @@
   },
   "Instructor Fireheart": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_507.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_507.png?60352",
     "class": "SH",
     "cost": 3,
     "desc": "Battlecry: Discover a spell that costs (1) or more. If you play it this turn, repeat this effect.",
@@ -19583,7 +19583,7 @@
   },
   "Into the Fray": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_256.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_256.png?60352",
     "class": "WR",
     "cost": 1,
     "desc": "Give all Taunt minions in your hand +2/+2.",
@@ -19599,7 +19599,7 @@
   },
   "Intrepid Initiate": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_231.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_231.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Spellburst: Gain +2 Attack.",
@@ -19999,7 +19999,7 @@
   },
   "Jandice Barov": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_351.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_351.png?60352",
     "class": "MA+RO",
     "cost": 5,
     "desc": "Battlecry: Summon two random 5-Cost minions. Secretly pick one that dies when it takes damage.",
@@ -20015,7 +20015,7 @@
   },
   "Jar Dealer": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_282.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_282.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Deathrattle: Add a random 1-Cost minion to your hand.",
@@ -20127,7 +20127,7 @@
   },
   "Judicious Junior": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_712.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_712.png?60352",
     "class": "PL",
     "cost": 6,
     "desc": "Lifesteal",
@@ -20639,7 +20639,7 @@
   },
   "Keymaster Alabaster": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_717.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_717.png?60352",
     "class": "N",
     "cost": 7,
     "desc": "Whenever your opponent draws a card, add a copy to your hand that costs (1).",
@@ -20687,7 +20687,7 @@
   },
   "Khartut Defender": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_208.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_208.png?60352",
     "class": "N",
     "cost": 6,
     "desc": "Taunt, Reborn Deathrattle: Restore 3 Health to your hero.",
@@ -20799,7 +20799,7 @@
   },
   "King Phaoris": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_304.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_304.png?60352",
     "class": "N",
     "cost": 10,
     "desc": "Battlecry: For each spell in your hand, summon a random minion of the same Cost.",
@@ -21103,7 +21103,7 @@
   },
   "Kobold Sandtrooper": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_184.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_184.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Deathrattle: Deal 3 damage to the enemy hero.",
@@ -21199,7 +21199,7 @@
   },
   "Krolusk Barkstripper": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_239.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_239.png?60352",
     "class": "HT",
     "cost": 4,
     "desc": "Spellburst: Destroy a random enemy minion.",
@@ -21295,7 +21295,7 @@
   },
   "Lab Partner": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_310.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_310.png?60352",
     "class": "MA",
     "cost": 1,
     "desc": "Spell Damage +1",
@@ -21375,7 +21375,7 @@
   },
   "Lake Thresher": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_605.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_605.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Also damages the minions next to whomever this attacks.",
@@ -22015,7 +22015,7 @@
   },
   "Lightning Bloom": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_427.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_427.png?60352",
     "class": "DR+SH",
     "cost": 0,
     "desc": "Gain 2 Mana Crystals this turn only. Overload: (2)",
@@ -22191,7 +22191,7 @@
   },
   "Livewire Lance": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_708.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_708.png?60352",
     "class": "WR",
     "cost": 3,
     "desc": "After your Hero attacks, add a Lackey to your hand.",
@@ -22239,7 +22239,7 @@
   },
   "Living Monument": {
     "atk": 10,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_193.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_193.png?60352",
     "class": "N",
     "cost": 10,
     "desc": "Taunt",
@@ -22351,7 +22351,7 @@
   },
   "Lord Barov": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_526.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_526.png?60352",
     "class": "PL+WR",
     "cost": 3,
     "desc": "Battlecry: Set the Health of all other minions to 1. Deathrattle: Deal 1 damage to all minions.",
@@ -22415,7 +22415,7 @@
   },
   "Lorekeeper Polkelt": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_428.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_428.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Battlecry: Reorder your deck from the highest Cost card to the lowest Cost card.",
@@ -22799,7 +22799,7 @@
   },
   "Magehunter": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_276.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_276.png?60352",
     "class": "DH",
     "cost": 3,
     "desc": "Rush Whenever this attacks a minion, Silence it.",
@@ -22959,7 +22959,7 @@
   },
   "Making Mummies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_431.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_431.png?60352",
     "class": "PL",
     "cost": 1,
     "desc": "Quest: Play 5 Reborn minions. Reward: Emperor Wraps.",
@@ -23250,7 +23250,7 @@
   },
   "Manafeeder Panthara": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_283.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_283.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: If you've used your Hero Power this turn, draw a card.",
@@ -23394,7 +23394,7 @@
   },
   "Marrowslicer": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_252.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_252.png?60352",
     "class": "DH",
     "cost": 4,
     "desc": "Battlecry: Shuffle 2 Soul Fragments into your deck.",
@@ -23986,7 +23986,7 @@
   },
   "Micro Mummy": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_217.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_217.png?60352",
     "class": "PL",
     "cost": 2,
     "desc": "Reborn At the end of your turn, give another random friendly minion +1 Attack.",
@@ -24210,7 +24210,7 @@
   },
   "Mindrender Illucia": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_159.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_159.png?60352",
     "class": "PR",
     "cost": 3,
     "desc": "Battlecry: Swap hands and decks with your opponent until your next turn.",
@@ -24306,7 +24306,7 @@
   },
   "Mischief Maker": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_229.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_229.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Battlecry: Swap the top card of your deck with your opponent's.",
@@ -24450,7 +24450,7 @@
   },
   "Mogu Cultist": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_705.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_705.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Battlecry: If your board is full of Mogu Cultists, sacrifice them all and summon Highkeeper Ra.",
@@ -24466,7 +24466,7 @@
   },
   "Mogu Fleshshaper": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_169.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_169.png?60352",
     "class": "SH",
     "cost": 9,
     "desc": "Rush. Costs (1) less for each minion on the battlefield.",
@@ -24546,7 +24546,7 @@
   },
   "Molten Blast": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_271.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_271.png?60352",
     "class": "SH",
     "cost": 3,
     "desc": "Deal 2 damage. Summon that many 1/1 Elementals.",
@@ -24706,7 +24706,7 @@
   },
   "Mortuary Machine": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_702.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_702.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "After your opponent plays a minion, give it Reborn.",
@@ -24818,7 +24818,7 @@
   },
   "Mozaki, Master Duelist": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_400.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_400.png?60352",
     "class": "MA",
     "cost": 5,
     "desc": "After you cast a spell, gain Spell Damage +1.",
@@ -25106,7 +25106,7 @@
   },
   "Murmy": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_723.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_723.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Reborn",
@@ -25298,7 +25298,7 @@
   },
   "Naga Sand Witch": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_435.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_435.png?60352",
     "class": "MA",
     "cost": 5,
     "desc": "Battlecry: Change the Cost of spells in your hand to (5).",
@@ -25410,7 +25410,7 @@
   },
   "Nature Studies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_333.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_333.png?60352",
     "class": "DR",
     "cost": 1,
     "desc": "Discover a spell. Your next one costs (1) less.",
@@ -25522,7 +25522,7 @@
   },
   "Neferset Ritualist": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_196.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_196.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: Restore adjacent minions to full Health.",
@@ -25538,7 +25538,7 @@
   },
   "Neferset Thrasher": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_161.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_161.png?60352",
     "class": "WL",
     "cost": 3,
     "desc": "Whenever this attacks, deal 3 damage to your hero.",
@@ -26082,7 +26082,7 @@
   },
   "Oasis Surger": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_292.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_292.png?60352",
     "class": "DR",
     "cost": 5,
     "desc": "Rush Choose One - Gain +2/+2; or Summon a copy of this minion.",
@@ -26162,7 +26162,7 @@
   },
   "Octosari": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_177.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_177.png?60352",
     "class": "N",
     "cost": 8,
     "desc": "Deathrattle: Draw 8 cards.",
@@ -26242,7 +26242,7 @@
   },
   "Ogremancer": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_710.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_710.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Whenever your opponent casts a spell, summon a 2/2 Skeleton with Taunt.",
@@ -26418,7 +26418,7 @@
   },
   "Onyx Magescribe": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_230.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_230.png?60352",
     "class": "N",
     "cost": 6,
     "desc": "Spellburst: Add 2 random spells from your class to your hand.",
@@ -26546,7 +26546,7 @@
   },
   "Overflow": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_273.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_273.png?60352",
     "class": "DR",
     "cost": 7,
     "desc": "Restore 5 Health to all characters. Draw 5 cards.",
@@ -26594,7 +26594,7 @@
   },
   "Overwhelm": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_604.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_604.png?60352",
     "class": "HT",
     "cost": 1,
     "desc": "Deal 2 damage to a minion. Deal one more damage for each Beast you control.",
@@ -26690,7 +26690,7 @@
   },
   "Partner Assignment": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_606.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_606.png?60352",
     "class": "DR",
     "cost": 1,
     "desc": "Add a random 2-Cost and 3-Cost Beast to your hand.",
@@ -26738,7 +26738,7 @@
   },
   "Pen Flinger": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_248.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_248.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Battlecry: Deal 1 damage. Spellburst: Return this to your hand.",
@@ -26754,7 +26754,7 @@
   },
   "Penance": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_714.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_714.png?60352",
     "class": "PR",
     "cost": 2,
     "desc": "Lifesteal Deal 3 damage to a minion.",
@@ -26786,7 +26786,7 @@
   },
   "Phalanx Commander": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_179.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_179.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Your Taunt minions have +2 Attack.",
@@ -26834,7 +26834,7 @@
   },
   "Pharaoh Cat": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_186.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_186.png?60352",
     "class": "RO",
     "cost": 1,
     "desc": "Battlecry: Add a random Reborn minion to your hand.",
@@ -26850,7 +26850,7 @@
   },
   "Pharaoh's Blessing": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_143.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_143.png?60352",
     "class": "PL",
     "cost": 6,
     "desc": "Give a minion +4/+4, Divine Shield, and Taunt.",
@@ -27042,7 +27042,7 @@
   },
   "Pit Crocolisk": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_190.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_190.png?60352",
     "class": "N",
     "cost": 8,
     "desc": "Battlecry: Deal 5 damage.",
@@ -27106,7 +27106,7 @@
   },
   "Plagiarize": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_706.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_706.png?60352",
     "class": "RO",
     "cost": 2,
     "desc": "Secret: At the end of your opponent's turn, add copies of the cards they played to your hand.",
@@ -27138,7 +27138,7 @@
   },
   "Plague of Death": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_718.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_718.png?60352",
     "class": "PR",
     "cost": 9,
     "desc": "Silence and destroy all minions.",
@@ -27154,7 +27154,7 @@
   },
   "Plague of Flames": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_717.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_717.png?60352",
     "class": "WL",
     "cost": 1,
     "desc": "Destroy all your minions. For each one, destroy a random enemy minion.",
@@ -27170,7 +27170,7 @@
   },
   "Plague of Madness": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_715.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_715.png?60352",
     "class": "RO",
     "cost": 1,
     "desc": "Each player equips a 2/2 Knife with Poisonous.",
@@ -27186,7 +27186,7 @@
   },
   "Plague of Murlocs": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_172.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_172.png?60352",
     "class": "SH",
     "cost": 3,
     "desc": "Transform all minions into random Murlocs.",
@@ -27202,7 +27202,7 @@
   },
   "Plague of Wrath": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_707.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_707.png?60352",
     "class": "WR",
     "cost": 5,
     "desc": "Destroy all damaged minions.",
@@ -27234,7 +27234,7 @@
   },
   "Plagued Protodrake": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_711.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_711.png?60352",
     "class": "N",
     "cost": 8,
     "desc": "Deathrattle: Summon a random 7-Cost minion.",
@@ -27298,7 +27298,7 @@
   },
   "Playmaker": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_317.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_317.png?60352",
     "class": "WR",
     "cost": 3,
     "desc": "After you play a Rush minion, summon a copy with 1 Health remaining.",
@@ -27538,7 +27538,7 @@
   },
   "Potion of Illusion": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_352.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_352.png?60352",
     "class": "MA+RO",
     "cost": 4,
     "desc": "Add 1/1 copies of your minions to your hand. They cost (1).",
@@ -27634,7 +27634,7 @@
   },
   "Power Word: Feast": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_136.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_136.png?60352",
     "class": "PR",
     "cost": 2,
     "desc": "Give a minion +2/+2. Restore it to full Health at the end of this turn.",
@@ -27826,7 +27826,7 @@
   },
   "Pressure Plate": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_152.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_152.png?60352",
     "class": "HT",
     "cost": 2,
     "desc": "Secret: After your opponent casts a spell, destroy a random enemy minion.",
@@ -28018,7 +28018,7 @@
   },
   "Primordial Studies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_270.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_270.png?60352",
     "class": "MA+SH",
     "cost": 1,
     "desc": "Discover a Spell Damage minion. Your next one costs (1) less.",
@@ -28178,7 +28178,7 @@
   },
   "Professor Slate": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_539.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_539.png?60352",
     "class": "HT",
     "cost": 3,
     "desc": "Your spells are Poisonous.",
@@ -28322,7 +28322,7 @@
   },
   "Psychopomp": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_268.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_268.png?60352",
     "class": "PR",
     "cost": 4,
     "desc": "Battlecry: Summon a random friendly minion that died this game. Give it Reborn.",
@@ -28418,7 +28418,7 @@
   },
   "Puzzle Box of Yogg-Saron": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_216.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_216.png?60352",
     "class": "MA",
     "cost": 10,
     "desc": "Cast 10 random spells (targets chosen randomly).",
@@ -28546,7 +28546,7 @@
   },
   "Questing Explorer": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_157.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_157.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: If you control a Quest, draw a card.",
@@ -28578,7 +28578,7 @@
   },
   "Quicksand Elemental": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_197.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_197.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: Give all enemy minions -2 Attack this turn.",
@@ -28754,7 +28754,7 @@
   },
   "Raid the Sky Temple": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_433.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_433.png?60352",
     "class": "MA",
     "cost": 1,
     "desc": "Quest: Cast 10 spells. Reward: Ascendant Scroll.",
@@ -28818,7 +28818,7 @@
   },
   "Raise Dead": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_514.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_514.png?60352",
     "class": "PR+WL",
     "cost": 0,
     "desc": "Deal 3 damage to your hero. Return two friendly minions that died this game to your hand.",
@@ -28866,7 +28866,7 @@
   },
   "Ramkahen Wildtamer": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_151.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_151.png?60352",
     "class": "HT",
     "cost": 3,
     "desc": "Battlecry: Copy a random Beast in your hand.",
@@ -28946,7 +28946,7 @@
   },
   "Ras Frostwhisper": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_273.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_273.png?60352",
     "class": "MA+SH",
     "cost": 5,
     "desc": "At the end of your turn, deal 1 damage to all enemies (improved by Spell Damage).",
@@ -29010,7 +29010,7 @@
   },
   "Rattlegore": {
     "atk": 9,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_621.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_621.png?60352",
     "class": "WR",
     "cost": 9,
     "desc": "Deathrattle: Resummon this with -1/-1.",
@@ -29234,7 +29234,7 @@
   },
   "Reaper's Scythe": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_238.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_238.png?60352",
     "class": "WR",
     "cost": 4,
     "desc": "Spellburst: Also damages adjacent minions this turn.",
@@ -29586,7 +29586,7 @@
   },
   "Reno the Relicologist": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_238.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_238.png?60352",
     "class": "MA",
     "cost": 6,
     "desc": "Battlecry: If your deck has no duplicates, deal 10 damage randomly split among all enemy minions.",
@@ -29682,7 +29682,7 @@
   },
   "Restless Mummy": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_206.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_206.png?60352",
     "class": "WR",
     "cost": 4,
     "desc": "Rush Reborn",
@@ -29778,7 +29778,7 @@
   },
   "Riftcleaver": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_165.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_165.png?60352",
     "class": "WL",
     "cost": 6,
     "desc": "Battlecry: Destroy a minion. Your hero takes damage equal to its Health.",
@@ -29922,7 +29922,7 @@
   },
   "Robes of Protection": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_146.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_146.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Your minions have \"Can't be targeted by spells or Hero Powers.\"",
@@ -30130,7 +30130,7 @@
   },
   "Rune Dagger": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_301.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_301.png?60352",
     "class": "SH",
     "cost": 2,
     "desc": "After your hero attacks, gain Spell Damage +1 this turn.",
@@ -30162,7 +30162,7 @@
   },
   "Runic Carvings": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_612.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_612.png?60352",
     "class": "DR+SH",
     "cost": 6,
     "desc": "Choose One - Summon four 2/2 Treant Totems; or Overload: (2) to summon them with Rush.",
@@ -30402,7 +30402,7 @@
   },
   "Sahket Sapper": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_280.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_280.png?60352",
     "class": "RO",
     "cost": 4,
     "desc": "Deathrattle: Return a random enemy minion to your opponent's hand.",
@@ -30418,7 +30418,7 @@
   },
   "Salhet's Pride": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_438.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_438.png?60352",
     "class": "PL",
     "cost": 3,
     "desc": "Deathrattle: Draw two 1-Health minions from your deck.",
@@ -30514,7 +30514,7 @@
   },
   "Sandhoof Waterbearer": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_270.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_270.png?60352",
     "class": "PR",
     "cost": 5,
     "desc": "At the end of your turn, restore 5 Health to a damaged friendly character.",
@@ -30530,7 +30530,7 @@
   },
   "Sandstorm Elemental": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_158.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_158.png?60352",
     "class": "SH",
     "cost": 2,
     "desc": "Battlecry: Deal 1 damage to all enemy minions. Overload: (1)",
@@ -30546,7 +30546,7 @@
   },
   "Sandwasp Queen": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_439.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_439.png?60352",
     "class": "PL",
     "cost": 2,
     "desc": "Battlecry: Add two 2/1 Sandwasps to your hand.",
@@ -30898,7 +30898,7 @@
   },
   "Scarlet Webweaver": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_410.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_410.png?60352",
     "class": "HT",
     "cost": 6,
     "desc": "Battlecry: Reduce the Cost of a random Beast in your hand by (5).",
@@ -30962,7 +30962,7 @@
   },
   "School Spirits": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_307.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_307.png?60352",
     "class": "WL",
     "cost": 3,
     "desc": "Deal 2 damage to all minions. Shuffle 2 Soul Fragments into your deck.",
@@ -31253,10 +31253,10 @@
   },
   "Secret Passage": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_305.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_305.png?60352",
     "class": "RO",
     "cost": 1,
-    "desc": "Replace your hand with 5 cards from your deck. Swap back next turn.",
+    "desc": "Replace your hand with 4 cards from your deck. Swap back next turn.",
     "head": "secret-passage",
     "hp": null,
     "hpwn": 329903,
@@ -31349,7 +31349,7 @@
   },
   "Self-Sharpening Sword": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_622.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_622.png?60352",
     "class": "RO",
     "cost": 3,
     "desc": "After your hero attacks, gain +1 Attack.",
@@ -31429,7 +31429,7 @@
   },
   "Serpent Egg": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_174.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_174.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Deathrattle: Summon a 3/4 Sea Serpent.",
@@ -31813,7 +31813,7 @@
   },
   "Shadow of Death": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_286.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_286.png?60352",
     "class": "RO",
     "cost": 4,
     "desc": "Choose a minion. Shuffle 3 'Shadows' into your deck that summon a copy when drawn.",
@@ -31973,7 +31973,7 @@
   },
   "Shadowlight Scholar": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_517.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_517.png?60352",
     "class": "WL",
     "cost": 3,
     "desc": "Battlecry: Destroy a Soul Fragment in your deck to deal 3 damage.",
@@ -32104,7 +32104,7 @@
   },
   "Shan'do Wildclaw": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_607.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_607.png?60352",
     "class": "DR+HT",
     "cost": 3,
     "desc": "Choose One - Give Beasts in your deck +1/+1; or Transform into a copy of a friendly Beast.",
@@ -32120,7 +32120,7 @@
   },
   "Shardshatter Mystic": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_355.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_355.png?60352",
     "class": "DH",
     "cost": 3,
     "desc": "Battlecry: Destroy a Soul Fragment in your deck to deal 3 damage to all other minions.",
@@ -32280,7 +32280,7 @@
   },
   "Shield of Honor": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_524.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_524.png?60352",
     "class": "PL+WR",
     "cost": 1,
     "desc": "Give a damaged minion +3 Attack and Divine Shield.",
@@ -32408,7 +32408,7 @@
   },
   "Shifty Sophomore": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_234.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_234.png?60352",
     "class": "RO",
     "cost": 4,
     "desc": "Stealth Spellburst: Add a Combo card to your hand.",
@@ -32680,7 +32680,7 @@
   },
   "Siamat": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_178.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_178.png?60352",
     "class": "N",
     "cost": 7,
     "desc": "Battlecry: Gain 2 of Rush, Taunt, Divine Shield, or Windfury (your choice).",
@@ -33000,7 +33000,7 @@
   },
   "Sinister Deal": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_160.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_160.png?60352",
     "class": "WL",
     "cost": 1,
     "desc": "Discover a Lackey.",
@@ -33064,7 +33064,7 @@
   },
   "Sir Finley of the Sands": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_500.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_500.png?60352",
     "class": "PL",
     "cost": 2,
     "desc": "Battlecry: If your deck has no duplicates, Discover an upgraded Hero Power.",
@@ -33448,7 +33448,7 @@
   },
   "Smug Senior": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_709.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_709.png?60352",
     "class": "N",
     "cost": 6,
     "desc": "Taunt. Deathrattle: Add a 5/7 Ghost with Taunt to your hand.",
@@ -33544,7 +33544,7 @@
   },
   "Sneaky Delinquent": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_708.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_708.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Stealth. Deathrattle: Add a 3/1 Ghost with Stealth to your hand.",
@@ -33752,7 +33752,7 @@
   },
   "Sorcerous Substitute": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_530.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_530.png?60352",
     "class": "N",
     "cost": 6,
     "desc": "Battlecry: If you have Spell Damage, summon a copy of this.",
@@ -33816,7 +33816,7 @@
   },
   "Soul Shear": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_701.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_701.png?60352",
     "class": "WL+DH",
     "cost": 2,
     "desc": "Deal 3 damage to a minion. Shuffle 2 Soul Fragments into your deck.",
@@ -33896,7 +33896,7 @@
   },
   "Soulciologist Malicia": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_703.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_703.png?60352",
     "class": "WL+DH",
     "cost": 7,
     "desc": "Battlecry: For each Soul Fragment in your deck, summon a 3/3 Soul with Rush.",
@@ -33928,7 +33928,7 @@
   },
   "Soulshard Lapidary": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_704.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_704.png?60352",
     "class": "DH",
     "cost": 5,
     "desc": "Battlecry: Destroy a Soul Fragment in your deck to give your hero +5 Attack this turn.",
@@ -34120,7 +34120,7 @@
   },
   "Speaker Gidra": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_182.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_182.png?60352",
     "class": "DR+SH",
     "cost": 3,
     "desc": "Rush, Windfury Spellburst: Gain Attack and Health equal to the spell's Cost.",
@@ -34328,7 +34328,7 @@
   },
   "Sphere of Sapience": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_259.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_259.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "At the start of your turn, look at your top card. You can put it on the bottom and lose 1 Durability.",
@@ -34456,7 +34456,7 @@
   },
   "Spirit Jailer": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_700.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_700.png?60352",
     "class": "WL+DH",
     "cost": 1,
     "desc": "Battlecry: Shuffle 2 Soul Fragments into your deck.",
@@ -34680,7 +34680,7 @@
   },
   "Spitting Camel": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_182.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_182.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "At the end of your turn, deal 1 damage to another random friendly minion.",
@@ -34712,7 +34712,7 @@
   },
   "Splitting Axe": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_413.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_413.png?60352",
     "class": "SH",
     "cost": 4,
     "desc": "Battlecry: Summon copies of your Totems.",
@@ -35016,7 +35016,7 @@
   },
   "Star Student Stelina": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_603.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_603.png?60352",
     "class": "DH",
     "cost": 4,
     "desc": "Outcast: Look at 3 cards in your opponent's hand. Shuffle one of them into their deck.",
@@ -35176,7 +35176,7 @@
   },
   "Steeldancer": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_522.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_522.png?60352",
     "class": "RO+WR",
     "cost": 4,
     "desc": "Battlecry: Summon a random minion with Cost equal to your weapon's Attack.",
@@ -35224,7 +35224,7 @@
   },
   "Steward of Scrolls": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_245.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_245.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Spell Damage +1 Battlecry: Discover a spell.",
@@ -35640,7 +35640,7 @@
   },
   "Subdue": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_728.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_728.png?60352",
     "class": "PL",
     "cost": 2,
     "desc": "Set a minion's Attack and Health to 1.",
@@ -35832,7 +35832,7 @@
   },
   "Sunstruck Henchman": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_180.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_180.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "At the start of your turn, this has a 50% chance to fall asleep.",
@@ -35896,7 +35896,7 @@
   },
   "Supreme Archaeology": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_140.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_140.png?60352",
     "class": "WL",
     "cost": 1,
     "desc": "Quest: Draw 20 cards. Reward: Tome of Origination.",
@@ -35944,7 +35944,7 @@
   },
   "Survival of the Fittest": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_609.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_609.png?60352",
     "class": "DR",
     "cost": 10,
     "desc": "Give +4/+4 to all minions in your hand, deck, and battlefield.",
@@ -36024,7 +36024,7 @@
   },
   "Swarm of Locusts": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_713.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_713.png?60352",
     "class": "HT",
     "cost": 6,
     "desc": "Summon seven 1/1 Locusts with Rush.",
@@ -36312,7 +36312,7 @@
   },
   "Teacher's Pet": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_244.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_244.png?60352",
     "class": "DR+HT",
     "cost": 5,
     "desc": "Taunt Deathrattle: Summon a random 3-Cost Beast.",
@@ -36328,7 +36328,7 @@
   },
   "Temple Berserker": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_185.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_185.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Reborn Has +2 Attack while damaged.",
@@ -37083,7 +37083,7 @@
   },
   "Tidal Wave": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_535.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_535.png?60352",
     "class": "SH",
     "cost": 8,
     "desc": "Lifesteal Deal 3 damage to all minions.",
@@ -37211,7 +37211,7 @@
   },
   "Tip the Scales": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_716.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_716.png?60352",
     "class": "PL",
     "cost": 8,
     "desc": "Summon 7 Murlocs from your deck.",
@@ -37371,7 +37371,7 @@
   },
   "Tomb Warden": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_253.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_253.png?60352",
     "class": "WR",
     "cost": 8,
     "desc": "Taunt Battlecry: Summon a copy of this minion.",
@@ -37467,10 +37467,10 @@
   },
   "Tortollan Pilgrim": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_236.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_236.png?60352",
     "class": "MA",
     "cost": 8,
-    "desc": "Battlecry: Discover a copy of a spell in your deck and cast it with random targets.",
+    "desc": "Battlecry: Discover a spell in your deck and cast it with random targets.",
     "head": "tortollan-pilgrim",
     "hp": 5,
     "hpwn": 90747,
@@ -37562,11 +37562,11 @@
     "type": "Minion"
   },
   "Totem Goliath": {
-    "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_615.png?56359",
+    "atk": 5,
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_615.png?60352",
     "class": "SH",
     "cost": 5,
-    "desc": "Deathrattle: Summon all four basic Totems. Overload: (2)",
+    "desc": "Deathrattle: Summon all four basic Totems. Overload: (1)",
     "head": "totem-goliath",
     "hp": 5,
     "hpwn": 329894,
@@ -37627,7 +37627,7 @@
   },
   "Totemic Surge": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_171.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_171.png?60352",
     "class": "SH",
     "cost": 0,
     "desc": "Give your Totems +2 Attack.",
@@ -37643,7 +37643,7 @@
   },
   "Tour Guide": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_312.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_312.png?60352",
     "class": "N",
     "cost": 1,
     "desc": "Battlecry: Your next Hero Power costs (0).",
@@ -37835,7 +37835,7 @@
   },
   "Transfer Student": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_199.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_199.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "This has different effects based on which game board you're on.",
@@ -37947,7 +37947,7 @@
   },
   "Trick Totem": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_537.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_537.png?60352",
     "class": "MA+SH",
     "cost": 2,
     "desc": "At the end of your turn, cast a random spell that costs (3) or less.",
@@ -38027,7 +38027,7 @@
   },
   "Troublemaker": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_337.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_337.png?60352",
     "class": "WR",
     "cost": 8,
     "desc": "At the end of your turn, summon two 3/3 Ruffians that attack random enemies.",
@@ -38043,7 +38043,7 @@
   },
   "Trueaim Crescent": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_279.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_279.png?60352",
     "class": "HT+DH",
     "cost": 1,
     "desc": "After your Hero attacks a minion, your minions attack it too.",
@@ -38123,7 +38123,7 @@
   },
   "Turalyon, the Tenured": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_135.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_135.png?60352",
     "class": "PL",
     "cost": 8,
     "desc": "Rush. Whenever this attacks a minion, set the defender's Attack and Health to 3.",
@@ -38315,7 +38315,7 @@
   },
   "Twilight Runner": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_616.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_616.png?60352",
     "class": "DR",
     "cost": 5,
     "desc": "Stealth Whenever this attacks, draw 2 cards.",
@@ -38875,7 +38875,7 @@
   },
   "Unseal the Vault": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_155.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_155.png?60352",
     "class": "HT",
     "cost": 1,
     "desc": "Quest: Summon 20 minions. Reward: Pharaoh's Warmask.",
@@ -39003,7 +39003,7 @@
   },
   "Untapped Potential": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_131.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_131.png?60352",
     "class": "DR",
     "cost": 1,
     "desc": "Quest: End 4 turns with any unspent Mana. Reward: Ossirian Tear.",
@@ -39298,7 +39298,7 @@
   },
   "Vectus": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_162.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_162.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Battlecry: Summon two 1/1 Whelps. Each gains a Deathrattle from your minions that died this game.",
@@ -39474,7 +39474,7 @@
   },
   "Vessina": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_173.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_173.png?60352",
     "class": "SH",
     "cost": 4,
     "desc": "While you're Overloaded, your other minions have +2 Attack.",
@@ -39570,7 +39570,7 @@
   },
   "Vilefiend": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_450.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_450.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Lifesteal",
@@ -39586,7 +39586,7 @@
   },
   "Vilefiend Trainer": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_705.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_705.png?60352",
     "class": "DH",
     "cost": 4,
     "desc": "Outcast: Summon two 1/1 Demons.",
@@ -39874,7 +39874,7 @@
   },
   "Void Drinker": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_343.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_343.png?60352",
     "class": "WL",
     "cost": 5,
     "desc": "Taunt. Battlecry: Destroy a Soul Fragment in your deck to gain +3/+3.",
@@ -40146,7 +40146,7 @@
   },
   "Voracious Reader": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_142.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_142.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "At the end of your turn, draw until you have 3 cards.",
@@ -40194,7 +40194,7 @@
   },
   "Vulpera Scoundrel": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_209.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_209.png?60352",
     "class": "N",
     "cost": 3,
     "desc": "Battlecry: Discover a spell or pick a mystery choice.",
@@ -40210,7 +40210,7 @@
   },
   "Vulpera Toxinblade": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_519.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_519.png?60352",
     "class": "RO",
     "cost": 3,
     "desc": "Your weapon has +2 Attack.",
@@ -40322,7 +40322,7 @@
   },
   "Wand Thief": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_350.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_350.png?60352",
     "class": "MA+RO",
     "cost": 1,
     "desc": "Combo: Discover a Mage spell.",
@@ -40354,7 +40354,7 @@
   },
   "Wandmaker": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_160.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_160.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: Add a 1-Cost spell from your class to your hand.",
@@ -40562,7 +40562,7 @@
   },
   "Wasteland Assassin": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_274.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_274.png?60352",
     "class": "N",
     "cost": 5,
     "desc": "Stealth Reborn",
@@ -40578,7 +40578,7 @@
   },
   "Wasteland Scorpid": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_194.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_194.png?60352",
     "class": "N",
     "cost": 7,
     "desc": "Poisonous",
@@ -40626,7 +40626,7 @@
   },
   "Wave of Apathy": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_250.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_250.png?60352",
     "class": "PL+PR",
     "cost": 1,
     "desc": "Set the Attack of all enemy minions to 1 until your next turn.",
@@ -40706,7 +40706,7 @@
   },
   "Weaponized Wasp": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_170.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_170.png?60352",
     "class": "SH",
     "cost": 3,
     "desc": "Battlecry: If you control a Lackey, deal 3 damage.",
@@ -40834,7 +40834,7 @@
   },
   "Whirlkick Master": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_231.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_231.png?60352",
     "class": "RO",
     "cost": 2,
     "desc": "Whenever you play a Combo card, add a random Combo card to your hand.",
@@ -40978,7 +40978,7 @@
   },
   "Wild Bloodstinger": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_212.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_212.png?60352",
     "class": "HT",
     "cost": 6,
     "desc": "Battlecry: Summon a minion from your opponent's hand. Attack it.",
@@ -41410,7 +41410,7 @@
   },
   "Wolpertinger": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_133.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_133.png?60352",
     "class": "HT",
     "cost": 1,
     "desc": "Battlecry: Summon a copy of this.",
@@ -41490,7 +41490,7 @@
   },
   "Worthy Expedition": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_136.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_136.png?60352",
     "class": "DR",
     "cost": 1,
     "desc": "Discover a Choose One card.",
@@ -41506,7 +41506,7 @@
   },
   "Wrapped Golem": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_215.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_215.png?60352",
     "class": "N",
     "cost": 7,
     "desc": "Reborn At the end of your turn, summon a 1/1 Scarab with Taunt.",
@@ -41618,7 +41618,7 @@
   },
   "Wretched Reclaimer": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_269.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_269.png?60352",
     "class": "PR",
     "cost": 3,
     "desc": "Battlecry: Destroy a friendly minion, then return it to life with full Health.",
@@ -41650,7 +41650,7 @@
   },
   "Wretched Tutor": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_313.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_313.png?60352",
     "class": "N",
     "cost": 4,
     "desc": "Spellburst: Deal 2 damage to all other minions.",
@@ -41666,7 +41666,7 @@
   },
   "Wyrm Weaver": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/SCH_243.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/SCH_243.png?60352",
     "class": "MA",
     "cost": 5,
     "desc": "Spellburst: Summon two 1/3 Mana Wyrms.",
@@ -41970,7 +41970,7 @@
   },
   "Zephrys the Great": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/ULD_003.png?56359",
+    "cdn": "https://cards.hearthpwn.com/enUS/ULD_003.png?60352",
     "class": "N",
     "cost": 2,
     "desc": "Battlecry: If your deck has no duplicates, wish for the perfect card.",
