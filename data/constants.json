@@ -24,7 +24,7 @@
         "23" : {"name" : "Galakrond's Awakening", "code" : "GA", "std" : true},
         "24" : {"name" : "Demon Hunter Initiate", "code" : "DHI", "std" : true},
         "25" : {"name" : "Ashes of Outland", "code" : "AO", "std" : true, "unreleased" : false},
-        "26" : {"name" : "Scholomance Academy", "code" : "SA", "std" : false, "unreleased" : true}
+        "26" : {"name" : "Scholomance Academy", "code" : "SA", "std" : true, "unreleased" : false}
     },
 
     "classes": {
