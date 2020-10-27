@@ -12700,7 +12700,7 @@
     "atk": null,
     "cdn": "https://cards.hearthpwn.com/enUS/BT_006.png?56359",
     "class": "MA",
-    "cost": 1,
+    "cost": 2,
     "desc": "Fill your hand with random Mage spells. At the end of your turn, discard them.",
     "head": "evocation",
     "hp": null,

@@ -598,6 +598,7 @@ if __name__ == "__main__":
 
         else:
             result = parseMultiple(sys.argv[1:])
+
         if result:
             print(result)
             resultFile = "result-{}.log".format(int(time.time()))
