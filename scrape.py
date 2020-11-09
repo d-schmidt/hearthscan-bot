@@ -576,6 +576,9 @@ def parseHTDPage(url, requests=requests):
     html = fromstring(r.text)
     return html.xpath('//article//header[@class="entry-header"]/h2/a/@href')
 
+def parseHTDPageNumber(number, requests=requests):
+    return parseHTDPage(f'https://www.hearthstonetopdecks.com/page/{number}/', requests)
+
 
 if __name__ == "__main__":
     print("see log scrape.log")
@@ -595,7 +598,15 @@ if __name__ == "__main__":
                 else:
                     urls = parseHTDPage(sys.argv[1], session)
                 result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
-
+        elif 'hdt' in sys.argv[1]:
+            with requests.Session() as session:
+                pages = sys.argv[2].split('-')
+                if len(pages) == 1:
+                    urls = parseHTDPageNumber(pages[0], session)
+                else:
+                    urls = (card for page in range(int(pages[0]), int(pages[1]) + 1)
+                            for card in parseHTDPageNumber(page, session))
+                result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
         else:
             result = parseMultiple(sys.argv[1:])
 
