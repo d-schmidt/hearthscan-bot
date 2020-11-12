@@ -413,9 +413,7 @@ def parseSingle(hpid):
     try:
         return parseSingleThrowing(hpid)
     except Exception as e:
-        print(hpid, e)
-        import traceback
-        traceback.print_exc()
+        log.exception("parseSingle() card %s error %s", hpid, e)
         return "", {}
 
 def parseSingleThrowing(hpid):
@@ -431,6 +429,7 @@ def parseSingleThrowing(hpid):
     }
 
     r = requests.get("https://www.hearthpwn.com/cards/{}".format(hpid))
+    log.debug("parseSingleThrowing() hpwn url requested: %s", r.url)
     r.raise_for_status()
     root = fromstring(r.text).xpath('//div[@class="details card-details"]')
 
@@ -458,6 +457,7 @@ def parseSingleThrowing(hpid):
     # search
     payload = {'filter-name': re.sub(r"[^\w']+", " ", name).strip(), 'display': 1, 'filter-unreleased': 1}
     r = requests.get("https://www.hearthpwn.com/cards", params=payload)
+    log.debug("parseSingleThrowing() hpwn url requested: %s", r.url)
     r.raise_for_status()
     html = fromstring(r.text)
     path = "/cards/{}-{}".format(hpid, head)
@@ -589,16 +589,19 @@ if __name__ == "__main__":
             format='%(asctime)s %(levelname)s %(message)s',
             level=log.DEBUG)
 
+    log.debug("scrape started with parameters: %s", sys.argv)
     if len(sys.argv) > 1:
         result = ""
         if 'hearthstonetopdecks' in sys.argv[1]:
+            log.debug("loading single htd url: %s", sys.argv)
             with requests.Session() as session:
                 if 'cards' in sys.argv[1]:
                     urls = [sys.argv[1]]
                 else:
                     urls = parseHTDPage(sys.argv[1], session)
                 result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
-        elif 'hdt' in sys.argv[1]:
+        elif 'htd' in sys.argv[1]:
+            log.debug("loading htd pages: %s", sys.argv)
             with requests.Session() as session:
                 pages = sys.argv[2].split('-')
                 if len(pages) == 1:
@@ -608,6 +611,7 @@ if __name__ == "__main__":
                             for card in parseHTDPageNumber(page, session))
                 result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
         else:
+            log.debug("loading multiple cards from hpwn: %s", sys.argv)
             result = parseMultiple(sys.argv[1:])
 
         if result:
@@ -619,4 +623,5 @@ if __name__ == "__main__":
             print("nothing found: ", sys.argv[1])
 
     else:
+        log.debug("default scraping")
         main()
