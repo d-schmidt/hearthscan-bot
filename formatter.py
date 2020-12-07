@@ -30,6 +30,8 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
 STD_ICON = '\U0001F525 '
 # unreleased sleep
 NEXT_STD_ICON = '\U0001F4A4 '
+# crossed swords
+DUELS_ICON = '\U00002694 '
 
 
 def createCardText(card, constants):
@@ -69,7 +71,8 @@ def createCardText(card, constants):
         'subtype' : subtype_template.format(subType=card['subType']) \
                 if card['subType'] else '',
 
-        'std' : STD_ICON if cardSetData.get('std') else \
+        'std' : DUELS_ICON if cardSetData.get('duels') else \
+                STD_ICON if cardSetData.get('std') else \
                 NEXT_STD_ICON if cardSetData.get('unreleased') else ' '
     }
 
@@ -95,7 +98,7 @@ def createDuplicateMsg(title, url):
     return duplicate_header_templ.format(title=title, url=url)
 
 
-def loadInfoTempl(specials=[], alts=[], tokens=[], *, infoMsgTmpl='data/info_msg.templ'):
+def loadInfoTempl(specials=[], alts=[], tokens=[], duelsPrefix='d!', *, infoMsgTmpl='data/info_msg.templ'):
     """ reads and prepares [[info]] template,
     {user} will remain for later formatting
     """
@@ -123,4 +126,5 @@ def loadInfoTempl(specials=[], alts=[], tokens=[], *, infoMsgTmpl='data/info_msg
     return rawTemplate.format(user='{user}',
                                 alts=altsText,
                                 tokens=tokensText,
-                                special=specialText)
+                                special=specialText,
+                                duelsPrefix=duelsPrefix)

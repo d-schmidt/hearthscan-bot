@@ -5,6 +5,7 @@
 !extend_desc.json
 !tokens.json
 !cards.json
+!duels.json
 !tempinfo.json
 *.db
 credentials.py

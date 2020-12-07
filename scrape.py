@@ -52,7 +52,9 @@ jsonToCCSet = {
     'YEAR_OF_THE_DRAGON': '23',
     'DEMON_HUNTER_INITIATE': '24',
     'BLACK_TEMPLE': '25',
-    'SCHOLOMANCE': '26'
+    'SCHOLOMANCE': '26',
+    'DARKMOON_FAIRE': '27',
+    'TB': '28'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -79,11 +81,16 @@ setids = {
     '23' : 1300,
     '24' : 1500,
     '25' : 1400,
-    '26': 1443
+    '26': 1443,
+    '27': 1600,
+    '28': 1601
 }
 # set names to hs internal set ids
 cc = Constants()
 setNameIds = dict((cc.sets[ccid]['name'], hsid) for ccid, hsid in setids.items())
+# duel cards
+duelSetIds = [ ccid for ccid in setids if cc.sets[ccid].get("duels") ]
+duelSets = [ name for name, ccid in jsonToCCSet.items() if cc.sets[ccid].get("duels") ]
 # hs internal cardtype ids
 hsTypeId = {
     'Hero': '11',
@@ -189,6 +196,7 @@ def loadJsonCards():
 
     cards = {}
     tokens = {}
+    duels = {}
 
     for card in cardtextjson:
         if card.get('set') not in jsonToCCSet:
@@ -200,13 +208,21 @@ def loadJsonCards():
         if card.get('type') not in ['MINION', 'SPELL', 'WEAPON', 'HERO', 'HERO_POWER']:
             # buffs are irrelevant for us
             continue
-        if  card.get('set') == 'CORE' and card.get('type') in ['HERO', 'HERO_POWER']:
-            # skip default heroes
+        if  card.get('set') in ['CORE'] + duelSets and card.get('type') in ['HERO', 'HERO_POWER']:
+            # skip default and duels heroes
+            continue
+        if card.get('set') in duelSets and not card['id'].startswith('PVPDR'):
+            # skip tavern brawl cards not used in duels
+            continue
+        duels_blacklist = ['PVPDR_TEST', 'PVPDR_Duels_Buckets', 'PVPDR_SCH_ComingSoon', 'PVPDR_Empty']
+        blacklistedId = next((word for word in duels_blacklist if card['id'].startswith(word)), False)
+        if card.get('set') in duelSets and blacklistedId:
+            # skip duels buckets
             continue
 
         text = card.get('text')
-        # jade golem cards have two texts
-        if "Galakrond, the " == card['name'][:15] and card.get('collectionText'):
+        # jade golem and galakrond cards have two texts
+        if card['name'].startswith("Galakrond, the ") and card.get('collectionText'):
             text = fixText(text + "Invoke twice to upgrade." + card.get('collectionText'))
         else:
             text = fixText(card.get('collectionText', text))
@@ -237,6 +253,8 @@ def loadJsonCards():
         if cost is None and card.get('collectible'):
             log.debug("loadJsonCards() collectible without cost: %s", card)
             cost = 0
+        if text and text.startswith('Passive') and cost == 0:
+            cost = None
 
         if 'name' not in card:
             print(card)
@@ -255,7 +273,9 @@ def loadJsonCards():
             'hp': card.get('armor', card.get('health', card.get('durability')))
         }
 
-        if card.get('collectible'):
+        if card.get('set') in duelSets:
+            duels[card['id']] = cardData
+        elif card.get('collectible'):
             cards[card['id']] = cardData
         else:
             cardData['rarity'] = 'Token'
@@ -274,7 +294,7 @@ def loadJsonCards():
                                 extendCard.get('cost', 0),
                                 extendCard['desc']))
 
-    return cards, tokens
+    return cards, tokens, duels
 
 
 def saveCardsAsJson(filename, cards):
@@ -285,10 +305,11 @@ def saveCardsAsJson(filename, cards):
 
 # default loop all ['02','06','08', ...]
 def loadSets(allcards={}, sets=setids.keys()):
+    log.debug("loadSets() %s cards %s sets", len(allcards), len(sets))
     # grp by set
     setcarddata = {}
 
-    for id, card in allcards.items():
+    for _, card in allcards.items():
         if card['set'] not in setcarddata:
             setcarddata[card['set']] = []
         setcarddata[card['set']].append(card)
@@ -314,7 +335,7 @@ def loadSets(allcards={}, sets=setids.keys()):
                         hpid, image = getHearthpwnIdAndUrl(name,
                                                             setname,
                                                             card['type'],
-                                                            False,
+                                                            cc.sets[setid].get('duels'),
                                                             session)
 
                         card['cdn'] = image
@@ -327,7 +348,10 @@ def loadSets(allcards={}, sets=setids.keys()):
                         card['hpwn'] = 12288
 
                     card['head'] = getHearthHeadId(name)
-                    currentSet[card['name']] = card
+                    if card['name'] in currentSet:
+                        log.debug("loadSets() found '%s' again", card['name'])
+                    else:
+                        currentSet[card['name']] = card
                     print('.', end='')
 
                 saveCardsAsJson(filename, currentSet)
@@ -393,16 +417,19 @@ def loadTokens(tokens = {}, wantedTokens = {}):
 
 def main():
     try:
-        log.debug("main() full scrape will take 5-10 minutes")
-        cards, tokens = loadJsonCards()
+        log.debug("main() full scrape will take 5+ minutes")
+        cards, tokens, duels = loadJsonCards()
 
-        saveCardsAsJson("data/cards.json", loadSets(allcards=cards))
+        saveCardsAsJson("data/cards.json", loadSets(allcards=cards, sets=setids.keys() - duelSetIds))
+        saveCardsAsJson("data/duels.json", loadSets(allcards=duels, sets=duelSetIds))
 
         # a lot of token names are not unique
         # a static, handmade list of ids is more reliable
         if os.path.isfile('data/tokenlist.json'):
-            with open('data/tokenlist.json', 'r', encoding='utf8') as f:
-                saveCardsAsJson("data/tokens.json", loadTokens(tokens, json.load(f)))
+            if not os.path.isfile("data/tokens.json") \
+                    or os.path.getmtime("data/tokens.json") < os.path.getmtime('data/tokenlist.json'):
+                with open('data/tokenlist.json', 'r', encoding='utf8') as f:
+                    saveCardsAsJson("data/tokens.json", loadTokens(tokens, json.load(f)))
         print("success")
     except Exception as e:
         log.exception("main() error %s", e)

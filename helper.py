@@ -58,7 +58,8 @@ class HSHelper:
 
         self.infoTempl = formatter.loadInfoTempl(self.constants.specialNames,
             self.constants.alternativeNames,
-            self.cardDB.tokens)
+            cardDB.tokens,
+            cardDB.DUELS_CMD)
 
     def getInfoText(self, author):
         """fill info request answer template"""
@@ -96,9 +97,12 @@ class HSHelper:
             return cards
 
         # regex for escaped (new reddit and some apps) and unescaped brackets
-        for card in re.finditer(r'\\?\[\\?\[([^\]\\]{1,30})\\?\]\\?\]', text):
+        for card in re.finditer(r'\\?\[\\?\[([^\]\\]{1,32})\\?\]\\?\]', text):
             card = card.group(1)
             log.debug("adding a card: %s", card)
+            duelsRequested = card.startswith(self.cardDB.DUELS_CMD)
+            if duelsRequested:
+                card = card[len(self.cardDB.DUELS_CMD):]
             cleanCard = CardDB.cleanName(card)
 
             if cleanCard:
@@ -111,8 +115,11 @@ class HSHelper:
 
                 # is alternative name?
                 checkedCard = self.constants.translateAlt(checkedCard)
+
                 # add cardname
                 if checkedCard not in cards:
+                    if duelsRequested:
+                        checkedCard = self.cardDB.DUELS_CMD + checkedCard
                     cards.append(checkedCard)
                 else:
                     log.info("duplicate card: %s", card)

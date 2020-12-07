@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import logging as log
+import re
 import time
 
 from cardDB import CardDB
@@ -108,7 +109,8 @@ def answerPM(r, msg, pmUserCache, helper):
     text = msg.subject + ' ' + msg.body
     cards, answer = helper.parseText(text)
 
-    if '[[info]]' in text:
+    # some ui and clients do escape the brackets
+    if re.search(r'\\?\[\\?\[info\\?\]\\?\]', text):
         answer = helper.getInfoText(author) + answer
 
     if cards or answer:
