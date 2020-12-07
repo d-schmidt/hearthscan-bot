@@ -116,13 +116,13 @@ class HSHelper:
                 # is alternative name?
                 checkedCard = self.constants.translateAlt(checkedCard)
 
+                if duelsRequested:
+                    checkedCard = self.cardDB.DUELS_CMD + checkedCard
                 # add cardname
                 if checkedCard not in cards:
-                    if duelsRequested:
-                        checkedCard = self.cardDB.DUELS_CMD + checkedCard
                     cards.append(checkedCard)
                 else:
-                    log.info("duplicate card: %s", card)
+                    log.info("duplicate card: %s (%s)", card, checkedCard)
 
             # sometimes cards are removed, get more to fill limit
             if len(cards) >= self.constants.CARD_LIMIT * 2:
