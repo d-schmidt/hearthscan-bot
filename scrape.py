@@ -604,7 +604,14 @@ def parseHTDPage(url, requests=requests):
     r = requests.get(url)
     r.raise_for_status()
     html = fromstring(r.text)
-    return html.xpath('//article//header[@class="entry-header"]/h2/a/@href')
+
+    # main page
+    urls = html.xpath('//article//header[@class="entry-header"]/h2/a/@href')
+    if urls:
+        return urls
+    # galery url
+    return html.xpath('//div[contains(@class, "card-gallery")]/main/article//div[contains(@class, "card-item")]/a/@href')
+
 
 def parseHTDPageNumber(number, requests=requests):
     return parseHTDPage(f'https://www.hearthstonetopdecks.com/page/{number}/', requests)
