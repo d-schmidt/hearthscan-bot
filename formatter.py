@@ -10,15 +10,15 @@ atk_dur_template = "{atk}/{dur}"
 subtype_template = " {subType}"
 desc_template = " | {desc}"
 extDesc_template = "[{text}]  \n"
-card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
+card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std} "
                     "^[HP](https://www.hearthpwn.com/cards/{hpwn}), "
                     "^[TD](https://www.hearthstonetopdecks.com/cards/{head}/), "
                     "^[W](https://hearthstone.gamepedia.com/{wiki})  \n"
-                "{cost}/{atk_dur}{subtype}{desc}  \n{extDesc}")
+                    "{cost}/{atk_dur}{subtype}{desc}  \n{extDesc}")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
-            " ^( me with up to 7 [[cardname]]. )"
-            "^[About.](https://www.reddit.com/message/compose/"
-            "?to={bot}&message=Tell%20me%20more%20[[info]]&subject=hi)") \
+                " ^( me with up to 7 [[cardname]]. )"
+                "^[About.](https://www.reddit.com/message/compose/"
+                "?to={bot}&message=Tell%20me%20more%20[[info]]&subject=hi)") \
             .format(bot=credentials.username)
 
 duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
@@ -26,12 +26,14 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "To reduce duplicates, your cards are here:\n\n")
 
 # Standard legal icon
+# 2021 Year of the Gryphon
+STD_ICON = '\U0001F985'
 # 2020 fire because phoenix
-STD_ICON = '\U0001F525 '
+STD_ICON = '\U0001F525'
 # unreleased sleep
-NEXT_STD_ICON = '\U0001F4A4 '
+NEXT_STD_ICON = '\U0001F4A4'
 # crossed swords
-DUELS_ICON = '\U00002694 '
+DUELS_ICON = '\U00002694'
 
 
 def createCardText(card, constants):
@@ -73,7 +75,7 @@ def createCardText(card, constants):
 
         'std' : DUELS_ICON if cardSetData.get('duels') else \
                 STD_ICON if cardSetData.get('std') else \
-                NEXT_STD_ICON if cardSetData.get('unreleased') else ' '
+                NEXT_STD_ICON if cardSetData.get('unreleased') else ''
     }
 
     return card_template.format(**local_card)

@@ -26,7 +26,9 @@
         "25": {"name": "Ashes of Outland", "code": "AO", "std": true},
         "26": {"name": "Scholomance Academy", "code": "SA", "std": true},
         "27": {"name": "Madness at the Darkmoon Faire", "code": "DMF", "std": true},
-        "28": {"name": "Duels", "code": "Duels", "std": false, "unreleased": false, "duels": true}
+        "28": {"name": "Duels", "code": "Duels", "std": false, "unreleased": false, "duels": true},
+        "29": {"name": "Core Set 2021", "code": "2021", "std": false, "unreleased": true},
+        "30": {"name": "Forged in the Barrens", "code": "FitB", "std": false, "unreleased": true}
     },
 
     "classes": {
