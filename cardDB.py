@@ -61,7 +61,7 @@ class CardDB:
             if clean in self.__db:
                 log.error("load() duplicate name, already in the db: %s",
                         clean)
-                raise Exception('duplicate card')
+                raise Exception('duplicate card: ' + clean)
 
             self.__db[clean] = formatter.createCardText(card, self.constants)
 
@@ -75,7 +75,7 @@ class CardDB:
             clean = self.DUELS_CMD + CardDB.cleanName(name)
             if clean in self.__db:
                 log.error("load() duplicate name, already in the db: %s", clean)
-                raise Exception('duplicate card')
+                raise Exception('duplicate card: ' + clean)
 
             self.__db[clean] = formatter.createCardText(card, self.constants)
 
@@ -87,7 +87,7 @@ class CardDB:
             clean = self.VANILLA_CMD + CardDB.cleanName(name)
             if clean in self.__db:
                 log.error("load() duplicate name, already in the db: %s", clean)
-                raise Exception('duplicate card')
+                raise Exception('duplicate card: ' + clean)
 
             self.__db[clean] = formatter.createCardText(card, self.constants)
 
