@@ -103,6 +103,9 @@ class HSHelper:
             duelsRequested = card.startswith(self.cardDB.DUELS_CMD)
             if duelsRequested:
                 card = card[len(self.cardDB.DUELS_CMD):]
+            vanillaRequested = card.startswith(self.cardDB.VANILLA_CMD)
+            if vanillaRequested:
+                card = card[len(self.cardDB.VANILLA_CMD):]
             cleanCard = CardDB.cleanName(card)
 
             if cleanCard:
@@ -118,6 +121,8 @@ class HSHelper:
 
                 if duelsRequested:
                     checkedCard = self.cardDB.DUELS_CMD + checkedCard
+                if vanillaRequested:
+                    checkedCard = self.cardDB.VANILLA_CMD + checkedCard
                 # add cardname
                 if checkedCard not in cards:
                     cards.append(checkedCard)
