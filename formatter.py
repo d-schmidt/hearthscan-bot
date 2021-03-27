@@ -28,8 +28,6 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
 # Standard legal icon
 # 2021 Year of the Gryphon
 STD_ICON = '\U0001F985'
-# 2020 fire because phoenix
-STD_ICON = '\U0001F525'
 # unreleased sleep
 NEXT_STD_ICON = '\U0001F4A4'
 # crossed swords
@@ -56,26 +54,26 @@ def createCardText(card, constants):
         extDesc = ''.join(extDesc_template.format(text=desc) for desc in extDesc)
 
     local_card = {
-        'name' : card['name'],
-        'type' : card['type'],
-        'class' : card['class'],
-        'rarity' : card['rarity'],
-        'set' : cardSetCode or cardSet,
-        'cost' : cost,
-        'desc' : desc_template.format(desc=cardDesc) if cardDesc else '',
+        'name': card['name'],
+        'type': card['type'],
+        'class': card['class'],
+        'rarity': card['rarity'],
+        'set': cardSetCode or cardSet,
+        'cost': cost,
+        'desc': desc_template.format(desc=cardDesc) if cardDesc else '',
         'extDesc': extDesc,
-        'hpwn' : card['hpwn'],
-        'head' : card['head'],
-        'wiki' : urllib.parse.quote(card['name'].replace(' ', '_')),
-        'cdn' : card['cdn'],
-        'atk_dur' : atk_dur,
+        'hpwn': card['hpwn'],
+        'head': card['head'],
+        'wiki': urllib.parse.quote(card['name'].replace(' ', '_')),
+        'cdn': card['cdn'],
+        'atk_dur': atk_dur,
 
-        'subtype' : subtype_template.format(subType=card['subType']) \
+        'subtype': subtype_template.format(subType=card['subType']) \
                 if card['subType'] else '',
 
-        'std' : DUELS_ICON if cardSetData.get('duels') else \
-                STD_ICON if cardSetData.get('std') else \
-                NEXT_STD_ICON if cardSetData.get('unreleased') else ''
+        'std': DUELS_ICON if cardSetData.get('duels') else \
+               STD_ICON if cardSetData.get('std') else \
+               NEXT_STD_ICON if cardSetData.get('unreleased') else ''
     }
 
     return card_template.format(**local_card)
@@ -100,7 +98,7 @@ def createDuplicateMsg(title, url):
     return duplicate_header_templ.format(title=title, url=url)
 
 
-def loadInfoTempl(specials=[], alts=[], tokens=[], duelsPrefix='d!', *, infoMsgTmpl='data/info_msg.templ'):
+def loadInfoTempl(specials=[], alts=[], tokens=[], duelsPrefix='d!', vanillaPrefix='v!', *, infoMsgTmpl='data/info_msg.templ'):
     """ reads and prepares [[info]] template,
     {user} will remain for later formatting
     """
@@ -129,4 +127,5 @@ def loadInfoTempl(specials=[], alts=[], tokens=[], duelsPrefix='d!', *, infoMsgT
                                 alts=altsText,
                                 tokens=tokensText,
                                 special=specialText,
-                                duelsPrefix=duelsPrefix)
+                                duelsPrefix=duelsPrefix,
+                                vanillaPrefix=vanillaPrefix)

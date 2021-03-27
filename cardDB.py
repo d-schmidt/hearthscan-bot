@@ -14,11 +14,13 @@ import formatter
 class CardDB:
     """Wrapper around a PRAW reddit instance."""
     DUELS_CMD = 'd!'
+    VANILLA_CMD = 'c!'
 
     def __init__(self, *,
             constants,
             cardJSON='data/cards.json',
             duelsJSON='data/duels.json',
+            vanillaJSON='data/vanilla.json',
             tokenJSON='data/tokens.json',
             tempJSON='data/tempinfo.json',
             tempJSONUrl=None):
@@ -31,6 +33,7 @@ class CardDB:
         self.constants = constants
         self.cardJSON = cardJSON
         self.duelsJSON = duelsJSON
+        self.vanillaJSON = vanillaJSON
         self.tokenJSON = tokenJSON
         self.tempJSON = tempJSON
         self.tempJSONUrl = tempJSONUrl
@@ -71,12 +74,22 @@ class CardDB:
         for name, card in duels.items():
             clean = self.DUELS_CMD + CardDB.cleanName(name)
             if clean in self.__db:
-                log.error("load() duplicate name, already in the db: %s",
-                        clean)
+                log.error("load() duplicate name, already in the db: %s", clean)
                 raise Exception('duplicate card')
 
             self.__db[clean] = formatter.createCardText(card, self.constants)
 
+        # add vanilla cards as with command prefix
+        with open(self.vanillaJSON, 'r', encoding='utf8') as file:
+            duels = json.load(file)
+
+        for name, card in duels.items():
+            clean = self.VANILLA_CMD + CardDB.cleanName(name)
+            if clean in self.__db:
+                log.error("load() duplicate name, already in the db: %s", clean)
+                raise Exception('duplicate card')
+
+            self.__db[clean] = formatter.createCardText(card, self.constants)
 
         # finally load temp file
         self.refreshTemp()
@@ -142,24 +155,35 @@ class CardDB:
         """all cards currently in db"""
         allNames = set()
         for name in self.__db.keys():
-            allNames.add(name[len(self.DUELS_CMD):] if name.startswith(self.DUELS_CMD) else name)
+            if name.startswith(self.DUELS_CMD):
+                name = name[len(self.DUELS_CMD):]
+            elif name.startswith(self.VANILLA_CMD):
+                name = name[len(self.VANILLA_CMD):]
+
+            allNames.add(name)
 
         return list(allNames)
 
 
     def __contains__(self, item):
         # direct hit or duels hit
-        return item in self.__db or (self.DUELS_CMD + item) in self.__db
+        return item in self.__db \
+                or (self.DUELS_CMD + item) in self.__db \
+                or (self.VANILLA_CMD + item) in self.__db
 
     def __getitem__(self, key):
         try:
             # get direct hit first (might be with hd!)
             return self.__db[key]
         except Exception as e:
+            # try vanilla as fallback
+            card = self.__db.get(self.VANILLA_CMD + key)
+            if card:
+                return card
             # try duels as fallback
-            ditem = self.__db.get(self.DUELS_CMD + key)
-            if ditem:
-                return ditem
+            card = self.__db.get(self.DUELS_CMD + key)
+            if card:
+                return card
             # raise original key error
             raise e
 

@@ -6,6 +6,7 @@
 !tokens.json
 !cards.json
 !duels.json
+!vanilla.json
 !tempinfo.json
 *.db
 credentials.py

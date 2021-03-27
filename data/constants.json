@@ -18,17 +18,18 @@
         "17": {"name": "The Witchwood", "code": "WW", "std": false},
         "18": {"name": "The Boomsday Project", "code": "TBP", "std": false},
         "19": {"name": "Rastakhan's Rumble", "code": "RR", "std": false},
-        "20": {"name": "Rise of Shadows", "code": "RoS", "std": true},
-        "21": {"name": "Saviors of Uldum", "code": "SoU", "std": true},
-        "22": {"name": "Descent of Dragons", "code": "DoD", "std": true},
-        "23": {"name": "Galakrond's Awakening", "code": "GA", "std": true},
+        "20": {"name": "Rise of Shadows", "code": "RoS", "std": false},
+        "21": {"name": "Saviors of Uldum", "code": "SoU", "std": false},
+        "22": {"name": "Descent of Dragons", "code": "DoD", "std": false},
+        "23": {"name": "Galakrond's Awakening", "code": "GA", "std": false},
         "24": {"name": "Demon Hunter Initiate", "code": "DHI", "std": true},
         "25": {"name": "Ashes of Outland", "code": "AO", "std": true},
         "26": {"name": "Scholomance Academy", "code": "SA", "std": true},
         "27": {"name": "Madness at the Darkmoon Faire", "code": "DMF", "std": true},
-        "28": {"name": "Duels", "code": "Duels", "std": false, "unreleased": false, "duels": true},
-        "29": {"name": "Core Set 2021", "code": "2021", "std": false, "unreleased": true},
-        "30": {"name": "Forged in the Barrens", "code": "FitB", "std": false, "unreleased": true}
+        "28": {"name": "Duels", "code": "Duels", "std": false, "duels": true},
+        "29": {"name": "Core Set 2021", "code": "Core", "std": true},
+        "30": {"name": "Forged in the Barrens", "code": "FitB", "std": true},
+        "31": {"name": "Vanilla", "code": "V", "std": false, "vanilla": true}
     },
 
     "classes": {

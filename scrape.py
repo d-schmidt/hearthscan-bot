@@ -29,7 +29,7 @@ setUrlTempl = ('https://www.hearthpwn.com/cards?'
                '&filter-unreleased=1&display=2')
 # hearthstonejson set id to card_constant set id
 jsonToCCSet = {
-    'CORE': '01',
+    'BASIC': '01',
     'EXPERT1': '02',
     'NAXX': '05',
     'GVG': '06',
@@ -55,7 +55,9 @@ jsonToCCSet = {
     'SCHOLOMANCE': '26',
     'DARKMOON_FAIRE': '27',
     'TB': '28',
-    'THE_BARRENS': '30'
+    'CORE': '29',
+    'THE_BARRENS': '30',
+    'VANILLA': '31'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -85,8 +87,9 @@ setids = {
     '26': 1443,
     '27': 1600,
     '28': 1601,
-    #'29': 1800,
-    '30': 1700
+    '29': 1800,
+    '30': 1700,
+    '31': 2000
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -94,6 +97,9 @@ setNameIds = dict((cc.sets[ccid]['name'], hsid) for ccid, hsid in setids.items()
 # duel cards
 duelSetIds = [ ccid for ccid in setids if cc.sets[ccid].get("duels") ]
 duelSets = [ name for name, ccid in jsonToCCSet.items() if cc.sets[ccid].get("duels") ]
+# vanilla cards
+vanillaSetIds = [ ccid for ccid in setids if cc.sets[ccid].get("vanilla") ]
+vanillaSets = [ name for name, ccid in jsonToCCSet.items() if cc.sets[ccid].get("vanilla") ]
 # hs internal cardtype ids
 hsTypeId = {
     'Hero': '11',
@@ -114,25 +120,25 @@ multiClassGroups = {
 }
 
 
-def getHearthHeadId(name, *ignored):
-    log.debug("getHearthHeadId() getting %s id for hearthhead", name)
-    # HearthHead does now work without id
-
-    name = re.sub(r"['!.]", '', name).lower()
+def getHTDId(name, *ignored):
+    log.debug("getHTDId() getting %s id for hearthhead", name)
+    # Hearthstone Top Decks uses name string ids
+    name = re.sub(r"['!.:]", '', name).lower()
     name = re.sub(r"[ñ]", 'n', name)
     return re.sub(r"[^\w]+", "-", name)
 
 
 hpIdRegex = re.compile(r"/cards/(\d+)-.*")
 
-def getHearthpwnIdAndUrl(name, set, type, isToken, session):
+def getHearthpwnIdAndUrl(name, cardset, cardtype, isToken, session):
     log.debug("getHearthpwnIdAndUrl() getting for %s", name)
     # hearthpwn is also weird
     hpname_hacked = name.replace('-', ' ').replace('!', '')
     premium = 0 if isToken else 1
 
     # filter-name={}&filter-premium={}&filter-type={}&filter-set={}
-    r = session.get(setUrlTempl.format(hpname_hacked, premium, hsTypeId[type], setNameIds[set]))
+    url = setUrlTempl.format(hpname_hacked, premium, hsTypeId[cardtype], setNameIds[cardset])
+    r = session.get(url)
     r.raise_for_status()
     html = fromstring(r.text)
 
@@ -152,8 +158,9 @@ def getHearthpwnIdAndUrl(name, set, type, isToken, session):
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
             return int(hpid), image.replace('http://', 'https://')
 
-    log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn '%s' '%s'", set, name)
-    raise Exception("getHearthpwnIdAndUrl() card " + name + " not found at hearthpwn")
+    log.debug("getHearthpwnIdAndUrl() card not found at hearthpwn '%s' '%s': got %s at %s",
+        cardset, name, list(desc.text for desc in descs), url)
+    raise Exception("getHearthpwnIdAndUrl() card " + name + " in " + cardset + " not found at hearthpwn")
 
 
 def camelCase(s):
@@ -200,6 +207,7 @@ def loadJsonCards():
     cards = {}
     tokens = {}
     duels = {}
+    vanilla = {}
 
     for card in cardtextjson:
         if card.get('set') not in jsonToCCSet:
@@ -211,11 +219,14 @@ def loadJsonCards():
         if card.get('type') not in ['MINION', 'SPELL', 'WEAPON', 'HERO', 'HERO_POWER']:
             # buffs are irrelevant for us
             continue
-        if  card.get('set') in ['CORE'] + duelSets and card.get('type') in ['HERO', 'HERO_POWER']:
+        if  card.get('set') in ['BASIC', 'CORE', 'VANILLA'] + duelSets and card.get('type') in ['HERO', 'HERO_POWER']:
             # skip default and duels heroes
             continue
         if card.get('set') in duelSets and not card['id'].startswith('PVPDR'):
             # skip tavern brawl cards not used in duels
+            continue
+        if 'DFX' in card['id']:
+            # skip dummy fx
             continue
         duels_blacklist = ['PVPDR_TEST', 'PVPDR_Duels_Buckets', 'PVPDR_SCH_ComingSoon', 'PVPDR_Empty']
         blacklistedId = next((word for word in duels_blacklist if card['id'].startswith(word)), False)
@@ -234,8 +245,11 @@ def loadJsonCards():
         rarity = 'Basic' if rarity == 'FREE' else camelCase(rarity)
 
         subtype = camelCase(card.get('race'))
-        if not subtype and "QUEST" in card.get("mechanics", []):
+        mechanics = card.get('mechanics', [])
+        if not subtype and ('QUEST' in mechanics or 'SIDEQUEST' in mechanics):
             subtype = 'Quest'
+        if not subtype:
+            subtype = camelCase(card.get('spellSchool'))
 
         clazz = camelCase(card.get('cardClass', 'Neutral'))
         clazz = cc.classes.get(clazz, clazz)
@@ -273,11 +287,14 @@ def loadJsonCards():
             'cost': cost,
             'desc': text,
             'atk': card.get('attack'),
-            'hp': card.get('armor', card.get('health', card.get('durability')))
+            'hp': card.get('armor', card.get('health', card.get('durability'))),
+            'collectible': card.get('collectible', False)
         }
 
         if card.get('set') in duelSets:
             duels[card['id']] = cardData
+        elif card.get('set') in vanillaSets:
+            vanilla[card['id']] = cardData
         elif card.get('collectible'):
             cards[card['id']] = cardData
         else:
@@ -297,7 +314,7 @@ def loadJsonCards():
                                 extendCard.get('cost', 0),
                                 extendCard['desc']))
 
-    return cards, tokens, duels
+    return cards, tokens, duels, vanilla
 
 
 def saveCardsAsJson(filename, cards):
@@ -344,13 +361,20 @@ def loadSets(allcards={}, sets=setids.keys()):
                         card['cdn'] = image
                         card['hpwn'] = hpid
                     except Exception as e:
-                        urlName = getHearthHeadId(name)
-                        url = 'https://www.hearthstonetopdecks.com/cards/{}/'.format(urlName)
-                        _, cardHTD = parseHTD(url, session)
-                        card['cdn'] = cardHTD['cdn']
-                        card['hpwn'] = 12288
+                        try:
+                            urlName = getHTDId(name)
+                            url = 'https://www.hearthstonetopdecks.com/cards/{}/'.format(urlName)
+                            _, cardHTD = parseHTD(url, session)
+                            card['cdn'] = cardHTD['cdn']
+                            card['hpwn'] = 12288
+                        except Exception as e2:
+                            log.exception("doSet() card %s also not at htd %s", card, e)
+                            if card['collectible']:
+                                raise e2
+                            log.exception("doSet() skipping card for error %s", e)
+                            continue
 
-                    card['head'] = getHearthHeadId(name)
+                    card['head'] = getHTDId(name)
                     if card['name'] in currentSet:
                         log.debug("loadSets() found '%s' again", card['name'])
                     else:
@@ -397,14 +421,14 @@ def loadTokens(tokens = {}, wantedTokens = {}):
 
                 card['cdn'] = image.replace('http://', 'https://')
                 card['hpwn'] = ids['hpwn']
-                card['head'] = getHearthHeadId(card['name'])
+                card['head'] = getHTDId(card['name'])
 
                 # since jade golem: overwrite scraped stats with prepared ones
                 card['atk'] = ids.get('atk', card['atk'])
                 card['cost'] = ids.get('cost', card['cost'])
                 card['hp'] = ids.get('hp', card['hp'])
             else:
-                urlName = getHearthHeadId(card['name'])
+                urlName = getHTDId(card['name'])
                 url = 'https://www.hearthstonetopdecks.com/cards/{}/'.format(urlName)
                 _, cardHTD = parseHTD(url, session)
                 if not cardHTD.get("desc") and card.get('desc'):
@@ -421,10 +445,12 @@ def loadTokens(tokens = {}, wantedTokens = {}):
 def main():
     try:
         log.debug("main() full scrape will take 5+ minutes")
-        cards, tokens, duels = loadJsonCards()
+        cards, tokens, duels, vanilla = loadJsonCards()
 
-        saveCardsAsJson("data/cards.json", loadSets(allcards=cards, sets=setids.keys() - duelSetIds))
+        cardSetIds = setids.keys() - duelSetIds - set(vanillaSetIds)
+        saveCardsAsJson("data/cards.json", loadSets(allcards=cards, sets=cardSetIds))
         saveCardsAsJson("data/duels.json", loadSets(allcards=duels, sets=duelSetIds))
+        saveCardsAsJson("data/vanilla.json", loadSets(allcards=vanilla, sets=vanillaSetIds))
 
         # a lot of token names are not unique
         # a static, handmade list of ids is more reliable
@@ -464,7 +490,7 @@ def parseSingleThrowing(hpid):
     root = fromstring(r.text).xpath('//div[@class="details card-details"]')
 
     name = getFirst(root[0].xpath('./header[1]/h2/text()'))
-    head = getHearthHeadId(name)
+    head = getHTDId(name)
     cdn = getFirst(root[0].xpath('./section/img[@class="hscard-static"]/@src')).lower()
     descs = root[0].xpath('./div[h3 = "Card Text"]/p//text()')
     desc = ''.join(descs)
@@ -589,7 +615,7 @@ def parseHTD(url, requests=requests):
         "class": clazz,
         "cost": int(data['Mana Cost:']),
         "desc": desc,
-        "head": getHearthHeadId(name),
+        "head": getHTDId(name),
         "hp": int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None,
         "hpwn": 12288,
         "name": name,
@@ -632,30 +658,30 @@ if __name__ == "__main__":
         if 'hearthstonetopdecks' in sys.argv[1]:
             log.debug("loading single htd url: %s", sys.argv)
             with requests.Session() as session:
-                if 'cards' in sys.argv[1]:
-                    urls = [sys.argv[1]]
-                else:
-                    urls = parseHTDPage(sys.argv[1], session)
-                result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
+                for url in sys.argv[1:]:
+                    if 'cards' in url:
+                        urls = [url]
+                    else:
+                        urls = parseHTDPage(url, session)
+                    result += "".join(formatSingle(*parseHTD(url, session)) for url in urls)
         elif 'htd' in sys.argv[1]:
             log.debug("loading htd pages: %s", sys.argv)
             with requests.Session() as session:
-                pages = sys.argv[2].split('-')
-                if len(pages) == 1:
-                    urls = parseHTDPageNumber(pages[0], session)
-                else:
-                    urls = (card for page in range(int(pages[0]), int(pages[1]) + 1)
-                            for card in parseHTDPageNumber(page, session))
+                urls = []
+                for u in list(parseHTDPageNumber(page, session) for page in expandIds(sys.argv[2:])):
+                    urls += u
+
                 result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
         else:
             log.debug("loading multiple cards from hpwn: %s", sys.argv)
             result = parseMultiple(sys.argv[1:])
 
         if result:
-            print(result)
+            print('cards loaded:', result.count('"name":'))
             resultFile = "result-{}.log".format(int(time.time()))
             with open(resultFile, "w", newline="\n", encoding='utf8') as f:
                 f.write(result)
+            print('cards saved to:', resultFile)
         else:
             print("nothing found: ", sys.argv[1])
 

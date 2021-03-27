@@ -79,15 +79,15 @@ class TestScrape(unittest.TestCase):
     # @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_hearthhead(self):
         with requests.Session() as s:
-            self.assertEqual(scrape.getHearthHeadId('Quick Shot', 'Spell', s),
+            self.assertEqual(scrape.getHTDId('Quick Shot', 'Spell', s),
                 'quick-shot')
-            self.assertEqual(scrape.getHearthHeadId('Undercity Valiant',
+            self.assertEqual(scrape.getHTDId('Undercity Valiant',
                 'Minion', s), 'undercity-valiant')
-            self.assertEqual(scrape.getHearthHeadId('Gorehowl', 'Weapon', s),
+            self.assertEqual(scrape.getHTDId('Gorehowl', 'Weapon', s),
                 'gorehowl')
-            self.assertEqual(scrape.getHearthHeadId('V-07-TR-0N',
+            self.assertEqual(scrape.getHTDId('V-07-TR-0N',
                 'Minion', s), 'v-07-tr-0n')
-            self.assertEqual(scrape.getHearthHeadId("Al'Akir the Windlord",
+            self.assertEqual(scrape.getHTDId("Al'Akir the Windlord",
                 'Minion', s), 'alakir-the-windlord')
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
@@ -398,13 +398,14 @@ class TestCardDB(unittest.TestCase):
 
             c = Constants(constJson)
 
-            db = CardDB(constants=c, cardJSON=cardJson, duelsJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+            db = CardDB(constants=c, cardJSON=cardJson, duelsJSON=emptyJson, vanillaJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
 
             self.assertEqual(db.cardNames(), ['quickshot'])
             self.assertEqual(db.tokens, [])
             self.assertTrue('quickshot' in db)
             self.assertFalse('slowshot' in db)
             self.assertFalse('d!quickshot' in db)
+            self.assertFalse('c!quickshot' in db)
             self.assertTrue('Quick Shot' in db['quickshot'])
 
     def test_CardDBTokens(self):
@@ -437,12 +438,13 @@ class TestCardDB(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=emptyJson, tokenJSON=cardJson, tempJSON=emptyJson)
+            db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=emptyJson, vanillaJSON=emptyJson, tokenJSON=cardJson, tempJSON=emptyJson)
 
             self.assertEqual(db.cardNames(), ['quickshot'])
             self.assertEqual(db.tokens, ['quickshot'])
             self.assertTrue('quickshot' in db)
             self.assertFalse('d!quickshot' in db)
+            self.assertFalse('c!quickshot' in db)
             self.assertTrue('Quick Shot' in db['quickshot'])
 
     def test_CardDBDuels(self):
@@ -475,14 +477,55 @@ class TestCardDB(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=cardJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+            db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=cardJson, vanillaJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
 
             self.assertEqual(db.cardNames(), ['quickshot'])
             self.assertEqual(db.tokens, [])
             self.assertTrue('quickshot' in db)
             self.assertTrue('d!quickshot' in db)
+            self.assertFalse('c!quickshot' in db)
             self.assertTrue('Quick Shot' in db['quickshot'])
             self.assertTrue('Quick Shot' in db['d!quickshot'])
+
+    def test_CardDBVanilla(self):
+        cardDict = {
+            'Quick Shot': {
+                'type': 'Spell',
+                'hpwn': 14459,
+                'cdn': 'https://media-Hearth.cursecdn.com/14459.png',
+                'desc': 'Deal 3 damage. Draw a card.',
+                'hp': 1,
+                'class': 'Hunter',
+                'subType': 'Mech',
+                'set': 'Basic',
+                'rarity': 'Token',
+                'atk': 3,
+                'head': 'quick-shot',
+                'name': 'Quick Shot',
+                'cost': 2
+            }
+        }
+
+        constantDict = {
+            'sets' : { '01' : {'name' : 'Basic'} },
+            'specials' : { },
+            'alternative_names' : { }
+        }
+
+        with TempJson(constantDict) as constJson, \
+                TempJson(cardDict) as cardJson, \
+                TempJson({}) as emptyJson:
+
+            c = Constants(constJson)
+            db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=emptyJson, vanillaJSON=cardJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+
+            self.assertEqual(db.cardNames(), ['quickshot'])
+            self.assertEqual(db.tokens, [])
+            self.assertTrue('quickshot' in db)
+            self.assertTrue('c!quickshot' in db)
+            self.assertFalse('d!quickshot' in db)
+            self.assertTrue('Quick Shot' in db['quickshot'])
+            self.assertTrue('Quick Shot' in db['c!quickshot'])
 
     def test_RefreshCardDB(self):
         cardDict = {
@@ -514,7 +557,7 @@ class TestCardDB(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=emptyJson, tokenJSON=emptyJson, tempJSON='notexisting.json')
+            db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=emptyJson, vanillaJSON=emptyJson, tokenJSON=emptyJson, tempJSON='notexisting.json')
 
             self.assertEqual(db.cardNames(), [])
             self.assertFalse('quickshot' in db)
@@ -570,7 +613,7 @@ class TestHelper(unittest.TestCase):
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=cardJson, duelsJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+            db = CardDB(constants=c, cardJSON=cardJson, duelsJSON=emptyJson, vanillaJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
             helper = HSHelper(db, c)
 
             # simple find
@@ -645,7 +688,7 @@ class TestHelper(unittest.TestCase):
                     f.write('{user}-{alts}-{tokens}-{special}')
 
                 c = Constants(constJson)
-                db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+                db = CardDB(constants=c, cardJSON=emptyJson, duelsJSON=emptyJson, vanillaJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
                 helper = HSHelper(db, c)
 
                 info = helper.getInfoText('user')
