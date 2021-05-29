@@ -29,7 +29,6 @@ setUrlTempl = ('https://www.hearthpwn.com/cards?'
                '&filter-unreleased=1&display=2')
 # hearthstonejson set id to card_constant set id
 jsonToCCSet = {
-    'BASIC': '01',
     'EXPERT1': '02',
     'NAXX': '05',
     'GVG': '06',
@@ -40,7 +39,6 @@ jsonToCCSet = {
     'KARA': '11',
     'GANGS': '12',
     'UNGORO': '13',
-    'HOF': '14',
     'ICECROWN': '15',
     'LOOTAPALOOZA': '16',
     'GILNEAS': '17',
@@ -58,11 +56,12 @@ jsonToCCSet = {
     'CORE': '29',
     'THE_BARRENS': '30',
     'VANILLA': '31',
-    'TAVERNS_OF_TIME': '32' # event set for arena cards
+    'TAVERNS_OF_TIME': '32', # arena event tokens
+    'LEGACY': '33'
+    #'BATTLEGROUNDS': '34'
 }
 # card_constant set ids to hs internal set ids
 setids = {
-    '01' : 2,
     '02' : 3,
     '05' : 100,
     '06' : 101,
@@ -73,7 +72,6 @@ setids = {
     '11' : 106,
     '12' : 107,
     '13' : 108,
-    '14' : 4,
     '15' : 109,
     '16' : 110,
     '17' : 111,
@@ -91,7 +89,9 @@ setids = {
     '29': 1800,
     '30': 1700,
     '31': 2000,
-    '32': 1
+    '32': 112,
+    '33': 1900
+    #'34': 1117
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -127,6 +127,8 @@ def getHTDId(name, *ignored):
     # Hearthstone Top Decks uses name string ids
     name = re.sub(r"['!.:]", '', name).lower()
     name = re.sub(r"[ñ]", 'n', name)
+    name = re.sub(r"[é]", 'e', name)
+    name = re.sub(r"[à]", 'a', name)
     return re.sub(r"[^\w]+", "-", name)
 
 
@@ -230,6 +232,10 @@ def loadJsonCards():
         if 'DFX' in card['id']:
             # skip dummy fx
             continue
+        if card.get('set') == 'BATTLEGROUNDS' and not card.get('techLevel'):
+            # skip upgraded battleground cards
+            continue
+
         duels_blacklist = ['PVPDR_TEST', 'PVPDR_Duels_Buckets', 'PVPDR_SCH_ComingSoon', 'PVPDR_Empty']
         blacklistedId = next((word for word in duels_blacklist if card['id'].startswith(word)), False)
         if card.get('set') in duelSets and blacklistedId:
@@ -272,6 +278,8 @@ def loadJsonCards():
         if cost is None and card.get('collectible'):
             log.debug("loadJsonCards() collectible without cost: %s", card)
             cost = 0
+        if cardSet == 'BATTLEGROUNDS':
+            cost = card.get('techLevel')
         if text and text.startswith('Passive') and cost == 0:
             cost = None
 
@@ -293,15 +301,15 @@ def loadJsonCards():
             'collectible': card.get('collectible', False)
         }
 
-        if card.get('set') in duelSets:
+        if cardSet in duelSets:
             duels[card['id']] = cardData
         elif card.get('collectible'):
-            if card.get('set') in vanillaSets:
+            if cardSet in vanillaSets:
                 vanilla[card['id']] = cardData
             else:
                 cards[card['id']] = cardData
         else:
-            if card.get('set') not in vanillaSets:
+            if cardSet not in vanillaSets:
                 cardData['rarity'] = 'Token'
                 tokens[card['id']] = cardData
 
@@ -460,6 +468,11 @@ def loadAndSaveTokens(allTokens, *, force=False):
 
             with open('data/tokenlist.json', 'r', encoding='utf8') as f:
                 tokenlist = json.load(f)
+
+            # we always want all tavern of time tokens
+            for cardid, card in allTokens.items():
+                if card.get('set') == "Taverns of Time" and card.get('name') not in tokenlist:
+                    tokenlist[card.get('name')] = {}
 
             saveCardsAsJson("data/tokens.json", loadTokens(allTokens, tokenlist))
 
@@ -711,7 +724,7 @@ if __name__ == "__main__":
             with open(resultFile, "w", newline="\n", encoding='utf8') as f:
                 f.write(result)
             print('cards saved to:', resultFile)
-        else:
+        elif sys.argv[1] != 'set':
             print("nothing found: ", sys.argv[1])
 
     else:

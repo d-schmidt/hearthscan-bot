@@ -3143,5 +3143,39 @@
     "set": "Duels",
     "subType": null,
     "type": "Minion"
+  },
+  "[PH] Passive Treasure 12": {
+    "atk": null,
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive12.png?83143",
+    "class": "N",
+    "collectible": false,
+    "cost": 0,
+    "desc": "Not Yet Defined.",
+    "head": "-ph-passive-treasure-12",
+    "hp": null,
+    "hpwn": 464483,
+    "id": "PVPDR_BAR_Passive12",
+    "name": "[PH] Passive Treasure 12",
+    "rarity": "Token",
+    "set": "Duels",
+    "subType": null,
+    "type": "Spell"
+  },
+  "[PH] Passive Treasure 13": {
+    "atk": null,
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive13.png?83143",
+    "class": "N",
+    "collectible": false,
+    "cost": 0,
+    "desc": "Not Yet Defined.",
+    "head": "-ph-passive-treasure-13",
+    "hp": null,
+    "hpwn": 464485,
+    "id": "PVPDR_BAR_Passive13",
+    "name": "[PH] Passive Treasure 13",
+    "rarity": "Token",
+    "set": "Duels",
+    "subType": null,
+    "type": "Spell"
   }
 }
