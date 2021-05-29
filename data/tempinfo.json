@@ -1,2 +1,62 @@
 {
+"Devout Dungeoneer": {
+    "atk": 2,
+    "cdn": "https://cdn.hearthstonetopdecks.com/wp-content/uploads/2021/05/Devout-Dungeoneer-300x416.png",
+    "class": "PR",
+    "cost": 3,
+    "desc": "Battlecry: Draw a spell. If it's a Holy spell, reduce its Cost by (2).",
+    "head": "devout-dungeoneer",
+    "hp": 3,
+    "hpwn": 12288,
+    "name": "Devout Dungeoneer",
+    "rarity": "Rare",
+    "set": "Forged in the Barrens",
+    "subType": null,
+    "type": "Minion"
+},
+"Mutanus the Devourer": {
+    "atk": 4,
+    "cdn": "https://cdn.hearthstonetopdecks.com/wp-content/uploads/2021/05/Mutanus-the-Devourer-300x428.png",
+    "class": "N",
+    "cost": 7,
+    "desc": "Battlecry: Eat a minion in your opponent's hand. Gain its stats.",
+    "head": "mutanus-the-devourer",
+    "hp": 4,
+    "hpwn": 12288,
+    "name": "Mutanus the Devourer",
+    "rarity": "Legendary",
+    "set": "Forged in the Barrens",
+    "subType": "Murloc",
+    "type": "Minion"
+},
+"Frostweave Dungeoneer": {
+    "atk": 2,
+    "cdn": "https://cdn.hearthstonetopdecks.com/wp-content/uploads/2021/05/Frostweave-Dungeoneer-300x416.png",
+    "class": "MA",
+    "cost": 3,
+    "desc": "Battlecry: Draw a spell. If it's a Frost spell, also summon two 1/1\u00a0 Elementals that Freeze .",
+    "head": "frostweave-dungeoneer",
+    "hp": 3,
+    "hpwn": 12288,
+    "name": "Frostweave Dungeoneer",
+    "rarity": "Rare",
+    "set": "Forged in the Barrens",
+    "subType": null,
+    "type": "Minion"
+},
+"Primal Dungeoneer": {
+    "atk": 2,
+    "cdn": "https://cdn.hearthstonetopdecks.com/wp-content/uploads/2021/05/Primal-Dungeoneer-300x416.png",
+    "class": "SH",
+    "cost": 3,
+    "desc": "Battlecry: Draw a spell. If it's Nature spell, also draw an Elemental.",
+    "head": "primal-dungeoneer",
+    "hp": 3,
+    "hpwn": 12288,
+    "name": "Primal Dungeoneer",
+    "rarity": "Rare",
+    "set": "Forged in the Barrens",
+    "subType": null,
+    "type": "Minion"
+}
 }
