@@ -57,7 +57,8 @@ jsonToCCSet = {
     'TB': '28',
     'CORE': '29',
     'THE_BARRENS': '30',
-    'VANILLA': '31'
+    'VANILLA': '31',
+    'TAVERNS_OF_TIME': '32' # event set for arena cards
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -89,7 +90,8 @@ setids = {
     '28': 1601,
     '29': 1800,
     '30': 1700,
-    '31': 2000
+    '31': 2000,
+    '32': 1
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -293,13 +295,15 @@ def loadJsonCards():
 
         if card.get('set') in duelSets:
             duels[card['id']] = cardData
-        elif card.get('set') in vanillaSets:
-            vanilla[card['id']] = cardData
         elif card.get('collectible'):
-            cards[card['id']] = cardData
+            if card.get('set') in vanillaSets:
+                vanilla[card['id']] = cardData
+            else:
+                cards[card['id']] = cardData
         else:
-            cardData['rarity'] = 'Token'
-            tokens[card['id']] = cardData
+            if card.get('set') not in vanillaSets:
+                cardData['rarity'] = 'Token'
+                tokens[card['id']] = cardData
 
 
     with open("data/extend_desc.json", "r", encoding='utf8') as f:
@@ -335,6 +339,8 @@ def loadSets(allcards={}, sets=setids.keys()):
         setcarddata[card['set']].append(card)
 
     resultCards = {}
+    if not sets:
+        return resultCards
 
     def doSet(setid):
         with requests.Session() as session:
@@ -409,7 +415,8 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                         card = token
 
             if not card:
-                log.warning('loadTokens() could not find: %s', name)
+                log.error('loadTokens() could not find: %s', name)
+                print('token not found:', name)
                 exit()
 
             if 'hpwn' in ids:
@@ -439,26 +446,46 @@ def loadTokens(tokens = {}, wantedTokens = {}):
             resultCards[card['name']] = card
             print('.', end='')
 
+    print('loaded tokens:', len(resultCards))
     return resultCards
 
 
-def main():
+def loadAndSaveTokens(allTokens, *, force=False):
+    # a lot of token names are not unique
+    # a static, handmade list of ids is more reliable
+    if os.path.isfile('data/tokenlist.json'):
+        if not os.path.isfile("data/tokens.json") \
+                or os.path.getmtime("data/tokens.json") < os.path.getmtime('data/tokenlist.json') \
+                or force:
+
+            with open('data/tokenlist.json', 'r', encoding='utf8') as f:
+                tokenlist = json.load(f)
+
+            saveCardsAsJson("data/tokens.json", loadTokens(allTokens, tokenlist))
+
+
+def main(setId=None):
     try:
         log.debug("main() full scrape will take 5+ minutes")
         cards, tokens, duels, vanilla = loadJsonCards()
+
+        if setId:
+            if setId == 'tokens':
+                loadAndSaveTokens(tokens, force=True)
+                return
+
+            if setId not in setids:
+                print('unkown setId:', setId, 'known sets:', setids)
+                return
+            loadSets(allcards=cards, sets=[setId])
+            return
 
         cardSetIds = setids.keys() - duelSetIds - set(vanillaSetIds)
         saveCardsAsJson("data/cards.json", loadSets(allcards=cards, sets=cardSetIds))
         saveCardsAsJson("data/duels.json", loadSets(allcards=duels, sets=duelSetIds))
         saveCardsAsJson("data/vanilla.json", loadSets(allcards=vanilla, sets=vanillaSetIds))
 
-        # a lot of token names are not unique
-        # a static, handmade list of ids is more reliable
-        if os.path.isfile('data/tokenlist.json'):
-            if not os.path.isfile("data/tokens.json") \
-                    or os.path.getmtime("data/tokens.json") < os.path.getmtime('data/tokenlist.json'):
-                with open('data/tokenlist.json', 'r', encoding='utf8') as f:
-                    saveCardsAsJson("data/tokens.json", loadTokens(tokens, json.load(f)))
+        loadAndSaveTokens(tokens)
         print("success")
     except Exception as e:
         log.exception("main() error %s", e)
@@ -593,7 +620,7 @@ def parseHTD(url, requests=requests):
         data[st[0].strip()] = ''.join(s.strip() for s in st[1:])
 
     if 'Type:' not in data:
-        print('type missing on page:', name)
+        log.debug('type field missing on page: %s', url)
     cardtype = data.get('Type:', 'Minion')
     atk = data.get('Attack:')
     hp = data.get('Health:', data.get('Durability:'))
@@ -672,6 +699,8 @@ if __name__ == "__main__":
                     urls += u
 
                 result = "".join(formatSingle(*parseHTD(url, session)) for url in urls)
+        elif 'set' in sys.argv[1]:
+            main(sys.argv[2])
         else:
             log.debug("loading multiple cards from hpwn: %s", sys.argv)
             result = parseMultiple(sys.argv[1:])

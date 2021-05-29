@@ -1,8 +1,7 @@
 {
 
     "sets": {
-        "01": {"name": "Basic", "std": true},
-        "02": {"name": "Classic", "std": true},
+        "02": {"name": "Classic", "code": "Legacy", "std": false},
         "05": {"name": "Curse of Naxxramas", "code": "Naxx",  "std": false},
         "06": {"name": "Goblin vs Gnomes", "code": "GvG",  "std": false},
         "07": {"name": "Blackrock Mountain", "code": "BRM",  "std": false},
@@ -12,7 +11,6 @@
         "11": {"name": "One Night in Karazhan", "code": "Kara", "std": false},
         "12": {"name": "Mean Streets of Gadgetzan", "code": "MSoG", "std": false},
         "13": {"name": "Journey to Un'Goro", "code": "UNG", "std": false},
-        "14": {"name": "Hall of Fame", "code": "HOF", "std": false},
         "15": {"name": "Knights of the Frozen Throne", "code": "KFT", "std": false},
         "16": {"name": "Kobolds and Catacombs", "code": "KnC", "std": false},
         "17": {"name": "The Witchwood", "code": "WW", "std": false},
@@ -29,7 +27,10 @@
         "28": {"name": "Duels", "code": "Duels", "std": false, "duels": true},
         "29": {"name": "Core Set 2021", "code": "Core", "std": true},
         "30": {"name": "Forged in the Barrens", "code": "FitB", "std": true},
-        "31": {"name": "Vanilla", "code": "V", "std": false, "vanilla": true}
+        "31": {"name": "Vanilla", "code": "V", "std": false, "vanilla": true},
+        "32": {"name": "Taverns of Time", "code": "Event", "std": false},
+        "33": {"name": "Legacy", "code": "Legacy", "std": false},
+        "34": {"name": "Battlegrounds", "code": "BG", "std": false}
     },
 
     "classes": {
