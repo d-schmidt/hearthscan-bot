@@ -1,7 +1,7 @@
 {
   "Ace in the Hole": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Roguet1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Roguet1.png?88605",
     "class": "RO",
     "collectible": false,
     "cost": 3,
@@ -18,7 +18,7 @@
   },
   "Acquired Allies": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Roguet2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Roguet2.png?88605",
     "class": "RO",
     "collectible": false,
     "cost": 2,
@@ -35,7 +35,7 @@
   },
   "All Shall Serve": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive18.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive18.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -52,7 +52,7 @@
   },
   "All Together Now": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive02.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive02.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -69,7 +69,7 @@
   },
   "Amalgamate": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active44.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active44.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -86,7 +86,7 @@
   },
   "Amalgamation": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active44m1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active44m1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 2,
@@ -103,7 +103,7 @@
   },
   "Ancient Reflections": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active21.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active21.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 4,
@@ -120,7 +120,7 @@
   },
   "Angry Mob": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active39s1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active39s1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -137,7 +137,7 @@
   },
   "Arcane Flux": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive17.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive17.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -154,7 +154,7 @@
   },
   "Arcanite Crystal": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive16.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive16.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -171,7 +171,7 @@
   },
   "Archmage Staff": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active10.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active10.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -188,7 +188,7 @@
   },
   "Arctic Armor": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive21.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive21.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -205,7 +205,7 @@
   },
   "Astral Portal": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_Active01.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_Active01.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 4,
@@ -222,7 +222,7 @@
   },
   "Auto-Armaments": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warriort1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warriort1.png?88605",
     "class": "WR",
     "collectible": false,
     "cost": 4,
@@ -239,7 +239,7 @@
   },
   "Avenging Armaments": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive04.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive04.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -256,7 +256,7 @@
   },
   "Awakened Ancient": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DruidT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DruidT1.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 8,
@@ -273,7 +273,7 @@
   },
   "Bag of Coins": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active14.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active14.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -290,7 +290,7 @@
   },
   "Bag of Stuffing": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active11.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active11.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 4,
@@ -307,7 +307,7 @@
   },
   "Banana Split": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active23.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active23.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -322,9 +322,26 @@
     "subType": "Nature",
     "type": "Spell"
   },
+  "Band of Bees": {
+    "atk": null,
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive28.png?88605",
+    "class": "N",
+    "collectible": false,
+    "cost": null,
+    "desc": "Passive Whenever you play a minion that cost (2) or less, give it Poisonous.",
+    "head": "band-of-bees",
+    "hp": null,
+    "hpwn": 562869,
+    "id": "PVPDR_BAR_Passive28",
+    "name": "Band of Bees",
+    "rarity": "Token",
+    "set": "Duels",
+    "subType": null,
+    "type": "Spell"
+  },
   "Beastly Beauty": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active29.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active29.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -341,7 +358,7 @@
   },
   "Beautiful Beast": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active29m1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active29m1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -358,7 +375,7 @@
   },
   "Binding Chains": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DemonHuntert1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DemonHuntert1.png?88605",
     "class": "DH",
     "collectible": false,
     "cost": 4,
@@ -375,7 +392,7 @@
   },
   "Blade of Quel'Delar": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active24.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active24.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -392,7 +409,7 @@
   },
   "Blade of Quickening": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DemonHuntert2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DemonHuntert2.png?88605",
     "class": "DH",
     "collectible": false,
     "cost": 4,
@@ -409,13 +426,13 @@
   },
   "Bloated Zombie": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive24t.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive24t.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
     "desc": null,
     "head": "bloated-zombie",
-    "hp": 1,
+    "hp": 3,
     "hpwn": 368947,
     "id": "PVPDR_SCH_Passive24t",
     "name": "Bloated Zombie",
@@ -426,7 +443,7 @@
   },
   "Blood Moon": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active30.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active30.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -443,7 +460,7 @@
   },
   "Bloodhound": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active47t.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active47t.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -460,7 +477,7 @@
   },
   "Bonecrusher": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Huntert2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Huntert2.png?88605",
     "class": "HT",
     "collectible": false,
     "cost": 8,
@@ -477,7 +494,7 @@
   },
   "Book of the Dead": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active54.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active54.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 14,
@@ -494,7 +511,7 @@
   },
   "Brewster, the Brutal": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Warriort2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Warriort2.png?88605",
     "class": "WR",
     "collectible": false,
     "cost": 7,
@@ -511,7 +528,7 @@
   },
   "Britz Blazebucket": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_RogMagT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_RogMagT1.png?88605",
     "class": "MA+RO",
     "collectible": false,
     "cost": 2,
@@ -528,7 +545,7 @@
   },
   "Bubba": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active47.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active47.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 6,
@@ -545,7 +562,7 @@
   },
   "Butch": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active45.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active45.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -562,11 +579,11 @@
   },
   "Cannibalism": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive19.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive19.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive Whenever a friendly minion dies, give your minions +1 Attack.",
+    "desc": "Passive Whenever a friendly minion dies, give adjacent minions +1 Attack.",
     "head": "cannibalism",
     "hp": null,
     "hpwn": 389245,
@@ -579,7 +596,7 @@
   },
   "Canopic Jars": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active19.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active19.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -596,7 +613,7 @@
   },
   "Carrot on a Stick": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_HunterT2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_HunterT2.png?88605",
     "class": "HT",
     "collectible": false,
     "cost": 3,
@@ -613,7 +630,7 @@
   },
   "Chaos Storm": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_ShamanT2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_ShamanT2.png?88605",
     "class": "SH",
     "collectible": false,
     "cost": 1,
@@ -630,7 +647,7 @@
   },
   "Chaos Theory": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active49.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active49.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -647,7 +664,7 @@
   },
   "Check Recipes": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Recipe_Check.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Recipe_Check.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -664,7 +681,7 @@
   },
   "Clockwork Assistant": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active48.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active48.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -681,7 +698,7 @@
   },
   "Coin Pouch": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active31.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active31.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -698,7 +715,7 @@
   },
   "Collector's Ire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Warriort1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Warriort1.png?88605",
     "class": "WR",
     "collectible": false,
     "cost": 6,
@@ -715,7 +732,7 @@
   },
   "Conduit of the Storms": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive09.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive09.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -732,11 +749,11 @@
   },
   "Corrupted Felstone": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive18.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive18.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive Whenever you cast a Fel spell, give a minion in your hand +2/+2.",
+    "desc": "Passive Whenever you cast a Fel spell, give a minion in your hand +3/+2.",
     "head": "corrupted-felstone",
     "hp": null,
     "hpwn": 464496,
@@ -749,7 +766,7 @@
   },
   "Crazed Mob": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active39s2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active39s2.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -766,7 +783,7 @@
   },
   "Creepy Curio": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -783,7 +800,7 @@
   },
   "Crusty the Crustacean": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active52.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active52.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -800,7 +817,7 @@
   },
   "Crystal Gem": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive14.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive14.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -817,7 +834,7 @@
   },
   "Cursed Curio": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28s2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28s2.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -834,7 +851,7 @@
   },
   "Deadly Weapons 101": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Roguet2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Roguet2.png?88605",
     "class": "RO",
     "collectible": false,
     "cost": 3,
@@ -851,7 +868,7 @@
   },
   "Deathstrider": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_HunterT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_HunterT1.png?88605",
     "class": "HT",
     "collectible": false,
     "cost": 2,
@@ -868,7 +885,7 @@
   },
   "Demonizer": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warlockt5.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warlockt5.png?88605",
     "class": "WL",
     "collectible": false,
     "cost": 4,
@@ -885,7 +902,7 @@
   },
   "Demonology 101": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warlockt4.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warlockt4.png?88605",
     "class": "WL",
     "collectible": false,
     "cost": 7,
@@ -902,7 +919,7 @@
   },
   "Devouring Hunger": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageT1t.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageT1t.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -919,7 +936,7 @@
   },
   "Divine Illumination": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive25.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive25.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -936,7 +953,7 @@
   },
   "Dragon Affinity": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive20.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive20.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -953,11 +970,11 @@
   },
   "Dragonblood": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive21.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive21.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive After a friendly Dragon dies, give your minions +1/+1.",
+    "desc": "Passive After a friendly Dragon dies, give your minions +1/+2.",
     "head": "dragonblood",
     "hp": null,
     "hpwn": 442091,
@@ -970,7 +987,7 @@
   },
   "Dragonbone Ritual": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive22.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive22.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -987,7 +1004,7 @@
   },
   "Drocomurchanicas": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Paladint2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Paladint2.png?88605",
     "class": "PL",
     "collectible": false,
     "cost": 4,
@@ -1004,7 +1021,7 @@
   },
   "Droplet of Insanity": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Priestt2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Priestt2.png?88605",
     "class": "PR",
     "collectible": false,
     "cost": 5,
@@ -1021,7 +1038,7 @@
   },
   "Eerie Stone": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive26.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive26.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1038,7 +1055,7 @@
   },
   "Elemental Learning": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_042.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_042.png?88605",
     "class": "MA",
     "collectible": false,
     "cost": 3,
@@ -1055,7 +1072,7 @@
   },
   "Embercaster": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageT3.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageT3.png?88605",
     "class": "MA",
     "collectible": false,
     "cost": 5,
@@ -1072,7 +1089,7 @@
   },
   "Embers of Ragnaros": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active55.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active55.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 10,
@@ -1089,7 +1106,7 @@
   },
   "Emerald Goggles": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive12.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive12.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1106,11 +1123,11 @@
   },
   "Endurance Training": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive05.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive05.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive Your Taunt minions cost (2) less, but not less than (1).",
+    "desc": "Passive Your Taunt minions cost (3) less, but not less than (1).",
     "head": "endurance-training",
     "hp": null,
     "hpwn": 464467,
@@ -1123,7 +1140,7 @@
   },
   "Favored Racer": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PaladinT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PaladinT1.png?88605",
     "class": "PL",
     "collectible": false,
     "cost": 4,
@@ -1140,7 +1157,7 @@
   },
   "Firekeeper's Idol": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive22.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive22.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1157,7 +1174,7 @@
   },
   "Fireshaper": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive23.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive23.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1174,11 +1191,11 @@
   },
   "Flame Waves": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive23.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive23.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive At the end of your turn, deal damage to all enemies for each Fire spell you've cast this turn.",
+    "desc": "Passive At the end of your turn, deal 2 damage to all enemies for each Fire spell you've cast this turn.",
     "head": "flame-waves",
     "hp": null,
     "hpwn": 464507,
@@ -1191,7 +1208,7 @@
   },
   "Fluctuating Totem": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Shamant2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Shamant2.png?88605",
     "class": "SH",
     "collectible": false,
     "cost": 2,
@@ -1208,7 +1225,7 @@
   },
   "Fluctuations": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Shamant2e1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Shamant2e1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -1225,7 +1242,7 @@
   },
   "Forging Quel'Delar": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active24e1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active24e1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -1242,7 +1259,7 @@
   },
   "Fractured Spirits": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Priestt1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Priestt1.png?88605",
     "class": "PR",
     "collectible": false,
     "cost": 4,
@@ -1259,7 +1276,7 @@
   },
   "Freeze Solid": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive20.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive20.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1276,11 +1293,11 @@
   },
   "From the Swamp": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive24.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive24.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive Whenever an enemy dies, raise a 1/1 Bloated Zombie.",
+    "desc": "Passive After the first enemy dies each turn, raise a 1/3 Bloated Zombie.",
     "head": "from-the-swamp",
     "hp": null,
     "hpwn": 389255,
@@ -1293,7 +1310,7 @@
   },
   "Giant Locust": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active53t.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active53t.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 2,
@@ -1310,7 +1327,7 @@
   },
   "Gift of the Legion": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_035.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_035.png?88605",
     "class": "DH",
     "collectible": false,
     "cost": 3,
@@ -1327,7 +1344,7 @@
   },
   "Gift of the Old Gods": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Warlockt3.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Warlockt3.png?88605",
     "class": "WL",
     "collectible": false,
     "cost": 6,
@@ -1344,7 +1361,7 @@
   },
   "Greedy Pickaxe": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active27.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active27.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 4,
@@ -1361,7 +1378,7 @@
   },
   "Green Tortollan Shell": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_RogueT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_RogueT1.png?88605",
     "class": "RO",
     "collectible": false,
     "cost": 1,
@@ -1378,7 +1395,7 @@
   },
   "Grommash's Armguards": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Passive01.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Passive01.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1395,7 +1412,7 @@
   },
   "Haunted Curio": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28s1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28s1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -1412,7 +1429,7 @@
   },
   "Hefty Sack of Coins": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active31s2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active31s2.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -1429,7 +1446,7 @@
   },
   "Herald of the Scaled Ones": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PriestT2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PriestT2.png?88605",
     "class": "PR",
     "collectible": false,
     "cost": 5,
@@ -1446,7 +1463,7 @@
   },
   "Herding Horn": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt6.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt6.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 4,
@@ -1463,11 +1480,11 @@
   },
   "Hold the Line": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive06.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive06.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive Your Taunt minions have +2 Attack during your opponent's turn.",
+    "desc": "Passive Your Taunt minions have +3 Attack during your opponent's turn.",
     "head": "hold-the-line",
     "hp": null,
     "hpwn": 464469,
@@ -1480,7 +1497,7 @@
   },
   "Holy Book": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active43.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active43.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 8,
@@ -1497,7 +1514,7 @@
   },
   "Humble Blessings": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PaladinT3.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PaladinT3.png?88605",
     "class": "PL",
     "collectible": false,
     "cost": 4,
@@ -1514,7 +1531,7 @@
   },
   "Hunter's Insight": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active17.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active17.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -1531,7 +1548,7 @@
   },
   "Hyperblaster": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active51.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active51.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -1548,7 +1565,7 @@
   },
   "Ice Shard": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageP1m1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageP1m1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 2,
@@ -1565,7 +1582,7 @@
   },
   "Impish Aid": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_022.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_022.png?88605",
     "class": "WL",
     "collectible": false,
     "cost": 3,
@@ -1582,7 +1599,7 @@
   },
   "Infinite Arcane": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Maget5.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Maget5.png?88605",
     "class": "MA",
     "collectible": false,
     "cost": 5,
@@ -1599,11 +1616,11 @@
   },
   "Invigorating Light": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive24.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive24.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive After you play a Holy spell, restore 1 Health to all friendly characters.",
+    "desc": "Passive Whenever you play a Holy spell, give all friendly minions +1 Health.",
     "head": "invigorating-light",
     "hp": null,
     "hpwn": 464509,
@@ -1616,7 +1633,7 @@
   },
   "Invoke the Void": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Shamant2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Shamant2.png?88605",
     "class": "SH",
     "collectible": false,
     "cost": 7,
@@ -1633,7 +1650,7 @@
   },
   "Jaws": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active59.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active59.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -1650,7 +1667,7 @@
   },
   "Joras Thuldoom": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_LocPriT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_LocPriT1.png?88605",
     "class": "PR+WL",
     "collectible": false,
     "cost": 4,
@@ -1667,7 +1684,7 @@
   },
   "Killmox, the Banished One": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warlockt2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warlockt2.png?88605",
     "class": "WL",
     "collectible": false,
     "cost": 7,
@@ -1684,7 +1701,7 @@
   },
   "LOCUUUUSTS!!!": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active53.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active53.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 7,
@@ -1701,7 +1718,7 @@
   },
   "Loyal Henchman": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active50.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active50.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 2,
@@ -1718,7 +1735,7 @@
   },
   "Loyal Sidekick": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active26.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active26.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 4,
@@ -1735,7 +1752,7 @@
   },
   "Lunar Band": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive10.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive10.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1752,7 +1769,7 @@
   },
   "Mage Armor": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_Active02.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_Active02.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -1769,7 +1786,7 @@
   },
   "Magnetic Mine": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_WarriorP1s1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_WarriorP1s1.png?88605",
     "class": "WR",
     "collectible": false,
     "cost": 5,
@@ -1786,7 +1803,7 @@
   },
   "Manastorm": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive28.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive28.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1803,7 +1820,7 @@
   },
   "Marvelous Mycelium": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt5.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt5.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 1,
@@ -1820,7 +1837,7 @@
   },
   "Mask of Mimicry": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active01.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active01.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 2,
@@ -1837,7 +1854,7 @@
   },
   "Men at Arms": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Paladint1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Paladint1.png?88605",
     "class": "PL",
     "collectible": false,
     "cost": 4,
@@ -1854,7 +1871,7 @@
   },
   "Mending Pools": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive14.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive14.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1871,7 +1888,7 @@
   },
   "Militia Horn": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active35s1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active35s1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -1888,7 +1905,7 @@
   },
   "Mindpocalypse": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active58.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active58.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -1905,7 +1922,7 @@
   },
   "Mo'arg Outcast": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_DemonHuntert1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_DemonHuntert1.png?88605",
     "class": "DH",
     "collectible": false,
     "cost": 4,
@@ -1922,7 +1939,7 @@
   },
   "Moonbeast": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Druidt1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Druidt1.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 4,
@@ -1939,7 +1956,7 @@
   },
   "Murloc Holmes": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active34.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active34.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -1956,7 +1973,7 @@
   },
   "Mysterious Tome": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive06.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive06.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -1973,7 +1990,7 @@
   },
   "Necrotic Poison": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active57.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active57.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 2,
@@ -1990,7 +2007,7 @@
   },
   "Nerubian Peddler": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Roguet1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Roguet1.png?88605",
     "class": "RO",
     "collectible": false,
     "cost": 2,
@@ -2007,7 +2024,7 @@
   },
   "Old Militia Horn": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active35.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active35.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -2024,7 +2041,7 @@
   },
   "Open the Doorways": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive07.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive07.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2041,11 +2058,11 @@
   },
   "Orb of Revelation": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive08.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive08.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive After your first Discover in a turn, reduce the cost of spells in your hand by (2), but not less than (1).",
+    "desc": "Passive After your first Discover in a turn, reduce the cost of spells in your hand by (1), but not less than (1).",
     "head": "orb-of-revelation",
     "hp": null,
     "hpwn": 464473,
@@ -2058,7 +2075,7 @@
   },
   "Overpowered": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active05.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active05.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -2075,7 +2092,7 @@
   },
   "Party Portal": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active08.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active08.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -2092,7 +2109,7 @@
   },
   "Payload Totem Specialist": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_ShamanT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_ShamanT1.png?88605",
     "class": "SH",
     "collectible": false,
     "cost": 3,
@@ -2109,7 +2126,7 @@
   },
   "Phaoris' Blade": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active20.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active20.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 4,
@@ -2126,7 +2143,7 @@
   },
   "Pillage the Fallen": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive16.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive16.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2143,7 +2160,7 @@
   },
   "Plaguebringer": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive30.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive30.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2160,7 +2177,7 @@
   },
   "Populate GameSaveData with Designer Buckets": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Buckets_AddDesigner.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Buckets_AddDesigner.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -2177,7 +2194,7 @@
   },
   "Populate GameSaveData with Smart Buckets": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Buckets_AddSmart.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Buckets_AddSmart.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -2194,7 +2211,7 @@
   },
   "Populate GameSaveData with Special Buckets": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Buckets_AddSpecial.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_Buckets_AddSpecial.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -2211,7 +2228,7 @@
   },
   "Potion of Sparking": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive10.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive10.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2228,7 +2245,7 @@
   },
   "Princess": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active46.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active46.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 7,
@@ -2245,7 +2262,7 @@
   },
   "Pure Cold": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active61.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active61.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -2262,7 +2279,7 @@
   },
   "Puzzle Box": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active02.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active02.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -2279,7 +2296,7 @@
   },
   "Quel'Delar": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active25.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active25.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 6,
@@ -2296,11 +2313,11 @@
   },
   "Rally the Troops": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive01.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive01.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive After you play your first Battlecry card in a turn, draw a card. It costs (3) less.",
+    "desc": "Passive After you play your first Battlecry card in a turn, draw a card. It costs (2) less.",
     "head": "rally-the-troops",
     "hp": null,
     "hpwn": 464457,
@@ -2313,7 +2330,7 @@
   },
   "Razor Claws": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidp3s1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidp3s1.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 0,
@@ -2330,7 +2347,7 @@
   },
   "Recycling": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive17.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive17.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2347,7 +2364,7 @@
   },
   "Recycling Dummy Effects": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive17d.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive17d.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -2364,7 +2381,7 @@
   },
   "Rhonin's Scrying Orb": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive05.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive05.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2381,7 +2398,7 @@
   },
   "Righteous Reserves": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive03.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive03.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2398,7 +2415,7 @@
   },
   "Robe of the Apprentice": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive09.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive09.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2415,7 +2432,7 @@
   },
   "Robes of Shrinking": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive07.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive07.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2432,7 +2449,7 @@
   },
   "Rocket Backpacks": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive11.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive11.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2449,7 +2466,7 @@
   },
   "Royal Greatsword": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Paladint1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Paladint1.png?88605",
     "class": "PL",
     "collectible": false,
     "cost": 5,
@@ -2466,7 +2483,7 @@
   },
   "Sack of Coins": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active31s1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active31s1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -2483,7 +2500,7 @@
   },
   "Sandy Surprise": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive32.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive32.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2500,7 +2517,7 @@
   },
   "Scattered Caltrops": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive15a1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive15a1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2517,7 +2534,7 @@
   },
   "Scion of the Deep": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Priestt1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Priestt1.png?88605",
     "class": "PR",
     "collectible": false,
     "cost": 3,
@@ -2534,7 +2551,7 @@
   },
   "Scrapmetal Demolitionist": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_WarriorT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_WarriorT1.png?88605",
     "class": "WR",
     "collectible": false,
     "cost": 6,
@@ -2551,7 +2568,7 @@
   },
   "Shadow Word: Void": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PriestT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PriestT1.png?88605",
     "class": "PR",
     "collectible": false,
     "cost": 3,
@@ -2568,7 +2585,7 @@
   },
   "Shadowshell Informant": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Roguep1m1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Roguep1m1.png?88605",
     "class": "RO",
     "collectible": false,
     "cost": 1,
@@ -2585,7 +2602,7 @@
   },
   "Slate's Syringe": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_036.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_036.png?88605",
     "class": "HT",
     "collectible": false,
     "cost": 3,
@@ -2602,7 +2619,7 @@
   },
   "Small Pouches": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive08.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive08.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2619,7 +2636,7 @@
   },
   "Smarty Pants": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_LOOT_SmartyPants.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_LOOT_SmartyPants.png?88605",
     "class": "HT",
     "collectible": false,
     "cost": 0,
@@ -2636,7 +2653,7 @@
   },
   "Sow the Seeds": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active03.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active03.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -2653,11 +2670,11 @@
   },
   "Special Delivery": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive11.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive11.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
-    "desc": "Passive After you play a Rush minion, summon a copy with 1 Health remaining.",
+    "desc": "Passive After you play a Rush minion, summon a copy with 1 Health.",
     "head": "special-delivery",
     "hp": null,
     "hpwn": 464481,
@@ -2670,7 +2687,7 @@
   },
   "Spiked Arms": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warriort2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Warriort2.png?88605",
     "class": "WR",
     "collectible": false,
     "cost": 3,
@@ -2687,7 +2704,7 @@
   },
   "Spreading Saplings": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive15.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive15.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2704,7 +2721,7 @@
   },
   "Spyglass": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active38.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active38.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -2721,7 +2738,7 @@
   },
   "Staff of Pain": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive27.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive27.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2738,7 +2755,7 @@
   },
   "Staking A Claim": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive34.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive34.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2755,7 +2772,7 @@
   },
   "Stalking Pride": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Huntert2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Huntert2.png?88605",
     "class": "HT",
     "collectible": false,
     "cost": 7,
@@ -2772,7 +2789,7 @@
   },
   "Starlight": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidp3s3.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidp3s3.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 0,
@@ -2789,7 +2806,7 @@
   },
   "Starving": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive36.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive36.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2806,7 +2823,7 @@
   },
   "Sticky Fingers": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Passive02.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Passive02.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2823,7 +2840,7 @@
   },
   "Su Leadfoot": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_WarPalT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_WarPalT1.png?88605",
     "class": "PL+WR",
     "collectible": false,
     "cost": 4,
@@ -2840,7 +2857,7 @@
   },
   "Summoning Ritual": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_DemonHuntert2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_DemonHuntert2.png?88605",
     "class": "DH",
     "collectible": false,
     "cost": 5,
@@ -2857,7 +2874,7 @@
   },
   "Supercharge": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active60.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active60.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 0,
@@ -2874,7 +2891,7 @@
   },
   "Surly Mob": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active39.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active39.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -2891,7 +2908,7 @@
   },
   "Tempest's Fury": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Shamant1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_DMF_Shamant1.png?88605",
     "class": "SH",
     "collectible": false,
     "cost": 3,
@@ -2908,7 +2925,7 @@
   },
   "The Exorcisor": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active42.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active42.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -2925,7 +2942,7 @@
   },
   "The Floor is Lava": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive39.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Passive39.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -2942,7 +2959,7 @@
   },
   "Traktamer Aelessa": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DemHun.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DemHun.png?88605",
     "class": "HT+DH",
     "collectible": false,
     "cost": 2,
@@ -2959,7 +2976,7 @@
   },
   "Veteran's Militia Horn": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active35s2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active35s2.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 3,
@@ -2976,7 +2993,7 @@
   },
   "Vision of the Warden": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt1s2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt1s2.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 0,
@@ -2993,7 +3010,7 @@
   },
   "Voidfiend": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PriestP1m1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_PriestP1m1.png?88605",
     "class": "PR",
     "collectible": false,
     "cost": 0,
@@ -3010,7 +3027,7 @@
   },
   "Wand of Disintegration": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active07.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active07.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 5,
@@ -3027,7 +3044,7 @@
   },
   "Wand of Dueling": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Maget3.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Maget3.png?88605",
     "class": "MA",
     "collectible": false,
     "cost": 1,
@@ -3044,7 +3061,7 @@
   },
   "Warden's Insight": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt2.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Druidt2.png?88605",
     "class": "DR",
     "collectible": false,
     "cost": 3,
@@ -3061,7 +3078,7 @@
   },
   "Weeping Ghost": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28m1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active28m1.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 1,
@@ -3078,7 +3095,7 @@
   },
   "Wish": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active56.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_SCH_Active56.png?88605",
     "class": "N",
     "collectible": false,
     "cost": 10,
@@ -3095,7 +3112,7 @@
   },
   "Wither the Weak": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive19.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_BAR_Passive19.png?88605",
     "class": "N",
     "collectible": false,
     "cost": null,
@@ -3112,7 +3129,7 @@
   },
   "Yogg-tastic Tasties": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_MageT1.png?88605",
     "class": "MA",
     "collectible": false,
     "cost": 10,
@@ -3129,7 +3146,7 @@
   },
   "Zukara the Wild": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DruShaT1.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/PVPDR_YOP_DruShaT1.png?88605",
     "class": "DR+SH",
     "collectible": false,
     "cost": 3,

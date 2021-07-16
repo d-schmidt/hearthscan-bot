@@ -30,7 +30,8 @@
         "31": {"name": "Vanilla", "code": "V", "std": false, "vanilla": true},
         "32": {"name": "Taverns of Time", "code": "Event", "std": false},
         "33": {"name": "Legacy", "code": "Legacy", "std": false},
-        "34": {"name": "Battlegrounds", "code": "BG", "std": false}
+        "34": {"name": "Battlegrounds", "code": "BG", "std": false},
+        "35": {"name": "United in Stormwind", "code": "UiS", "std": false, "unreleased": true}
     },
 
     "classes": {

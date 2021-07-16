@@ -59,6 +59,7 @@ jsonToCCSet = {
     'TAVERNS_OF_TIME': '32', # arena event tokens
     'LEGACY': '33'
     #'BATTLEGROUNDS': '34'
+    #'STORMWIND': '35'
 }
 # card_constant set ids to hs internal set ids
 setids = {
