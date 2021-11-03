@@ -57,9 +57,9 @@ jsonToCCSet = {
     'THE_BARRENS': '30',
     'VANILLA': '31',
     'TAVERNS_OF_TIME': '32', # arena event tokens
-    'LEGACY': '33'
+    'LEGACY': '33',
     #'BATTLEGROUNDS': '34'
-    #'STORMWIND': '35'
+    'STORMWIND': '35'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -91,8 +91,9 @@ setids = {
     '30': 1700,
     '31': 2000,
     '32': 112,
-    '33': 1900
-    #'34': 1117
+    '33': 1900,
+    #'34': 1117,
+    '35': 2100
 }
 # set names to hs internal set ids
 cc = Constants()
