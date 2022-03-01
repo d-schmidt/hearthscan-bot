@@ -1,7 +1,7 @@
 {
   "Abomination": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_097.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_097.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -18,7 +18,7 @@
   },
   "Abusive Sergeant": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_188.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_188.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -35,7 +35,7 @@
   },
   "Acidic Swamp Ooze": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_066.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_066.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -52,7 +52,7 @@
   },
   "Acolyte of Pain": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_007.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_007.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -69,7 +69,7 @@
   },
   "Al'Akir the Windlord": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_010.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_010.png",
     "class": "SH",
     "collectible": true,
     "cost": 8,
@@ -86,7 +86,7 @@
   },
   "Alarm-o-Bot": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_006.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_006.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -103,7 +103,7 @@
   },
   "Aldor Peacekeeper": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_382.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_382.png",
     "class": "PL",
     "collectible": true,
     "cost": 3,
@@ -120,7 +120,7 @@
   },
   "Alexstrasza": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_561.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_561.png",
     "class": "N",
     "collectible": true,
     "cost": 9,
@@ -137,7 +137,7 @@
   },
   "Amani Berserker": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_393.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_393.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -154,7 +154,7 @@
   },
   "Ancestral Healing": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_041.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_041.png",
     "class": "SH",
     "collectible": true,
     "cost": 0,
@@ -171,7 +171,7 @@
   },
   "Ancestral Spirit": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_038.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_038.png",
     "class": "SH",
     "collectible": true,
     "cost": 2,
@@ -188,7 +188,7 @@
   },
   "Ancient Brewmaster": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_057.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_057.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -205,7 +205,7 @@
   },
   "Ancient Mage": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_584.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_584.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -222,7 +222,7 @@
   },
   "Ancient Watcher": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_045.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_045.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -239,7 +239,7 @@
   },
   "Ancient of Lore": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_008.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_008.png",
     "class": "DR",
     "collectible": true,
     "cost": 7,
@@ -256,7 +256,7 @@
   },
   "Ancient of War": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_178.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_178.png",
     "class": "DR",
     "collectible": true,
     "cost": 7,
@@ -273,7 +273,7 @@
   },
   "Angry Chicken": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_009.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_009.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -290,7 +290,7 @@
   },
   "Animal Companion": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_031.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_031.png",
     "class": "HT",
     "collectible": true,
     "cost": 3,
@@ -307,7 +307,7 @@
   },
   "Arathi Weaponsmith": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_398.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_398.png",
     "class": "WR",
     "collectible": true,
     "cost": 4,
@@ -324,7 +324,7 @@
   },
   "Arcane Explosion": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_025.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_025.png",
     "class": "MA",
     "collectible": true,
     "cost": 2,
@@ -341,7 +341,7 @@
   },
   "Arcane Golem": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_089.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_089.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -358,7 +358,7 @@
   },
   "Arcane Intellect": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_023.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_023.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -375,7 +375,7 @@
   },
   "Arcane Missiles": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_277.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_277.png",
     "class": "MA",
     "collectible": true,
     "cost": 1,
@@ -392,7 +392,7 @@
   },
   "Arcane Shot": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_185.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_185.png",
     "class": "HT",
     "collectible": true,
     "cost": 1,
@@ -409,7 +409,7 @@
   },
   "Arcanite Reaper": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_112.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_112.png",
     "class": "WR",
     "collectible": true,
     "cost": 5,
@@ -426,7 +426,7 @@
   },
   "Archmage": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_155.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_155.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -443,7 +443,7 @@
   },
   "Archmage Antonidas": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_559.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_559.png",
     "class": "MA",
     "collectible": true,
     "cost": 7,
@@ -460,7 +460,7 @@
   },
   "Argent Commander": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_067.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_067.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -477,7 +477,7 @@
   },
   "Argent Protector": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_362.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_362.png",
     "class": "PL",
     "collectible": true,
     "cost": 2,
@@ -494,7 +494,7 @@
   },
   "Argent Squire": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_008.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_008.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -511,7 +511,7 @@
   },
   "Armorsmith": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_402.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_402.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -528,7 +528,7 @@
   },
   "Assassin's Blade": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_080.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_080.png",
     "class": "RO",
     "collectible": true,
     "cost": 5,
@@ -545,7 +545,7 @@
   },
   "Assassinate": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_076.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_076.png",
     "class": "RO",
     "collectible": true,
     "cost": 5,
@@ -562,7 +562,7 @@
   },
   "Auchenai Soulpriest": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_591.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_591.png",
     "class": "PR",
     "collectible": true,
     "cost": 4,
@@ -579,7 +579,7 @@
   },
   "Avenging Wrath": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_384.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_384.png",
     "class": "PL",
     "collectible": true,
     "cost": 6,
@@ -596,7 +596,7 @@
   },
   "Azure Drake": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_284.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_284.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -613,7 +613,7 @@
   },
   "Backstab": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_072.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_072.png",
     "class": "RO",
     "collectible": true,
     "cost": 0,
@@ -630,7 +630,7 @@
   },
   "Bane of Doom": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_320.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_320.png",
     "class": "WL",
     "collectible": true,
     "cost": 5,
@@ -647,7 +647,7 @@
   },
   "Baron Geddon": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_249.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_249.png",
     "class": "N",
     "collectible": true,
     "cost": 7,
@@ -664,7 +664,7 @@
   },
   "Battle Rage": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_392.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_392.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -681,7 +681,7 @@
   },
   "Bestial Wrath": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_549.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_549.png",
     "class": "HT",
     "collectible": true,
     "cost": 1,
@@ -698,7 +698,7 @@
   },
   "Betrayal": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_126.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_126.png",
     "class": "RO",
     "collectible": true,
     "cost": 2,
@@ -715,7 +715,7 @@
   },
   "Big Game Hunter": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_005.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_005.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -732,7 +732,7 @@
   },
   "Bite": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_570.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_570.png",
     "class": "DR",
     "collectible": true,
     "cost": 4,
@@ -749,7 +749,7 @@
   },
   "Blade Flurry": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_233.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_233.png",
     "class": "RO",
     "collectible": true,
     "cost": 2,
@@ -766,7 +766,7 @@
   },
   "Blessed Champion": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_355.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_355.png",
     "class": "PL",
     "collectible": true,
     "cost": 5,
@@ -783,7 +783,7 @@
   },
   "Blessing of Kings": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_092.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_092.png",
     "class": "PL",
     "collectible": true,
     "cost": 4,
@@ -800,7 +800,7 @@
   },
   "Blessing of Might": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_087.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_087.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -817,7 +817,7 @@
   },
   "Blessing of Wisdom": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_363.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_363.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -834,7 +834,7 @@
   },
   "Blizzard": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_028.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_028.png",
     "class": "MA",
     "collectible": true,
     "cost": 6,
@@ -851,7 +851,7 @@
   },
   "Blood Imp": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_059.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_059.png",
     "class": "WL",
     "collectible": true,
     "cost": 1,
@@ -868,7 +868,7 @@
   },
   "Blood Knight": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_590.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_590.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -885,7 +885,7 @@
   },
   "Bloodfen Raptor": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_172.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_172.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -902,7 +902,7 @@
   },
   "Bloodlust": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_046.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_046.png",
     "class": "SH",
     "collectible": true,
     "cost": 5,
@@ -919,7 +919,7 @@
   },
   "Bloodmage Thalnos": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_012.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_012.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -936,7 +936,7 @@
   },
   "Bloodsail Corsair": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_025.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_025.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -953,7 +953,7 @@
   },
   "Bloodsail Raider": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_018.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_018.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -970,7 +970,7 @@
   },
   "Bluegill Warrior": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_173.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_173.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -987,7 +987,7 @@
   },
   "Booty Bay Bodyguard": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_187.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_187.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -1004,7 +1004,7 @@
   },
   "Boulderfist Ogre": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_200.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_200.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -1021,7 +1021,7 @@
   },
   "Brawl": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_407.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_407.png",
     "class": "WR",
     "collectible": true,
     "cost": 5,
@@ -1038,7 +1038,7 @@
   },
   "Cabal Shadow Priest": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_091.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_091.png",
     "class": "PR",
     "collectible": true,
     "cost": 6,
@@ -1055,7 +1055,7 @@
   },
   "Cairne Bloodhoof": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_110.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_110.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -1072,7 +1072,7 @@
   },
   "Captain Greenskin": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_024.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_024.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -1089,7 +1089,7 @@
   },
   "Captain's Parrot": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_016.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_016.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -1106,7 +1106,7 @@
   },
   "Cenarius": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_573.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_573.png",
     "class": "DR",
     "collectible": true,
     "cost": 9,
@@ -1123,7 +1123,7 @@
   },
   "Charge": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_103.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_103.png",
     "class": "WR",
     "collectible": true,
     "cost": 3,
@@ -1140,7 +1140,7 @@
   },
   "Chillwind Yeti": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_182.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_182.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -1157,7 +1157,7 @@
   },
   "Circle of Healing": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_621.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_621.png",
     "class": "PR",
     "collectible": true,
     "cost": 0,
@@ -1174,7 +1174,7 @@
   },
   "Claw": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_005.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_005.png",
     "class": "DR",
     "collectible": true,
     "cost": 1,
@@ -1191,7 +1191,7 @@
   },
   "Cleave": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_114.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_114.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -1208,7 +1208,7 @@
   },
   "Cold Blood": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_073.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_073.png",
     "class": "RO",
     "collectible": true,
     "cost": 1,
@@ -1225,7 +1225,7 @@
   },
   "Coldlight Oracle": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_050.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_050.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -1242,7 +1242,7 @@
   },
   "Coldlight Seer": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_103.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_103.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -1259,7 +1259,7 @@
   },
   "Commanding Shout": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_036.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_036.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -1276,7 +1276,7 @@
   },
   "Conceal": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_128.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_128.png",
     "class": "RO",
     "collectible": true,
     "cost": 1,
@@ -1293,7 +1293,7 @@
   },
   "Cone of Cold": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_275.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_275.png",
     "class": "MA",
     "collectible": true,
     "cost": 4,
@@ -1310,7 +1310,7 @@
   },
   "Consecration": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_093.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_093.png",
     "class": "PL",
     "collectible": true,
     "cost": 4,
@@ -1327,7 +1327,7 @@
   },
   "Core Hound": {
     "atk": 9,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_201.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_201.png",
     "class": "N",
     "collectible": true,
     "cost": 7,
@@ -1344,7 +1344,7 @@
   },
   "Corruption": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_063.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_063.png",
     "class": "WL",
     "collectible": true,
     "cost": 1,
@@ -1361,7 +1361,7 @@
   },
   "Counterspell": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_287.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_287.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -1378,7 +1378,7 @@
   },
   "Crazed Alchemist": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_059.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_059.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -1395,7 +1395,7 @@
   },
   "Cruel Taskmaster": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_603.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_603.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -1412,7 +1412,7 @@
   },
   "Cult Master": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_595.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_595.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -1429,7 +1429,7 @@
   },
   "Dalaran Mage": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_582.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_582.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -1446,7 +1446,7 @@
   },
   "Dark Iron Dwarf": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_046.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_046.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -1463,7 +1463,7 @@
   },
   "Darkscale Healer": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_055.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_055.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -1480,7 +1480,7 @@
   },
   "Deadly Poison": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_074.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_074.png",
     "class": "RO",
     "collectible": true,
     "cost": 1,
@@ -1497,7 +1497,7 @@
   },
   "Deadly Shot": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_617.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_617.png",
     "class": "HT",
     "collectible": true,
     "cost": 3,
@@ -1514,7 +1514,7 @@
   },
   "Deathwing": {
     "atk": 12,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_030.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_030.png",
     "class": "N",
     "collectible": true,
     "cost": 10,
@@ -1531,7 +1531,7 @@
   },
   "Defender of Argus": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_093.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_093.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -1548,7 +1548,7 @@
   },
   "Defias Ringleader": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_131.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_131.png",
     "class": "RO",
     "collectible": true,
     "cost": 2,
@@ -1565,7 +1565,7 @@
   },
   "Demolisher": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_102.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_102.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -1582,7 +1582,7 @@
   },
   "Demonfire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_596.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_596.png",
     "class": "WL",
     "collectible": true,
     "cost": 2,
@@ -1599,7 +1599,7 @@
   },
   "Dire Wolf Alpha": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_162.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_162.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -1616,7 +1616,7 @@
   },
   "Divine Favor": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_349.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_349.png",
     "class": "PL",
     "collectible": true,
     "cost": 3,
@@ -1633,7 +1633,7 @@
   },
   "Divine Spirit": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_236.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_236.png",
     "class": "PR",
     "collectible": true,
     "cost": 2,
@@ -1650,7 +1650,7 @@
   },
   "Doomguard": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_310.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_310.png",
     "class": "WL",
     "collectible": true,
     "cost": 5,
@@ -1667,7 +1667,7 @@
   },
   "Doomhammer": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_567.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_567.png",
     "class": "SH",
     "collectible": true,
     "cost": 5,
@@ -1684,7 +1684,7 @@
   },
   "Doomsayer": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_021.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_021.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -1701,7 +1701,7 @@
   },
   "Dragonling Mechanic": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_025.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_025.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -1718,7 +1718,7 @@
   },
   "Drain Life": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_061.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_061.png",
     "class": "WL",
     "collectible": true,
     "cost": 3,
@@ -1735,7 +1735,7 @@
   },
   "Dread Corsair": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_022.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_022.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -1752,7 +1752,7 @@
   },
   "Dread Infernal": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_064.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_064.png",
     "class": "WL",
     "collectible": true,
     "cost": 6,
@@ -1769,7 +1769,7 @@
   },
   "Druid of the Claw": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_165.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_165.png",
     "class": "DR",
     "collectible": true,
     "cost": 5,
@@ -1786,7 +1786,7 @@
   },
   "Dust Devil": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_243.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_243.png",
     "class": "SH",
     "collectible": true,
     "cost": 1,
@@ -1803,7 +1803,7 @@
   },
   "Eaglehorn Bow": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_536.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_536.png",
     "class": "HT",
     "collectible": true,
     "cost": 3,
@@ -1820,7 +1820,7 @@
   },
   "Earth Elemental": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_250.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_250.png",
     "class": "SH",
     "collectible": true,
     "cost": 5,
@@ -1837,7 +1837,7 @@
   },
   "Earth Shock": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_245.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_245.png",
     "class": "SH",
     "collectible": true,
     "cost": 1,
@@ -1854,7 +1854,7 @@
   },
   "Earthen Ring Farseer": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_117.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_117.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -1871,7 +1871,7 @@
   },
   "Edwin VanCleef": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_613.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_613.png",
     "class": "RO",
     "collectible": true,
     "cost": 3,
@@ -1888,7 +1888,7 @@
   },
   "Elite Tauren Chieftain": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_PRO_001.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_PRO_001.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -1905,7 +1905,7 @@
   },
   "Elven Archer": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_189.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_189.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -1922,7 +1922,7 @@
   },
   "Emperor Cobra": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_170.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_170.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -1939,7 +1939,7 @@
   },
   "Equality": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_619.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_619.png",
     "class": "PL",
     "collectible": true,
     "cost": 2,
@@ -1956,7 +1956,7 @@
   },
   "Ethereal Arcanist": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_274.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_274.png",
     "class": "MA",
     "collectible": true,
     "cost": 4,
@@ -1973,7 +1973,7 @@
   },
   "Eviscerate": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_124.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_124.png",
     "class": "RO",
     "collectible": true,
     "cost": 2,
@@ -1990,7 +1990,7 @@
   },
   "Execute": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_108.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_108.png",
     "class": "WR",
     "collectible": true,
     "cost": 1,
@@ -2007,7 +2007,7 @@
   },
   "Explosive Shot": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_537.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_537.png",
     "class": "HT",
     "collectible": true,
     "cost": 5,
@@ -2024,7 +2024,7 @@
   },
   "Explosive Trap": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_610.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_610.png",
     "class": "HT",
     "collectible": true,
     "cost": 2,
@@ -2041,7 +2041,7 @@
   },
   "Eye for an Eye": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_132.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_132.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -2058,7 +2058,7 @@
   },
   "Faceless Manipulator": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_564.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_564.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -2075,7 +2075,7 @@
   },
   "Faerie Dragon": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_023.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_023.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -2092,7 +2092,7 @@
   },
   "Fan of Knives": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_129.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_129.png",
     "class": "RO",
     "collectible": true,
     "cost": 3,
@@ -2109,7 +2109,7 @@
   },
   "Far Sight": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_053.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_053.png",
     "class": "SH",
     "collectible": true,
     "cost": 3,
@@ -2126,7 +2126,7 @@
   },
   "Felguard": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_301.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_301.png",
     "class": "WL",
     "collectible": true,
     "cost": 3,
@@ -2143,7 +2143,7 @@
   },
   "Felstalker": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_306.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_306.png",
     "class": "WL",
     "collectible": true,
     "cost": 2,
@@ -2160,7 +2160,7 @@
   },
   "Fen Creeper": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_069.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_069.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -2177,7 +2177,7 @@
   },
   "Feral Spirit": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_248.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_248.png",
     "class": "SH",
     "collectible": true,
     "cost": 3,
@@ -2194,7 +2194,7 @@
   },
   "Fiery War Axe": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_106.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_106.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -2211,7 +2211,7 @@
   },
   "Fire Elemental": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_042.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_042.png",
     "class": "SH",
     "collectible": true,
     "cost": 6,
@@ -2228,7 +2228,7 @@
   },
   "Fireball": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_029.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_029.png",
     "class": "MA",
     "collectible": true,
     "cost": 4,
@@ -2245,7 +2245,7 @@
   },
   "Flame Imp": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_319.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_319.png",
     "class": "WL",
     "collectible": true,
     "cost": 1,
@@ -2262,7 +2262,7 @@
   },
   "Flamestrike": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_032.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_032.png",
     "class": "MA",
     "collectible": true,
     "cost": 7,
@@ -2279,7 +2279,7 @@
   },
   "Flametongue Totem": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_565.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_565.png",
     "class": "SH",
     "collectible": true,
     "cost": 2,
@@ -2296,7 +2296,7 @@
   },
   "Flare": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_544.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_544.png",
     "class": "HT",
     "collectible": true,
     "cost": 1,
@@ -2313,7 +2313,7 @@
   },
   "Flesheating Ghoul": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_tt_004.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_tt_004.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -2330,7 +2330,7 @@
   },
   "Force of Nature": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_571.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_571.png",
     "class": "DR",
     "collectible": true,
     "cost": 6,
@@ -2347,7 +2347,7 @@
   },
   "Forked Lightning": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_251.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_251.png",
     "class": "SH",
     "collectible": true,
     "cost": 1,
@@ -2364,7 +2364,7 @@
   },
   "Freezing Trap": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_611.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_611.png",
     "class": "HT",
     "collectible": true,
     "cost": 2,
@@ -2381,7 +2381,7 @@
   },
   "Frost Elemental": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_283.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_283.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -2398,7 +2398,7 @@
   },
   "Frost Nova": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_026.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_026.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -2415,7 +2415,7 @@
   },
   "Frost Shock": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_037.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_037.png",
     "class": "SH",
     "collectible": true,
     "cost": 1,
@@ -2432,7 +2432,7 @@
   },
   "Frostbolt": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_024.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_024.png",
     "class": "MA",
     "collectible": true,
     "cost": 2,
@@ -2449,7 +2449,7 @@
   },
   "Frostwolf Grunt": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_121.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_121.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -2466,7 +2466,7 @@
   },
   "Frostwolf Warlord": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_226.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_226.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -2483,7 +2483,7 @@
   },
   "Frothing Berserker": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_604.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_604.png",
     "class": "WR",
     "collectible": true,
     "cost": 3,
@@ -2500,7 +2500,7 @@
   },
   "Gadgetzan Auctioneer": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_095.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_095.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -2517,7 +2517,7 @@
   },
   "Gelbin Mekkatorque": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_112.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_112.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -2534,7 +2534,7 @@
   },
   "Gladiator's Longbow": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_188.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_188.png",
     "class": "HT",
     "collectible": true,
     "cost": 7,
@@ -2551,7 +2551,7 @@
   },
   "Gnomish Inventor": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_147.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_147.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -2568,7 +2568,7 @@
   },
   "Goldshire Footman": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_042.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_042.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -2585,7 +2585,7 @@
   },
   "Gorehowl": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_411.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_411.png",
     "class": "WR",
     "collectible": true,
     "cost": 7,
@@ -2602,7 +2602,7 @@
   },
   "Grimscale Oracle": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_508.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_508.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -2619,7 +2619,7 @@
   },
   "Grommash Hellscream": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_414.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_414.png",
     "class": "WR",
     "collectible": true,
     "cost": 8,
@@ -2636,7 +2636,7 @@
   },
   "Gruul": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_038.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_038.png",
     "class": "N",
     "collectible": true,
     "cost": 8,
@@ -2653,7 +2653,7 @@
   },
   "Guardian of Kings": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_088.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_088.png",
     "class": "PL",
     "collectible": true,
     "cost": 7,
@@ -2670,7 +2670,7 @@
   },
   "Gurubashi Berserker": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_399.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_399.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -2687,7 +2687,7 @@
   },
   "Hammer of Wrath": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_094.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_094.png",
     "class": "PL",
     "collectible": true,
     "cost": 4,
@@ -2704,7 +2704,7 @@
   },
   "Hand of Protection": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_371.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_371.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -2721,7 +2721,7 @@
   },
   "Harrison Jones": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_558.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_558.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -2738,7 +2738,7 @@
   },
   "Harvest Golem": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_556.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_556.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -2755,7 +2755,7 @@
   },
   "Headcrack": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_137.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_137.png",
     "class": "RO",
     "collectible": true,
     "cost": 3,
@@ -2772,7 +2772,7 @@
   },
   "Healing Touch": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_007.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_007.png",
     "class": "DR",
     "collectible": true,
     "cost": 3,
@@ -2789,7 +2789,7 @@
   },
   "Hellfire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_062.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_062.png",
     "class": "WL",
     "collectible": true,
     "cost": 4,
@@ -2806,7 +2806,7 @@
   },
   "Heroic Strike": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_105.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_105.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -2823,7 +2823,7 @@
   },
   "Hex": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_246.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_246.png",
     "class": "SH",
     "collectible": true,
     "cost": 3,
@@ -2840,7 +2840,7 @@
   },
   "Hogger": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_040.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_040.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -2857,7 +2857,7 @@
   },
   "Holy Fire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_624.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_624.png",
     "class": "PR",
     "collectible": true,
     "cost": 6,
@@ -2874,7 +2874,7 @@
   },
   "Holy Light": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_089.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_089.png",
     "class": "PL",
     "collectible": true,
     "cost": 2,
@@ -2891,7 +2891,7 @@
   },
   "Holy Nova": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_112.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_112.png",
     "class": "PR",
     "collectible": true,
     "cost": 5,
@@ -2908,7 +2908,7 @@
   },
   "Holy Smite": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_130.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_130.png",
     "class": "PR",
     "collectible": true,
     "cost": 1,
@@ -2925,7 +2925,7 @@
   },
   "Holy Wrath": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_365.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_365.png",
     "class": "PL",
     "collectible": true,
     "cost": 5,
@@ -2942,7 +2942,7 @@
   },
   "Houndmaster": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_070.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_070.png",
     "class": "HT",
     "collectible": true,
     "cost": 4,
@@ -2959,7 +2959,7 @@
   },
   "Humility": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_360.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_360.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -2976,7 +2976,7 @@
   },
   "Hungry Crab": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_017.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_017.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -2993,7 +2993,7 @@
   },
   "Hunter's Mark": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_084.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_084.png",
     "class": "HT",
     "collectible": true,
     "cost": 0,
@@ -3010,7 +3010,7 @@
   },
   "Ice Barrier": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_289.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_289.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -3027,7 +3027,7 @@
   },
   "Ice Block": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_295.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_295.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -3044,7 +3044,7 @@
   },
   "Ice Lance": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_031.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_031.png",
     "class": "MA",
     "collectible": true,
     "cost": 1,
@@ -3061,7 +3061,7 @@
   },
   "Illidan Stormrage": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_614.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_614.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -3078,7 +3078,7 @@
   },
   "Imp Master": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_597.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_597.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3095,7 +3095,7 @@
   },
   "Injured Blademaster": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_181.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_181.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3112,7 +3112,7 @@
   },
   "Inner Fire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_129.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_129.png",
     "class": "PR",
     "collectible": true,
     "cost": 1,
@@ -3129,7 +3129,7 @@
   },
   "Inner Rage": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_607.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_607.png",
     "class": "WR",
     "collectible": true,
     "cost": 0,
@@ -3146,7 +3146,7 @@
   },
   "Innervate": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_169.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_169.png",
     "class": "DR",
     "collectible": true,
     "cost": 0,
@@ -3163,7 +3163,7 @@
   },
   "Ironbark Protector": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_232.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_232.png",
     "class": "DR",
     "collectible": true,
     "cost": 8,
@@ -3180,7 +3180,7 @@
   },
   "Ironbeak Owl": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_203.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_203.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3197,7 +3197,7 @@
   },
   "Ironforge Rifleman": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_141.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_141.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3214,7 +3214,7 @@
   },
   "Ironfur Grizzly": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_125.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_125.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3231,7 +3231,7 @@
   },
   "Jungle Panther": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_017.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_017.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3248,7 +3248,7 @@
   },
   "Keeper of the Grove": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_166.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_166.png",
     "class": "DR",
     "collectible": true,
     "cost": 4,
@@ -3265,7 +3265,7 @@
   },
   "Kidnapper": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_005.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_005.png",
     "class": "RO",
     "collectible": true,
     "cost": 6,
@@ -3282,7 +3282,7 @@
   },
   "Kill Command": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_539.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_539.png",
     "class": "HT",
     "collectible": true,
     "cost": 3,
@@ -3299,7 +3299,7 @@
   },
   "King Krush": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_543.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_543.png",
     "class": "HT",
     "collectible": true,
     "cost": 9,
@@ -3316,7 +3316,7 @@
   },
   "King Mukla": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_014.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_014.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3333,7 +3333,7 @@
   },
   "Kirin Tor Mage": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_612.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_612.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -3350,7 +3350,7 @@
   },
   "Knife Juggler": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_019.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_019.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3367,7 +3367,7 @@
   },
   "Kobold Geomancer": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_142.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_142.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3384,7 +3384,7 @@
   },
   "Kor'kron Elite": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_011.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_011.png",
     "class": "WR",
     "collectible": true,
     "cost": 4,
@@ -3401,7 +3401,7 @@
   },
   "Lava Burst": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_241.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_241.png",
     "class": "SH",
     "collectible": true,
     "cost": 3,
@@ -3418,7 +3418,7 @@
   },
   "Lay on Hands": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_354.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_354.png",
     "class": "PL",
     "collectible": true,
     "cost": 8,
@@ -3435,7 +3435,7 @@
   },
   "Leeroy Jenkins": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_116.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_116.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -3452,7 +3452,7 @@
   },
   "Leper Gnome": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_029.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_029.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -3469,7 +3469,7 @@
   },
   "Light's Justice": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_091.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_091.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -3486,7 +3486,7 @@
   },
   "Lightning Bolt": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_238.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_238.png",
     "class": "SH",
     "collectible": true,
     "cost": 1,
@@ -3503,7 +3503,7 @@
   },
   "Lightning Storm": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_259.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_259.png",
     "class": "SH",
     "collectible": true,
     "cost": 3,
@@ -3520,7 +3520,7 @@
   },
   "Lightspawn": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_335.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_335.png",
     "class": "PR",
     "collectible": true,
     "cost": 4,
@@ -3537,7 +3537,7 @@
   },
   "Lightwarden": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_001.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_001.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -3554,7 +3554,7 @@
   },
   "Lightwell": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_341.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_341.png",
     "class": "PR",
     "collectible": true,
     "cost": 2,
@@ -3571,7 +3571,7 @@
   },
   "Loot Hoarder": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_096.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_096.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3588,7 +3588,7 @@
   },
   "Lord Jaraxxus": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_323.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_323.png",
     "class": "WL",
     "collectible": true,
     "cost": 9,
@@ -3605,7 +3605,7 @@
   },
   "Lord of the Arena": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_162.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_162.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -3622,7 +3622,7 @@
   },
   "Lorewalker Cho": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_100.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_100.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3639,7 +3639,7 @@
   },
   "Mad Bomber": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_082.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_082.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3656,7 +3656,7 @@
   },
   "Magma Rager": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_118.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_118.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3673,7 +3673,7 @@
   },
   "Malygos": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_563.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_563.png",
     "class": "N",
     "collectible": true,
     "cost": 9,
@@ -3690,7 +3690,7 @@
   },
   "Mana Addict": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_055.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_055.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3707,7 +3707,7 @@
   },
   "Mana Tide Totem": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_575.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_575.png",
     "class": "SH",
     "collectible": true,
     "cost": 3,
@@ -3724,7 +3724,7 @@
   },
   "Mana Wraith": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_616.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_616.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3741,7 +3741,7 @@
   },
   "Mana Wyrm": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_012.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_012.png",
     "class": "MA",
     "collectible": true,
     "cost": 1,
@@ -3758,7 +3758,7 @@
   },
   "Mark of Nature": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_155.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_155.png",
     "class": "DR",
     "collectible": true,
     "cost": 3,
@@ -3775,7 +3775,7 @@
   },
   "Mark of the Wild": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_009.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_009.png",
     "class": "DR",
     "collectible": true,
     "cost": 2,
@@ -3792,7 +3792,7 @@
   },
   "Mass Dispel": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_626.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_626.png",
     "class": "PR",
     "collectible": true,
     "cost": 4,
@@ -3809,7 +3809,7 @@
   },
   "Master Swordsmith": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_037.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_037.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3826,7 +3826,7 @@
   },
   "Master of Disguise": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_014.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_014.png",
     "class": "RO",
     "collectible": true,
     "cost": 4,
@@ -3843,7 +3843,7 @@
   },
   "Millhouse Manastorm": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_029.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_029.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -3860,7 +3860,7 @@
   },
   "Mind Blast": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_233.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_233.png",
     "class": "PR",
     "collectible": true,
     "cost": 2,
@@ -3877,7 +3877,7 @@
   },
   "Mind Control": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_113.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS1_113.png",
     "class": "PR",
     "collectible": true,
     "cost": 10,
@@ -3894,7 +3894,7 @@
   },
   "Mind Control Tech": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_085.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_085.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -3911,7 +3911,7 @@
   },
   "Mind Vision": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_003.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_003.png",
     "class": "PR",
     "collectible": true,
     "cost": 1,
@@ -3928,7 +3928,7 @@
   },
   "Mindgames": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_345.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_345.png",
     "class": "PR",
     "collectible": true,
     "cost": 4,
@@ -3945,7 +3945,7 @@
   },
   "Mirror Entity": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_294.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_294.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -3962,7 +3962,7 @@
   },
   "Mirror Image": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_027.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_027.png",
     "class": "MA",
     "collectible": true,
     "cost": 1,
@@ -3979,7 +3979,7 @@
   },
   "Misdirection": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_533.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_533.png",
     "class": "HT",
     "collectible": true,
     "cost": 2,
@@ -3996,7 +3996,7 @@
   },
   "Mogu'shan Warden": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_396.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_396.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -4013,7 +4013,7 @@
   },
   "Molten Giant": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_620.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_620.png",
     "class": "N",
     "collectible": true,
     "cost": 20,
@@ -4030,7 +4030,7 @@
   },
   "Moonfire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_008.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_008.png",
     "class": "DR",
     "collectible": true,
     "cost": 0,
@@ -4047,7 +4047,7 @@
   },
   "Mortal Coil": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_302.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_302.png",
     "class": "WL",
     "collectible": true,
     "cost": 1,
@@ -4064,7 +4064,7 @@
   },
   "Mortal Strike": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_408.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_408.png",
     "class": "WR",
     "collectible": true,
     "cost": 4,
@@ -4081,7 +4081,7 @@
   },
   "Mountain Giant": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_105.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_105.png",
     "class": "N",
     "collectible": true,
     "cost": 12,
@@ -4098,7 +4098,7 @@
   },
   "Multi-Shot": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_183.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_183.png",
     "class": "HT",
     "collectible": true,
     "cost": 4,
@@ -4115,7 +4115,7 @@
   },
   "Murloc Raider": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_168.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_168.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -4132,7 +4132,7 @@
   },
   "Murloc Tidecaller": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_509.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_509.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -4149,7 +4149,7 @@
   },
   "Murloc Tidehunter": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_506.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_506.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -4166,7 +4166,7 @@
   },
   "Murloc Warleader": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_507.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_507.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -4183,7 +4183,7 @@
   },
   "Nat Pagle": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_557.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_557.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -4200,7 +4200,7 @@
   },
   "Naturalize": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_161.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_161.png",
     "class": "DR",
     "collectible": true,
     "cost": 1,
@@ -4217,7 +4217,7 @@
   },
   "Nightblade": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_593.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_593.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -4234,7 +4234,7 @@
   },
   "Noble Sacrifice": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_130.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_130.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -4251,7 +4251,7 @@
   },
   "Northshire Cleric": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_235.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_235.png",
     "class": "PR",
     "collectible": true,
     "cost": 1,
@@ -4268,7 +4268,7 @@
   },
   "Nourish": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_164.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_164.png",
     "class": "DR",
     "collectible": true,
     "cost": 5,
@@ -4285,7 +4285,7 @@
   },
   "Novice Engineer": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_015.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_015.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -4302,7 +4302,7 @@
   },
   "Nozdormu": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_560.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_560.png",
     "class": "N",
     "collectible": true,
     "cost": 9,
@@ -4319,7 +4319,7 @@
   },
   "Oasis Snapjaw": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_119.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_119.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -4336,7 +4336,7 @@
   },
   "Ogre Magi": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_197.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_197.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -4353,7 +4353,7 @@
   },
   "Old Murk-Eye": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_062.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_062.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -4370,7 +4370,7 @@
   },
   "Onyxia": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_562.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_562.png",
     "class": "N",
     "collectible": true,
     "cost": 9,
@@ -4387,7 +4387,7 @@
   },
   "Patient Assassin": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_522.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_522.png",
     "class": "RO",
     "collectible": true,
     "cost": 2,
@@ -4404,7 +4404,7 @@
   },
   "Perdition's Blade": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_133.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_133.png",
     "class": "RO",
     "collectible": true,
     "cost": 3,
@@ -4421,7 +4421,7 @@
   },
   "Pint-Sized Summoner": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_076.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_076.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -4438,7 +4438,7 @@
   },
   "Pit Lord": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_313.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_313.png",
     "class": "WL",
     "collectible": true,
     "cost": 4,
@@ -4455,7 +4455,7 @@
   },
   "Polymorph": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_022.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_022.png",
     "class": "MA",
     "collectible": true,
     "cost": 4,
@@ -4472,7 +4472,7 @@
   },
   "Power Overwhelming": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_316.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_316.png",
     "class": "WL",
     "collectible": true,
     "cost": 1,
@@ -4489,7 +4489,7 @@
   },
   "Power Word: Shield": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_004.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_004.png",
     "class": "PR",
     "collectible": true,
     "cost": 1,
@@ -4506,7 +4506,7 @@
   },
   "Power of the Wild": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_160.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_160.png",
     "class": "DR",
     "collectible": true,
     "cost": 2,
@@ -4523,7 +4523,7 @@
   },
   "Preparation": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_145.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_145.png",
     "class": "RO",
     "collectible": true,
     "cost": 0,
@@ -4540,7 +4540,7 @@
   },
   "Priestess of Elune": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_583.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_583.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -4557,7 +4557,7 @@
   },
   "Prophet Velen": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_350.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_350.png",
     "class": "PR",
     "collectible": true,
     "cost": 7,
@@ -4574,7 +4574,7 @@
   },
   "Pyroblast": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_279.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_279.png",
     "class": "MA",
     "collectible": true,
     "cost": 10,
@@ -4591,7 +4591,7 @@
   },
   "Questing Adventurer": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_044.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_044.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -4608,7 +4608,7 @@
   },
   "Raging Worgen": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_412.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_412.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -4625,7 +4625,7 @@
   },
   "Ragnaros the Firelord": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_298.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_298.png",
     "class": "N",
     "collectible": true,
     "cost": 8,
@@ -4642,7 +4642,7 @@
   },
   "Raid Leader": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_122.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_122.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -4659,7 +4659,7 @@
   },
   "Rampage": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_104.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_104.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -4676,7 +4676,7 @@
   },
   "Ravenholdt Assassin": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_161.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_161.png",
     "class": "N",
     "collectible": true,
     "cost": 7,
@@ -4693,7 +4693,7 @@
   },
   "Razorfen Hunter": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_196.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_196.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -4710,7 +4710,7 @@
   },
   "Reckless Rocketeer": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_213.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_213.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -4727,7 +4727,7 @@
   },
   "Redemption": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_136.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_136.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -4744,7 +4744,7 @@
   },
   "Repentance": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_379.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_379.png",
     "class": "PL",
     "collectible": true,
     "cost": 1,
@@ -4761,7 +4761,7 @@
   },
   "River Crocolisk": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_120.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_120.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -4778,7 +4778,7 @@
   },
   "Rockbiter Weapon": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_045.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_045.png",
     "class": "SH",
     "collectible": true,
     "cost": 1,
@@ -4795,7 +4795,7 @@
   },
   "SI:7 Agent": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_134.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_134.png",
     "class": "RO",
     "collectible": true,
     "cost": 3,
@@ -4812,7 +4812,7 @@
   },
   "Sacrificial Pact": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_003.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_003.png",
     "class": "WL",
     "collectible": true,
     "cost": 0,
@@ -4829,7 +4829,7 @@
   },
   "Sap": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_581.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_581.png",
     "class": "RO",
     "collectible": true,
     "cost": 2,
@@ -4846,7 +4846,7 @@
   },
   "Savage Roar": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_011.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_011.png",
     "class": "DR",
     "collectible": true,
     "cost": 3,
@@ -4863,7 +4863,7 @@
   },
   "Savagery": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_578.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_578.png",
     "class": "DR",
     "collectible": true,
     "cost": 1,
@@ -4880,7 +4880,7 @@
   },
   "Savannah Highmane": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_534.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_534.png",
     "class": "HT",
     "collectible": true,
     "cost": 6,
@@ -4897,7 +4897,7 @@
   },
   "Scarlet Crusader": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_020.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_020.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -4914,7 +4914,7 @@
   },
   "Scavenging Hyena": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_531.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_531.png",
     "class": "HT",
     "collectible": true,
     "cost": 2,
@@ -4931,7 +4931,7 @@
   },
   "Sea Giant": {
     "atk": 8,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_586.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_586.png",
     "class": "N",
     "collectible": true,
     "cost": 10,
@@ -4948,7 +4948,7 @@
   },
   "Secretkeeper": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_080.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_080.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -4965,7 +4965,7 @@
   },
   "Sen'jin Shieldmasta": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_179.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_179.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -4982,7 +4982,7 @@
   },
   "Sense Demons": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_317.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_317.png",
     "class": "WL",
     "collectible": true,
     "cost": 3,
@@ -4999,7 +4999,7 @@
   },
   "Shadow Bolt": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_057.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_057.png",
     "class": "WL",
     "collectible": true,
     "cost": 3,
@@ -5016,7 +5016,7 @@
   },
   "Shadow Madness": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_334.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_334.png",
     "class": "PR",
     "collectible": true,
     "cost": 4,
@@ -5033,7 +5033,7 @@
   },
   "Shadow Word: Death": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_622.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_622.png",
     "class": "PR",
     "collectible": true,
     "cost": 3,
@@ -5050,7 +5050,7 @@
   },
   "Shadow Word: Pain": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_234.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_234.png",
     "class": "PR",
     "collectible": true,
     "cost": 2,
@@ -5067,7 +5067,7 @@
   },
   "Shadowflame": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_303.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_303.png",
     "class": "WL",
     "collectible": true,
     "cost": 4,
@@ -5084,7 +5084,7 @@
   },
   "Shadowform": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_625.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_625.png",
     "class": "PR",
     "collectible": true,
     "cost": 3,
@@ -5101,7 +5101,7 @@
   },
   "Shadowstep": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_144.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_144.png",
     "class": "RO",
     "collectible": true,
     "cost": 0,
@@ -5118,7 +5118,7 @@
   },
   "Shattered Sun Cleric": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_019.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_019.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -5135,7 +5135,7 @@
   },
   "Shield Block": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_606.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_606.png",
     "class": "WR",
     "collectible": true,
     "cost": 3,
@@ -5152,7 +5152,7 @@
   },
   "Shield Slam": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_410.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_410.png",
     "class": "WR",
     "collectible": true,
     "cost": 1,
@@ -5169,7 +5169,7 @@
   },
   "Shieldbearer": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_405.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_405.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -5186,7 +5186,7 @@
   },
   "Shiv": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_278.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_278.png",
     "class": "RO",
     "collectible": true,
     "cost": 2,
@@ -5203,7 +5203,7 @@
   },
   "Silence": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_332.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_332.png",
     "class": "PR",
     "collectible": true,
     "cost": 0,
@@ -5220,7 +5220,7 @@
   },
   "Silver Hand Knight": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_151.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_151.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -5237,7 +5237,7 @@
   },
   "Silverback Patriarch": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_127.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_127.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -5254,7 +5254,7 @@
   },
   "Silvermoon Guardian": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_023.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_023.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -5271,7 +5271,7 @@
   },
   "Sinister Strike": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_075.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_075.png",
     "class": "RO",
     "collectible": true,
     "cost": 1,
@@ -5288,7 +5288,7 @@
   },
   "Siphon Soul": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_309.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_309.png",
     "class": "WL",
     "collectible": true,
     "cost": 6,
@@ -5305,7 +5305,7 @@
   },
   "Slam": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_391.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_391.png",
     "class": "WR",
     "collectible": true,
     "cost": 2,
@@ -5322,7 +5322,7 @@
   },
   "Snake Trap": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_554.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_554.png",
     "class": "HT",
     "collectible": true,
     "cost": 2,
@@ -5339,7 +5339,7 @@
   },
   "Snipe": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_609.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_609.png",
     "class": "HT",
     "collectible": true,
     "cost": 2,
@@ -5356,7 +5356,7 @@
   },
   "Sorcerer's Apprentice": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_608.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_608.png",
     "class": "MA",
     "collectible": true,
     "cost": 2,
@@ -5373,7 +5373,7 @@
   },
   "Soul of the Forest": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_158.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_158.png",
     "class": "DR",
     "collectible": true,
     "cost": 4,
@@ -5390,7 +5390,7 @@
   },
   "Soulfire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_308.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_308.png",
     "class": "WL",
     "collectible": true,
     "cost": 0,
@@ -5407,7 +5407,7 @@
   },
   "Southsea Captain": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_027.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_027.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -5424,7 +5424,7 @@
   },
   "Southsea Deckhand": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_146.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_146.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -5441,7 +5441,7 @@
   },
   "Spellbender": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_tt_010.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_tt_010.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -5458,7 +5458,7 @@
   },
   "Spellbreaker": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_048.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_048.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -5475,7 +5475,7 @@
   },
   "Spiteful Smith": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_221.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_221.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -5492,7 +5492,7 @@
   },
   "Sprint": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_077.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_077.png",
     "class": "RO",
     "collectible": true,
     "cost": 7,
@@ -5509,7 +5509,7 @@
   },
   "Stampeding Kodo": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_041.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_041.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -5526,7 +5526,7 @@
   },
   "Starfall": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_007.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_007.png",
     "class": "DR",
     "collectible": true,
     "cost": 5,
@@ -5543,7 +5543,7 @@
   },
   "Starfire": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_173.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_173.png",
     "class": "DR",
     "collectible": true,
     "cost": 6,
@@ -5560,7 +5560,7 @@
   },
   "Starving Buzzard": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_237.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_237.png",
     "class": "HT",
     "collectible": true,
     "cost": 2,
@@ -5577,7 +5577,7 @@
   },
   "Stonetusk Boar": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_171.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_171.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -5594,7 +5594,7 @@
   },
   "Stormforged Axe": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_247.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_247.png",
     "class": "SH",
     "collectible": true,
     "cost": 2,
@@ -5611,7 +5611,7 @@
   },
   "Stormpike Commando": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_150.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_150.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -5628,7 +5628,7 @@
   },
   "Stormwind Champion": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_222.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_222.png",
     "class": "N",
     "collectible": true,
     "cost": 7,
@@ -5645,7 +5645,7 @@
   },
   "Stormwind Knight": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_131.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_131.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -5662,7 +5662,7 @@
   },
   "Stranglethorn Tiger": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_028.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_028.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -5679,7 +5679,7 @@
   },
   "Summoning Portal": {
     "atk": 0,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_315.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_315.png",
     "class": "WL",
     "collectible": true,
     "cost": 4,
@@ -5696,7 +5696,7 @@
   },
   "Sunfury Protector": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_058.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_058.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -5713,7 +5713,7 @@
   },
   "Sunwalker": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_032.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_032.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -5730,7 +5730,7 @@
   },
   "Swipe": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_012.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_012.png",
     "class": "DR",
     "collectible": true,
     "cost": 4,
@@ -5747,7 +5747,7 @@
   },
   "Sword of Justice": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_366.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_366.png",
     "class": "PL",
     "collectible": true,
     "cost": 3,
@@ -5764,7 +5764,7 @@
   },
   "Sylvanas Windrunner": {
     "atk": 5,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_016.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_016.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -5781,7 +5781,7 @@
   },
   "Tauren Warrior": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_390.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_390.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -5798,7 +5798,7 @@
   },
   "Temple Enforcer": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_623.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_623.png",
     "class": "PR",
     "collectible": true,
     "cost": 6,
@@ -5815,11 +5815,11 @@
   },
   "The Beast": {
     "atk": 9,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_577.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_577.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
-    "desc": "Deathrattle: Summon a 3/3 Finkle Einhorn for your opponent.",
+    "desc": "Deathrattle: Summon a 3/3 Pip Quickwit for your opponent.",
     "head": "the-beast",
     "hp": 7,
     "hpwn": 465011,
@@ -5832,7 +5832,7 @@
   },
   "The Black Knight": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_002.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_002.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -5849,7 +5849,7 @@
   },
   "Thoughtsteal": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_339.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_339.png",
     "class": "PR",
     "collectible": true,
     "cost": 3,
@@ -5866,7 +5866,7 @@
   },
   "Thrallmar Farseer": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_021.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_021.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -5883,7 +5883,7 @@
   },
   "Timber Wolf": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_175.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_175.png",
     "class": "HT",
     "collectible": true,
     "cost": 1,
@@ -5900,7 +5900,7 @@
   },
   "Tinkmaster Overspark": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_083.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_083.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -5917,7 +5917,7 @@
   },
   "Tirion Fordring": {
     "atk": 6,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_383.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_383.png",
     "class": "PL",
     "collectible": true,
     "cost": 8,
@@ -5934,7 +5934,7 @@
   },
   "Totemic Might": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_244.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_244.png",
     "class": "SH",
     "collectible": true,
     "cost": 0,
@@ -5951,7 +5951,7 @@
   },
   "Tracking": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_184.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_184.png",
     "class": "HT",
     "collectible": true,
     "cost": 1,
@@ -5968,7 +5968,7 @@
   },
   "Truesilver Champion": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_097.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_097.png",
     "class": "PL",
     "collectible": true,
     "cost": 4,
@@ -5985,7 +5985,7 @@
   },
   "Tundra Rhino": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_178.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_DS1_178.png",
     "class": "HT",
     "collectible": true,
     "cost": 5,
@@ -6002,7 +6002,7 @@
   },
   "Twilight Drake": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_043.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_043.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -6019,7 +6019,7 @@
   },
   "Twisting Nether": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_312.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_312.png",
     "class": "WL",
     "collectible": true,
     "cost": 8,
@@ -6036,7 +6036,7 @@
   },
   "Unbound Elemental": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_258.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_258.png",
     "class": "SH",
     "collectible": true,
     "cost": 3,
@@ -6053,7 +6053,7 @@
   },
   "Unleash the Hounds": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_538.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_538.png",
     "class": "HT",
     "collectible": true,
     "cost": 3,
@@ -6070,7 +6070,7 @@
   },
   "Upgrade!": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_409.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_409.png",
     "class": "WR",
     "collectible": true,
     "cost": 1,
@@ -6087,7 +6087,7 @@
   },
   "Vanish": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_004.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_004.png",
     "class": "RO",
     "collectible": true,
     "cost": 6,
@@ -6104,7 +6104,7 @@
   },
   "Vaporize": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_594.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_594.png",
     "class": "MA",
     "collectible": true,
     "cost": 3,
@@ -6121,7 +6121,7 @@
   },
   "Venture Co. Mercenary": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_227.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_227.png",
     "class": "N",
     "collectible": true,
     "cost": 5,
@@ -6138,7 +6138,7 @@
   },
   "Violet Teacher": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_026.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_026.png",
     "class": "N",
     "collectible": true,
     "cost": 4,
@@ -6155,7 +6155,7 @@
   },
   "Void Terror": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_304.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_304.png",
     "class": "WL",
     "collectible": true,
     "cost": 3,
@@ -6172,7 +6172,7 @@
   },
   "Voidwalker": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_065.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_065.png",
     "class": "WL",
     "collectible": true,
     "cost": 1,
@@ -6189,7 +6189,7 @@
   },
   "Voodoo Doctor": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_011.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_011.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -6206,7 +6206,7 @@
   },
   "War Golem": {
     "atk": 7,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_186.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_186.png",
     "class": "N",
     "collectible": true,
     "cost": 7,
@@ -6223,7 +6223,7 @@
   },
   "Warsong Commander": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_084.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_084.png",
     "class": "WR",
     "collectible": true,
     "cost": 3,
@@ -6240,7 +6240,7 @@
   },
   "Water Elemental": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_033.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_033.png",
     "class": "MA",
     "collectible": true,
     "cost": 4,
@@ -6257,7 +6257,7 @@
   },
   "Whirlwind": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_400.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_400.png",
     "class": "WR",
     "collectible": true,
     "cost": 1,
@@ -6274,7 +6274,7 @@
   },
   "Wild Growth": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_013.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_013.png",
     "class": "DR",
     "collectible": true,
     "cost": 2,
@@ -6291,7 +6291,7 @@
   },
   "Wild Pyromancer": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_020.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_NEW1_020.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -6308,7 +6308,7 @@
   },
   "Windfury": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_039.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_039.png",
     "class": "SH",
     "collectible": true,
     "cost": 2,
@@ -6325,7 +6325,7 @@
   },
   "Windfury Harpy": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_033.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_033.png",
     "class": "N",
     "collectible": true,
     "cost": 6,
@@ -6342,7 +6342,7 @@
   },
   "Windspeaker": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_587.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_587.png",
     "class": "SH",
     "collectible": true,
     "cost": 4,
@@ -6359,7 +6359,7 @@
   },
   "Wisp": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_231.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_231.png",
     "class": "N",
     "collectible": true,
     "cost": 0,
@@ -6376,7 +6376,7 @@
   },
   "Wolfrider": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_124.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_124.png",
     "class": "N",
     "collectible": true,
     "cost": 3,
@@ -6393,7 +6393,7 @@
   },
   "Worgen Infiltrator": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_010.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_010.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -6410,7 +6410,7 @@
   },
   "Wrath": {
     "atk": null,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_154.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_154.png",
     "class": "DR",
     "collectible": true,
     "cost": 2,
@@ -6427,7 +6427,7 @@
   },
   "Young Dragonhawk": {
     "atk": 1,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_169.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_CS2_169.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -6444,7 +6444,7 @@
   },
   "Young Priestess": {
     "atk": 2,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_004.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_004.png",
     "class": "N",
     "collectible": true,
     "cost": 1,
@@ -6461,7 +6461,7 @@
   },
   "Youthful Brewmaster": {
     "atk": 3,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_049.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_049.png",
     "class": "N",
     "collectible": true,
     "cost": 2,
@@ -6478,7 +6478,7 @@
   },
   "Ysera": {
     "atk": 4,
-    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_572.png?83143",
+    "cdn": "https://cards.hearthpwn.com/enUS/VAN_EX1_572.png",
     "class": "N",
     "collectible": true,
     "cost": 9,

@@ -59,7 +59,8 @@ jsonToCCSet = {
     'TAVERNS_OF_TIME': '32', # arena event tokens
     'LEGACY': '33',
     #'BATTLEGROUNDS': '34'
-    'STORMWIND': '35'
+    'STORMWIND': '35',
+    'ALTERAC_VALLEY': '36'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -93,7 +94,8 @@ setids = {
     '32': 112,
     '33': 1900,
     #'34': 1117,
-    '35': 2100
+    '35': 2100,
+    '36': 1626
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -160,6 +162,7 @@ def getHearthpwnIdAndUrl(name, cardset, cardtype, isToken, session):
             image = images[i].get('src')
             if not image:
                 image = 'https://media-hearth.cursecdn.com/avatars/148/738/687.png'
+            image = image.split("?")[0]
             # /cards/31128-annoy-o-tron-fanclub
             hpid = hpIdRegex.match(images[i].get('data-href')).group(1)
             return int(hpid), image.replace('http://', 'https://')
@@ -351,6 +354,17 @@ def loadSets(allcards={}, sets=setids.keys()):
     resultCards = {}
     if not sets:
         return resultCards
+        
+    def getsetit(name):
+        for id, set in cc.sets.items():
+            if set["name"] == name:
+                return id
+        return "00"
+        
+    def update(data):
+        for name, card in data.items():
+            if name not in resultCards or getsetit(card["set"]) > getsetit(resultCards[name]["set"]):
+                resultCards[name] = card
 
     def doSet(setid):
         with requests.Session() as session:
@@ -360,7 +374,7 @@ def loadSets(allcards={}, sets=setids.keys()):
             if os.path.isfile(filename):
                 log.debug("loadSets() using found '%s' file instead of internet", filename)
                 with open(filename, 'r', encoding='utf8') as f:
-                    resultCards.update(json.load(f))
+                    update(json.load(f))
             else:
                 log.debug("loadSets() getting set from internet %s", setname)
                 currentSet = {}
@@ -399,6 +413,7 @@ def loadSets(allcards={}, sets=setids.keys()):
 
                 saveCardsAsJson(filename, currentSet)
                 resultCards.update(currentSet)
+                update(currentSet)
 
     with Pool(4) as p:
         p.map(doSet, sets)
