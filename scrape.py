@@ -467,6 +467,8 @@ def loadTokens(tokens = {}, wantedTokens = {}):
                     cardHTD["desc"] = card.get('desc')
                 cardHTD["id"] = card["id"]
                 card = cardHTD
+                if card["set"] == 'Arena Exclusives':
+                    card["set"] = 'Taverns of Time'
 
             resultCards[card['name']] = card
             print('.', end='')
@@ -503,7 +505,6 @@ def main(setId=None):
             if setId == 'tokens':
                 loadAndSaveTokens(tokens, force=True)
                 return
-
             if setId not in setids:
                 print('unkown setId:', setId, 'known sets:', setids)
                 return
@@ -513,7 +514,8 @@ def main(setId=None):
         cardSetIds = setids.keys() - duelSetIds - set(vanillaSetIds)
         saveCardsAsJson("data/cards.json", loadSets(allcards=cards, sets=cardSetIds))
         saveCardsAsJson("data/duels.json", loadSets(allcards=duels, sets=duelSetIds))
-        saveCardsAsJson("data/vanilla.json", loadSets(allcards=vanilla, sets=vanillaSetIds))
+        if not os.path.isfile('data/vanilla.json'):
+            saveCardsAsJson("data/vanilla.json", loadSets(allcards=vanilla, sets=vanillaSetIds))
 
         loadAndSaveTokens(tokens)
         print("success")
