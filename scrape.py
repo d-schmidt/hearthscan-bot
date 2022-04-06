@@ -60,7 +60,8 @@ jsonToCCSet = {
     'LEGACY': '33',
     #'BATTLEGROUNDS': '34'
     'STORMWIND': '35',
-    'ALTERAC_VALLEY': '36'
+    'ALTERAC_VALLEY': '36',
+    'THE_SUNKEN_CITY': '37'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -95,7 +96,8 @@ setids = {
     '33': 1900,
     #'34': 1117,
     '35': 2100,
-    '36': 1626
+    '36': 1626,
+    '37': 2300
 }
 # set names to hs internal set ids
 cc = Constants()

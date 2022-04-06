@@ -21,9 +21,9 @@
         "22": {"name": "Descent of Dragons", "code": "DoD", "std": false},
         "23": {"name": "Galakrond's Awakening", "code": "GA", "std": false},
         "24": {"name": "Demon Hunter Initiate", "code": "DHI", "std": true},
-        "25": {"name": "Ashes of Outland", "code": "AO", "std": true},
-        "26": {"name": "Scholomance Academy", "code": "SA", "std": true},
-        "27": {"name": "Madness at the Darkmoon Faire", "code": "DMF", "std": true},
+        "25": {"name": "Ashes of Outland", "code": "AO", "std": false},
+        "26": {"name": "Scholomance Academy", "code": "SA", "std": false},
+        "27": {"name": "Madness at the Darkmoon Faire", "code": "DMF", "std": false},
         "28": {"name": "Duels", "code": "Duels", "std": false, "duels": true},
         "29": {"name": "Core Set 2021", "code": "Core", "std": true},
         "30": {"name": "Forged in the Barrens", "code": "FitB", "std": true},
@@ -32,7 +32,8 @@
         "33": {"name": "Legacy", "code": "Legacy", "std": false},
         "34": {"name": "Battlegrounds", "code": "BG", "std": false},
         "35": {"name": "United in Stormwind", "code": "UiS", "std": true, "unreleased": false},
-        "36": {"name": "Fractured in Alterac Valley", "code": "FAV", "std": true, "unreleased": false}
+        "36": {"name": "Fractured in Alterac Valley", "code": "FAV", "std": true},
+        "37": {"name": "Voyage to the Sunken City", "code": "VSC", "std": true}
     },
 
     "classes": {
