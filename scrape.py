@@ -61,7 +61,8 @@ jsonToCCSet = {
     #'BATTLEGROUNDS': '34'
     'STORMWIND': '35',
     'ALTERAC_VALLEY': '36',
-    'THE_SUNKEN_CITY': '37'
+    'THE_SUNKEN_CITY': '37',
+    'REVENDRETH': '38'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -97,7 +98,8 @@ setids = {
     #'34': 1117,
     '35': 2100,
     '36': 1626,
-    '37': 2300
+    '37': 2300,
+    '38': 2500
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -126,6 +128,11 @@ multiClassGroups = {
     'KABAL': 'Kabal',
     'JADE_LOTUS': 'Lotus'
 }
+# cards I can't filter out
+bad_cards = [
+    "PVPDR_BAR_Passive12",
+    "PVPDR_BAR_Passive13",
+]
 
 
 def getHTDId(name, *ignored):
@@ -349,23 +356,24 @@ def loadSets(allcards={}, sets=setids.keys()):
     setcarddata = {}
 
     for _, card in allcards.items():
-        if card['set'] not in setcarddata:
-            setcarddata[card['set']] = []
-        setcarddata[card['set']].append(card)
+        if card['id'] not in bad_cards:
+            if card['set'] not in setcarddata:
+                setcarddata[card['set']] = []
+            setcarddata[card['set']].append(card)
 
     resultCards = {}
     if not sets:
         return resultCards
-        
-    def getsetit(name):
+
+    def getsetid(name):
         for id, set in cc.sets.items():
             if set["name"] == name:
                 return id
         return "00"
-        
+
     def update(data):
         for name, card in data.items():
-            if name not in resultCards or getsetit(card["set"]) > getsetit(resultCards[name]["set"]):
+            if name not in resultCards or getsetid(card["set"]) > getsetid(resultCards[name]["set"]):
                 resultCards[name] = card
 
     def doSet(setid):

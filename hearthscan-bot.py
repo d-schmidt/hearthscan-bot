@@ -22,23 +22,11 @@ def answerComment(r, comment, answeredDB, helper):
 
     cards, answer = helper.parseText(comment.body)
 
-    if cards and answer:
-        if answeredDB.exists(comment.parent_id, cards):
-            # send pm instead of comment reply
-            sub = comment.submission
-
-            log.info("sending duplicate msg: %s with %s",
-                    comment.author, cards)
-            header = formatter.createDuplicateMsg(sub.title, sub.permalink)
-            message = header + answer
-
-            r.redditor(comment.author.name) \
-                    .message('You requested cards in a comment', message)
-        else:
-            # reply to comment
-            log.info("replying to comment: %s %s with %s",
-                    comment.id, comment.author.name, cards)
-            comment.reply(answer)
+    if cards and answer and not answeredDB.exists(comment.parent_id, cards):
+        # reply to comment
+        log.info("replying to comment: %s %s with %s",
+                comment.id, comment.author.name, cards)
+        comment.reply(answer)
 
 
 def answerMention(r, comment, answeredDB, helper):

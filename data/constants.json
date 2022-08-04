@@ -33,7 +33,8 @@
         "34": {"name": "Battlegrounds", "code": "BG", "std": false},
         "35": {"name": "United in Stormwind", "code": "UiS", "std": true, "unreleased": false},
         "36": {"name": "Fractured in Alterac Valley", "code": "FAV", "std": true},
-        "37": {"name": "Voyage to the Sunken City", "code": "VSC", "std": true}
+        "37": {"name": "Voyage to the Sunken City", "code": "VSC", "std": true},
+        "38": {"name": "Murder at Castle Nathria", "code": "MCN", "std": true}
     },
 
     "classes": {
