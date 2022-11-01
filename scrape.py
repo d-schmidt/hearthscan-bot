@@ -62,7 +62,8 @@ jsonToCCSet = {
     'STORMWIND': '35',
     'ALTERAC_VALLEY': '36',
     'THE_SUNKEN_CITY': '37',
-    'REVENDRETH': '38'
+    'REVENDRETH': '38',
+    'RETURN_OF_THE_LICH_KING': '39'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -99,7 +100,8 @@ setids = {
     '35': 2100,
     '36': 1626,
     '37': 2300,
-    '38': 2500
+    '38': 2500,
+    '39': 2600
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -321,6 +323,7 @@ def loadJsonCards():
             if cardSet in vanillaSets:
                 vanilla[card['id']] = cardData
             else:
+                # if card['id'] not in cards:
                 cards[card['id']] = cardData
         else:
             if cardSet not in vanillaSets:

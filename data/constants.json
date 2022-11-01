@@ -34,7 +34,8 @@
         "35": {"name": "United in Stormwind", "code": "UiS", "std": true, "unreleased": false},
         "36": {"name": "Fractured in Alterac Valley", "code": "FAV", "std": true},
         "37": {"name": "Voyage to the Sunken City", "code": "VSC", "std": true},
-        "38": {"name": "Murder at Castle Nathria", "code": "MCN", "std": true}
+        "38": {"name": "Murder at Castle Nathria", "code": "MCN", "std": true},
+        "39": {"name": "March of the Lich King", "code": "MotLK", "std": false, "unreleased": true}
     },
 
     "classes": {
@@ -53,7 +54,8 @@
         "Dream": "Dream",
         "Kabal (MPW)": "Kabal (MPW)",
         "Lotus (RSD)": "Lotus (RSD)",
-        "Goons (HPW)": "Goons (HPW)"
+        "Goons (HPW)": "Goons (HPW)",
+        "Death Knight": "DK"
     },
 
     "specials": {
