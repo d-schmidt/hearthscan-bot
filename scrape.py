@@ -664,9 +664,9 @@ def parseHTD(url, requests=requests):
         st = tuple(li.itertext())
         data[st[0].strip()] = ''.join(s.strip() for s in st[1:])
 
-    if 'Type:' not in data:
+    if 'Card Type:' not in data:
         log.debug('type field missing on page: %s', url)
-    cardtype = data.get('Type:', 'Minion')
+    cardtype = data.get('Card Type:', 'Minion')
     atk = data.get('Attack:')
     hp = data.get('Health:', data.get('Durability:'))
     cardset = data.get('Set:')
