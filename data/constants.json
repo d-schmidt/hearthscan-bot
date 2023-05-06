@@ -35,7 +35,8 @@
         "36": {"name": "Fractured in Alterac Valley", "code": "FAV", "std": true},
         "37": {"name": "Voyage to the Sunken City", "code": "VSC", "std": true},
         "38": {"name": "Murder at Castle Nathria", "code": "MCN", "std": true},
-        "39": {"name": "March of the Lich King", "code": "MotLK", "std": false, "unreleased": true}
+        "39": {"name": "March of the Lich King", "code": "MotLK", "std": true, "unreleased": false},
+        "40": {"name": "Festival of Legends", "code": "FoL", "std": false, "unreleased": true}
     },
 
     "classes": {
