@@ -64,7 +64,8 @@ jsonToCCSet = {
     'THE_SUNKEN_CITY': '37',
     'REVENDRETH': '38',
     'RETURN_OF_THE_LICH_KING': '39',
-    'DISCO': '40'
+    'BATTLE_OF_THE_BANDS': '40',
+    'PATH_OF_ARTHAS': '41'
 }
 # card_constant set ids to hs internal set ids
 setids = {
@@ -103,7 +104,8 @@ setids = {
     '37': 2300,
     '38': 2500,
     '39': 2600,
-    '40': 2700
+    '40': 2700,
+    '41': 2550
 }
 # set names to hs internal set ids
 cc = Constants()
@@ -238,7 +240,7 @@ def loadJsonCards():
         if card.get('set') in ['HERO_SKINS']:
             # not a real card set
             continue
-        if card.get('type') not in ['MINION', 'SPELL', 'WEAPON', 'HERO', 'HERO_POWER']:
+        if card.get('type') not in ['MINION', 'SPELL', 'WEAPON', 'HERO', 'HERO_POWER', 'LOCATION']:
             # buffs are irrelevant for us
             continue
         if  card.get('set') in ['BASIC', 'CORE', 'VANILLA'] + duelSets and card.get('type') in ['HERO', 'HERO_POWER']:
@@ -597,7 +599,7 @@ def parseSingleThrowing(hpid):
     atk = int(atk) if atk and cardtype in ['Weapon', 'Minion'] else None
     cost = int(row.xpath('./td[@class="col-cost"]')[0].text)
     hp = row.xpath('./td[@class="col-health"]')[0].text
-    hp = int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None
+    hp = int(hp) if hp and cardtype in ['Weapon', 'Minion', 'Location'] else None
     clazz = getFirst(row.xpath('./td[@class="col-class"]//text()'))
     clazz = clazz.strip() if clazz else 'Neutral'
     clazz = cc.classes.get(clazz, clazz) # TODO multi classes
@@ -690,7 +692,7 @@ def parseHTD(url, requests=requests):
         "cost": int(data['Mana Cost:']),
         "desc": desc,
         "head": getHTDId(name),
-        "hp": int(hp) if hp and cardtype in ['Weapon', 'Minion'] else None,
+        "hp": int(hp) if hp and cardtype in ['Weapon', 'Minion', 'Location'] else None,
         "hpwn": 12288,
         "name": name,
         "rarity": rarity,

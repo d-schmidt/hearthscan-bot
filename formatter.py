@@ -26,8 +26,8 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "To reduce duplicates, your cards are here:\n\n")
 
 # Standard legal icon
-# 2022 Year of the Hydra
-STD_ICON = '\U0001F40D'
+# 2023 Year of the Wolf
+STD_ICON = '\U0001F43A'
 # unreleased sleep
 NEXT_STD_ICON = '\U0001F4A4'
 # crossed swords
